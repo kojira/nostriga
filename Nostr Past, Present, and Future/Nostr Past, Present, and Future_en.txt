@@ -1,0 +1,604 @@
+[0.00 - 8.48]  Okay, thank you all for coming.
+[8.48 - 18.56]  I wanted to use this time here to have a conversation to make sense of where we're at with NOSTR,
+[18.56 - 24.64]  where we've come and where we want to be going.
+[24.64 - 30.00]  Because we're all part of this large collective project and
+[30.00 - 32.84]  And we all see our own little pieces of it.
+[32.84 - 37.44]  And so I thought a bit of an overview might be very useful.
+[37.44 - 41.80]  Nostra is created by a community.
+[41.80 - 44.08]  Community is grown.
+[44.08 - 45.70]  It's not created artificially.
+[45.70 - 48.52]  It's not designed from the top down.
+[48.52 - 56.64]  And especially open technologies and complicated systems like the internet, they don't design
+[56.64 - 57.64]  well.
+[57.64 - 59.24]  They emerge.
+[59.24 - 60.24]  And...
+[60.00 - 67.60]  i thought since uh via joff got it got in trouble for uh quoting some right-wing brazilians i would
+[67.60 - 76.00]  quote a brazilian communist uh which is uh we make the road by walking and it's it's a way of
+[76.00 - 83.92]  referring to how we're building this and that we're building it in the work we're doing we're
+[83.92 - 88.56]  building it in the collaboration that we make we're building in the running of it and how we learn it
+[88.56 - 90.00]  and i think it's it's really
+[90.00 - 94.92]  important to realize that the process of creating Nostr of building all these
+[94.92 - 100.00]  apps and figuring out how they work that's a process that includes all of us
+[100.00 - 107.68]  and that's process we're figuring out together and I also as a as I figured
+[107.68 - 114.18]  why not since I'm being throwing things out there I'll figure I'll quote the
+[114.18 - 122.00]  Bible too but you know whatever has happened in the past is now here and
+[120.00 - 125.52]  whatever is going to happen in the future is also here and so like we have
+[125.52 - 130.74]  cycles of history it doesn't you know it doesn't repeat itself exactly but it
+[130.74 - 136.80]  rhymes and so we can understand where we are today and where we're going by
+[136.80 - 143.40]  looking at where what has come in the past so the the question of where did
+[143.40 - 151.28]  where did Noster come from or where did we come from to get here and one
+[150.00 - 158.42]  One of the things that I remember thinking about, and I don't remember if Jack and I had this discussion,
+[158.60 - 164.60]  but back at Odeo, there was a discussion about what does emerging media mean, and how does it work,
+[164.92 - 174.02]  and how we looked at past systems that we had liked, and we thought about what it might mean in the era of mobile phones,
+[174.36 - 178.22]  or what it might mean in the era of what the internet looked like in 2006.
+[178.22 - 180.22]  And...
+[180.00 - 185.16]  That stuck with me because humanity is a couple hundred thousand years old,
+[185.44 - 188.72]  and we've only had agriculture for 10,000 years.
+[189.30 - 192.10]  We've had cities for less than that.
+[192.36 - 193.98]  We've had the nation state.
+[194.18 - 195.00]  We've had money.
+[195.66 - 198.92]  We've had, you know, all of these other constructions
+[198.92 - 201.78]  for a relatively short period of time in our history.
+[202.38 - 205.94]  But we evolved a long time ago.
+[205.94 - 210.00]  And so every time we introduce new technology,
+[210.00 - 214.92]  we're gonna repeat the same sets of human interactions the same activities
+[214.92 - 219.78]  because we're hardwired for that stuff we're hardwired for community we're
+[219.78 - 229.20]  hardwired for stories we're hardwired for for collaboration and so as we
+[229.20 - 235.68]  developed new communication technologies from the original cuneiform tablets
+[235.68 - 242.00]  which weren't really used for narrative writing at all they were mostly used
+[240.00 - 249.04]  for accounting they were ledgers to the original papyrus writing to manually copying books all of
+[249.04 - 256.00]  those early stages a very teeny percentage of the population got to participate in creating media
+[256.00 - 261.76]  transposing media everybody else just had oral media and then the printing press came along
+[261.76 - 269.84]  and the goal of the printing press was to create dominance by the catholic church and bring the
+[269.84 - 270.00]  by
+[270.00 - 276.54]  to everyone but what happened was people beyond the Catholic Church got a hold of
+[276.54 - 282.42]  the printing press and all of a sudden this you know preacher named Martin
+[282.42 - 289.08]  Luther started printing his pamphlets and created the Protestant Reformation
+[289.08 - 295.20]  so basically the the printing press printed the Bible which is the most
+[295.20 - 301.88]  printed book in history but it also led to the collapse
+[300.00 - 307.08]  of dominance of the institutions of the middle ages and and we see the same
+[307.08 - 312.48]  thing with the rise of newspapers where initially it was an idea of bringing
+[312.48 - 317.76]  everyone together and educating people and what it did is it ended up changing
+[317.76 - 325.80]  how power worked in society every time these new technologies get introduced we
+[325.80 - 331.88]  have moral panics we have this idea that whatever the
+[330.00 - 336.42]  worked it isn't gonna work again and some of these moral panics seem quaint
+[336.42 - 344.40]  today my favorite moral panic was Victorian era novels where there was a
+[344.40 - 350.78]  moral panic about reading too many novels was destroying the intellect of
+[350.78 - 357.12]  young people and that legislators needed to do something to stop young people
+[357.12 - 360.92]  from spending so much time reading novels
+[360.00 - 367.24]  And, and at the same time, or a little bit after that, there was a crusade against coffee shops.
+[368.52 - 375.36]  Because coffee shops were where people got together and they read newspapers and they talked about stuff and they fomented revolutions.
+[375.80 - 377.40]  And they came up with new ideas.
+[377.88 - 384.90]  And so coffee shops were a very controversial idea and people had moral panic about the novel.
+[384.90 - 389.84]  They had moral panic about coffee shops, about it destroying everything that made sense in society.
+[390.00 - 397.68]  and causing us to go into dangerous territories and so when we think about social media today
+[397.68 - 404.04]  we have to realize that that history like that is a pattern that has always been there
+[404.04 - 410.64]  and we can learn from it and we can also be a little bit calmer about the moral panics because
+[410.64 - 419.56]  we know that they keep coming another thing to to realize is that speech in and of itself
+[419.56 - 420.06]  you
+[420.00 - 426.88]  doesn't matter if you're talking to no one in the woods it doesn't have any effect it's with
+[426.88 - 432.80]  the distribution with the the ability to reproduce and share and collaborate so on the top there
+[432.80 - 438.48]  there's a picture of something called a scuttlebutt and a scuttlebutt was how tall ships managed to
+[438.48 - 444.88]  send letters back and forth every time two tall ships met at sea they would exchange they would
+[444.88 - 450.00]  look in their barrel their scuttlebutt and find all of the letters that
+[450.00 - 452.56]  that were going in the right direction of the other ship
+[452.56 - 454.00]  and exchanged them.
+[454.00 - 458.50]  And it was a store-and-forward method of mail
+[458.50 - 460.88]  that had no central coordination at all.
+[462.52 - 465.80]  And then eventually, we have the telegraph,
+[465.80 - 469.82]  and you know, Henry David Thoreau said,
+[469.82 - 471.68]  "'I don't know why you would use a telegraph.
+[471.68 - 474.10]  "'Why do I wanna talk to someone in Texas
+[474.10 - 475.94]  "'if I'm from Maine?'
+[475.94 - 479.36]  The initial thing was, like, how are these things useful?
+[479.36 - 480.20]  What is it gonna
+[480.00 - 485.08]  to be, what are we going to communicate? Well, eventually, it meant that it sped things up.
+[485.08 - 494.94]  It unified things. And some of these technologies aren't just, you know, coffee shops fomenting
+[494.94 - 502.02]  newspapers and revolutions, but sometimes the technologies have really negative effects
+[502.02 - 506.24]  that no one who created them thought about, and it took society a long time to figure
+[506.24 - 510.02]  out what to do about it. The authoritarianism of the 19th century
+[510.00 - 517.68]  20s and 30s was not possible without the radio and we don't talk about that very much today
+[517.68 - 526.56]  but in the united states there was this uh catholic priest coglin who had a radio program
+[526.56 - 534.08]  that 25 of americans listen to every single week and he used that platform to advocate
+[534.64 - 539.60]  for the united states joining germany during world war ii instead of england so he wanted the
+[539.60 - 540.00]  united
+[540.00 - 546.52]  States to join the Axis. No one in our history books talks about the fact that a quarter
+[546.52 - 552.00]  of Americans were listening to a long radio program advocating for the United States to
+[552.00 - 559.76]  be on the other side of World War II. What's also fascinating is he was deplatformed and
+[559.76 - 568.30]  shadow banned. Seriously, it was the first massive deplatforming and shadow banning where
+[568.30 - 570.06]  there was a concerted effort.
+[570.00 - 579.00]  Some of it by the government, but a lot of it by people lobbying advertisers and lobbying radio stations to take him off the air.
+[579.00 - 590.00]  Now, I'm not saying it was a bad thing to de-platform him, but if we want to, like, this stuff that we're seeing today with social media, it's not new.
+[590.00 - 600.00]  Another thing that is fascinating when you look at the history of media is the utopian language.
+[600.00 - 603.04]  that goes along with the other side of the moral panics.
+[603.98 - 608.98]  So the excitement and hope around broadcast television
+[609.84 - 612.78]  was that it would solve society's problems
+[612.78 - 616.24]  by unifying everybody under common culture.
+[616.24 - 619.90]  And if everybody watched the same TV program every night,
+[619.90 - 622.08]  then we would all have the same sets of ideas
+[622.08 - 624.74]  and all of society's problems would go away.
+[624.74 - 627.56]  And in some ways it did have that effect.
+[627.56 - 629.78]  It did have this kind of unifying effect
+[629.78 - 630.62]  of culture.
+[630.00 - 637.60]  culture. But getting everybody on the same page and unified didn't solve all the problems.
+[637.60 - 649.58]  It didn't make society's conflicts go away. Because when we think about the media, there's
+[649.58 - 656.68]  a reality which is we have in the West strong protections for free speech, but we don't
+[656.68 - 660.00]  have strong protections for reach.
+[660.00 - 668.20]  and that was intentional you know the the famous quote of you know freedom of the press is only
+[668.20 - 673.06]  guaranteed to those who own them is that yes you can say whatever you want but you can't get it
+[673.06 - 680.94]  out to people and so you know father conglin when he went up there he lost the ability to
+[680.94 - 685.98]  to run his radio programs and he couldn't put up his own radio towers and he was effectively
+[685.98 - 690.00]  silenced and so that is important when we think
+[690.00 - 695.40]  about when we're building new things what are those choke points because the
+[695.40 - 704.34]  choke points are often very technical and a little bit esoteric you know when
+[704.34 - 708.24]  television was introduced people thought it was killing culture and it was called
+[708.24 - 714.90]  sort of you know this mindless you know blue machine that was spraying ideas new
+[714.90 - 721.70]  things but it also brought everybody together it unified it
+[720.00 - 721.52]  And it changed the culture.
+[722.16 - 728.00]  And every time we introduce new technologies, we shape that technology and then it shapes us back.
+[728.10 - 729.44]  It's this cycle.
+[729.98 - 733.20]  And so when we're designing new things, we need to think about that cycle.
+[735.50 - 740.26]  You know, there's a meme which is like, you think you just fell out of a coconut tree.
+[740.98 - 743.16]  And that's kind of funny.
+[743.16 - 749.26]  But the other part of it is that we all exist in the context of society and history.
+[749.26 - 779.24]  And it's like, you know, we all exist in the context of society.
+[750.00 - 759.60]  it's important to understand that context so twitter itself didn't come out of nowhere it
+[759.60 - 763.68]  came out of existing things it came out of existing ideas it came out of a bunch of people
+[763.68 - 769.68]  collaborating and i think if you know we hadn't created twittered audio someone else would have
+[769.68 - 774.96]  created something similar because people were experimenting with those similar ideas there
+[774.96 - 779.52]  were other companies pounce and jaiku and people trying to do it would it have been the same no
+[779.52 - 780.00]  would it have
+[780.00 - 782.90]  had the same structures and affordances and values?
+[782.90 - 783.90]  Probably not.
+[783.90 - 788.50]  But something kind of similar would have emerged.
+[788.50 - 792.96]  And so I was going to think about an inspirational quote,
+[792.96 - 794.30]  but I didn't find one.
+[794.30 - 798.10]  So I'll just throw up a picture of Jack on the cell boat.
+[802.26 - 808.50]  To make sense of what we're building,
+[808.50 - 810.00]  we need to think about
+[810.00 - 816.30]  what does it mean to be online with other people and the best metaphor that
+[816.30 - 822.34]  I've found is that we are creating digital neighborhoods because we can
+[822.34 - 827.46]  think of different neighborhoods or different spaces of having different
+[827.46 - 832.02]  affordances have every ideas of what's normal what's good what's bad and you
+[832.02 - 838.98]  can see neighborhoods or digital spaces go from cool to not cool you know there
+[838.98 - 841.82]  was a time in which
+[840.00 - 844.70]  MySpace was really cool and then it stopped being cool there was a time when Facebook started being
+[844.70 - 851.42]  really cool and then everybody's mom joined and then not was not cool and so we can learn from
+[851.42 - 857.24]  academics like Jane Jacobs and people who are urban planners and apply their metaphors their
+[857.24 - 862.94]  ideas to designing the social systems because it's the same people we are the same people that
+[862.94 - 869.66]  were sitting around a campfire in a tribal group 10,000 years ago as we are today
+[870.00 - 873.46]  Like, we have the same brains, we have the same sets of needs.
+[873.46 - 879.96]  And so we're the same people who are going out into a cafe or going onto a, you know,
+[879.96 - 883.54]  a train or an airplane or into a supermarket.
+[883.54 - 889.06]  We take that same person and we go into these digital spaces and we look at the design.
+[889.06 - 893.38]  We look at the norms, we look at the way other people are behaving to know how we should
+[893.38 - 896.76]  behave in those spaces.
+[896.76 - 900.00]  And you know, using this metaphor
+[900.00 - 906.56]  I like to think about what each of the big social media platforms are like.
+[906.66 - 908.24]  What's their physical space analog?
+[908.48 - 911.66]  And for me, Instagram is like an art gallery.
+[912.54 - 914.06]  It's very showy.
+[914.96 - 919.78]  And you are, you know, you're rewarded for aesthetics.
+[923.16 - 927.58]  Blogging, an older technology, is a lot like an open cafe night.
+[927.58 - 929.42]  You know, you don't know what you're going to get.
+[929.42 - 929.92]  And everybody.
+[930.00 - 936.88]  sort of going on themselves it's not particularly connected um tumblr and live journal is like a
+[936.88 - 944.88]  comic con or maybe even a furry convention it's um you know it's it's a certain set of alternative
+[944.88 - 952.38]  culture stuff where where people are playful but don't fit into mainstream society tiktok is
+[952.38 - 959.90]  coachella or tomorrowland a very large very well produced uh music festival
+[960.00 - 969.24]  Twitter, to me Twitter is the zeitgeist bar in San Francisco, which is this kind of hipster
+[969.24 - 973.06]  little bit dive bar where there were lots of tables for people to hang out and talk
+[973.06 - 977.30]  and it's really loud and there's lots of stuff going on and it feels like you're in the center
+[977.30 - 979.14]  of everything.
+[979.14 - 985.62]  Facebook has become a municipal community center.
+[985.62 - 987.40]  It's still there.
+[987.40 - 990.00]  And people still go and use it and in theory
+[990.00 - 994.88]  We're better off to have community centers like this, but it's it's also really sad
+[997.44 - 1004.96]  Mastodon and the Fediverse is like a D&D game and the reason I say this isn't just because of the people who use
+[1005.96 - 1008.44]  the Fediverse but also because
+[1009.38 - 1011.38]  it's this network of
+[1011.94 - 1014.56]  people who set up all these little rules and
+[1014.56 - 1020.00]  So each server you're like your own little world and all of it designed
+[1020.00 - 1023.30]  and all of the adventure and all what you can and can't say and who can join
+[1023.30 - 1026.78]  everything is designed by the dungeon master and you don't get any say what
+[1026.78 - 1029.66]  the dungeon master is gonna do you know maybe the dungeon master gives you a
+[1029.66 - 1034.64]  great game and maybe it's a terrible game but you don't have much autonomy
+[1034.64 - 1041.12]  because you exist in their world you know blue sky is sort of this attempt at
+[1041.12 - 1046.60]  you know fully automated luxury gay space communism it's a particular set of
+[1046.60 - 1051.12]  of very
+[1050.00 - 1059.72]  Very politically correct, utopian, but not super interested in diversity beyond a specific set of people.
+[1062.28 - 1066.92]  And Farcaster is a casino.
+[1066.92 - 1078.94]  I don't know if anybody's ever spent much time on Farcaster, but they raised their money and they started growing a lot when basically they added all of these little cryptocurrency contests.
+[1078.94 - 1079.92]  You can like post things.
+[1080.00 - 1085.60]  learn things and you you you make a bet when you join a group and then you can lose the bet money
+[1085.60 - 1092.80]  if you get you know content reported and stuff um they made it into a game and most you know
+[1093.68 - 1097.52]  casinos make a lot of money but only a certain kind of person goes there
+[1098.48 - 1105.92]  and at the moment noster feels like a a bitcoin meetup and i don't think that that has to be
+[1105.92 - 1110.24]  the case long term but i think that is the the reality
+[1110.00 - 1116.16]  of the moment of where we are and so part of what i am suggesting we need to do is a kind of redesign
+[1117.20 - 1124.40]  of our community we need to we need to not get rid of the bitcoin meetup but we need to build
+[1124.40 - 1131.04]  other buildings we need to build other spaces within our neighborhood so where are we now
+[1131.04 - 1139.28]  we we are very much within the tradition of
+[1140.00 - 1143.38]  internet protocols that win and work.
+[1143.38 - 1147.22]  There's a phrase, we reject kings, presidents, and voting.
+[1147.22 - 1150.18]  We believe in rough consensus and running code.
+[1150.18 - 1154.86]  That is the motto of the IETF that designed the internet.
+[1154.86 - 1160.82]  David Clark, who said it, he was the person who designed TCPIP.
+[1160.82 - 1165.32]  And when we think of TCPIP, we think of it
+[1165.32 - 1169.22]  just as a fundamental thing that has always existed.
+[1169.22 - 1170.06]  What we don't really
+[1170.00 - 1181.08]  realize was that TCPIP was the rebel protocol that refused to do the right thing. TCPIP
+[1181.08 - 1188.56]  was the poorly designed shit protocol and the government wanted everyone to use OSI.
+[1188.56 - 1195.40]  None of us remember OSI. But at the time it was very controversial because there were
+[1195.40 - 1200.00]  these architecture astronauts who were designing the perfect internet architecture version
+[1200.00 - 1205.48]  for how it all worked, where it was all very controlled, and then a bunch of hackers came
+[1205.48 - 1211.90]  along and created TCPIP. And the Internet we have today exists because we have these
+[1211.90 - 1219.04]  layers of decentralized protocols. It's important when we think about Nostr to realize that
+[1219.04 - 1225.36]  open and messy wins. You know, we have these specs, but we also have this massive community
+[1225.36 - 1230.00]  of people who are trying shit. You can, in Nostr,
+[1230.00 - 1233.50]  You can create your new kind and you can start writing to it.
+[1233.50 - 1236.88]  You can write whatever you want out to these messages.
+[1236.88 - 1244.68]  In the BlueSky app proto, which is very similar to Noster, you have to write a schema validator.
+[1244.68 - 1246.76]  And you have to get a spec approved.
+[1246.76 - 1250.68]  And you have to put that on a bunch of different servers at different levels in the stack in
+[1250.68 - 1253.96]  order for a new message type to even work.
+[1253.96 - 1259.76]  And that is a fundamental difference in sort of how you think about things.
+[1259.76 - 1260.26]  That's it.
+[1260.00 - 1267.68]  The complicated big parts of the internet, those all grew up from these messy, hacky things that were easy to build on.
+[1268.82 - 1278.80]  And so that's part of what drew me to Nostr, and I think we should celebrate it, and we shouldn't let people say, oh, this isn't going to scale.
+[1279.94 - 1284.30]  You know, I was involved with Ruby on Rails, and everyone would say, Ruby on Rails isn't going to scale.
+[1285.10 - 1288.18]  And we figured out the scaling problems.
+[1288.18 - 1289.68]  Shopify is Ruby on Rails.
+[1290.00 - 1294.66]  Like, the things that work are the things
+[1294.66 - 1297.88]  that are put together in pieces.
+[1297.88 - 1301.28]  The internet we have today is small pieces loosely joined.
+[1301.28 - 1303.54]  Nostr is small pieces loosely joined.
+[1303.54 - 1307.70]  Nostr is internet native in a way that
+[1307.70 - 1313.68]  is very different than the big web 2.0 platforms that
+[1313.68 - 1318.46]  run on top of the internet, but they don't run like the internet.
+[1318.46 - 1320.02]  Nostr is also based on
+[1320.00 - 1323.18]  on a protocol that almost no one used
+[1323.18 - 1325.40]  called Secure Scuttlebutt.
+[1325.40 - 1328.42]  And Fiat Joff, it used to be in the README file
+[1328.42 - 1330.74]  when you looked at it, said,
+[1330.74 - 1332.58]  Secure Scuttlebutt is really interesting.
+[1332.58 - 1333.86]  It does a bunch of interesting stuff,
+[1333.86 - 1336.90]  but there are things that are holding it back.
+[1336.90 - 1338.76]  In Scuttlebutt, it was very hard
+[1338.76 - 1341.32]  to use your same key in multiple apps at the same time,
+[1341.32 - 1343.74]  the way we do in Noster a lot.
+[1343.74 - 1347.26]  It was also impossible to delete
+[1347.26 - 1349.52]  because it had this signature chain.
+[1349.52 - 1350.36]  And
+[1350.00 - 1355.68]  And the relays in Scuttlebutt were an add-on.
+[1355.68 - 1360.80]  But Nostra isn't the only protocol that was inspired by Scuttlebutt.
+[1360.80 - 1364.26]  Blue Sky was also inspired by Scuttlebutt.
+[1364.26 - 1366.68]  But they did it differently.
+[1366.68 - 1369.84]  They're the cathedral model of open source.
+[1369.84 - 1377.00]  In order to develop for Blue Sky, you can use it, you can make a client, but they say
+[1377.00 - 1380.00]  in their contributor files, we don't want contribu-
+[1380.00 - 1387.86]  contributions of substance because it is not created by a community. It's used by a community.
+[1387.86 - 1392.82]  Gnoster is the other side. Gnoster is the bizarre. We don't have a king or president
+[1392.82 - 1399.94]  or voting. We build things up. We collaborate. Gnoster is built like the Internet that works.
+[1399.94 - 1405.20]  And so I get asked this a lot, like, how do you compare these? Where does Gnoster sit
+[1405.20 - 1410.00]  in this larger ecosystem? And you can see that there's some
+[1410.00 - 1416.64]  There are some real differences here, but the biggest one is just if you did the same
+[1416.64 - 1418.84]  thing with a different philosophy.
+[1418.84 - 1423.54]  If you decide to try and build a bottom-up decentralized protocol in a top-down way.
+[1423.54 - 1428.88]  And we're building a bottom-up decentralized protocol in a bottom-up way.
+[1428.88 - 1436.62]  Lastly, there's Threads, which has tried to join all of these protocols and everything
+[1436.62 - 1439.96]  else, and I have it on good authority that
+[1440.00 - 1444.70]  The threads code is just a bunch of if-else statements in the Instagram codebase.
+[1446.18 - 1451.06]  It's like, is this text? Is this an image?
+[1452.06 - 1458.74]  I don't understand everyone who is leaving Twitter and going to threads
+[1459.74 - 1461.24]  because
+[1461.24 - 1464.50]  don't we have enough evidence over 15 years of
+[1465.68 - 1467.68]  Facebook and Meta
+[1467.68 - 1469.68]  lying and making false promises?
+[1470.00 - 1476.80]  services and chasing growth at all costs, like, why do we want to give them more platforms?
+[1476.80 - 1482.70]  And why do we trust them that they really will open up to these open standards?
+[1482.70 - 1488.34]  Because remember, Facebook was part of the coalition that did activity streams, the precursor
+[1488.34 - 1489.34]  to ActivityPup.
+[1489.34 - 1492.96]  There was a time when Facebook supported those open protocols.
+[1492.96 - 1496.48]  And then they're like, oh, we don't have to support them anymore because we're big enough
+[1496.48 - 1500.00]  to ignore the open community.
+[1500.00 - 1505.00]  The history of software development, especially the history of the internet, has been a history
+[1505.00 - 1510.12]  of pendulum swings between centralization and decentralization.
+[1510.12 - 1518.50]  We had mainframes and then microcomputers and personal computers and we had CompuServe
+[1518.50 - 1521.04]  and then we had Fidonet and BBSs.
+[1521.04 - 1526.76]  We are constantly swinging back and forth between the two and there is a power fight
+[1526.76 - 1529.98]  and a technology fight that goes back and forth.
+[1529.98 - 1530.94]  Subtitles by the Amara.org community
+[1530.00 - 1537.66]  And so we have seen the problems of extreme centralization, where all of your apps are
+[1537.66 - 1541.46]  provided by a server, and then it gives it to you, and it executes in your browser, your
+[1541.46 - 1542.46]  local machine.
+[1542.46 - 1546.80]  But all the complicated stuff lives in some central server.
+[1546.80 - 1552.78]  The world of everything is handed to you on the fly and runs in the browser is not that
+[1552.78 - 1558.46]  different than the old world of mainframes, because whoever controls that central server
+[1558.46 - 1559.42]  has all the power.
+[1560.00 - 1566.06]  So when we think about Nostra, we need to realize that we need to build a kind of sustainable
+[1566.06 - 1572.52]  future and that we have the pieces to do that.
+[1572.52 - 1578.28]  And I've been spending a lot of time thinking about how do we talk to people about Nostra
+[1578.28 - 1586.00]  and the complicatedness of talking to people about it as a censorship resistant free speech
+[1586.00 - 1590.00]  protocol because.
+[1590.00 - 1599.44]  Most people think that someone did something bad to get their content moderated or they want to say some offensive, dangerous thing.
+[1600.08 - 1607.60]  And so as important as it is that we have that censorship resistance and that we have that control and that free speech,
+[1608.14 - 1612.00]  no one goes and searches out a platform for that in large numbers.
+[1612.00 - 1616.48]  But what they do want is they want fun apps to use.
+[1616.48 - 1620.04]  And Nozter is very different than Fox.
+[1620.00 - 1628.28]  Blue Sky or some of these others or the Mastodon because of the amazing array of apps we have.
+[1628.28 - 1635.74]  The true tragedy of the commons for Web 2.0 was that it was enclosed by platforms.
+[1635.74 - 1638.82]  The early days, there were open APIs.
+[1638.82 - 1640.88]  There were open systems that you could collaborate.
+[1640.88 - 1644.22]  You could pull data from one system to another.
+[1644.22 - 1649.98]  And the early implementation of the APIs at Twitter, you just used your user name and
+[1650.00 - 1654.76]  And so Twitter couldn't shut down third-party apps, because it didn't know the difference
+[1654.76 - 1658.94]  between you using a web browser or TweetDeck.
+[1658.94 - 1664.78]  But eventually, OAuth got set up, which was supposed to protect users and help them so
+[1664.78 - 1668.82]  they weren't sharing their passwords, and that shifted the power, and that was the thing
+[1668.82 - 1674.40]  that ended up being useful to shifting all of the power back into centralized control.
+[1674.40 - 1679.98]  So if we think of Nostr as an app platform, then we realize
+[1680.00 - 1687.54]  guys, that we are winning. Because we have all of these amazing apps. We have so many
+[1687.54 - 1695.94]  things that collaborate and work. And they're really good. Now, are they perfect? No. Is
+[1695.94 - 1703.46]  it figuring out how to log into them hard? Yes. But people tend to be blown away when
+[1703.46 - 1709.40]  we show them all of the things that you can do. And in our user testing,
+[1710.00 - 1717.08]  The thing that blew people's mind is when we took, we signed them up for Nosocial or Primal or Domus,
+[1717.50 - 1721.42]  and then we showed them how to get their NSEC, and we put it in another app,
+[1721.64 - 1724.00]  and we showed them that it was the same content,
+[1724.00 - 1731.44]  and that other app was by a different person with different preferences, with different design, with different functionality.
+[1731.78 - 1733.94]  That's the mind-blowing thing about this.
+[1734.38 - 1738.60]  And that's why we're all collaborating together instead of just building our own little walled gardens.
+[1740.00 - 1747.94]  So, I don't think we talk about this amazing array of apps enough.
+[1747.94 - 1751.84]  I don't think we talk about it in our apps.
+[1751.84 - 1757.38]  I know that in nonsocial, when you join and start using it, you don't we don't encourage
+[1757.38 - 1762.68]  you to discover other apps of different kinds.
+[1762.68 - 1768.40]  We have built this amazing ecosystem, and the users can move between it, but we haven't
+[1768.40 - 1770.00]  quite figured out how the apps can.
+[1770.00 - 1776.40]  connect. Like, back when Facebook's platform was all these apps, Facebook did a pretty
+[1776.40 - 1780.30]  good job of letting you discover that there were different apps. Like, oh, your friend
+[1780.30 - 1785.28]  is playing Farmville. You might want to play Farmville. All those kind of things. And so
+[1785.28 - 1793.38]  we need to figure out in the Nostra ecosystem how to support each other. And how to make
+[1793.38 - 1798.54]  discovery of all these different apps easy. And how to make it easier to discover what
+[1798.54 - 1800.00]  your friends are using.
+[1800.00 - 1802.66]  and migrate to start using them.
+[1802.66 - 1811.06]  One of the amazing things, though, that we discovered was copying around an NSEC and
+[1811.06 - 1817.40]  putting it into a secure place, that turns out is not hard for non-technical users.
+[1817.40 - 1820.80]  It's a little bit dangerous if they put it in a web browser thing, and figuring out how
+[1820.80 - 1827.24]  to set up a Chrome extension was a bit dangerous and hard, but copy the app from one mobile
+[1827.24 - 1830.00]  app to another, like that NSEC.
+[1830.00 - 1832.32]  That was not a hard concept for people.
+[1832.32 - 1836.50]  It's a hard concept for people who understand public cryptography.
+[1836.84 - 1840.30]  It's a hard concept for people who think about wallets.
+[1841.24 - 1848.40]  Because if you know what's going on, you're like, oh my God, what are you doing?
+[1849.42 - 1857.46]  But if you don't know what's going on, you're like, this is a magic string that I put from one app to the other.
+[1857.46 - 1860.00]  And all of a sudden, all of my data and everything.
+[1860.00 - 1866.08]  everything is in the other app. It's just like a magic connecting string.
+[1866.08 - 1876.08]  So I think we got too worried about this. And we just kind of need to embrace the fact
+[1876.08 - 1882.26]  that it'll be this messiness. Now, as excited as I am about Nostra, I want
+[1882.26 - 1889.50]  to be very clear about where we are in the larger ecosystem. So I pulled up some stats.
+[1889.50 - 1890.00]  It's hard to know.
+[1890.00 - 1898.54]  how much is going on in the Nostra ecosystem, but this is the daily active users. In July,
+[1898.54 - 1905.68]  we were closer to 18,000. We dropped down a little bit in August. In weekly active users,
+[1905.68 - 1911.46]  we've been averaging about 40,000 weekly active users. We don't know really how many users
+[1911.46 - 1919.66]  we have because most people who use social media never post anything. They never publish,
+[1919.66 - 1920.00]  they never ...
+[1920.00 - 1927.12]  like. They never reply. It's entirely a consumer experience. And so those users are invisible
+[1927.12 - 1935.88]  in these stats. Well, let's look at a couple of the other platforms. This is the blue sky
+[1935.88 - 1943.78]  user numbers. And, you know, first off, you can see that it is higher. We don't know how
+[1943.78 - 1949.54]  many people are logging in, but we don't know how many people are liking. And so it's roughly
+[1949.54 - 1950.00]  200,000.
+[1950.00 - 1955.82]  people seem active and doing stuff on blue sky but look at the way the graph
+[1955.82 - 1961.74]  works blue sky gets a bunch of press and a ton of people sign up things happen
+[1961.74 - 1969.12]  they spike up and then slowly goes down look at our user graph we're not so high
+[1969.12 - 1978.38]  but we are not spiking up because of one particular event we're not getting a ton
+[1978.38 - 1981.82]  of press and
+[1980.00 - 1986.84]  of a ton of attention. We are growing organically. And to me, that's a really positive thing.
+[1986.84 - 1994.26]  As much as I wish we were at several hundred thousand users instead of 40,000.
+[1994.26 - 2000.94]  Lens is another sort of Ethereum-based decentralized social media network. It's also inspired by
+[2000.94 - 2007.50]  Scuttlebutt. And if you look at their growth, they're actually consistently shrinking. And
+[2007.50 - 2010.12]  I think that's because they got outpaced by...
+[2010.00 - 2017.60]  Farcaster, who were in exactly the same community as early adopters. But Farcaster, who raised
+[2017.60 - 2026.34]  over $150 million in venture capital money a couple months ago, and it is even less open
+[2026.34 - 2032.00]  than Blue Sky's development, if you look at their use, it's not trending up in the right
+[2032.00 - 2037.92]  direction. So where are we at with the Nostra Current
+[2037.92 - 2040.00]  Policy? Right now, we've designed
+[2040.00 - 2045.12]  Noster to have one big community. It operates in a bunch of different languages, but it's
+[2045.12 - 2052.14]  essentially Bitcoiners. And if you look at it, there's a lot of talk about Bitcoin.
+[2052.14 - 2059.82]  But when it comes to Noster, Bitcoin is a feature. Zaps are a feature. They get you
+[2059.82 - 2068.06]  two things. They're great, but they're not going to drive adoption to people who don't
+[2068.06 - 2070.00]  care about it, and people need to find stuff.
+[2070.00 - 2076.18]  and be able to connect other things so where are we going we need to go from
+[2076.18 - 2081.64]  this network of apps that are possible to things that are easier to use it is
+[2081.64 - 2086.88]  remarkably hard to make really easy to use software for people it requires a
+[2086.88 - 2094.12]  lot of work in particular it requires talking to people talking to humans and
+[2094.12 - 2099.40]  not just scratching your own itch like Pablo I think you're amazing I love all
+[2099.40 - 2102.00]  the things you do
+[2100.00 - 2105.82]  but you're the the prototyper who figures out everything and then we need
+[2105.82 - 2110.28]  another community of people who takes all those prototypes and figures out
+[2110.28 - 2117.82]  what they make sense to users and how do we adapt them and and we have done a lot
+[2117.82 - 2123.16]  of user interviews in the last year around Nostra we have done hundreds of
+[2123.16 - 2127.70]  times of sitting down and walking people through onboarding the apps and talking
+[2127.70 - 2131.62]  to them and understanding their social media stays
+[2130.00 - 2132.66]  And what do they think about in 2024?
+[2132.66 - 2134.52]  And people want things that are fun.
+[2134.52 - 2136.60]  People want things that are playful.
+[2136.60 - 2138.08]  They want connection.
+[2138.08 - 2139.44]  They want connection to real people.
+[2139.44 - 2142.32]  They want to feel like they're connected.
+[2142.32 - 2145.52]  They want meaning.
+[2145.52 - 2150.70]  That's the problem with some of the Forecaster Casino stuff is it's like, it's just like
+[2150.70 - 2153.84]  make little bits of money.
+[2153.84 - 2160.02]  And much to my surprise as a Bitcoin skeptic, they want an economic model.
+[2160.00 - 2164.94]  And they want the micropayments.
+[2164.94 - 2170.16]  People want the ability to send and receive money between people.
+[2170.16 - 2175.16]  Like people who do not care about Bitcoin, they don't care about central banks, they
+[2175.16 - 2182.34]  are not engaged in all of it, when we're like the economic model is you can pay for services
+[2182.34 - 2187.76]  and support it and run micropayments, they are happy because it means they are not looking
+[2187.76 - 2189.84]  into the advertising world.
+[2189.84 - 2190.00]  They need it.
+[2190.00 - 2194.98]  need that alternative they're desperate for an economic model that isn't selling
+[2194.98 - 2200.48]  them to advertisers and this is good because we have an economic model we
+[2200.48 - 2204.10]  have a system of payments that none of these other things well Farcaster does
+[2204.10 - 2210.46]  but but people don't want to feel trapped they don't want to feel
+[2210.46 - 2215.28]  alienated and isolated they don't want to feel like they living in this sort of
+[2215.28 - 2221.78]  automaton world in which they're just being products that are bought and sold
+[2220.00 - 2227.32]  They want to feel their humanity, and that's the root of a lot of the backlash against
+[2227.32 - 2233.48]  large language models in AI is not, oh, this is cool, like, we've taken all of the creation
+[2233.48 - 2236.20]  of humanity and we get to create new stuff together.
+[2236.20 - 2238.44]  It's feeling like it's exploitive.
+[2238.44 - 2242.54]  It's pulling out of their things, and people don't like that.
+[2242.54 - 2249.66]  People want community, and people want contradictory things.
+[2249.66 - 2250.00]  So
+[2250.00 - 2256.12]  So, when we onboard creators, and we've done this a lot in the last year of talking to
+[2256.12 - 2262.84]  them and setting it up, the thing they care most about is how easy it is going to be published
+[2262.84 - 2267.60]  and use this thing, and how do I build an audience.
+[2267.60 - 2270.24]  And so, they want the algorithm.
+[2270.24 - 2273.24]  The algorithm is what helps build them an audience in an easy way.
+[2273.24 - 2275.10]  It makes it easier to do.
+[2275.10 - 2279.38]  And they hate the algorithm because then they become dependent on it.
+[2279.38 - 2280.38]  So,
+[2280.00 - 2283.84]  And we often only hear the, I hate the algorithm part.
+[2284.60 - 2287.60]  But what creators look at when they look at Nostra is like,
+[2287.66 - 2289.48]  well, how do I find people to follow me?
+[2289.76 - 2291.20]  How do I cultivate that community?
+[2291.34 - 2292.36]  Where do they discover it?
+[2292.40 - 2295.64]  And we don't have great tools for that.
+[2297.54 - 2299.66]  You know, this is what I was saying,
+[2299.76 - 2302.20]  that they want the micropayments.
+[2303.32 - 2306.44]  But a lot of people distrust Bitcoin.
+[2306.44 - 2310.00]  They distrust it because they've heard of articles.
+[2310.00 - 2311.46]  about the environmental impact.
+[2311.76 - 2314.22]  They distrust it because it feels like
+[2314.22 - 2317.60]  it's sort of an inward-looking community.
+[2317.80 - 2320.40]  They distrust it because of other cryptocurrencies'
+[2320.88 - 2321.82]  scams that go on.
+[2322.54 - 2325.98]  And so what we found was
+[2325.98 - 2328.88]  if we just talk about Zaps
+[2328.88 - 2331.06]  and Lightning Payments
+[2331.06 - 2333.62]  and sending it between people,
+[2333.98 - 2335.14]  they're like, yeah, this is great.
+[2335.76 - 2337.72]  If we tell them it's a Bitcoin wallet,
+[2337.84 - 2338.52]  they're like, fuck that.
+[2340.00 - 2346.96]  And so that's really telling.
+[2346.96 - 2351.24]  It doesn't mean that we can't have Primal, which says it's a Bitcoin wallet first and,
+[2351.24 - 2353.84]  oh, it does some social stuff.
+[2353.84 - 2356.50]  Which is sort of how they present themselves on their web page.
+[2356.50 - 2360.00]  But it means that we also need a whole bunch of apps and a whole bunch of things that do
+[2360.00 - 2368.52]  the other thing, which is just like, oh, yeah, this is the feature and how it works.
+[2368.52 - 2369.76]  The mind-blowing thing...
+[2370.00 - 2376.00]  I talked about earlier, is the way NSECs are passed between users.
+[2376.00 - 2380.40]  And the way in which you can use all these apps together.
+[2380.40 - 2388.64]  It is a very different conceptual thing, and it excites people, and it's powerful.
+[2388.64 - 2396.24]  And users, especially non-technical users, they really needed to be incredibly intuitive.
+[2396.24 - 2400.00]  Like the amount of time we spend doing user testing, and we need to like find out the
+[2400.00 - 2408.42]  edge cases is overwhelming. So where are we going with Nostr? My vision of Nostr is how do we
+[2408.42 - 2418.46]  migrate it from a Bitcoin meetup to Christiana? Christiana is a community in Copenhagen that was
+[2418.46 - 2423.84]  a military base that in the 1970s, a bunch of people went in and squatted. And they said,
+[2423.94 - 2428.86]  we're going to build our houses there. We're going to build businesses here. And our businesses in
+[2428.86 - 2429.86]  our world of Christiana.
+[2430.00 - 2433.60]  They don't follow Danish law.
+[2433.60 - 2438.60]  So there's an open-air drug market, where in Denmark drugs are illegal.
+[2438.60 - 2442.80]  But they're like, in Christiana we're going to have different rules of commerce.
+[2442.80 - 2445.20]  We're going to have our space where we control it.
+[2445.20 - 2447.90]  We're going to have different rules about free speech.
+[2447.90 - 2450.60]  And there's going to be a diversity of things that are here.
+[2450.60 - 2452.80]  And it's going to be fun, and there's going to be art,
+[2452.80 - 2454.50]  and there's going to be commerce and all these things.
+[2454.50 - 2459.80]  And I think Noster could be that.
+[2460.00 - 2463.06]  So, how do we create that?
+[2463.06 - 2466.04]  We build it together, collaborating.
+[2466.04 - 2469.26]  And we build it in a system that we don't all have to agree.
+[2469.26 - 2472.40]  We all don't have to ask permission.
+[2472.40 - 2475.44]  But we do need to collaborate and learn from each other.
+[2475.44 - 2477.44]  And we need to listen to our users.
+[2477.44 - 2481.62]  We need to do more talking to users.
+[2481.62 - 2487.28]  One of our projects over the last few months was running a creator and journalism accelerator
+[2487.28 - 2490.02]  where we reached out to hundreds of creators.
+[2490.00 - 2494.82]  creators and journalists, and we worked on onboarding them to Noster. We set them up
+[2494.82 - 2497.82]  with wallets, we set them up with accounts, we figured out which of the apps made most
+[2497.82 - 2504.32]  sense. Some of them used NOS, but a lot of them used other apps. And we then highlighted
+[2504.32 - 2508.60]  all of those users and those accounts and helped them build the audience.
+[2508.60 - 2514.00]  That's how we discovered the love-hate relationship to algorithms. Because when we at first, they're
+[2514.00 - 2517.38]  like, oh, I just hate the algorithm. And then they join Noster and they're like, how do
+[2517.38 - 2520.00]  I build an audience? Why isn't there an algorithm helping me find?
+[2520.00 - 2525.82]  people and here you know this is some examples of some of the the folks we've
+[2525.82 - 2533.50]  onboarded in a directory another another thing that came up a lot in user
+[2533.50 - 2540.28]  interviews and stuff is delete and edit users want these things users don't care
+[2540.28 - 2547.54]  that they're not real like as technologists were like well this isn't
+[2547.54 - 2552.06]  really ever going away and what happened
+[2550.00 - 2555.68]  to it and versions like that, they're okay with that messiness because it's the social signal.
+[2558.96 - 2565.76]  Users really want private groups. We are seeing increasing number of people who are operating on
+[2565.76 - 2571.52]  the dark forest vision of the internet, which is there are scary, dangerous things out there,
+[2571.52 - 2576.32]  especially with large language models and bots, and I want to be able to decide who joins my
+[2576.32 - 2580.00]  community and I want to be able to have privacy.
+[2580.00 - 2582.54]  I think Will's going to talk more about this later,
+[2582.54 - 2587.52]  but the ability to have a private group of
+[2587.52 - 2590.00]  everybody who follows me and who I follow,
+[2590.00 - 2591.54]  and I can post to them,
+[2591.54 - 2594.28]  and then I could also post publicly to everybody.
+[2594.28 - 2596.00]  That's something that doesn't exist on
+[2596.00 - 2598.08]  the big corporate social media platforms,
+[2598.08 - 2600.52]  but we can do it on Noster.
+[2600.70 - 2603.00]  Once we set up the technology,
+[2603.00 - 2604.86]  there's a lot we can do.
+[2604.86 - 2608.02]  We need programmable spaces. We have that.
+[2608.02 - 2610.00]  We have this hackable space that's
+[2610.00 - 2620.58]  amazing. I go to Alcoholics Anonymous and the twelfth step of it is that having had
+[2620.58 - 2624.66]  a spiritual awakening, which is what it feels like to join the Nostra community and figure
+[2624.66 - 2633.04]  it out, that it's our responsibility to figure out the right way to carry that to other people.
+[2633.04 - 2638.12]  Nostra doesn't have a marketing department. What we have is a movement and that's more
+[2638.12 - 2640.12]  powerful.
+[2640.00 - 2647.94]  So, one of the things I'm super excited about is bringing on large communities or new communities of people.
+[2648.82 - 2652.34]  And so, I was super excited about the Trust Roops.
+[2652.58 - 2655.18]  They've got about 100,000 people who are joining.
+[2656.86 - 2662.12]  I'm excited about Henhouse and what Alex is doing with Ditto.
+[2662.12 - 2669.18]  Because it gives the community collaboration stuff of Mastodon, but you get the freedom of Gnoster.
+[2670.00 - 2673.32]  And then I have a few projects I'm working on myself.
+[2673.32 - 2678.92]  One is in the late 1990s I started a calendar activist site called protest.net.
+[2678.92 - 2685.48]  And I have been migrating it to Noster so it will run on an open network.
+[2685.48 - 2688.50]  And there's actually not a lot of software to build.
+[2688.50 - 2694.50]  It's like Flockster plus a custom relay plus Ditto and a few other things.
+[2694.50 - 2699.74]  And then the other thing we're doing is we're acquiring causes.com.
+[2700.00 - 2708.52]  Back in Australia, I talked about collaborating with them, and this is a community of, you know, 300,000 users.
+[2708.98 - 2712.40]  100,000 of them open the daily email every single day.
+[2713.64 - 2724.04]  And they're wanting to collaborate, and they're wanting to talk about politics, and they're wanting to build things, and they want to have a larger impact in the world.
+[2724.72 - 2728.04]  And so what we're going to do is we're going to add crowdfunding.
+[2728.04 - 2730.00]  We're not going to...
+[2730.00 - 2735.60]  tell them it's a wallet, but we're going to let them collect money and bring it in.
+[2735.60 - 2739.52]  And then we're going to let them decide where to allocate those funds.
+[2739.52 - 2746.14]  And so we're using this open network to make it work.
+[2746.14 - 2752.98]  The last thing, I don't have much time, but, you know, we should not copy other people's
+[2752.98 - 2757.36]  social media protocols and apps just because we're copying them.
+[2757.36 - 2759.98]  But when they do things that work.
+[2760.00 - 2765.12]  We should consider whether or not it makes sense for ourselves, and here are a few of them.
+[2765.12 - 2771.64]  The Blue Sky Starter Packs, they're basically a list, and they have a special interface,
+[2771.64 - 2776.10]  and they encourage users to sign up for them, and they generate custom URLs.
+[2776.10 - 2780.10]  So it gives you a bunch of people to follow.
+[2780.10 - 2785.84]  We kind of have all the tech to make this work with Lister and a bunch of other stuff.
+[2785.84 - 2789.64]  We just don't have it all connected.
+[2789.64 - 2790.00]  They're
+[2790.00 - 2791.98]  Custom feed algorithm stuff.
+[2791.98 - 2794.68]  We have custom feed algorithms, but they
+[2794.68 - 2796.78]  have these neat, I guess a little ugly,
+[2796.78 - 2799.36]  tools for building them.
+[2799.36 - 2802.52]  And inside the apps, they make the discovery of them
+[2802.52 - 2804.00]  very easy.
+[2804.00 - 2806.94]  They encourage things for them.
+[2806.94 - 2809.76]  We have DVM and custom feeds, but we only
+[2809.76 - 2813.12]  have a few apps that do it, and we don't make it discoverable
+[2813.12 - 2814.92]  as people use it.
+[2814.92 - 2817.24]  Farcaster has this thing called Frames,
+[2817.24 - 2820.00]  which is really awesome because the
+[2820.00 - 2824.78]  Acajone folks have created this Nostra thing called Smart Widgets, which incorporates frames
+[2824.78 - 2827.02]  into what we're doing.
+[2827.02 - 2834.96]  And so I want to conclude this talk back where I started, which is we have actually come
+[2834.96 - 2839.78]  a long ways in the last two years as the Nostra community built.
+[2839.78 - 2845.72]  We have built hundreds of apps, and we have a vibrant set of community, and we've built
+[2845.72 - 2850.02]  a lot of NIPS and a lot of collaboration, but we still have a long ways to go.
+[2850.00 - 2857.18]  And, we need to keep talking to each other and realizing that, you know, lightning isn't
+[2857.18 - 2860.26]  our only superpower.
+[2860.26 - 2864.42]  Another one is all of these apps and the way in which you can collaborate between them.
+[2864.42 - 2867.66]  Because no one else has that, and people want it.
+[2867.66 - 2869.40]  So thank you.
+[2869.40 - 2872.84]  Thank you so much, Rabble.
+[2880.00 - 2880.62]  you

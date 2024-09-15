@@ -1,0 +1,552 @@
+[0.00 - 26.90]  All right. So technology is hard. Someone that's been using it for many, many years just struggled to get a presentation online and displayed. So technology is hard. Noster is no different. So I'm going to talk about Noster and it's going to be a one-on-one course because technology is hard and we need to start from the very beginning here and use this to onboard your friends, your family.
+[26.90 - 29.68]  I know many of you in the audience watching this in the live stream.
+[30.00 - 34.92]  a lot of this content, but this is a 101 course, so there's going to be a lot of content and
+[34.92 - 39.08]  a lot of information. But if there's one takeaway I want you to have, I want you to remember
+[39.08 - 45.08]  that Nostr gives you a portable digital social identity that you control.
+[45.08 - 56.20]  All right. I didn't see it. Didn't turn this on. Still not good with technology. There
+[56.20 - 60.00]  we go. All right. Now we're getting somewhere. Okay. So what is Nostr?
+[60.00 - 66.92]  NOSTR is an acronym. It stands for notes and other stuff transmitted by relays.
+[66.92 - 70.38]  One thing that a lot of people get confused about when they talk about NOSTR is like,
+[70.38 - 75.50]  oh, do we need another social app on my phone? Or do I need another social app?
+[75.50 - 80.28]  Well, NOSTR is not just another social app. NOSTR is not a platform.
+[80.28 - 85.52]  Platforms are like Twitter, Facebook, Reddit, Instagram, all these legacy applications we've
+[85.52 - 89.62]  been using to be social for the last two decades.
+[90.00 - 98.00]  They're all centralized. They're all owned by one person or several social or tech companies.
+[98.00 - 103.64]  And it's very different from a protocol. Nostra is a protocol. What is a protocol? We use
+[103.64 - 109.94]  protocols every day. Protocols are a standard set of rules or guidelines on how to process
+[109.94 - 116.36]  information. And we use them every day. We use e-mail clients. We use web browsers. If
+[116.36 - 120.00]  you use Hotmail or Gmail or Yahoo.
+[120.00 - 122.12]  You can all communicate.
+[122.12 - 126.78]  You can all exchange information because it's all using the same protocol, no matter what
+[126.78 - 128.82]  application you're using.
+[128.82 - 130.00]  The same goes for web pages.
+[130.00 - 131.78]  And Nostra is very similar to that.
+[131.78 - 139.00]  For web pages, maybe you use Safari or maybe you use the Brave browser or Chrome or Internet
+[139.00 - 140.82]  Explorer.
+[140.82 - 143.00]  You use these different browsers.
+[143.00 - 146.96]  And web pages, they're basically all the same.
+[146.96 - 149.20]  Maybe a few bells and whistles here and there.
+[149.20 - 150.20]  Basically the application.
+[150.00 - 154.56]  the browser that you're using does something to differentiate a little bit from a competitor,
+[154.56 - 160.40]  but generally it's the same web page. That's because the web uses several protocols,
+[160.40 - 167.04]  but the hypertext transfer protocol. Nostr is no different here. Nostr is similar to email,
+[167.04 - 172.16]  similar to the web, where it's an open protocol and anyone can build. It's permissionless.
+[172.16 - 180.00]  Nostr is decentralized though, more so than the web is nowadays.
+[180.00 - 182.10]  more so than email is nowadays.
+[182.10 - 184.36]  But Nostra is decentralized because anybody
+[184.36 - 186.90]  can run any portion of Nostra that they want to.
+[186.90 - 189.42]  They can build any portion of Nostra that they want to.
+[189.42 - 191.90]  They can build some of the server infrastructure.
+[191.90 - 195.50]  They can build some of the apps that we use on our phone.
+[195.50 - 199.58]  And because of this nature, then you can take your identity,
+[199.58 - 202.48]  as I mentioned, and you can bounce that identity around
+[202.48 - 204.12]  from application to application.
+[204.12 - 206.08]  You can take it with you and have
+[206.08 - 209.78]  various levels of experiences all on Nostra,
+[210.00 - 213.08]  Noster is not just one application.
+[213.08 - 214.86]  It's many, many different applications.
+[214.86 - 217.10]  And because of this, I like to say that Noster
+[217.10 - 219.82]  is the social glue that binds
+[219.82 - 221.62]  all of your applications together.
+[222.98 - 224.14]  So how did we get here?
+[225.50 - 228.38]  Noster's a lot older than a lot of people realize.
+[228.38 - 231.02]  It started in November of 2020
+[231.02 - 234.46]  by a guy by the name of Fiat Jeff.
+[234.46 - 239.32]  He did the first commit, I think, on November 7th.
+[239.32 - 240.16]  And he was
+[240.00 - 243.30]  He's a Bitcoin and Lightning developer.
+[243.30 - 246.62]  And he's a lover of dad jokes, as I am as well.
+[246.62 - 248.52]  He loves StarCraft.
+[248.52 - 249.52]  And he's Brazilian.
+[249.52 - 250.52]  And that's all we know about him.
+[250.52 - 253.24]  And that's all that matters.
+[253.24 - 259.20]  Fast forward about two years later, and there was a guy on Twitter.
+[259.20 - 262.98]  He said, hey, I wanted to fund some open source software.
+[262.98 - 265.12]  Some of you may have heard of him before.
+[265.12 - 269.08]  His name is Jack Dorsey.
+[269.08 - 270.18]  He wanted to fund some open source software.
+[270.00 - 275.84]  software and a bunch of Bitcoiners started saying, hey, you should look at funding Nostr.
+[275.94 - 280.38]  You should check this out. And immediately everyone's like, what the hell is Nostr? I
+[280.38 - 286.40]  didn't know what Nostr was. A lot of people didn't know what Nostr was. And Jack then
+[286.40 - 292.20]  made a bold recommendation saying, hey, Bitcoin Twitter, you should check out Nostr. They
+[292.20 - 298.10]  share some of the same ethos. So we did. Jack ended up kind of kick-starting development
+[298.10 - 300.02]  in my opinion by...
+[300.00 - 321.96]  funding Nostr and help creating the initial Nostr development fund and here we are. Since then, as Rockstar just said, we've had three different conferences. We had the first conference in Nostrica in March of 2023. Then six months later last summer, there was the Tokyo conference in Nostrasia and then here we are in Enriga today.
+[321.96 - 329.42]  Just a screenshot of some legendary tweets by that random Twitter user here.
+[330.00 - 338.08]  he recommended Noster and kicked off development by donating 14 Bitcoin to our lover of dad jokes
+[338.08 - 344.22]  and StarCraft, Fiat Jeff. So why do we need Noster? Like I said, why do we need another app
+[344.22 - 352.16]  on our phone? Why do we need this? Well, today's social media landscape is very, very broken.
+[353.16 - 359.30]  Every three or four posts that we see are advertisements. These advertisements steal
+[359.30 - 359.98]  our attention.
+[360.00 - 365.18]  these advertisements are set to enrage us and engage us.
+[365.52 - 366.64]  They keep us enraged.
+[366.74 - 369.00]  They keep us showing us controversial content.
+[369.44 - 372.18]  The algorithms are pulling this content forward
+[372.18 - 374.68]  to keep us engaged and steal our attention,
+[374.92 - 376.14]  to sell us more advertisements.
+[376.50 - 378.32]  It's a very, very cyclical cycle.
+[378.88 - 381.60]  And a lot of us leave social media,
+[382.26 - 385.14]  at least on legacy applications, feeling bad.
+[387.14 - 388.52]  We doom scroll.
+[388.52 - 390.00]  You know, and...
+[390.00 - 394.52]  Humans shouldn't be doom scrolling, we should be bloom scrolling, we should be happy.
+[394.52 - 400.32]  But legacy platforms, they're just not good for us.
+[400.32 - 401.32]  They're centralized.
+[401.32 - 406.56]  They're, like I said earlier, they're only owned by a small group of individuals.
+[406.56 - 415.00]  But the worst part about it is that speeches is very much captured today on a lot of social
+[415.00 - 416.00]  media.
+[416.00 - 418.42]  Like entire countries can be banned.
+[418.42 - 420.00]  How many of us know?
+[420.00 - 424.04]  know somebody that has been censored or banned or shadow banned.
+[424.04 - 427.66]  We all probably follow at least somebody. Maybe it didn't happen to us, but we
+[427.66 - 429.34]  probably know somebody we followed
+[429.34 - 432.96]  that it has happened to. It's wild. This is the world we live in where
+[432.96 - 436.60]  speech is getting attacked now. So Noster can
+[436.60 - 439.82]  fix this because it gives us the freedom to communicate
+[439.82 - 444.36]  because there is nobody sitting at the top. There is no CEO.
+[444.36 - 448.04]  There is no board. There is nobody making these decisions.
+[448.04 - 450.00]  It's just open and we can do
+[450.00 - 456.02]  and say essentially whatever we want to and can't get censored or banned for it.
+[456.02 - 461.72]  Noster returns the power of speech to the people and gives us a true public square that
+[461.72 - 467.64]  isn't owned by one person and says, hey, I have the public square.
+[467.64 - 474.14]  Noster puts the users in control by allowing us to be in control over our data.
+[474.14 - 479.62]  We can actually own our data, whereas on traditional legacy social media platforms, you don't own
+[479.62 - 480.02]  your data.
+[480.00 - 486.40]  data. It's not owned by you. We're in control of our attention with Noster. We can control
+[486.40 - 492.68]  what we see. We can control our content. We can control our feeds. And we're in control
+[492.68 - 497.24]  of our entire social graph that we can take with us. Very, very different. You've really
+[497.24 - 502.56]  never been able to do many of these things, you know, over the past two decades that we've
+[502.56 - 509.98]  been using social platforms. You just it's kind of unheard of. So, since this is a
+[510.00 - 514.62]  101 course. We've got to get a little bit technical here. And all these topics I'm going
+[514.62 - 520.52]  to talk about are part of this Nostra 101 track that we're having here at Nostriga.
+[520.52 - 524.46]  So over the next two days, you're going to be able to go to other workshops and other
+[524.46 - 528.54]  talks and learn and do like a little bit more of a deep dive about some of these technologies,
+[528.54 - 531.02]  some of the stuff that I'm talking about. So if you want to learn more, you need to
+[531.02 - 535.64]  check out some of these other workshops. They're on the schedule up on the wall.
+[535.64 - 539.98]  So behind the technology, clients. Clients are just apps. Apps that we have on our
+[540.00 - 546.32]  phone. Like a web browser is a client, an email is a client, essentially. So that's
+[546.32 - 549.48]  all they are. But we mostly call them clients. But they're just apps. That's all you really
+[549.48 - 554.12]  need to remember. Relays are just servers. If you're from the
+[554.12 - 558.20]  Bitcoin ecosystem, you may have heard of a Bitcoin node or a Lightning node. Essentially
+[558.20 - 563.54]  the same thing. A Noster relay is just a Noster server or a Noster piece of software. We'll
+[563.54 - 568.26]  talk a little bit more about that. And since Noster is very technical, we have to mention
+[568.26 - 569.94]  JSON. We have to mention WebSockets.
+[570.00 - 571.52]  but I'm not gonna talk any more about that.
+[571.52 - 573.86]  There's a lot of very smart people here
+[573.86 - 575.96]  that are gonna be talking about this,
+[575.96 - 577.50]  and if you wanna dive a little bit deeper
+[577.50 - 578.54]  into some of the technology,
+[578.54 - 580.96]  there's some beginner developer sessions
+[580.96 - 582.06]  that are gonna happen.
+[583.60 - 586.04]  Nostr, since it is so simple,
+[586.04 - 591.04]  anything and everything could be rebuilt on Nostr.
+[591.20 - 593.88]  Maybe not everything needs to be rebuilt on Nostr,
+[593.88 - 598.30]  but a lot of the captured web can be rebuilt upon Nostr.
+[598.30 - 600.20]  I mean that if we look at our.
+[600.00 - 606.00]  apps that we use every single day. Many of them have various social components. These
+[606.00 - 612.68]  social components could be rebuilt to use Noster instead. It gives developers the ability
+[612.68 - 618.36]  to bootstrap a network and not have to start from zero, essentially.
+[618.36 - 623.26]  Noster is very interoperable because of its open nature and because we're using a protocol.
+[623.26 - 628.48]  We have a set of standards. So any developer that builds a cool feature, another developer
+[628.48 - 629.98]  can look at it and say, hey, I like that.
+[630.00 - 635.30]  Or users can look at it and say, hey, my favorite app developer, I like this feature.
+[635.72 - 636.98]  Can you implement it in your app?
+[637.00 - 638.86]  And then all the users start saying, yeah, I want it.
+[639.16 - 642.70]  So this gives the power to be interoperable with each other.
+[642.84 - 646.80]  Developers can stay sovereign and build their own applications and build their own vision.
+[647.06 - 656.14]  But if a cool feature pops up in another app, if a cool developmental feature happens somewhere, someone builds it, developers can add it to their application.
+[656.14 - 658.48]  The interoperability is very, very powerful.
+[658.48 - 660.00]  And I believe there's.
+[660.00 - 666.82]  another talk later today that will talk a little bit more about this.
+[666.82 - 673.78]  So what are Nostr clients? I view them as the powerhouse of Nostr. These are the pieces
+[673.78 - 680.86]  of the Nostr puzzle that makes everything unique. Developers can build applications
+[680.86 - 686.12]  to manipulate, display the data, all the information in very unique ways. Even though it's all
+[686.12 - 690.00]  the Nostr protocol, you have applications, you have clients.
+[690.00 - 692.00]  that are very, very different.
+[692.00 - 696.48]  Right now, probably the most popular use case
+[696.48 - 699.24]  is Twitter alternatives.
+[699.24 - 705.18]  These will be clients such as Domus, Primal, Amethyst, Noster,
+[705.18 - 705.88]  NOS.
+[705.88 - 707.10]  There's a lot of them.
+[707.10 - 708.72]  Those are applications that people
+[708.72 - 712.08]  will use on their phones for Android and iOS.
+[712.08 - 713.58]  And then on the web, maybe you'll
+[713.58 - 717.24]  use clients such as Primal, Coracle, Snort Iris, Ditto,
+[717.24 - 718.38]  or Nostrudal.
+[718.38 - 720.00]  But these are all
+[720.00 - 724.84]  varying degrees of Twitter clients. Some have more additional bells and whistles,
+[724.84 - 730.24]  more features than others, but at their core, they're
+[730.24 - 734.42]  Twitter alternatives, maybe some are Twitter alternatives on steroids.
+[734.42 - 738.28]  But that's cool, and we need that, and these clients are absolutely great, but
+[738.28 - 743.66]  for me, the most exciting part about Nostr is all this other stuff. It's all these unique experiences
+[743.66 - 748.06]  that people can build with social and with Nostr in mind.
+[748.06 - 750.00]  For example, maybe you're one to
+[750.00 - 753.88]  Consume content or write content, blogs, long form content.
+[753.88 - 756.46]  Maybe you would use the highlighter application
+[756.46 - 759.82]  or Abla News to read and write content.
+[759.82 - 762.68]  Maybe you're a streamer and you stream on Twitch.
+[762.68 - 764.90]  Well, now you want to stream on Noster.
+[764.90 - 767.28]  You can do that with zap.stream.
+[767.28 - 769.70]  Noster Nest, shameless plug, my app,
+[769.70 - 774.70]  you can use that then for like Clubhouse audio chatting.
+[774.88 - 776.96]  Commingle and Troop are applications
+[776.96 - 779.20]  that allow you to schedule events,
+[779.20 - 780.44]  similar to like Facebook.
+[780.00 - 786.68]  Facebook events or Meetup or Eventbrite. Then there's applications like Fountain and
+[786.68 - 793.72]  Wavelake. These are podcast and music applications, alternatives to, like, Spotify.
+[793.72 - 798.90]  Then we have very unique use cases for Nostr, such as Satlantis, which is like a travel
+[798.90 - 805.36]  application with Instagram kind of mixed in. And then a very unique case, zap.store. It's
+[805.36 - 810.00]  a Google Play and App Store alternative.
+[810.00 - 813.40]  where the reviews and web of trust and things like that
+[813.40 - 815.36]  will be based on people you actually know
+[815.36 - 817.20]  and people that you actually trust
+[817.20 - 819.20]  versus random people on the Internet.
+[819.62 - 820.10]  Very cool.
+[821.40 - 822.72]  But I could talk about this,
+[822.78 - 824.86]  and there could be hours-long talks
+[824.86 - 826.92]  about all the different Nostra apps.
+[827.04 - 829.32]  So if you want to know more about all the different Nostra applications,
+[829.48 - 832.06]  a really good website to visit and write down and visit later
+[832.06 - 833.80]  is nostraapps.com.
+[835.98 - 836.38]  Okay.
+[837.32 - 839.64]  Nostra Relays is the next piece of the tech puzzle.
+[839.64 - 840.18]  We've got to talk about that.
+[840.00 - 845.30]  talk about. Relays are just servers, nodes, as I said earlier. They're the decentralized
+[845.30 - 853.34]  data stores. But relays are very important. Relays allow us to be decentralized. Relays
+[853.34 - 858.62]  allow our content that we create to be decentralized and spread all around the world. It's how
+[858.62 - 866.14]  Nostra stays censorship resistant. For example, if I were to send my Nostra content to Relay
+[866.14 - 870.00]  A, and Relay A banned Derek for some reason.
+[870.00 - 872.24]  I'd say, well, that sucks, but that's okay.
+[872.50 - 875.66]  I have all my content on Relay B and C and D and E.
+[875.74 - 876.20]  That's okay.
+[877.24 - 880.60]  And if every single Relay decided to ban Derek for some reason
+[880.60 - 883.64]  and they didn't like me, well, that still sucks, but that's okay.
+[883.96 - 886.98]  I can run my own Relay if I needed to, if I wanted to.
+[887.40 - 889.14]  And then I could just tell all of my followers,
+[889.78 - 892.08]  this is the Derek Relay, go to the Derek Relay.
+[892.14 - 894.38]  And I actually do do that.
+[895.44 - 897.90]  There's going to be a Relay deep dive
+[897.90 - 900.00]  talking about how to.
+[900.00 - 904.66]  run a relay. I'll work on a one-on-one workshop later where you'll learn how to run a relay.
+[904.84 - 910.56]  Probably one of the easiest methods is if you use a Bitcoin node like Umbral or Start9. A lot of
+[910.56 - 915.68]  those are point and click to deploy, but there's other more complicated ones depending on what you
+[915.68 - 919.76]  need to do. Maybe you want to run a relay for a community, and there's going to be a talk about
+[919.76 - 927.08]  that. It's not so much point and click install, but if you're a little technical, you can accomplish
+[927.08 - 929.98]  this task fairly easily. It's the ditto.
+[930.00 - 935.48]  relay. It's very unique there. And there's all sorts of different types of relays, too.
+[935.48 - 943.20]  There's relays that are for searching. There's relays that are for, like, DMs. And then there's
+[943.20 - 948.62]  paid relays and then there's free relays. Should you use a paid relay? Eh, that's up
+[948.62 - 956.74]  to you. Paid relays are generally have less spam on them. Paid relays are nice because
+[956.74 - 960.00]  you're paying for a service. You're paying an infrastructure.
+[960.00 - 964.90]  operator and it's nice to pay for things. Then there's free relays. Free relays are
+[964.90 - 971.78]  probably some of the most popular relays right now. And the free relays sometimes have more
+[971.78 - 977.84]  spam on them. So maybe you need to fine tune which relays you're using or fine tune your
+[977.84 - 984.84]  application and configure how the relays function. Some clients will let you choose which feeds
+[984.84 - 991.84]  the relays are pulling data from and that can change and help.
+[990.00 - 995.64]  your experience too. I said more on relays, there's several other relay talks over the
+[995.64 - 1003.90]  next two days. This is a graphic that was designed by a Japanese Nostrach, Nostra user,
+[1003.90 - 1011.36]  that kind of depicts what's going on here. We have relays that are sending and receiving
+[1011.36 - 1018.36]  data from various clients, and users are connected, or clients are connected to various relays.
+[1020.00 - 1025.20]  All right, so we need to get a little bit more technical here.
+[1025.20 - 1026.20]  I know.
+[1026.20 - 1027.20]  Nostra is very technical.
+[1027.20 - 1028.50]  That's why we're doing this 101.
+[1028.50 - 1031.30]  So public and private keys.
+[1031.30 - 1034.58]  This is something that you've probably, if you're new to Nostra, you've never had to
+[1034.58 - 1036.68]  use before in legacy social media.
+[1036.68 - 1038.00]  You just didn't use it.
+[1038.00 - 1042.06]  You used a username or password, and if you forgot that username or password, you could
+[1042.06 - 1044.76]  probably use your email address to reset your password.
+[1044.76 - 1048.04]  Well, Nostra doesn't have any of this.
+[1048.04 - 1049.16]  We really don't have that.
+[1049.16 - 1050.00]  We have
+[1050.00 - 1054.90]  public and private keys. We're not going to get into the geeky nerdy cryptography stuff,
+[1054.90 - 1061.70]  but just know that your Nostr public key is kind of like your username. It starts out
+[1061.70 - 1065.58]  with N-P-U-B, like Nostr public, and then a whole bunch of letters and numbers. But
+[1065.58 - 1070.58]  you can never change that username unless you decide to create a whole new identity.
+[1070.58 - 1073.46]  That's the one you give out to everybody. You want everybody to have that so they can
+[1073.46 - 1079.96]  follow you and find you. But the NSEC, or the Nostr secure, Nostr secret key,
+[1080.00 - 1083.88]  That's the one that unlocks access to the public key,
+[1084.50 - 1086.32]  and you don't want to give that to anybody.
+[1086.44 - 1089.40]  That's like your password, and you can never change your password.
+[1089.84 - 1093.12]  So if you give somebody your NSEC or you leak your NSEC
+[1093.12 - 1094.28]  or it gets compromised,
+[1094.94 - 1097.90]  then anybody can sign social transactions as you.
+[1098.00 - 1101.38]  They can post content as you, and that's a bad time
+[1101.38 - 1102.68]  because then you've got to kind of start all over.
+[1103.14 - 1105.96]  So you need to keep your private keys safe.
+[1106.60 - 1107.92]  It's key management.
+[1107.92 - 1109.92]  There's an entire one.
+[1110.00 - 1114.90]  one talk that will be more in-depth about this, and I encourage people to go to it that
+[1114.90 - 1120.22]  want to learn about practicing safe NSEX. To practice safe NSEX, what do you do? Well,
+[1120.22 - 1127.90]  you abstain from putting your NSEX into any application that wants it. You need to trust
+[1127.90 - 1134.38]  the application a little bit before you give it your NSEX. To do so, there's varying ways
+[1134.38 - 1139.70]  to do that to keep your keys safe. If you're accessing a lot of the other stuff, a lot
+[1139.70 - 1140.02]  of the...
+[1140.00 - 1144.68]  unique stuff of Nostr. You'll probably use a web browser extension. There's
+[1144.68 - 1149.36]  several of them. There's Nostr Connect, there's Albi, Nost 2x. If you're on iOS
+[1149.36 - 1155.84]  there's Nostor and soon on iOS there'll be also Dmoose. And what these do is they
+[1155.84 - 1161.66]  manage your private key for you and you'll get some type of pop-up message
+[1161.66 - 1167.18]  saying, hey this website is trying to do something as you. Do you want to allow it
+[1167.18 - 1172.00]  yes or no? And if you knew that you were trying...
+[1170.00 - 1174.44]  to send a message or something like that you say yes I allow it and it manages
+[1174.44 - 1177.80]  the key for you and signs the social transaction and you didn't have to give
+[1177.80 - 1182.46]  the application your key there's other ways to do this a little bit more
+[1182.46 - 1189.38]  complicated if you use Android you can use an NSEC bunker called amber and
+[1189.38 - 1193.92]  it'll hold your private key for you and not all Android applications and not all
+[1193.92 - 1198.08]  websites like some of the other stuff they don't all support amber but many of
+[1198.08 - 1201.94]  them do and what it'll do
+[1200.00 - 1204.98]  is it is very similar it holds your private key for you you get a pop-up
+[1204.98 - 1209.50]  saying this application is trying to do this do you want to allow it if you've
+[1209.50 - 1215.96]  ever used an authenticator app on your phone for maybe for work or banking or
+[1215.96 - 1219.12]  something like that you have to authorize a login that's very similar to
+[1219.12 - 1224.22]  these applications there's there's gonna be more talked about this in the the
+[1224.22 - 1228.32]  private key session so if you have questions about that I would say check
+[1228.32 - 1230.56]  it out
+[1230.00 - 1247.86]  What are Zaps? Zaps are amazing. Zaps are one of the most exciting things about Noster. It's so, so simple. Zaps are just really just Bitcoin payments that are aware that Noster is a thing and Noster works.
+[1247.86 - 1259.84]  They're integrated Bitcoin payments in Noster, but they're so much more than a payment. They're really the best form of feedback that we have. Likes are cool. Reactions are cool.
+[1260.00 - 1274.52]  You know, sometimes it may bring a smile or a laugh, but the best type of feedback, in my opinion, is hard money, is giving someone actual value for the content that you consumed.
+[1274.80 - 1286.16]  So if I make a shit post, post a funny gif, meme, long-form blog post, whatever, if somebody liked it, sure, they can hit like, and I'll see that like, and I'll be like, ah, my friend Paul, he liked that.
+[1286.16 - 1286.76]  Thanks, Paul.
+[1287.38 - 1289.38]  You know, but, okay.
+[1290.00 - 1295.12]  But what if he really liked it, and he sent me, I don't know, 10,000 sats?
+[1296.12 - 1297.70]  I'd be like, oh, wow, he really liked it.
+[1298.18 - 1299.70]  I really appreciate Paul.
+[1299.80 - 1300.82]  I really appreciate that.
+[1300.94 - 1302.28]  He must have really liked my content.
+[1302.62 - 1303.70]  I should keep doing this.
+[1303.76 - 1306.94]  So it's a nice form of feedback that people liked your content.
+[1307.36 - 1309.00]  You can continue to create content.
+[1309.12 - 1314.42]  So it's a great form of feedback for content creators to get paid on Nostr.
+[1314.46 - 1315.94]  And the best part, if they're a content creator,
+[1315.94 - 1319.62]  they don't have to meet any arbitrary numbers, like subscribers or followers.
+[1320.00 - 1323.20]  like twitch and youtube and all these and patreon like all this stuff
+[1323.20 - 1329.12]  and off to kyc they can just get paid directly from their followers
+[1330.16 - 1334.48]  but because it's lightning uh depending on where you live in the world it's
+[1334.48 - 1337.36]  sometimes easier said than done like in the u.s
+[1337.36 - 1344.56]  uh lightning wallets uh sometimes disappear but
+[1344.56 - 1347.92]  there are solutions out there not every lightning wallet
+[1347.92 - 1351.04]  will be able to
+[1350.00 - 1358.30]  Receive ZAPs. Not every Lightning wallet knows that Nostr is a thing and is aware of Nostr.
+[1358.30 - 1362.30]  But every single Lightning wallet can send a ZAP because it's just a Lightning payment.
+[1362.30 - 1364.80]  It's just a regular Lightning payment.
+[1364.80 - 1370.50]  Some Nostr integration wallets that I know are really popular that I recommend.
+[1370.50 - 1374.50]  Wallet Satoshi, if you can use that, it can send and receive ZAPs.
+[1374.50 - 1379.10]  Same as Blink, Strike, Primal is a Nostr client I mentioned earlier.
+[1379.10 - 1380.00]  They have a built-in...
+[1380.00 - 1384.92]  wallet so it makes a zapping incredibly easy if you're not really familiar with
+[1384.92 - 1388.82]  Bitcoin you don't really know how to buy it but you want to send zaps the
+[1388.82 - 1393.22]  integrated solution like primal really really works it's not available
+[1393.22 - 1398.90]  everywhere so like I said it's kind of complicated and then the geeky nerdy
+[1398.90 - 1403.00]  stuff if you've ever if you're into Bitcoin and you've heard about e cash
+[1403.00 - 1409.28]  and nuts well there's going to be a talk about that I think later today by Pablo
+[1409.28 - 1411.34]  you
+[1410.00 - 1416.34]  But there are some e-cash and some cashew wallets that support ZAPs.
+[1416.34 - 1422.36]  But in my opinion, they're complicated, and I personally wouldn't recommend them to most people
+[1422.36 - 1424.24]  because it adds a layer of complexity.
+[1424.44 - 1432.74]  But a lot of people like the layer of complexity for an additional level of privacy.
+[1432.74 - 1439.74]  All right, so let's...
+[1440.00 - 1442.76]  Let's put this all together.
+[1442.76 - 1443.76]  Nostr is very technical.
+[1443.76 - 1447.48]  I talked about a lot of technical stuff.
+[1447.48 - 1452.24]  But over the past year and a half that I've been using Nostr, it's gotten way less technical
+[1452.24 - 1457.06]  on many different aspects, gotten much more user-friendly.
+[1457.06 - 1462.22]  But we have to remember that there is no centralized design team.
+[1462.22 - 1468.12]  There is no billion-dollar company with hundreds of millions of dollars to throw at marketing
+[1468.12 - 1469.98]  and design and user-
+[1470.00 - 1476.10]  experience. A lot of these developers are one or two person projects. Maybe they're
+[1476.10 - 1482.68]  small companies with just a few people. Design is getting better. Design is
+[1482.68 - 1487.94]  improving. You can see it over time. Maybe you first heard of Noster three months
+[1487.94 - 1491.72]  ago, six months ago, a year ago. You went to use it and you're like, uh, this doesn't
+[1491.72 - 1495.74]  work too well. That's okay. That's okay. Things have improved. I would say check
+[1495.74 - 1499.50]  it out again. And if you still don't like it, check it out again in three months.
+[1499.50 - 1499.92]  Things are.
+[1500.00 - 1505.66]  always improving. You know, if you've been in the Bitcoin space, you know, people like to say,
+[1505.74 - 1512.16]  oh, we're so early. Well, it's not really a meme. This does apply to Nostr too, as well. Nostr has
+[1512.16 - 1517.90]  really, like most applications are very, very new. They're less than two years old. Like most of them
+[1517.90 - 1524.82]  are very, very new. And we're really early. If we look at platforms that have been around for
+[1524.82 - 1529.88]  since 2005, you know, they've been around for 20 years.
+[1530.00 - 1536.78]  They have a head start and they also have large design teams and development teams.
+[1536.78 - 1539.80]  We really don't have that because it's a grassroots movement.
+[1539.80 - 1541.94]  So give developers time to build.
+[1541.94 - 1547.22]  They are improving.
+[1547.22 - 1553.58]  Noster enables us to choose our own algorithm.
+[1553.58 - 1560.02]  It's Noster is open and permissionless and we can do and build whatever we want.
+[1560.00 - 1563.90]  want and take our content, take our identity,
+[1563.90 - 1565.76]  and move from application to application,
+[1565.76 - 1569.76]  all of this comes together to allow us to be in control.
+[1569.76 - 1571.34]  I said earlier that we're in charge
+[1571.34 - 1574.06]  of our data, our social graph, our experience, our attention.
+[1574.06 - 1575.72]  So that means that we are the algorithm.
+[1575.72 - 1577.94]  The users are the algorithm.
+[1577.94 - 1582.98]  There's various clients that have some level of algorithm.
+[1582.98 - 1587.60]  Maybe it's hidden away in another tab or another feed.
+[1587.60 - 1589.98]  But the nice thing about these algorithms
+[1590.00 - 1594.24]  They're not force-fed to us.
+[1594.24 - 1596.16]  We don't have to use them.
+[1596.16 - 1599.40]  And they're open and they're transparent.
+[1599.40 - 1601.56]  You can choose on some clients.
+[1601.56 - 1602.56]  You can choose.
+[1602.56 - 1607.24]  You have the option to configure and build the type of feed that you want.
+[1607.24 - 1609.20]  Really, really powerful.
+[1609.20 - 1615.16]  You generally in the past, you know, two decades as algorithms have been adopted and become
+[1615.16 - 1620.00]  more honed in and dialed in to users, you haven't been able to
+[1620.00 - 1622.36]  to get out of those algorithms.
+[1622.36 - 1624.56]  Maybe you can see a chronological feed,
+[1624.56 - 1628.32]  but it's hidden from you and the algorithms aren't open
+[1628.32 - 1630.68]  if you decided to use the Spoonfed algorithm.
+[1632.14 - 1634.58]  But on Oster, we really don't have any of that.
+[1634.58 - 1635.86]  It's not at the protocol level,
+[1635.86 - 1639.50]  so you can build your own feed,
+[1639.50 - 1642.68]  your own content you wanna consume, you're in charge.
+[1642.68 - 1644.40]  But then you also have to put in the work too,
+[1644.40 - 1646.76]  because if you're not using these algorithms,
+[1646.76 - 1649.00]  that means that content isn't gonna be brought forward
+[1649.00 - 1650.24]  for you, user discovery.
+[1650.00 - 1654.86]  recovery, still needs a little bit of work. So that means it's up to the user to do the
+[1654.86 - 1660.54]  work. You have to go out and find people to follow. You have to make people know that
+[1660.54 - 1667.66]  you are there. You have to interact and engage and be social, because it's not the platform.
+[1667.66 - 1670.88]  It's not algorithms that are trying to be social for you. You've got to get back to
+[1670.88 - 1677.38]  your roots as a human, and you've got to interact and you've got to engage in Nostr. Software
+[1677.38 - 1679.00]  is not going to do it for you for the most part.
+[1680.00 - 1696.00]  If you are a person that is an activist and you are conscious about your content being censored maybe, maybe run a relay, maybe look into running a relay to ensure that your content is available.
+[1696.00 - 1707.00]  Running a relay isn't for everybody. Not everybody needs to do that. But some people like to run relays. Maybe the relay is on your phone. Maybe the relay is in your house and it's just for your family, just as a backup.
+[1707.00 - 1710.00]  Do you want to run a relay?
+[1710.00 - 1715.76]  Developers love feedback, and not just complaining about something not working.
+[1715.76 - 1718.06]  You know, we need to be constructive.
+[1718.06 - 1722.78]  Sure, we're early, so a lot of things aren't going to work as well as they could.
+[1722.78 - 1725.56]  And that's okay, but you need to let developers know.
+[1725.56 - 1729.72]  You need to, you know, tag them in post, let them know, submit feedback on GitHub, be part
+[1729.72 - 1732.26]  of the development process.
+[1732.26 - 1737.16]  What application exists in legacy social media where if something doesn't work properly or
+[1737.16 - 1739.80]  you'd like a feature that you can
+[1740.00 - 1742.00]  submit that to the team.
+[1742.00 - 1744.00]  Are you going to call up Mark Zuckerberg and be like,
+[1744.00 - 1746.00]  hey, Zuck, I don't like how this works on Facebook.
+[1746.00 - 1748.00]  Can you take a look at this? That's not going to happen.
+[1748.00 - 1750.00]  That's not going to happen.
+[1750.00 - 1752.00]  But, you know,
+[1752.00 - 1754.00]  if a Nostra developer
+[1758.00 - 1760.00]  Nostra developers can do this.
+[1760.00 - 1762.00]  Users can contact Nostra developers and do this.
+[1762.00 - 1764.00]  It's very cool, very powerful to be able to
+[1764.00 - 1766.00]  have an issue and be like,
+[1766.00 - 1768.00]  hey, Million, this doesn't work right on Primal.
+[1768.00 - 1770.00]  Or, hey, Will, this doesn't
+[1770.00 - 1775.70]  look right on on Damas really really cool we can't do that anywhere else and
+[1775.70 - 1779.48]  I would say embrace zaps and the value for value economy zaps are really cool
+[1779.48 - 1783.98]  as I was saying earlier it's the best form of feedback and it's really fun
+[1783.98 - 1786.98]  it's really frictionless and it's stress-free just to send a lightning
+[1786.98 - 1792.62]  payment if you've never used lightning before Noster is a great introduction to
+[1792.62 - 1796.76]  lightning Noster is a great introduction to Bitcoin because if you're you can
+[1796.76 - 1801.88]  just send and receive tiny little amounts of Bitcoin
+[1800.00 - 1807.74]  microtransactions to get comfortable with it. It's a great introduction. And if you are a Bitcoiner,
+[1808.30 - 1812.94]  you'll know that when you want to send Bitcoin to somebody, you would have to say, hey, what's
+[1812.94 - 1817.08]  your Bitcoin address? Hey, can you send me an invoice on Lightning? What's your Lightning
+[1817.08 - 1824.46]  address? Well, with Nostr, most people that are using Lightning, that are using Value for Value,
+[1824.46 - 1829.98]  will already have a Lightning address attached to their Nostr profile. So that makes Nostr the
+[1829.98 - 1859.96]  best way to send a Bitcoin address. So if you're a Bitcoiner, you'll know that when you want to
+[1830.00 - 1835.28]  best Lightning address book that we have. And if I want to send somebody money for dinner
+[1835.28 - 1840.44]  last night, I don't have to ask him for an invoice or an address or anything. I just
+[1840.44 - 1849.20]  go to his Nostra profile, tap the little Lightning icon, boom, instantly sent him money.
+[1849.20 - 1856.48]  So how do I use Nostra? Nostra's really complicated. There's so many different applications, so
+[1856.48 - 1859.66]  many different ways to use things, but it's all getting better, right? I keep saying it.
+[1859.66 - 1860.00]  It's all getting better.
+[1860.00 - 1866.32]  better. So to put it all together, how do I use Noster? I use Amber on my Android phone.
+[1866.32 - 1873.02]  I use that to sign into Amethyst. I use it to sign into Fountain. I use it to sign into
+[1873.02 - 1880.14]  some web applications. It makes my key not leave my phone and be entered into random
+[1880.14 - 1886.92]  applications. But not everything supports Amber. That's okay. I have another option.
+[1886.92 - 1889.92]  I use the Kiwi web browser on Android.
+[1890.00 - 1895.70]  I use the Kiwi web browser, which allows me to use the Noster Connect extension, and then
+[1895.70 - 1902.32]  I put my private key into that extension, and then I can use that to sign into a lot
+[1902.32 - 1907.80]  of the other stuff applications. If you're on iOS, you would install the Nostor,
+[1907.80 - 1915.48]  or soon the Domus app will have a Safari companion app with it. So you install those applications,
+[1915.48 - 1919.62]  and then it works with Safari. On Android, it's a little bit different. You can't use
+[1919.62 - 1920.62]  it like...
+[1920.00 - 1921.96]  with Chrome, the default browser.
+[1921.96 - 1924.74]  Chrome doesn't support extensions on mobile,
+[1924.74 - 1926.96]  so it makes it more complicated.
+[1926.96 - 1929.50]  I run a relay in my house.
+[1929.50 - 1931.80]  I run it because I'm a tech nerd and I think it's cool.
+[1931.80 - 1937.70]  But I run it so my wife and I can have our content go there.
+[1937.70 - 1940.76]  It acts as a place for our content to always live.
+[1940.76 - 1942.92]  And not everybody in the world can write to it.
+[1942.92 - 1946.24]  Nobody can write to that relay but my wife and I.
+[1946.24 - 1947.78]  But everybody in this room, everybody
+[1947.78 - 1948.86]  watching this in the live stream,
+[1948.86 - 1950.24]  everybody in the world can actually
+[1950.00 - 1956.34]  access our content by subscribing or adding our relay to their list.
+[1956.34 - 1957.94]  It's readable by the world.
+[1957.94 - 1960.14]  That's really cool.
+[1960.14 - 1966.16]  I also run a relay on my phone, which allows my local drafts to be sent and
+[1966.16 - 1968.20]  saved to my phone, as well as all my content.
+[1968.20 - 1971.40]  But I use it for drafts to be sent locally or offline.
+[1971.40 - 1975.26]  If I were to compose a note right now with no Internet access,
+[1975.26 - 1978.14]  I would send it to my local relay.
+[1978.14 - 1980.48]  And then when I'm back online and connected to my computer,
+[1980.00 - 1985.72]  to Wi-Fi or cell service, I can just rebroadcast it and it'll send it out.
+[1985.72 - 1991.46]  I use Amethyst as my number one Android app. It has a marketplace, which is going to be
+[1991.46 - 1996.16]  a talk about that. It has DVMs, which are these algorithm things. There's going to be
+[1996.16 - 2004.20]  a talk about that. But because Amethyst has all of these different Swiss Army knife tools,
+[2004.20 - 2009.04]  sometimes performance leaves a little bit to be desired. So I also use another application.
+[2009.04 - 2010.04]  I use Primal.
+[2010.00 - 2011.18]  I use the two of those.
+[2011.18 - 2014.72]  Primal is a great, smooth, simple, Nostra experience.
+[2014.72 - 2017.88]  But it's missing all the bells and whistles that Amethyst has.
+[2017.88 - 2020.56]  So I use both. I use both every single day.
+[2023.32 - 2025.46]  I use Highlighter. I mentioned Highlighter earlier.
+[2025.46 - 2028.96]  Highlighter is kind of like a Patreon alternative.
+[2028.96 - 2034.84]  It allows you to create subscription tiers if you're a creator.
+[2034.84 - 2037.26]  Or if you're just a content consumer, I can go there and read,
+[2037.26 - 2040.20]  and I can kind of, like, highlight or bookmark passages.
+[2040.00 - 2044.32]  of content that I like and some clients will even display those those highlights
+[2044.32 - 2046.88]  that's it gets back to that interoperability that I was talking
+[2046.88 - 2053.64]  about I use Nostra nests calm to listen to live podcasts or to chat with friends
+[2053.64 - 2059.44]  one of the best Nostra podcasts out there is live recorded on Nostra nests
+[2059.44 - 2066.32]  every single week club chain radio I use zap dot stream to watch people from the
+[2066.32 - 2071.68]  some Bitcoin ecosystem guys like Odell
+[2070.00 - 2076.14]  Rabbit Hole Recap, Citadel Dispatch, those are broadcast on zap.stream.
+[2076.14 - 2080.30]  We can watch those there. Some people on Noster also stream
+[2080.30 - 2084.90]  their gaming sessions or their development sessions. I use that to watch them.
+[2084.90 - 2091.76]  I use Toonster. Toonster is really cool. Toonster is essentially streaming, but only for musical performances.
+[2091.76 - 2096.54]  We have musicians that are live streaming on Toonster.io
+[2096.54 - 2099.98]  and making more money than they've ever made on
+[2100.00 - 2108.84]  Spotify. That's wild. There was in December, so what, nine, ten months ago, there was two
+[2108.84 - 2116.88]  artists, Ainsley Costello and Just Loud. Just Loud had been on Spotify for many years. He
+[2116.88 - 2121.92]  had 10 million downloads and never made any money. And the two of them combined pulled
+[2121.92 - 2127.82]  in something like 18 million sats. That's crazy. They made more money than they've ever
+[2127.82 - 2129.90]  made just because of Value for Value and Noster.
+[2130.00 - 2134.68]  So Nostr is enabling musicians to get paid for their content.
+[2135.34 - 2135.88]  I use Fountain.
+[2136.18 - 2137.66]  Fountain's now a Nostr application.
+[2138.62 - 2140.52]  It is a podcast app.
+[2140.58 - 2142.26]  I listen to podcasts almost daily on there.
+[2142.34 - 2144.34]  You can also listen to music as well.
+[2145.34 - 2145.82]  Wavelake.
+[2146.40 - 2149.42]  Wavelake is an indie artist alternative to Spotify.
+[2150.18 - 2154.28]  It has value for value, so I can directly zap an artist if I like their song.
+[2154.28 - 2159.84]  I think here at the concert we're having music streamed by Wavelake in between sessions, something like that.
+[2160.00 - 2163.14]  And how else do I use Nostra?
+[2163.20 - 2164.90]  Well, I like to keep Nostra weird.
+[2165.00 - 2165.38]  It's fun.
+[2165.44 - 2166.14]  It's funny, right?
+[2166.18 - 2169.24]  Like we can do and say anything we want to so we can really be ourselves.
+[2169.76 - 2172.16]  And people like to do weird stuff.
+[2172.32 - 2172.94]  We're humans.
+[2172.94 - 2175.72]  Humans embrace the weirdness and laugh and it's funny.
+[2176.02 - 2177.54]  So embrace the weirdness.
+[2177.78 - 2178.78]  Keep Nostra weird.
+[2179.98 - 2185.66]  And I say embrace the good morning and the Pura Vida and the good night culture.
+[2185.80 - 2188.16]  We love saying our good mornings and our greetings on Nostra.
+[2188.16 - 2190.00]  I swear if you look at
+[2190.00 - 2195.04]  some of the trending algorithms uh in the mornings you'll see like all every single trending note
+[2195.04 - 2198.40]  will be like everybody's good mornings notes everybody just greeting each other and being
+[2198.40 - 2203.76]  friendly and saying hi uh you know and you can uh you can pop a shaka from every once in a while
+[2204.56 - 2212.08]  as well so you can follow me across nostre but again i would say check out all these nostre
+[2212.08 - 2215.36]  one-on-one tracks that are going to be happening over the next two days we're going to get a deep
+[2215.36 - 2220.08]  dive more into a lot of the more technical aspects on some of the things i talked about
+[2220.00 - 2226.12]  Share this with your friends and family if you're trying to purple pill them and you don't want to explain all the technical aspects of Noster.
+[2226.54 - 2227.34]  We're still early.
+[2227.44 - 2228.08]  It's getting better.
+[2228.86 - 2230.54]  And good luck with your purple pill.
+[2230.66 - 2230.98]  Thank you.

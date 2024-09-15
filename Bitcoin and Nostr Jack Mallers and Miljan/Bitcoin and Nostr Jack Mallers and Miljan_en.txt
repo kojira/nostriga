@@ -1,0 +1,436 @@
+[0.00 - 7.42]  all right so just before we get going
+[7.42 - 13.22]  how's the room doing are you guys uh you still got a lot of gas in the tank
+[13.22 - 18.58]  anybody yes that's what we want to hear maybe you want to stand up and stretch or twist or do
+[18.58 - 23.68]  whatever and you know what i knew that's exactly what was going to happen i love it when you don't
+[23.68 - 28.60]  follow orders that's what this room is about don't do what i say do what you uh what you believe
+[28.60 - 29.80]  you're critical thinkers
+[30.00 - 37.32]  right? And we're going to talk about critical thinking and Bitcoin and Noster. That's the next
+[37.32 - 43.10]  panel. And I'd like to welcome them up as they get into place. Come on up, folks. Let's get this
+[43.10 - 49.02]  thing rolling. Please welcome to the stage, if you will, our next panel. And we'll introduce...
+[49.02 - 60.00]  This is Mir, Mian, and Jack Mallers. Just before you guys... I had the good fortune...
+[60.00 - 65.30]  We met in Greenville with the ocean mining pool thing.
+[65.82 - 66.56]  That was a pleasure.
+[66.78 - 71.40]  Mian, you and I, we had a TED-ATED talking about tech in Toronto.
+[71.98 - 72.98]  That was back in Uvita.
+[73.06 - 77.20]  You hadn't launched Primal, and you kept that close to the vest.
+[77.32 - 78.80]  You were about to explode on the scene.
+[79.56 - 83.34]  Yes, and we followed that up at Nostrica in Costa Rica as well.
+[83.66 - 84.14]  Exactly.
+[85.00 - 88.42]  And I guess I'm a little bit starstruck.
+[88.42 - 90.00]  We haven't, yeah.
+[90.00 - 95.54]  We haven't met before, but we've got to get the panel going.
+[95.70 - 96.88]  But maybe after, if you don't mind.
+[96.88 - 97.42]  Give me a hug, brother.
+[97.46 - 98.36]  You're stuttering a little bit.
+[98.36 - 98.72]  Nothing.
+[100.58 - 101.52]  I appreciate it.
+[102.12 - 106.86]  Well, you know, if I could get an autograph for my grandson.
+[106.88 - 108.28]  Well, now I think you're fucking with me.
+[108.82 - 109.88]  His name is Reverend Havel.
+[109.88 - 111.16]  I think you're making fun of me.
+[111.26 - 113.40]  I will sign whatever you want if you're being serious.
+[113.40 - 113.76]  There you go.
+[113.80 - 114.40]  He's 62.
+[114.64 - 117.34]  I mean, he's six, and he would love it.
+[117.48 - 118.06]  No, thank you.
+[118.06 - 119.86]  You guys have all been inspiration.
+[120.00 - 125.34]  to everybody, not only in Bitcoin, but in Noster, and this panel is going to be great.
+[125.42 - 127.50]  So folks, let's get this room going.
+[127.58 - 129.86]  Give them a big round of applause, and we'll get this happening.
+[130.14 - 130.96]  Take it away, folks.
+[136.10 - 137.72]  Good afternoon, everyone.
+[138.66 - 145.68]  I'm Amir, and I've been around in the space since some years, providing usually pizzas
+[145.68 - 147.72]  and Italian languages.
+[147.72 - 149.94]  So I addressed the two elephants in the room.
+[150.00 - 157.68]  The first one is no way I'm going to pronounce Nostr correctly most of the time because to me is Nostr.
+[158.06 - 161.16]  OK, so let's keep that in mind.
+[161.16 - 167.14]  And the other thing, this panel is going to be very interesting because the title is quite large.
+[167.50 - 170.04]  It's just about Bitcoin and Nostr.
+[170.18 - 176.56]  So I prepared something like probably 100 questions for my amazing panelists here.
+[176.92 - 178.42]  So we are going to do the best.
+[178.42 - 179.98]  It's an amazing topic.
+[180.00 - 188.00]  to discuss i don't think you two guys need any presentation at all but if if you want to say
+[188.00 - 196.72]  something more about you please give us a short presentation of yourself for the audience sure
+[196.72 - 202.32]  my name is milian i'm the founder of primal we build primal we build on nostre and bitcoin
+[202.32 - 210.00]  all day long awesome nice uh i'm jack i've been in bitcoin for a little while
+[210.00 - 212.64]  And I care deeply about it being successful.
+[213.60 - 216.08]  And day to day, I play the role.
+[216.24 - 217.80]  My day job is the CEO of Strike.
+[218.20 - 219.86]  We sell Bitcoin, do Bitcoin stuff.
+[220.80 - 223.76]  What I found interesting that I didn't know properly,
+[223.76 - 227.40]  there is an integration between Primal and Strike, right?
+[227.54 - 230.00]  Do you want to discuss it a little bit about that?
+[230.88 - 231.48]  Sure.
+[232.26 - 235.86]  So as everybody knows here,
+[236.66 - 239.48]  on Noster we have this cool thing called Zaps
+[239.48 - 240.02]  where you can...
+[240.00 - 249.86]  send micropayments to content authors. You can zap people or their content. And it was
+[249.86 - 258.40]  initially introduced by the Damus client. The zaps were actually invented by Will here
+[258.40 - 265.22]  in the audience. And the initial implementations involved connecting to external wallet using
+[265.22 - 269.86]  a really cool technology called Noster Wallet Connect, which is still quite widely used
+[269.86 - 270.00]  and
+[270.00 - 275.60]  quite promising for a number of different implementations and it was a great way for
+[275.60 - 281.12]  bitcoiners who are already onboarded onto bitcoin who are enthusiasts who who know how to do these
+[281.12 - 286.16]  things who know how to deal with lightning wallets and things like that to connect their
+[286.16 - 293.76]  noster client to an existing lightning wallet and you know integrates apps into their kind of
+[293.76 - 300.00]  workflow what we wanted to do at primal is to make it possible for people who are not
+[300.00 - 306.88]  already on bitcoin who might not be familiar with how these things work who might not have a wallet
+[307.68 - 313.20]  an external wallet and so forth we wanted to make it possible to for them to very easily
+[314.72 - 320.32]  create a wallet and start participating in this zapping activity on noster which is extremely fun
+[320.88 - 326.48]  and and quite promising in in the long run to maybe reshape the web uh all of the incentives
+[326.48 - 329.92]  on the web as well so the idea there
+[330.00 - 333.86]  was to make this accessible to many more people.
+[333.86 - 340.88]  And due to the complexities of Lightning and self-custodial Lightning and so forth, we
+[340.88 - 348.40]  assessed the situation in such a way that we concluded that built-in custodial wallet
+[348.40 - 353.80]  was the easiest way to get new people onboarded onto this experience.
+[353.80 - 360.00]  And so I reached out to Jack, and at that time, you know, we
+[360.00 - 363.38]  We were not well known.
+[363.38 - 366.00]  Jack, to his credit, took the call
+[366.00 - 371.58]  and took the pitch for me and kind of saw the big picture
+[371.58 - 378.10]  and generously offered his platform.
+[378.10 - 381.24]  We kind of worked on some APIs collaboratively
+[381.24 - 383.54]  to make this work.
+[383.54 - 386.90]  And without the support from Strike,
+[386.90 - 388.34]  it wouldn't be possible for Primal
+[388.34 - 391.10]  to offer this capability.
+[390.00 - 391.24]  to so many users.
+[391.94 - 394.24]  So I think this has been a raging success
+[394.24 - 396.16]  for us and our users,
+[396.66 - 398.00]  and we're quite grateful
+[398.00 - 400.32]  and proud to be partners in this.
+[401.08 - 401.96]  That's where I can go.
+[404.58 - 406.06]  Well, I have to confess,
+[406.44 - 409.96]  I've never tried Primal since a week ago,
+[410.18 - 411.34]  but I tried it.
+[411.34 - 415.18]  And because I'm using Amethyst and Iris as clients,
+[415.38 - 419.60]  but I'm always open to try other clients, of course.
+[420.00 - 424.32]  And so the user experience and everything
+[424.32 - 425.76]  went really smoothly.
+[425.76 - 427.62]  I was really, really impressed.
+[427.62 - 429.78]  So I tried also to set up the wallet.
+[429.78 - 432.42]  But I have a small question.
+[432.42 - 435.18]  Can I set up another type of wallet
+[435.18 - 437.46]  if I have an external wallet?
+[437.46 - 438.54]  I want to in Primal.
+[438.54 - 440.82]  There's something about that in the future.
+[440.82 - 445.08]  Is it possible, technically speaking, or yeah?
+[445.08 - 446.94]  Yes, it's available today on Android.
+[446.94 - 448.74]  You mentioned you're on Android.
+[448.74 - 449.38]  Yep.
+[449.38 - 450.02]  If you go to
+[450.00 - 456.48]  wallet settings you can configure to connect to an external wallet through
+[456.48 - 462.44]  Noster Wallet Connect and use your existing wallet. Unfortunately we're not able to do
+[462.44 - 468.48]  this on iOS like we implemented the same capability but couldn't quite get it
+[468.48 - 474.96]  through App Store review. That's the major problem that we have nowadays with
+[474.96 - 479.96]  iOS. Yeah that's pretty pretty pretty cool and I like it everything so
+[480.00 - 488.16]  far and i like the idea that you can start from nostre you cannot go externally because there is
+[488.16 - 494.00]  the wallet inside everything is integrated and so you make it so smooth and so easy for a person
+[494.00 - 501.04]  for a beginner and also it looks just like a sort of a normal social media and really surprised me
+[501.04 - 507.92]  because i was using other clients and it is a big improvement so yes congratulations on that
+[507.92 - 510.00]  really thank you for what is worth
+[510.00 - 523.26]  But starting our conversation, I wanted to talk about the similarities between Bitcoin and Noster, the differences, the integration, the complexities, and so on.
+[523.56 - 525.86]  But first, I have a question for you, Jack.
+[526.28 - 526.70]  Let's go.
+[526.84 - 533.78]  So in Madeira, I was in the audience in a very beautiful panel you had for kids.
+[533.78 - 537.24]  And the first question was really, really hard.
+[537.24 - 540.00]  And the first question was, try to explain Bitcoin.
+[540.00 - 547.38]  Bitcoin to a kid and you did an amazing amazing job in that and now I want to ask you if you
+[547.38 - 554.28]  have to describe Noster and the integration between Noster and Bitcoin to a kid what's
+[554.28 - 565.02]  your answer to that me yay yeah good luck buddy I'm sorry but you did a great job so you can do
+[565.02 - 570.12]  that again too um okay I
+[570.00 - 578.78]  I'll do just the Nostr part first, and then you'll grade me on that, and then if we want to go to Nostr integrated with Bitcoin, we can try later.
+[581.02 - 585.22]  Nostr is standardized rules.
+[585.36 - 591.00]  It's a set of rules on how people can communicate with each other on the internet.
+[592.38 - 597.40]  In computer terms, standardized rules, we call them protocols, so you can think.
+[597.40 - 599.76]  It's a standardized set of rules.
+[600.00 - 607.18]  that structure how we talk on the internet and the coolest part is that that rules the set of
+[607.18 - 613.04]  rules isn't owned by an individual or a corporation or a government it's owned by the collective
+[613.04 - 621.00]  people they both abide by the rules and enforce the rules together so there's a lot more freedom
+[621.00 - 627.94]  and inclusion and all of the properties that your parents tell you when you're five that you should
+[627.94 - 629.98]  aspire and and try
+[630.00 - 635.92]  achieve in the world and so that is the biggest difference is something like twitter has a set
+[635.92 - 641.04]  of rules but they control the rules and enforce the rules and can change the rules and it's an
+[641.04 - 646.32]  it's an open open network standardized rules that would be my and then and then the fire
+[646.32 - 652.16]  would cry and scream for their mom but that would be my best that'd be my best effort live right
+[652.16 - 660.00]  here yeah well i think that um it's easier in a way to explain nostre of course than bitcoin right
+[660.00 - 667.38]  right? Or is it difficult, more difficult? Because, I mean, to a kid, maybe a social
+[667.38 - 676.04]  media is something more relatable to them, in a way they can understand easier. Also,
+[676.04 - 682.18]  for both, censorship is something they experience every day with parents, so there is these
+[682.18 - 687.40]  similarities, right? I think they're maybe equally difficult
+[687.40 - 690.00]  because nobody understands
+[690.00 - 697.30]  money fundamentally because it's been such an abstracted concept from us. The level of
+[697.30 - 702.92]  abstractions that we live in financially is just so defeatist to us actually foundationally
+[702.92 - 707.04]  understanding how it works. And I think it's similar to how we communicate. I mean, for a
+[707.04 - 711.80]  five-year-old or a 15-year-old or a 50-year-old to deeply understand that when they send a text
+[711.80 - 717.44]  message on their iPhone, the level of government and corporations involved in the oversight and
+[717.44 - 719.72]  the brokering of you being able to talk.
+[720.00 - 724.94]  Uh, so I think these concepts are just so abstracted that something that's a lot of
+[724.94 - 730.82]  the core value is in not having them involved or not needing them to be involved and not
+[730.82 - 731.86]  having them be necessary.
+[732.00 - 734.40]  It's just a difficult thing to wrap your head around.
+[734.46 - 737.62]  So I think they're both equally, that is a lot of the challenge.
+[737.86 - 743.18]  You know, if you get Michael Saylor's like talking about energy and thermodynamic, it's
+[743.18 - 747.50]  just really difficult to like start from scratch, um, in both these concepts.
+[747.50 - 749.48]  So that's, I think the challenge.
+[749.48 - 750.00]  Okay.
+[750.00 - 751.00]  Can I try?
+[751.00 - 752.00]  Absolutely.
+[752.00 - 753.00]  I'd love to.
+[753.00 - 762.32]  So I would say that Bitcoin is the type of money where no one is in charge, yet it works.
+[762.32 - 768.06]  The money that we're used to these days is that there's some sort of bank that's in charge
+[768.06 - 771.88]  and they set the rules for everyone.
+[771.88 - 778.64]  Whereas Bitcoin is this magical technology where no one is in charge and it just works.
+[778.64 - 779.36]  With Nostr...
+[780.00 - 786.56]  it's the type of communication where no one's in charge yet it works and
+[788.08 - 792.56]  these types of protocols are quite rare these are currencies where
+[794.56 - 799.20]  something like this springs up organically you know there's a technology but there also needs
+[799.20 - 804.96]  to be a network of people that are using these technologies i think we don't appreciate this
+[804.96 - 809.84]  enough uh we do appreciate it on on bitcoin this is quite well understood
+[810.00 - 818.14]  but we do have another protocol where no one's in charge yet it works and we should appreciate it
+[818.14 - 826.86]  more maybe i completely agree so this reminds me of a post i saw on an author from you jack
+[826.86 - 833.68]  actually and that really really make me smile because you've wrote that one of your friends
+[833.68 - 840.00]  from chicago was purple peeled her first ever iteration using bitcoin was getting zapped
+[840.88 - 847.52]  on nostre of course on the internet didn't make much sense to her until she downloaded primal
+[848.40 - 857.92]  and i really like this idea that yeah we can try to make explanation theoretically but when we see
+[857.92 - 866.08]  something so practical so concrete when even bitcoin makes immediately sense with a simple
+[866.08 - 869.84]  action and in in a way i think that's enough
+[870.00 - 877.76]  direction, Noster could be a Trojan horse for Bitcoin. Can you agree with that in a way?
+[877.76 - 884.96]  Yes. This woman is my best friend's girlfriend is who you're talking about. Yes. That was her
+[884.96 - 890.40]  first interaction with Bitcoin was getting zapped, downloading Primal. So thank you.
+[891.60 - 899.60]  Dylan somewhere in the audience. Yeah, I think the best sales approach is delivering value to
+[899.60 - 900.00]  someone.
+[900.00 - 906.52]  right like a steakhouse a steakhouse doesn't have a sales team they have good steak and that is
+[906.52 - 910.70]  sells enough and that's when customers come back and build a network effect around telling other
+[910.70 - 916.74]  people where to go eat steak is if the product is good i actually think underappreciated in my
+[916.74 - 924.82]  opinion which you could value it for whatever you want i think that zaps is a lot of the unique and
+[924.82 - 929.90]  core value uh to nasser in my my personal opinion i think that there's a lot of
+[930.00 - 935.14]  work, replicating. I hear like, we're going to do Instagram better or Twitter better.
+[935.84 - 943.24]  I personally think it's a unique value proposition that Zaps are. And I thought that experience was
+[943.24 - 947.54]  so cool because this is an individual I know personally. I've told her about Bitcoin ever
+[947.54 - 950.86]  since my buddy met her. I don't know how long you guys have been dating, four or five years.
+[951.46 - 959.54]  And couldn't sell her on better money. Was able to sell her on Nasser uniquely because she was
+[959.54 - 960.02]  looking for.
+[960.00 - 965.20]  community and longer form content and she downloaded primal and was pretty
+[965.20 - 969.88]  interested in in some of the the content that was on related topics she was
+[969.88 - 974.80]  looking to talk about as women's health actually and her first interaction was
+[974.80 - 979.08]  getting zapped in Bitcoin and it was what broke her brain as far as Bitcoin
+[979.08 - 983.18]  she didn't she you know it's hard for me to believe but she did not care about
+[983.18 - 989.02]  protecting yourself against inflation she does not value saving capital over
+[989.02 - 991.98]  the long term these are things
+[990.00 - 997.44]  that I mean, I still argue with her to this day. But she did really appreciate getting value for
+[997.44 - 1001.46]  being vulnerable on the internet. She talks, you guys should all follow her. She talks very
+[1001.46 - 1005.48]  vulnerably about women's health and some of the struggles that she's been through and what she
+[1005.48 - 1010.02]  works on now professionally to overcome that and inspire others. And the fact that people were able
+[1010.02 - 1015.94]  to give her money in return for her work and that she was also able to almost share like out of love,
+[1015.94 - 1019.86]  give real value for value back was then what got her into Bitcoin.
+[1020.00 - 1021.60]  Since then, she's read the Bitcoin Standard.
+[1021.78 - 1023.00]  It's a phenomenal story.
+[1023.66 - 1027.62]  And so it really is, it was eye-opening for me as well.
+[1027.72 - 1032.30]  And I do wish a lot of the energy was focused more
+[1032.30 - 1034.84]  on the fact that Zaps is really unique
+[1034.84 - 1037.80]  and we're leveraging a couple of open protocols
+[1037.80 - 1040.84]  to give something unique to the customer
+[1040.84 - 1042.28]  as opposed to, well, you know,
+[1042.36 - 1043.90]  Twitter was successful by being Twitter,
+[1044.06 - 1045.08]  so we're going to do Twitter,
+[1045.26 - 1048.00]  but theoretically, you know, better in our version.
+[1048.00 - 1050.04]  And I don't know if that is...
+[1050.00 - 1056.64]  to be as successful as people think anyway absolutely and i have so many questions oh my god
+[1056.64 - 1066.24]  um but um there is this definition uh that i found somewhere that um x is for the war while
+[1066.24 - 1075.12]  nostre is the garden and i love the definition but at the same time i ask myself for the adoption and
+[1075.12 - 1080.00]  also for talking about bitcoin if we all stay on nostre talking about ourselves
+[1080.00 - 1089.12]  all the time is it worth it don't we get too much inside that without explaining
+[1089.12 - 1094.04]  that to others your experience with that tweet is different but don't you think
+[1094.04 - 1099.86]  in in a way that we have to be both or next and on Twitter sorry and on Noster
+[1099.86 - 1107.24]  million no I don't think we need to be both on Twitter and Noster Noster only
+[1107.24 - 1111.70]  it is it's a good way to go forward
+[1110.00 - 1114.90]  So awesome.
+[1114.90 - 1118.76]  Well, yeah, but it's interesting,
+[1118.76 - 1121.22]  because I was telling before, maybe
+[1121.22 - 1125.48]  Noster can be a sort of a Trojan horse for Bitcoin.
+[1125.48 - 1128.90]  But we are using Bitcoin on Noster.
+[1128.90 - 1131.66]  And without Lightning, without the ,,
+[1131.66 - 1136.28]  without a value just like that, could be possible.
+[1136.28 - 1140.00]  Noster could be possible without this implementation.
+[1140.00 - 1148.00]  Yes or no? Do you think that's essential, nice to have, or whatever? What are the intersections between those two?
+[1148.00 - 1156.00]  I think these two protocols are very symbiotic, in the sense that each protocol stands on its own.
+[1156.00 - 1165.00]  Obviously, Bitcoin works quite fine without Noster. Noster works without Zapps, definitely.
+[1165.00 - 1170.00]  But each of these protocols makes the other one better.
+[1170.00 - 1176.64]  and stronger uh obviously it's um it's obvious what nos what bitcoin brings to noster this kind
+[1176.64 - 1184.48]  of built-in monetary network that's uh really uh adding all this value and and kind of enabling
+[1184.48 - 1191.84]  zaps and again uh giving us the opportunity to reshape the incentive structure of um of the
+[1191.84 - 1200.00]  entire web um but uh noster actually brings quite a bit of value to bitcoin as well and this is
+[1200.00 - 1205.52]  less understood among bitcoiners these days and it's actually one of my favorite topics you're
+[1205.52 - 1211.76]  going to give a talk about that right yes during the conference on sunday can you give us some
+[1211.76 - 1218.48]  spoiler or sure no problem like um so there are a number of uh fundamental bitcoin technologies
+[1218.48 - 1225.92]  actually that are being built on top of noster uh whoever saw kyle's talk yesterday uh we kind
+[1225.92 - 1230.00]  of saw like glimpse of the the types of things that the that noster
+[1230.00 - 1234.40]  brings to, let's say, e-cash, mint discovery, and things like that.
+[1235.82 - 1239.72]  Noster, let's not forget, gave us a public Lightning directory,
+[1240.36 - 1244.92]  something that we haven't had for years on Lightning.
+[1245.48 - 1250.38]  Now that we bootstrapped this kind of open social graph
+[1250.38 - 1252.22]  of cryptographic identities,
+[1252.94 - 1256.56]  the majority of whom actually have decided
+[1256.56 - 1259.54]  to add Lightning addresses to their profiles,
+[1260.00 - 1267.20]  so as a consequence of this we can look people up by name and send them money so and and we can do
+[1267.20 - 1271.44]  this in an open kind of a permissionless way where any wallet can implement this
+[1272.08 - 1279.20]  to the extent that i think we're going to be very very soon at a state where a bitcoin wallet that
+[1279.20 - 1284.32]  doesn't have this noster integration capability is going going to feel broken it's going to feel
+[1284.32 - 1290.00]  like it's missing something fundamental so there are a number of technological kind of
+[1290.00 - 1296.24]  and feature improvements that Nostra actually is bringing to Bitcoin but
+[1296.24 - 1303.96]  there are also some of the more like a softer type of the kind of contributions
+[1303.96 - 1309.12]  that software is that Nostra is bringing to Bitcoin like for example enabling
+[1309.12 - 1313.52]  free speech and even if you don't care about payments even if you don't care
+[1313.52 - 1318.38]  about any of the like let's say e-cash if you're if you're a Bitcoiner who is a
+[1318.38 - 1322.00]  monetary kind of maximum
+[1320.00 - 1330.90]  just like HODL, for you to be able to do this and fight the fiat system effectively, you need the ability to speak.
+[1331.40 - 1343.26]  The fiat system has to kind of assert control over speech in the long run in order to continue essentially stealing from us and controlling us.
+[1343.26 - 1349.90]  And they've been able to do this quite successfully over the years with their kind of control.
+[1350.00 - 1352.44]  of various types of media.
+[1352.44 - 1355.06]  Noster helps fight against that.
+[1355.06 - 1359.14]  And then, as we just witnessed from this incredible story
+[1359.14 - 1362.90]  that Jack shared, I think Noster might end up
+[1362.90 - 1367.50]  being the onboarding mechanism for orders of magnitude more
+[1367.50 - 1370.88]  users than all of the other mechanisms
+[1370.88 - 1372.78]  we used so far combined.
+[1372.78 - 1375.80]  So there are a number of other kind of points
+[1375.80 - 1377.46]  that I'm going to save for Sunday,
+[1377.46 - 1380.92]  but there's a lot that Noster brings to Bitcoin.
+[1380.00 - 1387.26]  I think zaps are the underappreciated success story of Nasr in my opinion.
+[1387.26 - 1391.96]  How long have people been talking about micropayments on the internet?
+[1391.96 - 1396.72]  You could pull up Satoshi forums on Bitcoin talk if you want.
+[1396.72 - 1402.88]  You could go before Bitcoin was released and decades ago and cypherpunk mailing list if
+[1402.88 - 1403.88]  you want.
+[1403.88 - 1408.44]  It's at least 10 years old of a desire of the community and a lot of people on the web,
+[1408.44 - 1410.00]  but probably decades.
+[1410.00 - 1420.38]  many, many decades. And I honestly believe that this is the only scalable product market fit
+[1420.38 - 1426.20]  relative version of micropayments on the internet that exists today. How fucking massive of an
+[1426.20 - 1432.10]  achievement is that? How is that not what we're focused on in trying to get a consumer from
+[1432.10 - 1437.60]  signing up to realizing that value as quick as we possibly can? That's kind of what I mean where I'm
+[1437.60 - 1439.98]  like, I don't know if I'm that interested.
+[1440.00 - 1445.20]  in like the Instagram on Nasser, I'm more interested in like who's solving the problem
+[1445.20 - 1450.64]  of taking someone to experiencing this open protocol to understanding the unique value
+[1450.64 - 1456.10]  that we've been able to achieve here. One in building Bitcoin, right? And building lightning
+[1456.10 - 1462.26]  and having a value transfer protocol that's native to the web and open that works. That's very
+[1462.26 - 1468.06]  fucking hard and a lot of hard work from people in this room. And then having Nasser, a protocol
+[1468.06 - 1469.92]  that actually delivers value works.
+[1470.00 - 1478.64]  well right like lightning was invented far before nasr and it has not achieved relative product
+[1478.64 - 1486.32]  market fit i think it like zaps might be the most used use case for lightning today and i so we
+[1486.88 - 1493.20]  power a decent amount of lightning stuff primal is probably like our one of our most active
+[1493.84 - 1499.12]  customers when it comes to making api calls you know volume is different because people
+[1499.12 - 1500.08]  aren't moving
+[1500.00 - 1506.32]  you know a million dollars when they zap but anyway i think that that's very underappreciated
+[1506.32 - 1513.20]  that something that's been desired on the web for many decades from you know anonymous cypherpunks
+[1513.20 - 1517.36]  to the most powerful people in the world have all desired for this use case we seem to have
+[1517.36 - 1525.28]  achieved that and that's what i am more focused on is like i'm really excited about reads right
+[1525.28 - 1530.00]  like maybe it's longer form content that you can really build tremendous
+[1530.00 - 1534.86]  amounts of value in that actually attract more value for value exchange instead of short
+[1534.86 - 1539.46]  informational bursts you know like jack invented twitter right but twitter wasn't necessarily
+[1539.46 - 1545.24]  maybe designed especially today for really high value content that you would want to spend your
+[1545.24 - 1549.88]  hard-earned money on it's a lot of at this point with elon it's a lot of violent shit posting right
+[1549.88 - 1556.12]  and attention seeking and so yeah anyway that i i agree with you i think it's super underappreciated
+[1556.12 - 1559.24]  that we've somehow achieved that very casually
+[1560.00 - 1565.52]  and that no one seems to like really be talking about how big of a deal that is seriously what
+[1565.52 - 1572.56]  the um anyway that's my my take agreed that's a massive deal that's underappreciated like
+[1572.56 - 1578.08]  remember that uh the whole narrative that bitcoin can't scale and look at what we're doing now with
+[1578.08 - 1584.40]  lightning and zap yeah okay i mean i'm gonna get a little more aggressive it's like um seriously
+[1584.40 - 1589.92]  like listen people don't care as much as they say right like money talks
+[1590.00 - 1595.60]  like free market as the judge you know the the panel before there's a lot of people in this room
+[1595.60 - 1600.58]  that still have a twitter account including myself i have a big following on twitter we don't spend
+[1600.58 - 1605.10]  marketing at strike it's a huge asset to the business that i can talk to people about bitcoin
+[1605.10 - 1609.92]  at the size and scale i'm not afraid to admit that so i mean that's just the reality that we
+[1609.92 - 1617.12]  live in is if if everyone cared about privacy as much as they fucking claim they would do that they
+[1617.12 - 1619.88]  wouldn't have these accounts but they do so like
+[1620.00 - 1624.92]  face reality, right? I think having the vision, everyone shares the same vision. It's not that
+[1624.92 - 1630.16]  unique anymore. But the difficult part is like the path we have to walk to get there. And I've
+[1630.16 - 1636.12]  misstepped constantly in my Bitcoin path, right? I think we all see Bitcoin disrupting Visa and all
+[1636.12 - 1641.00]  of these things. It's like the execution path to get there is what's difficult. So if you like take
+[1641.00 - 1645.10]  a step back and you look and you realize like, okay, people are going to tell you what you want
+[1645.10 - 1649.34]  to hear constantly in your life. You know, if everyone actually believed in the merits of
+[1649.34 - 1650.00]  privacy.
+[1650.00 - 1654.22]  and not overly controlling algorithms and censorship,
+[1654.50 - 1656.58]  then no one would have a fucking Facebook account.
+[1656.96 - 1660.18]  But Zuckerberg's got the most active users of anyone ever.
+[1661.00 - 1663.30]  Like he has everyone on planet Earth
+[1663.30 - 1665.70]  that has a brain is a customer of his, right?
+[1666.18 - 1668.60]  And so what is unique to what we've achieved?
+[1668.60 - 1672.64]  I fundamentally think combining micropayments on the internet
+[1672.64 - 1675.74]  with a way to express and post content
+[1675.74 - 1679.24]  is something like, it's a huge achievement.
+[1679.24 - 1709.22]  It's a huge achievement.
+[1680.00 - 1685.88]  And it's a tiny bit, in my opinion, of the focus, you know?
+[1686.58 - 1688.82]  It's just me being super honest.
+[1690.04 - 1690.72]  Absolutely.
+[1690.96 - 1693.50]  That makes me think about paraphrasing something
+[1693.50 - 1696.26]  that I read by Martin Malmy.
+[1696.76 - 1699.80]  And it was just like, Bitcoin is for money,
+[1700.12 - 1702.56]  but Noster is for everything else.
+[1702.80 - 1706.54]  Eventually, every app could be built on Noster.
+[1707.14 - 1708.38]  Would you agree with that?
+[1708.38 - 1710.38]  Can we be that positive about it?
+[1710.00 - 1715.40]  about Noster in the future, or is this a little bit too much?
+[1716.44 - 1718.44]  Yes, I think we can be that positive.
+[1718.62 - 1721.48]  And I think every app will be built on top of Noster.
+[1721.70 - 1723.44]  Don't know how long it's going to take,
+[1723.94 - 1728.68]  but as time goes by, the gravitational pull of Noster is going to increase.
+[1729.08 - 1734.88]  Because you have kind of two starkly contrasted approaches.
+[1734.88 - 1739.98]  You have the legacy approach where every app is a closed silo,
+[1740.00 - 1748.28]  and you have what we're doing on Nostr where you not only have the open social
+[1748.28 - 1752.60]  graph with all the identities and connections and web of trust
+[1752.60 - 1760.88]  and things like that but also content types so as new applications join the
+[1760.88 - 1765.68]  Nostr network they create their artifacts their own content types and if
+[1765.68 - 1771.22]  implemented properly they become Nostr events that become
+[1770.00 - 1772.62]  usable by other applications.
+[1773.44 - 1775.16]  So as a new application developer,
+[1775.34 - 1780.82]  you have the incentive to plug into the network effects of Nostr.
+[1781.46 - 1783.74]  Again, not only in terms of users,
+[1784.04 - 1787.48]  but also in terms of various artifacts
+[1787.48 - 1790.92]  that you can utilize within your application.
+[1790.92 - 1795.74]  For example, we presented yesterday an example
+[1795.74 - 1798.34]  where for long-form content,
+[1798.34 - 1799.98]  there's medium and sub-stack,
+[1800.00 - 1802.74]  and on Medium you can create a highlight.
+[1802.74 - 1804.60]  It's a very cool feature
+[1804.60 - 1807.16]  and people can collaborate around the highlight.
+[1808.00 - 1811.62]  But that highlight is forever trapped within Medium.
+[1812.38 - 1815.74]  Whereas on Nostr you have long-form clients
+[1816.28 - 1818.18]  that when built properly
+[1818.18 - 1821.20]  they produce documents that are Nostr events
+[1821.20 - 1824.90]  that can be used on any other client.
+[1825.62 - 1827.50]  And the highlight artifact itself
+[1827.50 - 1829.98]  is also on Nostr.
+[1830.00 - 1836.18]  event that can be used in other clients. So imagine this for every content type,
+[1836.18 - 1841.04]  for every application type, the creating artifacts and posting them as
+[1841.04 - 1845.48]  non-server events and then allowing developers to assemble these types of
+[1845.48 - 1851.06]  things in ways that we can't even imagine today. So I think it won't be
+[1851.06 - 1858.12]  necessarily censorship resistance or maybe even not even zaps, but the
+[1858.12 - 1861.42]  applications that
+[1860.00 - 1865.14]  developers will build on Nostra will just be much more sophisticated, much more feature-rich and
+[1865.14 - 1871.52]  vibrant. And that's why Nostra is going to win. I think absolutely. Of course, it's possible.
+[1872.00 - 1878.88]  But again, I think you got to build a network effect somehow, somewhere, right? Once you have
+[1878.88 - 1883.96]  the network effect, then yes, there's all sorts of possibilities. And I think everyone is arguably
+[1883.96 - 1887.68]  better at describing and explaining and articulating that vision better than I am.
+[1887.68 - 1889.98]  But I would urge and I
+[1890.00 - 1895.06]  personally you know work on when i work with people in the space or when our api supports
+[1895.06 - 1902.02]  customers it's um the micropayments use case i do believe that that is where we can garner a unique
+[1902.02 - 1907.54]  network effect i'm not sure what worked for tiktok is going to work for an officer i like i'm i don't
+[1907.54 - 1911.98]  know why that would logically make any sense right you go you download tiktok and they're very
+[1911.98 - 1917.48]  successful because they give you the value as soon as you create an account you get a video
+[1917.48 - 1919.98]  immediately and you swipe and you swipe
+[1920.00 - 1924.06]  in about 10 swipes, they know exactly what you want to see. They know exactly who you are. So
+[1924.06 - 1929.44]  from signing up to getting the unique value that is their algorithm is immediate and it's
+[1929.44 - 1934.02]  frictionless. And I think the most difficult part right now is how do you get someone onto this
+[1934.02 - 1939.12]  network in realizing the unique value, like the use case that I experienced, someone that I've
+[1939.12 - 1944.60]  personally known for many years, like how are you able to deliver that frictionlessly? I think that
+[1944.60 - 1950.00]  is what's unique. It's global. It's open. So you've got to
+[1950.00 - 1956.08]  to build a network effect and deliver real value in a frictionless way at scale before you know
+[1956.08 - 1962.62]  your demon your your you know combining spotify and instagram and tiktok on one interface i
+[1962.62 - 1967.42]  fundamentally believe that i'd love to be proven wrong um you know i'll be the jackass that has to
+[1967.42 - 1972.34]  watch this clip back because someone achieved that but we'll do both i i do think the network
+[1972.34 - 1978.34]  effect probably starts by you know focusing on on what we've achieved that's fundamentally huge
+[1978.34 - 1979.94]  and uh
+[1980.00 - 1987.68]  that's unique you know well unfortunately i'm very sad because the time is over i had so many other
+[1987.68 - 1993.20]  questions for you and i wanted to challenge you with other things because i'm more skeptical but
+[1993.76 - 1999.76]  i have to say that after this panel i'm more bullish on noster than i have ever been so thank
+[1999.76 - 2008.24]  you very much for your time thank you very much for your experience and see you again thank you
+[2010.00 - 2010.62]  you

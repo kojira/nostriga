@@ -1,0 +1,235 @@
+[0.00 - 6.24]  Pablo is moderating this one.
+[6.24 - 9.56]  Welcome to the panel, Matt.
+[9.56 - 11.56]  You want to introduce yourself for the people that don't know you?
+[11.56 - 12.56]  Thanks for having me.
+[12.56 - 16.82]  I'm the guy who posts in caps on Nostr.
+[16.82 - 24.12]  By a show of hands, who is all in on Nostr in this room?
+[24.12 - 26.24]  Let's fucking go.
+[26.24 - 29.82]  I noticed Jack didn't raise his hand.
+[29.82 - 29.94]  Maybe he'll.
+[30.00 - 36.02]  delete his Twitter account later today? I think so. I've heard some rumors.
+[36.02 - 45.42]  So there's been a little bit of controversy on Nostr recently about marketing and about
+[45.42 - 53.62]  doing coordinated marketing, centrally planned marketing for Nostr. What are your thoughts
+[53.62 - 60.00]  on that? I mean, I hate the idea.
+[60.00 - 70.22]  to put it bluntly. I think it's a harmful endeavor if we were to do that. It could kind
+[70.22 - 76.86]  of paint the picture. It would be difficult to differentiate a centralized marketing plan
+[76.86 - 83.48]  for a protocol from a platform. It kind of feels like what a platform would do, be able
+[83.48 - 89.98]  to do. So, A, I don't think we need it, and B, I think it would be very
+[90.00 - 99.66]  easily harmful, and how do we agree on what's the message that we want to think, sir?
+[99.66 - 103.84]  The message that we want to paint.
+[103.84 - 111.86]  So I think this is just better left to the margins to be figured out at the edges.
+[111.86 - 119.74]  Where people that need and can benefit from Nocer will find it under the right narrative.
+[120.00 - 125.60]  because it will be portrayed to them under the right light so i i don't think we need to have a
+[125.60 - 131.84]  one way of talking about what noser is so when you're when you're thinking about that you mean
+[131.84 - 140.80]  like individual companies projects users will do their own organic outreach just like with release
+[140.80 - 148.40]  yeah just like with what with relays exactly who will run the relays um i mean to that note
+[148.40 - 149.84]  i just want to marcy
+[150.00 - 151.64]  Can you just stand up real quick?
+[152.64 - 154.68]  Can we get a huge round of applause from Marcy
+[154.68 - 156.76]  for putting this conference on her shoulders?
+[158.04 - 159.08]  She's very humble.
+[159.20 - 160.18]  She won't...
+[160.18 - 161.50]  If you see her around,
+[161.58 - 164.18]  just make sure you tell her you appreciate her
+[164.18 - 167.08]  because this wouldn't be possible without her
+[167.08 - 171.00]  and many other volunteers who made this happen.
+[175.06 - 177.12]  The reason I brought up the beginning part
+[177.12 - 178.72]  about who is all in on Nostra
+[178.72 - 180.00]  is because...
+[180.00 - 186.18]  Because I think that is our single greatest asset as a movement.
+[186.98 - 189.50]  It's a protocol, yes, it's a technology project,
+[189.68 - 192.18]  but to me it's very similar to Bitcoin in a lot of ways
+[192.18 - 196.16]  in that it's a movement of individuals that just want a better world, right?
+[197.00 - 200.92]  And there's something to be said about our ride or dies.
+[201.80 - 205.42]  And that's not just developers, that's designers, that's users,
+[205.42 - 210.00]  that's people that actually put time and energy, scarce time and energy into this.
+[210.00 - 216.88]  protocol um and i we have the best ride or dies like i mean we had i watched the rabble
+[216.88 - 225.20]  presentation earlier uh alex just got off stage with ditto like it we we have there's dozens of
+[225.20 - 231.84]  us there's there's thousands of people that really really care and have have dedicated significant
+[231.84 - 237.52]  time to this thing and that's that's what really is going to push this thing forward um and that
+[237.52 - 239.84]  trend is just keeps growing like it's it's hard for
+[240.00 - 246.44]  me to sit here and not be just incredibly optimistic on this movement.
+[246.44 - 249.00]  All the haters are going to be damned, right?
+[249.00 - 255.18]  Yeah, I get a lot of whenever I release something new or I'm working on whatever,
+[255.18 - 260.08]  a new spec or a new product or whatever, I get a lot of, oh, man, it's so cool what you're
+[260.08 - 261.50]  doing for the protocol.
+[261.50 - 267.26]  I wish I could what can I do or how can I help or I wish I could be able to do the stuff
+[267.26 - 270.00]  that you're working on.
+[270.00 - 275.64]  the what can I do I get a lot of that question and to me a product without
+[275.64 - 281.28]  people using the product is pointless so the people using behind the product the
+[281.28 - 285.42]  people using the product that is the life of the product so you interacting
+[285.42 - 289.68]  with the protocol you interacting with all the tools you being there you
+[289.68 - 293.64]  bringing the energy that is the life that is the most important part to me
+[293.64 - 298.98]  you actually said this a couple of days ago that the way to to what did you say
+[298.98 - 301.88]  a couple of days ago that
+[300.00 - 301.32]  The way to promote...
+[301.32 - 302.34]  You say a lot of things.
+[303.08 - 305.24]  The way to promote Nostra is being on Nostra.
+[306.52 - 307.82]  Just use the fucking thing.
+[307.84 - 308.32]  Just use the thing.
+[309.32 - 312.02]  And I think one of the things that we can do
+[312.02 - 315.84]  that is way better than a marketing initiative
+[315.84 - 318.78]  is use all the other stuff, especially.
+[318.78 - 325.86]  Bring life to the whole spectrum of tools and applications that we have.
+[326.14 - 328.72]  Because we have a very rich ecosystem.
+[330.00 - 338.52]  And I think one of the best ways to support a developer, if you're not a jack, is using
+[338.52 - 343.76]  the things, giving feedback to the things, is interacting, finding the bugs.
+[343.76 - 352.32]  That is so important for a developer that is just slaving away on a code base for tens
+[352.32 - 358.28]  and tens of hours each week or each day, and then no one cares.
+[358.28 - 360.00]  It's bringing that life and bringing that experience.
+[360.00 - 361.40]  exposure, that is super valuable.
+[361.40 - 366.24]  I mean, I think one of the really cool things is, like, the feedback mechanism is
+[366.24 - 367.98]  you using the protocol, too.
+[367.98 - 372.50]  Like, if you run into issues, that could just be a NostraNote in itself, right?
+[372.50 - 373.82]  Yeah, yeah, 100%.
+[373.82 - 374.82]  Yeah.
+[374.82 - 381.76]  I have a lot of ideas on how we can, developers can say and users can say, this application
+[381.76 - 383.28]  can do this thing.
+[383.28 - 387.96]  And we can do it in a very simple way within the protocol itself, and we can have conversations
+[387.96 - 390.00]  around, say, I'm a .
+[390.00 - 391.80]  supports live streams, and
+[391.80 - 393.90]  Vitor could say, within
+[393.90 - 395.88]  the protocol, Amethyst supports live
+[395.88 - 397.82]  streams, and then if there is a bug, you
+[397.82 - 399.80]  could respond to that event, and have a
+[399.80 - 401.88]  conversation. No, your shit is broken, man.
+[402.58 - 403.78]  No, I've literally had
+[403.78 - 405.36]  ZapStreams where
+[405.36 - 407.74]  Kieran is in the live chat
+[407.74 - 410.00]  debugging the ZapStream
+[410.00 - 411.70]  issue while we're live.
+[412.08 - 413.80]  It's the ultimate, we'll do it live.
+[413.86 - 415.04]  It's a special beast.
+[415.40 - 417.82]  That is super rare. I don't think people
+[417.82 - 419.70]  really appreciate how fucking awesome this
+[419.70 - 420.06]  community is.
+[420.00 - 428.00]  is and that because it's a communication protocol we're all able to literally just do it live like
+[428.00 - 439.56]  make it happen um so i mean by the way guys like uh me and pablo had a very very rigid plan on this
+[439.56 - 445.94]  this conversation um and we've just completely diverted from that we we're gonna just do this
+[445.94 - 449.98]  live i guess um send back reports i mean what
+[450.00 - 454.98]  you most, I just, the energy in this room just needs to, like, we just got to pump it
+[454.98 - 461.04]  up, guys. We got, like, five more hours, and then we're going to party. What are you most
+[461.04 - 471.58]  excited about with Nostr? I'm very excited about bringing the communities that are adjacent
+[471.58 - 477.36]  to the stuff that we care about, the stuff that we, like, obviously, we've been, like,
+[477.36 - 480.00]  the community has been seeded with the...
+[480.00 - 485.52]  with Bitcoin, and that means the values of Bitcoin, which is kind of cool that a piece
+[485.52 - 493.44]  of software has, like, immersion values. And I'm very excited about bringing in the people
+[493.44 - 500.48]  that are around that community that share these values. They don't know, they don't
+[500.48 - 507.14]  care so much about the censorship resistance, but they are shared values that they would
+[507.14 - 510.00]  care about. So, to me,
+[510.00 - 512.78]  is a lot about understanding their pain points
+[512.78 - 516.90]  and speaking to them in a one-on-one way,
+[517.10 - 520.18]  not in a, let's create a marketing plan as a protocol.
+[521.28 - 524.54]  I mean, my head is running in two different directions.
+[524.70 - 527.12]  First of all, during Rabo's presentation,
+[527.12 - 530.90]  it was, as a ride-or-die Bitcoiner
+[530.90 - 533.78]  before I was a ride-or-die Nostridge,
+[534.50 - 537.66]  like, I just love Bitcoin.
+[537.76 - 539.56]  This idea that people just hate Bitcoin
+[539.56 - 540.04]  and that's a-
+[540.00 - 545.76]  negative um is kind of foreign to me but after rabble's presentation i i completely respect it
+[545.76 - 551.38]  and understand it and i kind of do like the idea of of just faking them into bitcoin he's just like
+[551.38 - 555.88]  we're just going to call it zap so we're not going to give them any context it's just like units are
+[555.88 - 562.42]  just moving up on your posts i guess um i like that idea that's a cool idea but on the opposite
+[562.42 - 569.30]  flip side i'm incredibly disappointed with bitcoiners like i just feel like we like the
+[569.30 - 570.00]  bitcoin community
+[570.00 - 575.52]  really hasn't stepped up to the occasion like most of them are just doom scrolling on twitter
+[575.52 - 581.24]  like is marty over there i think marty is is scrolling on twitter right now um probably in
+[581.24 - 587.86]  a different room he's not even in this room um do you share that disappointment is there a little
+[587.86 - 593.68]  bit of disappointment and frustration in your mind or is it just my burnout talking no no no i mean i
+[593.68 - 599.98]  i'm also burnt out so we'll share the burnout but i i i do share
+[600.00 - 609.68]  priority in a way. I understand where it comes from. And I think there is a lot of bullshitting
+[609.68 - 616.24]  with Web3 and all these things that sound kind of similar to Noster, like FarCaster,
+[616.24 - 617.24]  for example.
+[617.24 - 618.24]  What is that?
+[618.24 - 619.24]  FarCaster.
+[619.24 - 620.24]  Never tried it.
+[620.24 - 627.76]  Yeah. I mean, it's pointless. Good for airdrops and shit like that. It's useless.
+[627.76 - 630.00]  But the Bitcoiners aren't using FarCaster.
+[630.00 - 635.52]  No, no, no. But they've heard that pitch so many times, right? And I think Bitcoiners,
+[635.52 - 645.44]  because we do require 100% consensus on what is the state of the chain, they extrapolate that
+[645.44 - 651.52]  need to everything. And that's why they say, well, Solana will never work in a decentralized manner,
+[651.52 - 656.72]  because the consensus must be kept. And the throughput is so high that you will never be
+[656.72 - 660.00]  able to decentralize, which, of course. But not so decentralized.
+[660.00 - 665.68]  require that consensus and i think they conceptually understand that dude it's okay for
+[665.68 - 670.24]  relays to have different data it's okay for fragmentation to happen it's good for fragmentation
+[670.24 - 677.78]  to happen but they cannot really embrace that that is the fact and that's i think that's where
+[677.78 - 683.10]  a lot of these uh derangement syndrome that they have with noser comes from yeah i mean i think
+[683.10 - 687.72]  there's two pieces there like during your conversation uh earlier on stage with with
+[687.72 - 689.96]  tidwell um a bitcoin rival
+[690.00 - 696.30]  lot of respect for. The technical Bitcoiners, I think, tend to get stuck in this headspace
+[696.30 - 703.16]  where nothing is perfect. And they have all these edge cases that they're running through
+[703.16 - 707.58]  in their head. And it's all these theories and theoretical stuff. And they just don't
+[707.58 - 712.40]  want to just do it live and just rip it live. Because rightfully so, a lot of technical
+[712.40 - 716.16]  Bitcoiners are incredibly conservative. You're building the base of a global financial network.
+[716.16 - 720.00]  You should be very conservative in development. I think that's completely different with non-
+[720.00 - 725.40]  And one of the reasons why it's so much fun to work in this ecosystem.
+[725.40 - 727.88]  So you have that side on the technical Bitcoin side.
+[727.88 - 729.48]  And I think we're going to prove them wrong.
+[729.48 - 732.48]  And I think they mostly come from a good place.
+[732.48 - 738.32]  And then you have, like, Bitcoin Twitter influencers that really do not share a lot of our same
+[738.32 - 740.68]  values and are just in it for the engagement.
+[740.68 - 743.16]  And they don't want to leave their engagement.
+[743.16 - 750.00]  And what I've found a lot of success on is you target their engagement.
+[750.00 - 765.90]  Like, if you get the plebs that are liking their posts and reposting them, because retweets don't exist anymore, and you get them to move all in on Nostr, and they go Nostr only, then their engagement suffers, and we just starve out the beast.
+[766.20 - 767.98]  And I think that's been working.
+[768.56 - 777.36]  Like, from what I hear, like, Twitter engagement on Bitcoin Twitter is way down, and it's because the ride or dies are all moving to Nostr, and then the influencers will move over later.
+[777.72 - 778.86]  And that's fine with me.
+[778.86 - 780.00]  I think that's completely fine.
+[780.76 - 781.94]  They can be the laggards, yeah.
+[782.24 - 783.36]  Yeah, let them be last.
+[783.56 - 784.90]  The think boys can stay.
+[785.06 - 787.56]  Yeah, they can have Nostra at the price they deserve, right?
+[787.88 - 788.28]  100%.
+[788.28 - 789.06]  Yeah, damn right.
+[789.10 - 789.88]  Let's fucking go.
+[792.34 - 795.42]  So thank you, everyone who's participated in starving them out.
+[797.14 - 798.88]  Each one of you do make a difference.
+[799.98 - 803.46]  Yeah, and one thing is that I think we are our energy,
+[803.68 - 805.46]  and we have a limited amount of time.
+[805.46 - 808.62]  And if you're putting your energy on Twitter,
+[808.62 - 809.88]  you are feeding.
+[810.00 - 811.70]  Twitter, if you're putting it on TikTok.
+[811.76 - 813.42]  You're the product. You are the product.
+[813.62 - 815.30]  And you're a collaborator.
+[815.30 - 817.42]  You're preserving
+[817.42 - 819.18]  their business model and their predatory
+[819.18 - 819.74]  practices.
+[821.24 - 823.38]  Yeah, it's like, not that
+[823.38 - 825.24]  I'm saying that you shouldn't, but
+[825.24 - 827.22]  maybe you shouldn't. It's like paying taxes,
+[827.32 - 828.96]  right? You are feeding the enemy.
+[830.22 - 830.76]  I'm not
+[830.76 - 833.46]  American, so I'm okay, I think.
+[834.94 - 835.30]  But
+[835.30 - 836.88]  you are feeding the beast.
+[837.30 - 839.02]  So within the law,
+[839.02 - 839.98]  within
+[840.00 - 846.50]  the law you should do your best to pay the least amount of taxes possible maybe zero i mean there
+[846.50 - 851.80]  is something interesting there and they're about to beep at me uh but i'm also the next panel too
+[851.80 - 859.16]  um they're beeping at me there there's there's something to be said there um about
+[859.16 - 866.14]  uh we had paul we had paul up here earlier talking about how he when he when he talks
+[866.14 - 869.90]  about when he uses different social media platforms uh he has to have a different
+[870.00 - 876.64]  strategy with each social media platform. And there is actual like historical case studies
+[876.64 - 884.80]  that influencers are more successful if they focus on a single platform because they understand how
+[884.80 - 889.40]  it works and they really focus on it and their energy and time is spent on that. And I think
+[889.40 - 895.04]  if we're trying to move people over to Nostra, there's really something to be said about being
+[895.04 - 900.00]  incredibly focused on just Nostra. And as a result, you actually
+[900.00 - 903.96]  actually live it, you're actually part of it, and you're actually engaged in it, rather
+[903.96 - 908.36]  than letting all these other things zap your time and zap your energy.
+[908.36 - 914.72]  Yeah, I think one thing is that within the platforms, obviously you cannot just access
+[914.72 - 916.84]  all the data because there is too much data.
+[916.84 - 923.82]  So algorithms are a must with regards to TikTok and Instagram and Twitter.
+[923.82 - 928.06]  It is required.
+[928.06 - 930.00]  It is the only input that...
+[930.00 - 935.26]  that someone publishing, influencer or whoever, publishing on these platforms, the only input
+[935.26 - 941.02]  into the algorithm is getting you to like, getting you to subscribe, getting you to comment,
+[941.02 - 943.32]  the stupid faces on the YouTube thumbnails.
+[943.32 - 945.36]  It's the only input that they have.
+[945.36 - 951.50]  So because they have such little agency, that's all they can do.
+[951.50 - 955.52]  All these people are reduced to saying, please like, comment, and subscribe, which is so
+[955.52 - 956.52]  pathetic.
+[956.52 - 960.02]  I don't know.
+[960.00 - 965.52]  so bad but if you're watching the live stream on youtube consider liking and subscribing and
+[965.52 - 970.00]  sharing it with your audience we would really appreciate that can we get a huge round of applause
+[970.00 - 977.28]  for pablo

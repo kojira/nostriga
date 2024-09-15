@@ -1,0 +1,335 @@
+[0.28 - 0.96]  GM.
+[4.04 - 5.42]  GM Fiat Jeff.
+[6.34 - 8.00]  Can I get a GM Fiat Jeff?
+[8.70 - 9.96]  GM Fiat Jeff!
+[12.60 - 13.28]  Alright.
+[15.02 - 16.12]  Nice. Okay.
+[17.34 - 18.34]  Time to get started here.
+[18.50 - 20.22]  So, the biggest
+[20.22 - 22.06]  complaints that I
+[22.06 - 23.64]  continue to hear people say
+[23.64 - 24.92]  about Noster
+[24.92 - 27.88]  is that when they join Noster
+[27.88 - 29.98]  all they see
+[30.00 - 40.50]  is people talking about Bitcoin. Bitcoin, Bitcoin, Bitcoin. I love Bitcoin.
+[40.50 - 50.88]  GM, Honol, bullish. Now Bitcoin is revolutionary and I believe it is key to
+[50.88 - 57.84]  Nostra's success, but social media needs communities. Black Twitter, Stan Twitter,
+[57.84 - 60.50]  Journos.
+[60.00 - 67.62]  BookTalk, FitTalk, SwiftTalk, mainstream social media is already benefiting from these communities.
+[67.62 - 73.24]  There's no reason Noster couldn't also have communities, especially considering that they
+[73.24 - 75.84]  can monetize with Bitcoin.
+[75.84 - 78.66]  But we are not marketing to these communities.
+[78.66 - 84.34]  We are simply saying Noster, Noster, Noster and hoping that they find us.
+[84.34 - 88.28]  Kind of like an ostrich with its head buried in the sand.
+[90.00 - 95.68]  I'm sorry I just wanted to say that. People have often asked me what I think success looks like
+[96.80 - 101.20]  and my answer has always been the same. When your grandma is using it.
+[103.92 - 110.08]  In 2019 my wife and I launched a website called Spinster on the Fediverse. For those who don't
+[110.08 - 115.68]  know the Fediverse is the larger network of Mastodon and at the time people on Twitter
+[115.68 - 120.00]  were getting banned for having the wrong opinions about gender identity
+[120.00 - 128.80]  So, we did a little marketing campaign on Twitter, where we said, we don't ban feminists.
+[128.80 - 134.24]  And in our first week, we had 5,000 people knocking our door down.
+[134.24 - 140.46]  The site would freeze and crash as people fought to get in.
+[140.46 - 146.88]  And once the users finally did get in, they immediately waged a war against each other
+[146.88 - 149.98]  over whose true land this was.
+[150.00 - 156.68]  Once I figured out how to load-balance Mastodon, things calmed down, and Spinster grew into
+[156.68 - 164.22]  the largest feminist website on the decentralized web, today with over 20,000 users, overwhelmingly
+[164.22 - 171.52]  women in their 40s, 50s, and 60s, grandmas.
+[171.52 - 178.30]  And once I realized this model was successful, it pushed me to make it reproducible for everyone.
+[178.30 - 180.30]  So I created Soapbox.
+[180.00 - 187.14]  I turned spinsters pink into blue by default, but I made it configurable so the admin could choose any color scheme.
+[187.52 - 192.40]  They can upload a custom name and logo and launch Soapbox on any domain name.
+[193.76 - 200.20]  Soapbox went on to be used by Christians, Italians, furries, Muslims, feminists, shit posters, and many more.
+[201.24 - 204.58]  The goal has always been to attract every niche until we have everyone.
+[204.58 - 210.16]  Most notably, Soapbox is being used by...
+[210.00 - 214.64]  by Truth Social on the web, where I served as their head of engineering for two years
+[214.64 - 220.78]  before jumping ship to Noster. Something I wish more people knew is that Donald Trump's
+[220.78 - 228.72]  social media platform is a fork of a feminist website.
+[228.72 - 234.12]  Now I've been building social media for my entire life. When I was 13, I created this
+[234.12 - 238.48]  website called Gleasonator. It was used by my friends at school and for a while it was
+[238.48 - 240.48]  our primary form of communication.
+[240.00 - 247.16]  During that period of my life, my entire friend group was defined by this website.
+[247.16 - 251.08]  One friend even wrote a song about this where he described it as the place where some people
+[251.08 - 254.34]  met most of their friends.
+[254.34 - 258.02]  Then Facebook came along and decimated this website.
+[258.02 - 262.60]  But the way I saw it, they had only won the battle and they had not won the war, a war
+[262.60 - 266.86]  that I am continuing to fight today.
+[266.86 - 270.00]  Later in 2016, Mastodon came around.
+[270.00 - 274.24]  restored my hope in independent websites being viable again,
+[274.24 - 276.58]  leading me to create Spinster, Soapbox,
+[276.58 - 281.00]  to work at Truth Social, and ultimately to build on Noster.
+[281.00 - 283.62]  Today, Gleasonator has been revived as a testing
+[283.62 - 286.56]  ground for my new software.
+[286.56 - 291.02]  And it's the main way that I use Noster.
+[291.02 - 294.20]  So for the past year, I've been working
+[294.20 - 297.22]  on bringing that experience to Noster.
+[297.22 - 300.72]  Last year, I presented the Noster Bridge.
+[300.00 - 306.50]  at Nostor Asia, a bridge that connects the Fediverse and Nostor together. Today, I'm
+[306.50 - 312.44]  introducing a full-fledged Mastodon alternative built entirely on Nostor.
+[312.44 - 322.78]  Ditto! So, what is Ditto? Ditto is a Nostor community server that aims to expand the network.
+[322.78 - 329.26]  With traditional Nostor apps, people discover Nostor by searching for the keyword Nostor.
+[329.26 - 334.98]  That means they already know the code of the Nostor.
+[334.98 - 344.04]  This means they've already gotten into the Nostor community, and it's easy to connect
+[344.04 - 345.70]  with people on Nostro.
+[345.70 - 354.00]  So, in other words, you have access to a user-friendly Nostor platform that customers can click to
+[354.00 - 358.52]  happens, and this can be the place where you can see how the platform works.
+[358.52 - 358.68]  So if you hit the link here, you will have access to all the software.
+[358.68 - 358.94]  I'm happy about that.
+[358.94 - 359.10]  If you hit the link here, you will have access to all the software.
+[359.10 - 359.16]  So, that's it.
+[359.16 - 359.22]  Let's begin.
+[359.22 - 359.24]  Thanks, everyone.
+[330.00 - 335.16]  already have an interest in Nostr in the first place. And once they're in, they might find
+[335.16 - 341.50]  a community if they get that far. With Ditto, people find websites they want to join because
+[341.50 - 348.00]  of a community. And then they discover Nostr as a side effect, which gives them the opportunity
+[348.00 - 357.32]  to learn what it is and why it matters. The idea is to launch thousands of Nostr websites
+[357.32 - 360.02]  on different domains, each marketed towards a specific community.
+[360.00 - 368.60]  specific community. There are over 9,000 Mastodon servers already doing this. But Noster could
+[368.60 - 375.18]  do it better. Because unlike Mastodon, users on Noster are not locked in to a single server.
+[375.18 - 382.56]  They can move freely between clients. But even though joining a Ditto server is joining
+[382.56 - 387.30]  a community, you are not isolated. You are still part of the bigger Noster network just
+[387.30 - 390.00]  like a regular client.
+[390.00 - 392.96]  sizes independent websites and domain names.
+[396.16 - 398.88]  Every Ditto server starts with a domain name.
+[401.52 - 404.54]  Users can request a NIP 05 on that domain,
+[404.54 - 407.80]  which admins can approve or deny.
+[407.80 - 411.18]  Then there is a dedicated feed of people on that domain name.
+[411.18 - 412.86]  When you're on glee-center.dev, you'll
+[412.86 - 414.16]  see the glee-center.dev feed.
+[414.16 - 417.78]  When you're on ditto.pub, you'll see the ditto.pub feed.
+[417.78 - 420.00]  You still have a regular home feed, too.
+[420.00 - 425.36]  of people that you follow across the network but the local feed is emphasized in the ui and on the
+[425.36 - 435.44]  home page for example um you can see right you can see the feed of any nip05 name from ditto here is
+[435.44 - 441.28]  uh noserplebs.com on ditto noser plebs becomes a community with its own user base and feed
+[444.24 - 445.92]  here's get albie.com's feed
+[445.92 - 450.00]  i think it's interesting to see
+[450.00 - 452.40]  the different ways that people have been onboarded onto Nostr.
+[454.50 - 457.16]  And if you look closely, you'll notice that there's actually
+[457.16 - 461.12]  a tiny little Albi icon in the corner of each of these posts
+[461.12 - 461.98]  by their usernames.
+[462.14 - 463.80]  That's the favicon pulled from Albi,
+[463.86 - 466.18]  and when you click on it, it takes you to the Albi feed.
+[466.32 - 467.88]  There's a Zeus one down there, too.
+[469.70 - 471.56]  Okay, here's the feed of primal.net.
+[474.60 - 477.40]  On Ditto, you can see not just feeds of any other Ditto server,
+[477.40 - 479.98]  but a feed of any NIP05 name.
+[480.00 - 484.86]  So this makes it easy for people to implement and makes it backwards compatible with the existing network.
+[487.68 - 490.66]  Okay, let's talk about how Ditto can strengthen a community.
+[491.68 - 493.38]  One way is by improving discovery.
+[494.54 - 499.10]  So the Ditto admin can curate people to follow by marking them as suggested users.
+[500.28 - 505.40]  Then they will show up in sidebars across the site, allowing people to discover content related to the community.
+[505.40 - 510.00]  This way you can curate people who you think are good representatives of your community.
+[510.00 - 512.88]  and then when people join, then they can find those people.
+[512.88 - 519.56]  For example, these are some of the suggested users of henhouse.
+[519.56 - 524.20]  Ditto also has a trending algorithm that scrapes the database a couple times per hour and then
+[524.20 - 529.24]  generates a nip 32 label event. And that's how it's able to create those graphs
+[529.24 - 534.10]  of the trends over time because it's just querying the labels over time.
+[534.10 - 537.18]  And since it saves them to just, like, normal Noster events, I think this is pretty cool
+[537.18 - 540.00]  because other clients like Coracle can take advantage of this to create
+[540.00 - 543.26]  custom feeds.
+[543.26 - 544.92]  Moderation.
+[544.92 - 549.36]  Each Ditto server has a team of admins and moderators.
+[549.36 - 552.58]  They can approve and revoke usernames, ban users,
+[552.58 - 553.54]  and delete posts.
+[553.54 - 556.74]  And it's one of the most robust moderation experiences
+[556.74 - 558.58]  on Nostra today.
+[558.58 - 560.16]  So when you join a Ditto server, you're
+[560.16 - 562.92]  opting into that particular team of moderators,
+[562.92 - 566.58]  essentially curating the community for you.
+[566.58 - 569.82]  And this is a thing that many people actually want.
+[569.82 - 570.32]  But
+[570.00 - 572.70]  The beautiful thing is, if you don't like how a server is run,
+[572.70 - 574.54]  you can just move to a different Ditto server
+[574.54 - 576.76]  or move to another Noster client entirely,
+[576.76 - 579.54]  because it's essentially just still Noster.
+[579.54 - 581.16]  So I believe that this is something
+[581.16 - 583.50]  that's going to help Noster spread without limiting
+[583.50 - 584.22]  user freedom.
+[587.32 - 589.50]  And since Ditto needs to support thousands of users,
+[589.50 - 594.36]  I put a lot of effort into performance.
+[594.36 - 596.64]  This Prometheus Grafana graph here,
+[596.64 - 598.66]  which is kind of still loading, just
+[598.66 - 601.14]  shows a ton of data.
+[600.00 - 603.24]  about the Ditto server, including HTTP requests,
+[604.32 - 606.88]  database connections, and then kind of down at the bottom,
+[606.98 - 610.50]  it has a full breakdown of relay events by kinds.
+[610.90 - 612.88]  And so you're able to see it's kind of interesting.
+[613.70 - 616.62]  Likes come in in a sawtooth way of kind one
+[616.62 - 618.92]  is the most common thing that you'll see.
+[619.36 - 621.56]  But this has just been extremely helpful
+[621.56 - 624.10]  for figuring out where problems are.
+[624.60 - 627.58]  And frankly, I don't know how relay operators
+[627.58 - 630.00]  are able to build without.
+[630.00 - 635.44]  something like this today. I think that everyone needs something like this. So if you're running
+[635.44 - 640.64]  a Ditto server, you're going to be able to set up one of these as well so you can get some real
+[640.64 - 646.64]  insight into what's going on. Finally, Ditto integrates with Bitcoin to support Lightning
+[646.64 - 655.60]  Zaps. And I think in this community model, Zaps are even more awesome than they could be. So I'm
+[655.60 - 659.52]  going to talk a little bit more about that later. Okay.
+[660.00 - 662.30]  So who would make a Ditto server?
+[662.30 - 665.10]  I think in this model there are three main personas.
+[665.10 - 668.36]  There's leaders, followers, and independents.
+[668.36 - 670.12]  And as far as independents go,
+[670.12 - 672.34]  I think that the existing Nostra ecosystem
+[672.34 - 673.74]  kind of has you all covered.
+[673.74 - 676.72]  Like with apps like Domus and Amethyst,
+[676.72 - 678.50]  people don't need to run their own server,
+[678.50 - 681.42]  but the relationship between leaders and followers
+[681.42 - 683.38]  is where I think Ditto really shines.
+[683.38 - 686.08]  Because Ditto allows leaders to create servers
+[686.08 - 688.58]  and then draw in huge amounts of people
+[688.58 - 691.08]  who then empower the entire ecosystem.
+[690.00 - 695.80]  ecosystem. So I have a few ideas of Ditto servers I'd like to see. I'd like to see one for
+[695.80 - 700.24]  gamers. If any of y'all have seen the Super Smash Brothers community, you know what I'm
+[700.24 - 705.68]  talking about. Another one I'd like to see is a political server. Especially for a third
+[705.68 - 711.52]  party candidate. And again, Yang Gang. If y'all remember them, then you know what I'm
+[711.52 - 718.42]  talking about. But I have so many ideas. It's literally endless. But I cannot build them
+[718.42 - 720.02]  all. So this is where you can find them.
+[720.00 - 721.00]  come in.
+[721.00 - 724.08]  If you have a community or even just an interest
+[724.08 - 727.00]  and you want to be a leader on the Nostra network,
+[727.00 - 730.24]  start a Ditto server.
+[730.24 - 734.78]  To do that, head over to docs.soapbox.pub slash ditto
+[734.78 - 738.02]  and follow the install guide to set up Ditto on a VPS.
+[738.02 - 740.64]  Or if you want help setting up a Ditto server,
+[740.64 - 744.38]  apply to our creator program at soapbox.pub slash creators.
+[744.38 - 746.50]  More on that later.
+[746.50 - 749.98]  OK, now seems like a good time to go over
+[750.00 - 753.36]  kind of the technical side of what all is happening here.
+[753.36 - 757.32]  So Ditto is a TypeScript server running in Deno.
+[757.32 - 759.00]  It has a PostgreSQL database, and it
+[759.00 - 761.82]  implements Mastodon's REST API.
+[761.82 - 766.50]  Ditto is both a NIP-01 client and relay all in one package,
+[766.50 - 770.04]  and that's why I refer to it as a Noster server.
+[770.04 - 774.12]  And so each Ditto server exposes a slash relay endpoint
+[774.12 - 777.16]  that is a full Noster relay that other clients can connect to
+[777.16 - 779.64]  and do the regular relay stuff.
+[779.64 - 780.64]  And this is
+[780.00 - 785.62]  actually kind of a unique design, oddly, in Noster. And it's because of the difficulty
+[785.62 - 789.18]  with signing. And I'm going to talk about that in a moment.
+[789.18 - 794.02]  So a lot of the problems that I solved on the Noster side, I also extracted all this
+[794.02 - 800.90]  code out and created this super thorough Noster library with tons and tons of documentation.
+[800.90 - 805.46]  So if you're interested in doing things the Ditto way, then feel free to check out Nostrify.
+[805.46 - 810.00]  I gave a little speech on it yesterday. You can find the video if you missed it.
+[810.00 - 817.56]  So, signing events. Ditto is actually kind of like a traditional Web 2 server, like a Ruby on Rails type of thing.
+[818.22 - 824.56]  And the reason people don't normally build something like that is because users want to be able to access their keys.
+[825.14 - 830.68]  So, the naive thing to do if you're going to build something like this is to just custody the keys.
+[832.12 - 838.48]  But what I really didn't want to do was to reproduce all the things that I dislike about Mastodon.
+[838.48 - 868.46]  I want this to be something that I don't like about Mastodon.
+[840.00 - 844.94]  something that is like all of the things that are good about Mastodon with none of the downsides.
+[844.94 - 851.54]  So I decided to implement NIP46 all throughout the code base. And even in the scenario where
+[851.54 - 857.52]  you're like pasting your NSEC in there, which that is a major part of the UI, that is using
+[857.52 - 865.26]  NIP46 behind the scenes to do it. And if you're using Soapbox with Ditto, Soapbox also has
+[865.26 - 869.38]  been updated to be a full NIP46 signer so that it's completely seamless. If you're going
+[870.00 - 873.24]  extension or you're just pasting the NSEC in,
+[873.24 - 875.88]  then the user doesn't even realize NIP46 is happening.
+[879.40 - 882.12]  NIP46 signing also opens the door
+[882.12 - 887.50]  to compatibility with Mastodon apps in a secure way.
+[887.50 - 891.12]  So this is one of the really interesting things about Ditto.
+[891.12 - 892.86]  As I was building it, the goal is
+[892.86 - 894.90]  to make Soapbox work with Noster,
+[894.90 - 897.82]  essentially, all of the stuff that I've built over the years.
+[897.82 - 899.64]  And as a side effect of doing that,
+[899.64 - 900.14]  well, I
+[900.00 - 902.68]  I have to implement Mastodon API.
+[902.68 - 905.76]  Now all the Mastodon apps happen to just work.
+[905.76 - 908.78]  So that's something that's pretty cool.
+[908.78 - 912.36]  Mastodon Android works, Mastodon iOS works, Senge works.
+[912.36 - 915.84]  You can actually just install a Mastodon app
+[915.84 - 920.44]  and then type in ditto.pub or the URL of any Ditto server.
+[920.44 - 922.32]  And then you'll see this screen that pops up
+[922.32 - 924.32]  and asks for a bunker URI.
+[924.32 - 927.36]  So you can just use any NSEC bunker or whatever,
+[927.36 - 929.52]  get your bunker URI, authorize it.
+[929.52 - 930.36]  And then.
+[930.84 - 932.30]  You can use Mastodon Android.
+[934.26 - 937.64]  So, now it's time for a quiz.
+[939.10 - 942.10]  I'm going to name an app, and then by show of hands,
+[942.18 - 944.82]  I want you to tell me whether it's a Mastodon app
+[944.82 - 946.08]  or a Noster app.
+[946.42 - 949.06]  So the first one is Rabbit.
+[949.54 - 951.98]  If you think that Rabbit is a Mastodon app,
+[952.46 - 953.04]  raise your hand.
+[957.04 - 957.98]  All right, hands down.
+[957.98 - 960.24]  If you think that Rabbit is a Noster app,
+[960.00 - 975.38]  Nostra app? Raise your hand. Seems like about 50-50. Rabbit is a Nostra app. All right.
+[975.38 - 987.06]  Next up. Rodent. If you think rodent is a mastodon app, raise your hand. Like 30% of
+[987.06 - 989.96]  you. Maybe if you think rodent is a Nostra app.
+[990.00 - 992.16]  Raise your hands.
+[992.16 - 995.04]  OK, more people definitely think it's a Mastodon app.
+[995.04 - 997.40]  And you are correct.
+[997.40 - 999.12]  Rodent is a Mastodon app.
+[999.12 - 1001.76]  Last one.
+[1001.76 - 1003.66]  Litterbox.
+[1003.66 - 1007.50]  If you think Litterbox is a Mastodon app, raise your hands.
+[1010.60 - 1013.36]  If you think that Litterbox is a Nostra app, raise your hands.
+[1015.94 - 1017.96]  All right, I think you all are right again.
+[1017.96 - 1020.00]  Litterbox is a Mastodon app.
+[1020.00 - 1024.56]  But the beautiful thing is, if you're using Ditto, you can use any of these apps.
+[1024.56 - 1028.14]  So it doesn't really matter.
+[1028.14 - 1033.82]  In fact, you can use any of these hundreds of Mastodon apps that already exist.
+[1033.82 - 1037.20]  And it feels like by building this one piece of software, I've actually created hundreds
+[1037.20 - 1039.12]  of new clients.
+[1039.12 - 1044.06]  Because these are all new experiences and new gateways for Nostra users that people
+[1044.06 - 1046.66]  did not have access to before.
+[1046.66 - 1049.98]  For example, here is Mastodon Android on Ditto.
+[1050.00 - 1055.44]  and I think it works pretty well. Is it better than Amethyst? Probably not. But I think it's
+[1055.44 - 1060.62]  really cool that it works. And it could open doors to, you know, people on the Fediverse
+[1060.62 - 1069.72]  who just want to continue using the app that they're used to, being able to do it on Noster.
+[1069.72 - 1074.28]  So that's Ditto. Now time to talk about some stuff that's next. One of the things we're
+[1074.28 - 1079.96]  really excited about is we are building out Zap splits right now. And one of the
+[1080.00 - 1085.30]  major issues that we've run into on the Fediverse is kind of just sustainability of servers.
+[1085.30 - 1089.86]  Because what we'll see is because of this Fediverse model where you're locked into a
+[1089.86 - 1093.90]  server, and then there's people who are paying for these servers, they kind of just decide
+[1093.90 - 1098.72]  at some point, eh, this is not it for me anymore, and then they shut their server down and we'll
+[1098.72 - 1103.68]  just see thousands of people kind of go away forever. And this problem is completely solved
+[1103.68 - 1110.00]  on Nostra due to portable identities. So one thing that we can do to kind of
+[1110.00 - 1117.62]  improve the experience for admins and for server runners, and also, by extension, people
+[1117.62 - 1122.78]  who are running relays, because each of these Ditto servers is a complete relay, is to enable
+[1122.78 - 1127.44]  Zap splits throughout the UI of this Ditto server.
+[1127.44 - 1136.44]  And that's going to allow people to have sustainability for their server.
+[1136.44 - 1143.44]  Another thing that we've done this year is we've launched a creator program.
+[1140.00 - 1143.06]  Kind of similar to what NOS is doing.
+[1143.06 - 1144.56]  We see you.
+[1144.56 - 1150.08]  And if anyone is interested in starting a Ditto server and you don't have the means
+[1150.08 - 1156.02]  to, please head over to soapbox.pub slash creators and apply with the form there and
+[1156.02 - 1162.82]  we'll see if we can get you started.
+[1162.82 - 1168.40]  In addition to the creator program, this year I've also started a mentorship program to
+[1168.40 - 1170.00]  get up and coming developers.
+[1170.00 - 1176.34]  developers an opportunity to work on Bitcoin and Noster. So I want to give a special thanks
+[1176.34 - 1183.30]  to my wife, MK, to my team members, Shantaram, Patrick, and Daniel. I want to say thank you
+[1183.30 - 1192.56]  to Daniel for his work on design and to Shantaram for hacking on our database. And as for Patrick,
+[1192.56 - 1199.80]  I first met Patrick on Telegram, and I learned that he taught himself in high school how
+[1199.80 - 1200.04]  to speak.
+[1200.00 - 1205.70]  speak English by watching American movies. And he taught himself how to code because
+[1205.70 - 1211.22]  he wanted to become a professional programmer. But when I met Patrick, he was working at
+[1211.22 - 1218.28]  a Brazilian shoe factory because he had not yet had the opportunity to use those skills.
+[1218.28 - 1226.88]  Now by show of hands, how many of you in this room are wearing shoes? All right. Most of
+[1226.88 - 1230.00]  you. Now by show of hands, how many
+[1230.00 - 1237.88]  of you would like to stop development of Noster? None of you. Seems like a good lateral move,
+[1237.88 - 1244.82]  Patrick. So anyway, then I told Patrick to quit his job at the Brazilian shoe factory
+[1244.82 - 1254.64]  and to come join my team building on Bitcoin and Noster. And then you know what happened?
+[1254.64 - 1260.00]  He did it. And then he integrated Lightning's apps.
+[1260.00 - 1264.18]  into Ditto, fixed bugs, added features,
+[1264.50 - 1266.48]  and became an integral part of the team.
+[1267.86 - 1270.24]  And then it took him five days
+[1270.24 - 1274.54]  to get from his small town in Brazil
+[1274.54 - 1276.46]  to Riga, Latvia,
+[1276.90 - 1278.86]  where we are joined by him today.
+[1278.98 - 1279.84]  Stand up, Patrick!
+[1280.84 - 1282.76]  Let's give him a round of applause, everybody!
+[1282.76 - 1282.94]  Everybody!
+[1282.94 - 1289.98]  There is nothing I admire
+[1290.00 - 1304.88]  more than bravery that's it for me thank you very much all right we got about
+[1304.88 - 1311.30]  five minutes Alex you want to maybe take a few questions anybody in the audience
+[1311.30 - 1318.86]  have anything for Alex right here in the front oh man is truth social moving to
+[1318.86 - 1322.00]  nausea that's a great question
+[1320.00 - 1328.40]  So I went to, like, a dinner with them one time, and I told my coworkers, so every time I say federation, y'all drink, okay?
+[1328.62 - 1332.10]  And I would just be like, so, federation, federation, federation.
+[1332.40 - 1335.32]  And they would say, oh, well, we're already decentralized.
+[1335.54 - 1336.68]  We have people all over the world.
+[1337.16 - 1340.30]  And I don't think it's a winning argument.
+[1340.48 - 1343.50]  I don't think that they're as interested as they should be.
+[1344.00 - 1346.38]  But I would love to see it myself.
+[1350.00 - 1351.18]  Anybody else?
+[1351.98 - 1353.02]  Anyone brave enough?
+[1356.20 - 1357.22]  All right.
+[1357.96 - 1359.68]  Thank you very much, Alex.

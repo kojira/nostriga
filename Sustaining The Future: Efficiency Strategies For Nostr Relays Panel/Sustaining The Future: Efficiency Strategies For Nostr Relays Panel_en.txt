@@ -1,0 +1,602 @@
+[0.00 - 5.24]  But all right. My name is Michael Tidwell. I'll be moderating this panel. We'll keep
+[5.24 - 9.06]  intros short so we can get to the good stuff. So in one word or less, do you want to do
+[9.06 - 16.06]  a quick intro? I'm Rabel. I work on gnos.social and
+[16.06 - 21.76]  causes.com. Ben, I work on some Gnostic stuff.
+[21.76 - 25.76]  And then, yeah, that's it, really. Been around for a while.
+[25.76 - 30.00]  Hey, I'm Will. I made the Domus client in zaps.
+[30.00 - 34.66]  And I would just describe myself as a Nostr user hobbyist, you know, using the dev kits
+[34.66 - 37.66]  and stuff.
+[37.66 - 40.78]  So I proposed this panel and it got accepted.
+[40.78 - 46.12]  One of the things I've always been thinking about as soon as I learned about Nostr was
+[46.12 - 47.48]  how is this thing going to scale?
+[47.48 - 50.14]  How can we actually use it?
+[50.14 - 53.48]  And I want to get into more of the infrastructure stuff about it.
+[53.48 - 55.40]  Everyone here has run a relay.
+[55.40 - 60.00]  I mean, my experience was through my company, Zebedee, ZBD.
+[60.00 - 68.36]  But I want to get into, because I think there's a lot of misconceptions on what a relay actually is and what it's doing.
+[68.36 - 77.14]  The first thing I want to do as part of this panel is, as a group, we discuss what is the design space currently of a relay?
+[79.46 - 87.20]  Yeah, I mean, so for us, our initial relay efforts were actually not user-accessible relays.
+[87.20 - 90.20]  We actually run a whole network of relays.
+[90.00 - 96.50]  bots that crawl the Noster network and make sure that we make accessible to the NOS app
+[96.50 - 101.10]  anybody who is replying to you and following up on you. And we haven't switched to the
+[101.10 - 108.20]  outbox model because of that. And the initial development was so that username lookups and
+[108.20 - 115.00]  contact lookups and relay lookups would be fast. And then only after that do we actually
+[115.00 - 120.00]  turn on a relay that the app by default publishes to. But it goes to
+[120.00 - 124.92]  the DOMS relay and a bunch of others, too, by default?
+[124.92 - 130.12]  Because so many problems can be solved by making the server smarter, so I'm quite keen
+[130.12 - 136.56]  on keeping relays as just relays and not doing too many complex operations.
+[136.56 - 140.88]  Is there, like, a minimum design space that a relay must do in order to be a relay, though?
+[140.88 - 146.36]  Yeah, I mean, it's sort of just relaying data, isn't it, I guess. And that goes down into
+[146.36 - 148.80]  the feasibility of running a relay as well, like how much stuff you're going to store
+[148.80 - 150.00]  in there and whatever else.
+[150.00 - 153.20]  But, yeah, so I'm keen on keeping relays dumb.
+[153.20 - 157.90]  Yeah, I think that's a really important property of relays is just to, like, implement
+[157.90 - 160.98]  NIP 01 and try not to get too fancy.
+[160.98 - 166.08]  Because it is very valuable that you can tap into a large collection of relays and it should
+[166.08 - 167.72]  all just work the same.
+[167.72 - 171.78]  So if we're exploring on expanding the capabilities of relays, I'd be very cautious of doing that
+[171.78 - 176.88]  because it's a very powerful thing to just have that consistent interface across these
+[176.88 - 180.00]  ubiquitous interfaces across all these different servers.
+[180.00 - 184.64]  And that provides a lot of power so you can build on top of that.
+[184.64 - 189.66]  It seems like there's consensus here of saying let's keep relays pretty dumb, pretty simple,
+[189.66 - 195.84]  minimum kind of spec here, but, you know, these relays, some publicly accessible, some
+[195.84 - 202.54]  not, storing data for various lengths of time, like, what is, like, when I think of a relay,
+[202.54 - 204.76]  what am I really grabbing at here?
+[204.76 - 209.06]  Yeah, I mean, it gets really interesting because technically right now, Domus has a
+[209.06 - 210.06]  relay inside.
+[210.00 - 214.50]  side of the application. And we extend, we add additional functionality.
+[214.50 - 219.60]  We have full text search within Domus. We're going to eventually have some more advanced
+[219.60 - 225.12]  features that you can interface with in the client side, such as aggregation filters,
+[225.12 - 228.70]  like doing more advanced queries. And it might be tempting to implement a lot
+[228.70 - 233.08]  of those things on relays that everyone can use, like publicly accessible relays.
+[233.08 - 236.80]  But again, based on what we said, it's kind of you lose a lot of the power of having the
+[236.80 - 240.00]  ubiquitous interface. So you
+[240.00 - 245.86]  I see it as a large variety of different cache levels in some sense.
+[246.20 - 249.16]  Because you're going to have those long-term relays that store everything.
+[249.76 - 250.96]  And maybe they're not as fast.
+[251.84 - 255.56]  But then there's these really fast relays that maybe might not store everything.
+[255.74 - 256.94]  Stir Fry is a good example of this.
+[256.98 - 258.30]  It's an extremely fast relay.
+[258.58 - 261.02]  It's so fast, it's almost like a static cache.
+[261.10 - 261.84]  That's how fast it is.
+[262.92 - 264.92]  And then you're going to have the relays in the client.
+[264.92 - 269.96]  So there's a wide variety of different ways to interact with relays at different levels of the cache.
+[270.72 - 274.00]  So I think we're just starting to explore that, though, in terms of what that means.
+[275.18 - 281.02]  One of the things we discovered in recent work with relays is we had not realized that
+[281.02 - 284.00]  Stirfry doesn't do the full text search, doesn't do the hashtag search.
+[284.32 - 286.28]  And I think a lot of people don't realize that.
+[286.32 - 288.54]  And they're just like, hey, my client isn't working.
+[288.54 - 295.28]  And so we expose in the apps which nips the relay is supporting.
+[295.28 - 299.64]  But we don't give in any of the apps a really great.
+[300.00 - 304.94]  interface for exploring that and understanding that, and be like, so now we have all these
+[304.94 - 310.96]  kind of annoying help text things, which is like, don't add too many relays, don't do
+[310.96 - 317.14]  too few relays, make sure you have a relay that supports search, and the users don't.
+[317.14 - 318.14]  That's not great.
+[318.14 - 322.96]  I think quite often as well, like in a client, it comes packaged with a certain
+[322.96 - 328.34]  set of relays, and then more often than not, that could probably be replaced by a multiplexer
+[328.34 - 330.00]  where it's just one relay, which is sort of
+[330.00 - 335.10]  data and then you get all the features from all the different relays and then if you want to you
+[335.10 - 339.72]  can go in and open it out and do some more granular relay selection and add different relays but for
+[339.72 - 346.36]  me like I suppose the question really comes around to the incentives on running relays and
+[346.36 - 351.06]  we have people running relays altruistically we have some people experimenting with paid services
+[351.06 - 356.28]  there's some idea for open sats to support some relays altruistically but I think ultimately
+[356.28 - 358.62]  there should be some business models around
+[360.00 - 365.66]  relays and paid services, so I like the ephemeral nature of notes on us so that eventually they'll
+[365.66 - 366.66]  just disappear.
+[366.66 - 369.64]  But then I also like, like in Twitter when I would post something, sometimes I would
+[369.64 - 372.02]  do it just to timestamp an idea.
+[372.02 - 376.54]  So I would like clients to, if there's a particular post you want to be persistent, I could pay
+[376.54 - 379.12]  some sacks and then someone's going to store it for me.
+[379.12 - 380.12]  So yeah.
+[380.12 - 383.94]  I'm just going to, yeah, I'll just continue a little bit on that.
+[383.94 - 388.46]  I think it's probably mostly my fault that, you know, I made relays such a first-class
+[388.46 - 390.02]  thing within the interface and DOM.
+[390.00 - 392.70]  And people think about it, like, oh, what relay should I use?
+[392.78 - 394.70]  And I'm going to pick this relay over this one.
+[394.78 - 397.78]  But in reality, it's probably something users should never have to think about.
+[398.34 - 402.50]  You know, especially in the outbox model, things should just work and you shouldn't have to think about it.
+[402.92 - 404.38]  And I don't know.
+[404.40 - 405.46]  I think we're moving toward there.
+[405.68 - 409.62]  So I think a lot of the discussions about, like, which relays to choose and all these things and all these decisions,
+[409.86 - 411.40]  these shouldn't be decisions that users have to make.
+[412.74 - 413.10]  Okay.
+[413.18 - 419.88]  So I'm still, based on everything that we said, I'm still a little vague on what a relay should do, right?
+[419.88 - 420.00]  Okay.
+[420.00 - 424.24]  I mean, I know what it can do. But there's a couple different directions
+[424.24 - 426.94]  we can take. I like where you're taking it, Ben, where we're
+[426.94 - 431.22]  talking about incentives and maybe that's a good natural kind of way to take this discussion
+[431.22 - 435.14]  where it's like incentive relays and stuff and you're talking about business malls around
+[435.14 - 438.46]  relays. The first question I want to ask is, you know,
+[438.46 - 442.90]  through your experience of running infrastructure, what have you seen in terms of costs?
+[442.90 - 449.32]  You know, has anything been unexpected in terms of, you know, dollars being spent or
+[449.32 - 450.32]  I guess euros?
+[450.00 - 454.52]  or whatever you want to call it, being spent per amount of users actually interacting.
+[454.52 - 456.18]  Anyone want to share any stats?
+[456.18 - 462.46]  So, I mean, it's remarkably cheap for what it is, and, you know, I had a discussion
+[462.46 - 470.10]  with some of the folks working on Blue Sky, and their infrastructure, like, the actual
+[470.10 - 473.76]  events in Blue Sky and sort of the overall architecture is very, very similar, except
+[473.76 - 476.46]  they put the computation in very different places.
+[476.46 - 480.00]  They have relays, and they have a few things that cost them.
+[480.00 - 486.20]  them a lot of money to run. A lot of money to run those indexes and the construction
+[486.20 - 491.46]  of what you want to request has to happen on this app server. It was so expensive they
+[491.46 - 497.10]  had to move off vServers and into bare metal machines. And we're not seeing that in the
+[497.10 - 502.84]  Noster world at all. Like, we have a much lighter weight way of doing queries on stuff.
+[502.84 - 508.58]  And so the relays, like, there was a lot of worry about the cost of relays. And it hasn't
+[508.58 - 509.52]  been a problem.
+[510.00 - 515.08]  Yeah, it's really funny, because I hear this all the time, and even just this panel,
+[515.08 - 518.38]  I'm like, are we still talking about the sustainability relays?
+[518.46 - 520.10]  Because running a relay is actually really cheap.
+[520.36 - 521.94]  It's definitely not the most expensive thing at Domus.
+[522.72 - 524.94]  So I think the Domus relay is probably one of the biggest relays.
+[525.50 - 527.48]  And it's expensive, not going to lie.
+[527.54 - 529.10]  It's like a couple hundred bucks a month.
+[529.96 - 530.56]  But that's not...
+[530.56 - 531.66]  That's not very expensive.
+[531.98 - 535.64]  It's not that expensive compared to paying employees and the other things.
+[535.64 - 540.00]  So, yeah, it's strange to me that we're talking about this.
+[540.00 - 544.28]  sustainability relays. I think it's always done in the context of this idea that there's
+[544.28 - 548.28]  going to be like these mega relays and they're going to be really expensive. And if we don't
+[548.28 - 552.04]  have these mega relays, then the whole network is not going to work. But honestly, just now
+[552.04 - 556.46]  that we're like moving more to an outbox model, you can just run it on your computer at home
+[556.46 - 561.00]  or you can run it on a cheap VPS for like 20 bucks a month. And it doesn't need to handle
+[561.00 - 565.38]  serve lots of load because the client isn't going to intelligently pick the right relay
+[565.38 - 569.34]  for that one person. And it's not going to be that a big deal.
+[569.34 - 569.98]  So I think that the.
+[570.00 - 571.90]  costs are going to be distributed across
+[571.90 - 573.82]  lots of low-cost nodes and
+[573.82 - 576.06]  commodity servers. And I think that's
+[576.06 - 577.86]  kind of the vision that I'm starting to see for
+[577.86 - 580.06]  Nostra relays. I think there's time, though,
+[580.06 - 581.98]  when you run a relay, you need to update the relay, you need to
+[581.98 - 583.96]  do stuff to it. And then as well as that,
+[584.02 - 586.28]  there's scale. So we're talking 100,000
+[586.28 - 587.90]  users, and then maybe, say, a couple hundred dollars
+[587.90 - 589.76]  a month. But then when we have a billion
+[589.76 - 591.40]  users, then how much is it going to be a month?
+[591.70 - 594.00]  And then it's like, how do you justify that cost?
+[594.36 - 596.00]  And there are going to be, and it makes sense
+[596.00 - 597.80]  as well, that there's some big relays.
+[597.88 - 599.60]  The point of Nostra is the resilience.
+[600.00 - 602.70]  So if one of those relays acts in a way which you don't like,
+[602.76 - 603.78]  you've got freedom of movement,
+[604.10 - 605.38]  you can just move to a different relay.
+[605.88 - 608.10]  But I do think there will be big relays
+[608.10 - 609.44]  and they will be costly to run
+[609.44 - 610.96]  and they will require teams of people
+[610.96 - 612.28]  to kind of keep an eye on and update
+[612.28 - 616.56]  and that will require some sort of business models.
+[617.16 - 618.64]  But I think there's a bunch of stuff out there.
+[618.74 - 621.10]  Relays are like one of the untapped...
+[621.10 - 622.74]  I don't know, I feel like there's a lot of work to be done
+[622.74 - 625.30]  just on making profitable services
+[625.30 - 626.38]  which you can run on relays.
+[628.28 - 628.94]  Yeah, it could be.
+[628.94 - 630.00]  Yeah, and...
+[630.00 - 634.94]  And if we start getting lots and lots of users, like let's say Domus itself starts getting
+[634.94 - 640.88]  lots of users, starts getting lots of subscribers, then that will just keep funding our relay
+[640.88 - 643.02]  so we can improve it and make it more scalable.
+[643.02 - 647.70]  No one's really doing horizontally scaled Nostra relays.
+[647.70 - 651.08]  Right now it's usually just throw StirFry on it, and StirFry is so good.
+[651.08 - 655.50]  Relayable runs a network where they're running StirFry relays that are actually used.
+[655.50 - 660.00]  StirFry has a peering extension that's not part of Nostra, but lets you see.
+[660.00 - 669.10]  It lets you sync between relays so you can run a CDN of your relays.
+[669.10 - 674.20]  I think that's how we scale, is we can scale horizontally and start putting them closer
+[674.20 - 675.60]  to users.
+[675.60 - 676.92]  And that seems pretty easy.
+[676.92 - 677.92]  Yeah.
+[677.92 - 679.14]  This is all solved problems.
+[679.14 - 680.14]  This has been done.
+[680.14 - 684.58]  Engineers have been doing this across, I mean, typically centralized services.
+[684.58 - 689.62]  This is one, I think Semisol is working on a database, a Nostra relay based off of Foundation
+[689.62 - 690.02]  DB.
+[690.00 - 692.46]  which is like Apple's distributed database.
+[692.46 - 693.96]  And I was like, oh, that's pretty cool.
+[693.96 - 695.26]  You know, sharded across many servers.
+[695.26 - 696.38]  So yeah, people are working on it,
+[696.38 - 698.14]  and we're going to have these massive relays
+[698.14 - 699.68]  that work really well, and yeah,
+[699.68 - 701.06]  that'll probably be a bit more expensive,
+[701.06 - 703.44]  but I don't know. We'll see when we get there.
+[703.44 - 705.76]  So, okay, you brought up the idea that,
+[705.76 - 708.22]  you know, these relays are sharing data.
+[708.22 - 710.10]  That's one way of scaling.
+[710.10 - 712.52]  That was not part of the initial design of,
+[712.52 - 714.82]  you know, Nostra and its relays. What...
+[714.82 - 716.56]  No, it's not even a NIP yet.
+[716.56 - 719.98]  Okay, so what I'm trying to get at is...
+[720.00 - 725.84]  You know, we're talking about potentially, you know, the scaling through, you know, going
+[725.84 - 731.40]  to, like, this, like, share relay kind of model is that I kind of have, like, two questions
+[731.40 - 732.40]  for you.
+[732.40 - 737.50]  One, I think that would help produce this idea of a world view, which I think a lot
+[737.50 - 743.04]  of new people that come into Nostra kind of just assume exists.
+[743.04 - 747.92]  So my first question is, is it important for Nostra to have a world view?
+[747.92 - 750.00]  And then, if not, why?
+[750.00 - 756.24]  if so why and i'm curious to to get your take on that because you know i i've talked to a lot of
+[756.24 - 761.92]  people who think it's important i even asked this question to a nostrid panel at a bitcoin
+[761.92 - 766.80]  conference in texas a few months back and everyone on the panel agreed a world view is important i'm
+[766.80 - 771.52]  curious to get y'all's take on it yeah i mean we've been doing a bunch of experiments trying
+[771.52 - 777.52]  to figure out where relays should fit in the thing and we have added in a menu that lets you just
+[777.52 - 779.84]  view all the content from a relay and then we remove that
+[780.00 - 783.70]  menu and then we added the menu back and then we removed it and then we added it back again
+[783.70 - 789.78]  as we tried to figure out what role it is. And, you know, leading up to the Olympics,
+[789.78 - 794.84]  we actually did a partnership with a paid relay where if they were using Nost Social,
+[794.84 - 800.00]  they were auto opted in. If they weren't, they could pay a thousand sats and they got
+[800.00 - 805.88]  exclusive content. And it was a permissioned relay. And we discovered that not a lot of
+[805.88 - 809.98]  Nostor clients are using NIP42 other than
+[810.00 - 816.10]  authentication on reads. Almost all of them that do it, do it on writes. And so we had
+[816.10 - 821.72]  to do some figuring out on there. We also tried to use Ellen bits and ran into bugs.
+[821.72 - 824.80]  What were the bugs? We were so excited. I don't know. We'll
+[824.80 - 830.74]  have to talk about it. But so we didn't get the auto payment. So now we just had a thing
+[830.74 - 836.26]  where we looked for things coming into the wallet and added people. Fiat Joff runs this
+[836.26 - 840.00]  thing called countries, which is a relay that only
+[840.00 - 844.88]  you back content from people who are connecting from the same country. And I think that's also
+[844.88 - 851.36]  super interesting. It's like, are relays an object that users know about or not? And I think it's a
+[851.36 - 857.60]  not solved question. I mean, when I talk to Fiat Jaffa about this, he's very clear to me that
+[858.64 - 865.12]  Noster's design was never really the worldview kind of idea. It was more communities. So that's
+[865.12 - 869.92]  why I think there's this sort of idea where I believe people want this sort of
+[870.00 - 872.42]  you know, relay communication
+[872.42 - 873.82]  scalable kind of like
+[873.82 - 875.70]  you know, I don't want to use
+[875.70 - 878.14]  the word mastodon, but like, you know, the idea that
+[878.14 - 880.04]  you know, these hub and spokes actually
+[880.04 - 881.88]  you know, communicate and
+[881.88 - 884.20]  you know, same question
+[884.20 - 885.94]  for Ben, you know, is that important?
+[886.08 - 887.48]  And if so, why, if not, why?
+[887.48 - 889.40]  I agree, I think it makes sense, like it's one of the
+[889.40 - 891.60]  tools set for offering people a good experience
+[891.60 - 892.84]  and then if
+[892.84 - 895.52]  a client automatically, say if you make a
+[895.52 - 897.44]  themed client for something, so we got the
+[897.44 - 898.72]  idea of themed clients to think
+[898.72 - 900.00]  I mean, I said it in my talk
+[900.00 - 903.76]  about the internet having forums originally that people wanted to gravitate towards its interest
+[903.76 - 908.80]  shared interest but if you have a theme client that client could come packaged with a particular
+[908.80 - 913.68]  relay which they operate and run um and then that could have you know the majority of its users are
+[913.68 - 917.04]  automatically using that really and they kind of opt out of that relay so i like the idea of
+[917.04 - 923.28]  communities um focused around relays but it's just trial and error like it's the the the tool set we
+[923.28 - 927.52]  have will scale very well but it could say a whole bunch of different directions it's not it's not so
+[927.52 - 930.00]  much an issue it's more like
+[930.00 - 933.30]  what's the best way of doing it or what's the most beneficial way of doing it for users.
+[933.38 - 938.94]  But I do like the idea of different relays servicing different communities of people
+[938.94 - 944.60]  and then that being part of the way they get access to data, which I feel is relevant to them.
+[944.90 - 949.38]  But just to be clear, is it important to have that sort of shared view?
+[950.24 - 952.08]  Yeah, I mean, to me it doesn't really matter.
+[952.08 - 958.20]  I guess how important, this is very opinionated, I'm just curious, in your opinion, is it important?
+[958.20 - 959.04]  Yeah, totally.
+[960.00 - 962.26]  currently, I mean obviously you can do filtering and whatever else
+[962.26 - 964.12]  but people who currently use
+[964.12 - 966.02]  Nostr for the first time who are not Bitcoiners are very
+[966.02 - 968.12]  quickly turned off by the fact there's a whole bunch of Bitcoiners
+[968.12 - 970.22]  on there. So being able
+[970.22 - 972.06]  to pick hobbies and interests they're interested in
+[972.06 - 974.02]  or whatever and then being able to see concepts relevant to them
+[974.02 - 975.00]  and then follow people who
+[975.00 - 977.80]  share the same, you know, like this typical
+[977.80 - 980.02]  experience when you connect to any
+[980.02 - 982.06]  sort of Twitter or something and then you select
+[982.06 - 984.08]  I don't know, I can't remember when I did it but I think you select
+[984.08 - 985.94]  like hobbies or interests or stuff you're interested in
+[985.94 - 988.18]  and then it feeds you relevant data
+[988.18 - 990.00]  that could also be done on a real
+[990.00 - 995.08]  basis just that there's a certain relay servicing a certain community um you know like the activists
+[995.08 - 998.76]  in the human rights foundation when we're onboarding them like you tell them the nosta
+[998.76 - 1003.34]  proposal and they're like oh that's perfect this makes perfect sense and then they open it up and
+[1003.34 - 1008.64]  it's a load of bitcoiners and they go and if we could you work with this and that that's important
+[1008.64 - 1013.18]  that we get around that like it's uh and that we we give people an onboarding experience where they
+[1013.18 - 1018.22]  get access to relevant information obviously through custom algorithms and um the market
+[1018.22 - 1019.54]  the feeder marketplace
+[1020.00 - 1024.10]  So what's the question, like world view, what do you mean, like one consistent
+[1024.10 - 1025.10]  view of...
+[1025.10 - 1029.40]  Right, because the reason I'm asking this is because, you know, when I talk to
+[1029.40 - 1034.42]  Fiat Jeff about it, he's like, why would you ever think this is important, you know, kind
+[1034.42 - 1035.42]  of idea.
+[1035.42 - 1039.82]  And everyone I talk to thinks it actually would be a nice thing, it would be important,
+[1039.82 - 1041.88]  it would be something they're interested in.
+[1041.88 - 1045.72]  I'm curious, you know, this is the second panel I've sort of asked this question.
+[1045.72 - 1049.04]  Again, but like what's the, what do you mean by world view, though?
+[1049.04 - 1050.04]  Do you mean like...
+[1050.00 - 1055.58]  So that's a great question, because what is a world view when it comes to a decentralized relay system, right?
+[1056.14 - 1061.12]  So it's almost purposely vague, and you're right to ask that kind of question.
+[1061.12 - 1064.52]  I mean, in some sense, Domus was set up to do that model.
+[1064.80 - 1070.22]  Because the relay pool model, which people give me hell about all the time, was really just like, okay.
+[1070.52 - 1077.40]  Because I read Nibs01, and it was like, okay, it's basically Twitter, but we add a few more servers, and it's a little bit more decentralized.
+[1077.84 - 1079.48]  And that's good enough.
+[1079.48 - 1109.46]  If you want to know more about Nibs01, go to Nibs01.com.
+[1080.00 - 1084.24]  want to rebuild that world view model of just like one global relay that everyone connects
+[1084.24 - 1088.96]  to with a few backups and a few so that you can't be censored, you know, I wasn't really
+[1088.96 - 1093.12]  thinking about, you know, thousands of relays. I kind of thought that was like a silly idea
+[1093.12 - 1097.30]  back in the day. But now that, you know, people are starting to flesh out that model a bit
+[1097.30 - 1100.46]  more, it's starting to make more sense that that's probably the only thing that's going
+[1100.46 - 1106.06]  to really scale until we have at least until we have, like, better relay software. And
+[1106.06 - 1110.00]  I don't even think it makes sense. Like, I think it actually makes way more human.
+[1110.00 - 1116.72]  in a sense that there isn't a single global view of the world. It's like getting news
+[1116.72 - 1120.76]  from the TV and the TV is telling you this is the one perspective. It's such a centralized
+[1120.76 - 1128.64]  and it's just not reality. Humanity is inherently decentralized and communal. Why not just structure
+[1128.64 - 1133.24]  our software in the same way instead of trying to force this one global view on things which
+[1133.24 - 1134.24]  just seems very unnatural.
+[1134.24 - 1138.66]  Well, I see it a little bit differently. It's more just like let's say I'm interested
+[1138.66 - 1139.98]  in what Ben's saying.
+[1140.00 - 1143.00]  And I don't want to have to read from every single relay.
+[1143.22 - 1148.12]  And I just kind of know that these relays are going to sort of cross-ag everything that Ben said.
+[1148.24 - 1151.86]  So I know sort of like how to get that world view of what I want to look at.
+[1152.00 - 1154.14]  I think that's more or less kind of what I'm talking about.
+[1154.92 - 1160.02]  So you can find the data that you are actually interested in finding without having to guess which relays they're on.
+[1160.28 - 1160.48]  Oh, yeah.
+[1160.50 - 1161.98]  That's like just the outbox model, though.
+[1162.18 - 1168.52]  Well, you know, again, these are things that are like, you know, sort of like assumed but not, you know what I mean, out of the box.
+[1168.52 - 1170.00]  I mean, I think that's.
+[1170.00 - 1171.84]  going to be the way to do it, obviously. It's just you outbox
+[1171.84 - 1174.00]  and you ask, you know, there's going to be
+[1174.00 - 1175.94]  you know, you store your notes in your
+[1175.94 - 1177.88]  particular relay and then you have to have
+[1177.88 - 1179.06]  there's this one centralized
+[1179.06 - 1181.64]  point which is fetching down the relay lists
+[1181.64 - 1184.00]  from, it could be just, you get it from, that's
+[1184.00 - 1185.92]  kind of like a game theory issue. It's like maybe it's
+[1185.92 - 1187.94]  the, you know, that one point where
+[1187.94 - 1189.76]  everyone goes to to get their relay list.
+[1189.76 - 1191.64]  But once everyone has that, then you know where to get
+[1191.64 - 1193.18]  all the notes for each individual user.
+[1194.00 - 1195.78]  And then you, yeah. Yeah, one of the things we do
+[1195.78 - 1197.70]  copying Pablo is we run
+[1197.70 - 1199.62]  a bot that finds the relay lists
+[1199.62 - 1200.02]  and
+[1200.00 - 1205.44]  and just repost that to our relay because we wanted the users to be able to find user profiles
+[1205.44 - 1212.24]  contact lists and and relay lists easily and so like one solution would be to have some sort of
+[1212.24 - 1218.88]  dht or some sort of discovery mechanism or people actually updating their reader relays on their
+[1218.88 - 1225.92]  nipo5 which people don't tend to do but it wasn't that hard to just write a bot that crawled the
+[1225.92 - 1230.00]  network and repost like republished those particular events
+[1230.00 - 1236.36]  Yeah, I mean, Google crawls the internet.
+[1236.36 - 1239.28]  They seem to do it just fine, so I don't see why we can't just crawl some relays if we
+[1239.28 - 1240.28]  need to every now and then.
+[1240.28 - 1242.76]  But they pay a little bit more than a couple hundred dollars a month, right?
+[1242.76 - 1248.30]  I just don't think it matters, as well, because ideally, yeah, we have a horizontal
+[1248.30 - 1249.96]  scaling solution.
+[1249.96 - 1254.00]  But say if Elon Musk implemented NOSTA and he has a big fat Twitter relay and everything's
+[1254.00 - 1259.40]  going through that, the very point of NOSTA is that we can just, the user, if they're
+[1259.40 - 1260.00]  not happy.
+[1260.00 - 1261.94]  with the way he's filtering content
+[1261.94 - 1263.70]  or there's something shady happening
+[1263.70 - 1265.40]  behind that relay,
+[1265.84 - 1267.54]  then they can just connect to a different relay
+[1267.54 - 1268.84]  and then use the same client
+[1268.84 - 1271.14]  and people can also leave with them
+[1271.14 - 1272.14]  and then connect to other relays.
+[1272.24 - 1274.00]  So you end up with just this free market of relays.
+[1274.16 - 1275.82]  Do you have any kind of concern about
+[1275.82 - 1277.52]  maybe like your example
+[1277.52 - 1279.30]  of a really, really big player
+[1279.30 - 1281.52]  maybe doing it with a really good UX
+[1281.52 - 1282.90]  sort of building up all this momentum
+[1282.90 - 1285.36]  and then maybe slightly over time
+[1285.36 - 1287.04]  doing something that sort of
+[1287.04 - 1288.54]  is not in the spirit
+[1288.54 - 1290.00]  and then it's like...
+[1290.00 - 1294.24]  It's like, oh, but they're so big and they're spinning, you know, they have such a good UX and they're so, you know, they're spending all this money.
+[1294.24 - 1297.14]  But that will incentivize someone else to spin up a competing relay.
+[1297.30 - 1300.16]  So you end up with this, this is what a commons does.
+[1300.36 - 1306.66]  So the Nostra as a commons, if you act in an inappropriate way, then you'll get that invisible hand bitch slap.
+[1307.62 - 1312.76]  Just like we get in Bitcoin, if you try and co-op the commons, if you try and do something which is inappropriate, eventually you end up with the invisible hand bitch slap.
+[1313.32 - 1314.38]  And that's the same in Nostra.
+[1314.38 - 1319.60]  Like it's a resilient self-healing network and people will just migrate to some other relay.
+[1319.60 - 1319.86]  No, they're not.
+[1320.00 - 1323.00]  You've got freedom of movement, which is an important part of freedom of speech.
+[1323.00 - 1326.00]  Yeah, and I don't even think they'll even need to do that.
+[1326.00 - 1328.00]  So I'm trying to rebrand Outbox to just Autopilot,
+[1328.00 - 1331.00]  because that's probably more accurate what it's actually doing.
+[1331.00 - 1334.00]  Although I think lightning people are triggered when I say Autopilot,
+[1334.00 - 1337.00]  because Autopilot means something completely different, and it's way more annoying.
+[1337.00 - 1339.00]  That's how you lose your money on lightning.
+[1339.00 - 1342.00]  I don't trust AI with managing my lightning channels.
+[1342.00 - 1345.00]  So Autopilot and lightning is a little bit more sketchy,
+[1345.00 - 1347.00]  but Autopilot and Nostr makes a lot of sense.
+[1347.00 - 1350.00]  Can you shield this properly for people who don't know about it?
+[1350.00 - 1354.92]  outbox and this auto or rebrand autopilot just so yeah yeah it's like it's removing the need to even
+[1354.92 - 1358.98]  think about like oh you know this guy's censoring me so i need to go switch to use this other relay
+[1358.98 - 1363.82]  it's just it won't matter because you know the clients are going to be so good at choosing the
+[1363.82 - 1369.40]  right relay for any given situation that it really won't matter like that one person censoring you
+[1369.40 - 1373.86]  because you know you can just tell every other client you feel your relay list that hey get my
+[1373.86 - 1378.26]  notes from here like don't even worry about that this mega relay is censoring you it's just just
+[1378.26 - 1379.90]  get it from my note and you know
+[1380.00 - 1380.70]  It's going to be fine.
+[1381.76 - 1382.94]  And then you can always turn it off, right?
+[1382.94 - 1384.34]  You can always switch to, like, non-autopilot
+[1384.34 - 1387.68]  and have a manual, like, what you do in Domus right now,
+[1387.86 - 1389.76]  and then you can have more classic experience
+[1389.76 - 1391.28]  where you just...
+[1391.28 - 1393.64]  So that model is really good for if you want to run
+[1393.64 - 1396.28]  a private relay for your company or for your friend group,
+[1396.28 - 1398.52]  and you definitely don't want random relays
+[1398.52 - 1401.80]  sending notes to you or you getting notes from random relays.
+[1402.16 - 1405.62]  But I think as a default mode, autopilot just makes the most sense.
+[1407.36 - 1407.96]  Yeah, absolutely.
+[1407.96 - 1409.96]  You know, if you...
+[1410.00 - 1413.98]  you don't have autopilot, then you end up making the same request to a whole bunch of
+[1413.98 - 1418.86]  different relays at the same time, and then you have to process those events, and especially
+[1418.86 - 1423.48]  on mobile devices, that can be a little bit intensive and lock up the UI, and so you don't
+[1423.48 - 1427.40]  want to be doing that. You want to be just making the request in a more optimized way.
+[1427.40 - 1431.38]  Yeah, and if you do have that issue on mobile, I recommend trying out NostraDB,
+[1431.38 - 1434.94]  because then it will solve all those problems. But that's just me shilling my library for
+[1434.94 - 1439.94]  this moment. I have a... So, Rabble, you
+[1439.94 - 1443.32]  should go to a library to make sure you're using the right device, and you'll be fine
+[1443.32 - 1444.32]  with it.
+[1444.32 - 1445.32]  Yeah.
+[1445.32 - 1446.32]  I will.
+[1446.32 - 1447.32]  Thank you, guys.
+[1447.32 - 1448.32]  You're welcome.
+[1448.32 - 1449.32]  Thanks, guys.
+[1449.32 - 1450.32]  Bye.
+[1450.32 - 1451.32]  Bye.
+[1451.32 - 1452.32]  Bye.
+[1452.32 - 1453.32]  Bye.
+[1453.32 - 1454.32]  Bye.
+[1454.32 - 1455.32]  Bye.
+[1455.32 - 1456.32]  Bye.
+[1456.32 - 1457.32]  Bye.
+[1457.32 - 1458.32]  Bye.
+[1458.32 - 1459.32]  Bye.
+[1459.32 - 1460.32]  Bye.
+[1460.32 - 1461.32]  Bye.
+[1461.32 - 1462.32]  Bye.
+[1462.32 - 1463.32]  Bye.
+[1463.32 - 1464.32]  Bye.
+[1464.32 - 1465.32]  Bye.
+[1465.32 - 1466.32]  Bye.
+[1466.32 - 1467.32]  Bye.
+[1467.32 - 1468.32]  Bye.
+[1468.32 - 1469.32]  Bye.
+[1469.32 - 1469.74]  Bye.
+[1469.74 - 1469.86]  Bye.
+[1469.86 - 1469.92]  Bye.
+[1469.92 - 1469.94]  Bye.
+[1440.00 - 1444.88]  brought up an idea of like, or maybe it was Ben, I forget, hey, your costs are this right
+[1444.88 - 1449.54]  now, but that's with this X users. If you get double X, your costs go up, you know,
+[1449.54 - 1454.54]  two X as well. You know, does it ‑‑ are your costs linear with your user growth kind
+[1454.54 - 1459.70]  of ideas? And, you know, at ZBD we're running stir fry and we're trying to run things at
+[1459.70 - 1464.86]  scale where I think at least at one point in time we had the most, you know, kind of
+[1464.86 - 1470.00]  activity in our stir fry relay with all of our ZBD users because, you know,
+[1470.00 - 1475.42]  events were being posted and we onboard hundreds of thousands of people right there, right
+[1475.42 - 1482.04]  in the app immediately. At one point that's how we had the app really focused on social.
+[1482.04 - 1487.24]  And what we found is even with Stir Fry, I mean, I know we're talking a good game about
+[1487.24 - 1492.76]  Stir Fry, it does not scale so easily when you start getting real load on it and it's
+[1492.76 - 1497.00]  very hard to manage and it crashes and you have to upgrade it and it's down when you
+[1497.00 - 1500.00]  upgrade it. These things are not, you know,
+[1500.00 - 1506.40]  know, I've had so much pain running the infrastructure for Nostra that you guys talk about it like
+[1506.40 - 1509.88]  it's fucking easy. And I'm like, what the fuck are y'all talking about? This stuff is
+[1509.88 - 1513.42]  hard for me. Am I doing it wrong? Do I have more users?
+[1513.42 - 1519.04]  We act like Twitter is easy now, but for the first few years there was a fail well all
+[1519.04 - 1525.36]  the time. Like, that initial figuring out how to scale Twitter was a really hard problem.
+[1525.36 - 1529.98]  And eventually it got fixed. But, and we're going to have to figure
+[1530.00 - 1536.66]  out how to scale the relays and figure out how to optimize them.
+[1536.66 - 1541.74]  On the other side, the crawlers, I looked it up, I think we spend $80 a month crawling
+[1541.74 - 1544.52]  the entire Nostra network for what we're looking for.
+[1544.52 - 1549.50]  And we're looking for specific posts or specific people to make notifications work.
+[1549.50 - 1552.80]  And it's just not that much.
+[1552.80 - 1555.72]  But the trick is being able to scale horizontally.
+[1555.72 - 1558.66]  Scaling one big giant stir fry relay, that's hard.
+[1558.66 - 1559.98]  You make a network of them.
+[1560.00 - 1561.46]  And then it's easier.
+[1562.42 - 1566.06]  Do you think additional caching layers, I think Primal,
+[1566.38 - 1568.22]  or I don't know if they are doing something unique,
+[1568.48 - 1572.88]  but I think they have some sort of nice memory caching that they're doing.
+[1573.66 - 1578.16]  Do you kind of foresee any other kind of sort of like people who want to take this serious
+[1578.16 - 1583.18]  and really scale a bunch of users for a relay having to have this sort of custom sort of sauce,
+[1583.24 - 1586.26]  or do you think they're going to be able to use like just the traditional sort of,
+[1586.26 - 1590.00]  like the open source software itself will just become like super nice?
+[1590.00 - 1596.62]  I don't think people understand how batshit insane StirFry is in terms of a piece of software.
+[1596.62 - 1601.22]  The guy who wrote that, because I spent a good month trying to study how it works, it
+[1601.22 - 1604.06]  is the most impressive piece of software I've ever seen.
+[1604.06 - 1607.88]  And that's in the form of the design of the database that's in Damas today.
+[1607.88 - 1614.40]  But I think it's pretty much near optimal in terms of a single machine processing Nostra
+[1614.40 - 1615.40]  queries.
+[1615.40 - 1618.96]  So it's just going to be a matter of putting them all in parallel and just do any cast
+[1618.96 - 1620.00]  and test.
+[1620.00 - 1623.88]  just serve it from a bunch of Sturfry relays. It really is that fast. I would be very skeptical
+[1623.88 - 1632.12]  if you could make a relay faster than Sturfry. Well, I mean, okay, last time I checked,
+[1632.12 - 1638.24]  Sturfry runs real nice when you run individual, you know, V nodes or VPSs for them and stuff.
+[1638.24 - 1644.72]  I mean, setting something up with a real nice Helm chart is going to supersede that, right?
+[1644.72 - 1650.00]  So if you get something going where you can just, you know, horizontally scale on Kubernetes
+[1650.00 - 1653.54]  relays or something, real ECS sort of ideas, then you're going to be able to get the same
+[1653.54 - 1656.56]  sort of, you know, parallelization, right? Yeah.
+[1656.56 - 1660.66]  It's more tricky to do that, right? Well, I mean, I was
+[1660.66 - 1663.94]  Kind of provision your stuff ahead of time. Yeah, I was thinking about this.
+[1663.94 - 1668.62]  One thing you can just do is, you know, when a note comes into one of the relays, you just
+[1668.62 - 1672.96]  have it replicated across all of those relays, which is really easy to do on SurfRite, which
+[1672.96 - 1675.50]  you mentioned. And then you just do any cache and just, like,
+[1675.50 - 1680.00]  have, like, 100 SurfRite relays that all have the same data just serving
+[1680.00 - 1684.12]  So I think, like, that would basically handle any level of task, I think.
+[1686.48 - 1689.28]  Yeah, I mean, we're really lucky to have StirFry.
+[1689.54 - 1693.24]  One of the other relay experiments we did is at the last conference I was at,
+[1693.54 - 1696.74]  we set up a relay that was only accessible locally on the network.
+[1697.24 - 1699.36]  And then we told a bunch of people about it.
+[1699.36 - 1703.44]  And it was a really neat way to see everybody else there.
+[1704.92 - 1708.64]  And I would love us to be able to do more experiments like that,
+[1708.64 - 1710.00]  more things of, like...
+[1710.00 - 1717.36]  you know, we don't know the intersection of groups and relays and communities and content,
+[1717.60 - 1724.08]  but we can experiment on that. And because there's a plugin interface and you can write code there,
+[1724.48 - 1731.46]  there's a lot of neat things you can do. And so, and I think that the paid relays are super
+[1731.46 - 1736.88]  interesting. I'm super interested in the paid content. The question is, what is the interface
+[1736.88 - 1739.98]  that goes back to the user that tells them?
+[1740.00 - 1753.76]  And one, how to discover it, what it is, what the payment is requested, whether or not they're a member, how they, we don't, we're lacking sort of a layer on top of that to make it work better.
+[1754.00 - 1758.72]  But when we have that, then, you know, all this paid content stuff will work better, too.
+[1759.78 - 1760.30]  All right.
+[1760.38 - 1762.38]  We got just a few seconds left.
+[1762.38 - 1765.24]  Any last things you want to say?
+[1765.48 - 1766.46]  I'll just kind of open it up.
+[1766.50 - 1769.24]  Anything about future efficiencies, future things you're excited about?
+[1769.24 - 1770.18]  I'll just open it up.
+[1770.00 - 1771.68]  it up. I just want to say, and
+[1771.68 - 1773.86]  I don't know if many people know this, that the only
+[1773.86 - 1775.66]  reason why Nostra works today is because of StirFry.
+[1776.00 - 1777.52]  Because the Domus Relay...
+[1777.52 - 1780.08]  Absolutely. If the Domus Relay ran
+[1780.08 - 1781.82]  the SQLite one, it ran the
+[1781.82 - 1783.62]  Postgres one, and they all eventually hit
+[1783.62 - 1785.60]  100% CPU on all the cores.
+[1786.12 - 1787.98]  And at one point, people might not remember
+[1787.98 - 1789.74]  this, but Nostra just didn't work.
+[1790.10 - 1791.20]  Like, the threads didn't load.
+[1791.78 - 1794.06]  And there was no really good solution to it
+[1794.06 - 1795.72]  until StirFry came along. So, like, honestly,
+[1795.84 - 1797.86]  I can't sing praises more for
+[1797.86 - 1800.00]  StirFry and Doug Hoyt, that guy who
+[1800.00 - 1802.16]  works on it. So I love you, Doug.
+[1803.76 - 1805.00]  It's just
+[1805.00 - 1806.22]  progress and just people
+[1806.22 - 1808.06]  working on these different solutions.
+[1808.88 - 1810.04]  These aren't problems which are
+[1810.04 - 1812.36]  insurmountable. It's just the way
+[1812.36 - 1814.16]  in which we decide to try and tackle
+[1814.16 - 1816.36]  these problems. Anything you're excited about for the future?
+[1816.90 - 1818.04]  For efficiency and
+[1818.04 - 1820.18]  scale? I think it's the incentives
+[1820.18 - 1822.14]  of running relays and people making
+[1822.14 - 1822.64]  actual
+[1822.64 - 1825.78]  companies or
+[1825.78 - 1828.16]  providing a service which they
+[1828.16 - 1830.00]  can provide for free for some people and then have some charge
+[1830.00 - 1832.24]  services and
+[1832.24 - 1834.30]  it could be performing a whole bunch of different functions
+[1834.30 - 1835.24]  and so some of them
+[1835.24 - 1837.00]  it could be
+[1837.00 - 1839.92]  a relay which does KYC
+[1839.92 - 1842.00]  so you can then reference
+[1842.00 - 1844.00]  that relay when you want to use a service which requires
+[1844.00 - 1846.28]  KYC. There's a great bunch of paid
+[1846.28 - 1848.12]  services which exist out there in the
+[1848.12 - 1849.96]  world now which could be fulfilled
+[1849.96 - 1851.64]  by certain types of relays
+[1851.64 - 1853.96]  and then maybe they could then use some of those funds to offer
+[1853.96 - 1856.24]  altruistic relays but I think
+[1856.24 - 1858.04]  like the lads are saying here
+[1858.04 - 1859.64]  there's some very good solutions for
+[1859.64 - 1860.00]  this.
+[1860.00 - 1860.90]  scaling more horizontally.
+[1861.72 - 1864.12]  But then I also do think that it's definitely an area
+[1864.12 - 1866.96]  in which entire companies could be built around.
+[1867.08 - 1871.40]  Ben, if I run a huge relay and I start making my users the product,
+[1871.48 - 1872.30]  will you be upset with me?
+[1873.12 - 1875.16]  I mean, because the client will just filter stuff out.
+[1875.28 - 1876.40]  So this is the thing about ads.
+[1877.14 - 1878.30]  I was thinking, because no matter what you do,
+[1878.36 - 1879.80]  you could DM them an ad and say,
+[1879.88 - 1882.04]  well, if you don't reply to this DM,
+[1882.44 - 1883.92]  then we're going to boot you off the relay.
+[1884.14 - 1884.98]  And that's maybe how...
+[1884.98 - 1886.80]  But I mean, I was thinking about the ad thing,
+[1886.88 - 1888.66]  but no, I think it's either like pay, pay as you go,
+[1888.66 - 1890.00]  because whatever...
+[1890.00 - 1895.44]  solution you do to deliver content that the user doesn't want to see, unless it's done
+[1895.44 - 1899.18]  very subtly, then clients are just going to create ways of filtering out and become cat
+[1899.18 - 1900.18]  and mouse, a waste of time.
+[1900.18 - 1903.62]  Rob, will you get the last word, and then we'll wrap up?
+[1903.62 - 1905.38]  I think we could play more with relays.
+[1905.38 - 1909.94]  I think there's stuff that's really interesting, and I think the way in which you can easily
+[1909.94 - 1915.46]  move from one relay to another, similar to the way in which when you have a local Git
+[1915.46 - 1920.02]  repo, you have the whole thing, that keeps you
+[1920.00 - 1925.34]  users empowered and that's the most important thing and that's why I'm not
+[1925.34 - 1931.22]  afraid of giant relays because if the relay operator goes bad it's very easy
+[1931.22 - 1937.88]  for users to move hey thank you so much that was the panel everyone give it a
+[1937.88 - 1943.18]  round of applause for the panelists thank you
+[1950.00 - 1950.62]  you

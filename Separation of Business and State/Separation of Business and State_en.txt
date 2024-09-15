@@ -1,0 +1,281 @@
+[0.00 - 6.82]  Yeah, I'm G, G Sovereignty, and I hope everyone's having a good time so far at the conference.
+[8.78 - 13.82]  I've been building stuff with Nostra for a couple of years now, and started the Nostra
+[13.82 - 17.16]  Revue podcast, which some people might remember.
+[18.50 - 22.24]  I received a grant from OpenSets, which I'm super grateful for.
+[22.24 - 26.48]  It's enabled me to spend the last 12 months working on Nostra Rocket.
+[26.48 - 30.00]  And so, okay, I'm going to talk about separation of
+[30.00 - 39.04]  of business and state. When I was a kid, my grandfather used to tell me bedtime stories
+[39.04 - 47.12]  about communism, which is not as fun as you think it actually is. He grew up in a farming
+[47.12 - 54.06]  village in Ukraine, and he told me stories about how the soldiers would come and take
+[54.06 - 59.18]  all the farming equipment, like all the shovels and the rakes and the plows and all this stuff.
+[59.18 - 59.98]  They were literally
+[60.00 - 65.78]  seizing the means of production. And if you tried to hide the tools from them or something, or
+[65.78 - 71.38]  you tried to resist somehow, they would just kill you or send you to Gulag. And that didn't
+[71.38 - 77.82]  really, like, I didn't really know what to make of that as a six-year-old kid. But in, in
+[77.82 - 84.40]  2007, just a few months before the, the first bankruptcy of the financial crisis, I was in
+[84.40 - 90.00]  Beijing, where I met a professor of economics who teaches at the Central Park.
+[90.00 - 96.50]  Party School of the Communist Party of China, which is where all these guys go to learn
+[96.50 - 103.16]  how to govern the country and stay in power. Even the big man himself went to this school.
+[103.16 - 109.94]  So this professor knows quite a lot about the nature of power. And he told me something
+[109.94 - 118.10]  very interesting, which made all my grandfather's stories suddenly make sense. And what he told
+[118.10 - 120.00]  me has deep implications for Bitcoin.
+[120.00 - 124.96]  And not only that, but it gives us a way to think about NOSTA.
+[125.10 - 131.50]  It shows us a very clear picture of how we can use NOSTA to unlock the next phase of Bitcoin's development,
+[131.76 - 134.44]  not as money, but as a territory of freedom.
+[136.74 - 140.12]  So we're all familiar with the fact that the state uses violence.
+[141.86 - 147.04]  But as this professor explains, violence is not the actual source of the state's power.
+[147.04 - 149.98]  Violence is just one of the tools they use.
+[150.00 - 154.38]  to protect the real source of their power, which is their capture of the economy.
+[155.52 - 158.56]  And so back in my grandfather's day, they'd do this physically.
+[158.68 - 164.26]  They'd physically capture the means of production by taking all the farming tools, right?
+[166.08 - 169.04]  Today, it's the same thing, but it's more sophisticated.
+[170.18 - 174.46]  So the way it works nowadays is similar to how social media companies operate.
+[175.36 - 178.38]  Like social media companies, they capture a network.
+[178.38 - 179.98]  They capture...
+[180.00 - 186.50]  capture social relationships, right? And so it's a network of social relationships that
+[186.50 - 192.24]  they're capturing. And they control access to that network. And they have absolute power over
+[192.24 - 197.12]  the network. So you act the way they want or they rug you. So most people just comply, right?
+[197.12 - 203.76]  Because they don't want to lose their time investment into the platform. The state and the
+[203.76 - 208.88]  financial parasites, they do the same thing, but instead of capturing social relationships,
+[208.88 - 209.88]  they capture economic.
+[210.00 - 216.04]  relationships, and they control access to the economic network, which is the economy itself.
+[216.66 - 222.96]  So they've seized the means of production, but it's in a different way. And so fiat currency,
+[222.96 - 228.02]  it's not backed by violence, as a lot of people think. It's actually backed by a captured economy,
+[228.66 - 235.86]  and that's what gives the fiat dominion its power. We can emancipate humanity from the slavery of
+[235.86 - 239.00]  this captured economy by creating our own economy in parallel.
+[240.00 - 245.14]  a way that can't be captured by parasites. And in creating a parallel economy, that's
+[245.14 - 250.74]  exactly what Bitcoin is for. Bitcoin is like a new type of country or a new territory with
+[250.74 - 257.72]  its own economy. These are two distinct economic territories, right? We've got the Fiat
+[257.72 - 264.08]  Dominion and our territory of freedom. But the problem is that, like, our new territory of
+[264.08 - 268.84]  freedom is completely dependent on imports from the Fiat Dominion. So, like, if you want a
+[268.84 - 270.00]  new phone or a new computer,
+[270.00 - 273.24]  or any of the services that are commonly available in the economy,
+[273.82 - 277.38]  even if you just want something like a pencil, as simple as that,
+[277.44 - 279.92]  we don't produce any of that in our territory of freedom.
+[280.12 - 282.50]  So you have to import it from the fiat dominion.
+[283.94 - 287.22]  And one of the fundamental axioms of economics is that
+[287.22 - 291.92]  whoever produces what you want to buy, they decide how the trade is settled.
+[292.56 - 296.78]  So just like when you go into a shop, if you want to buy a can of Coke, right,
+[296.78 - 299.10]  and the shop only accepts cash,
+[299.10 - 300.00]  ah,
+[300.00 - 301.68]  And you only have a Visa card.
+[301.80 - 304.78]  Like, you can try and tell them how good it is to accept credit cards,
+[304.86 - 309.10]  but if they want cash, then you don't get the Coke until you give them cash.
+[309.94 - 312.40]  And, like, maybe there's some random guy in a shop
+[312.40 - 315.38]  who, for some reason, they can accept credit cards.
+[316.96 - 319.84]  And so you can pay them with your credit card,
+[319.88 - 322.72]  and they'll pay the cash to the shop on your behalf,
+[322.78 - 323.54]  and then you get the Coke.
+[323.70 - 327.04]  But it's like you don't get it until the trade is settled in cash,
+[327.04 - 328.60]  because that's what the shop is asking for.
+[330.00 - 335.92]  and everyone who's producing stuff in the fiat dominion they want to be settled in fiat so you
+[335.92 - 340.48]  can buy stuff from the fiat dominion and you can pay in bitcoin quite often these days but
+[341.36 - 345.76]  you're not getting the actual product or service until the trade is settled in fiat
+[346.40 - 353.12]  so spending bitcoin that way it just creates demand for fiat um and so like whoever produces
+[353.84 - 358.64]  the goods and services in the economy that are in demand they decide what currency the economy uses
+[358.64 - 359.92]  that's um just
+[360.00 - 365.60]  the fundamental aspect of the economy. And so a Bitcoin standard, it just means that
+[365.60 - 370.76]  Bitcoiners produce everything, right? That's what a Bitcoin standard is. Because if Bitcoiners
+[370.76 - 375.80]  produce everything, then it's Bitcoiners who decide what currency will be used by the
+[375.80 - 383.16]  economy. Or another way to think of it is, if Bitcoin is the currency we're using in
+[383.16 - 388.74]  the economy, it just means that everyone in the economy is a Bitcoiner. Instead of making
+[388.74 - 390.00]  this happen...
+[390.00 - 393.30]  by getting better at producing goods and services ourselves,
+[393.30 - 395.16]  we seem to be focusing all our energy
+[395.16 - 399.18]  on convincing people who already produce stuff,
+[399.18 - 402.02]  we're trying to convince them to use our money, right?
+[402.02 - 403.04]  To adopt Bitcoin.
+[404.86 - 407.80]  But imagine if instead of begging productive people
+[407.80 - 409.10]  to use our money,
+[409.10 - 411.58]  if we could just make products and services
+[411.58 - 414.50]  that are so awesome that everyone wants them
+[414.50 - 416.18]  and can't live without them.
+[416.18 - 417.02]  And we're Bitcoiners,
+[417.02 - 420.06]  so they can only buy the stuff
+[420.00 - 426.72]  with Bitcoin, right? Because we're only going to accept Bitcoin. And also, like, if we have
+[426.72 - 433.60]  another contentious fork, the people who decide which fork wins will be the people who produce
+[433.60 - 439.68]  the stuff because they decide which fork can be used to buy the stuff. We have the smartest
+[439.68 - 445.12]  people, right? Because the smartest people, they want freedom. They don't like being stolen from
+[445.12 - 450.00]  them. They want to be able to build stuff. And so we have all the smartest people on our
+[450.00 - 456.70]  side, I think, right now, like more or less. And so, like, we can create things that the
+[456.70 - 461.32]  captured economy can't even dream about, right? They can't even conceptualize the kind of
+[461.32 - 467.68]  things that we can do. But you can't make anything alone. You can't even make a pencil by
+[467.68 - 474.34]  yourself, right? You need to be able to work together with other people. And right now, the
+[474.34 - 479.34]  way that we do that, whenever people get together to pursue some kind of venture, the first
+[479.34 - 480.00]  thing they do is
+[480.00 - 484.50]  is they register a company with the state. And that's a big problem because a company is a
+[484.50 - 491.24]  branch of the state. That's why even bitcoin companies like Strike and River and Unchained,
+[491.24 - 497.76]  they have a compliance team. The state tells them what to do and they comply. So they're
+[497.76 - 502.92]  ultimately controlled by the state. So they're a branch of the state. And it's not their
+[502.92 - 508.76]  fault. I'm not trying to shit on the bitcoin companies but that's just the way it is. And
+[508.76 - 510.00]  it's not just the big guys.
+[510.00 - 514.38]  this. I see this all the time. Like someone in FreedomTech, they get a cool idea for a new
+[514.38 - 520.28]  thing and the first thing they do is they go and incorporate an entity and make themselves
+[520.28 - 525.78]  governable. Right? Registering a company, incorporating a venture, it makes you
+[525.78 - 530.78]  governable. That's the whole point of doing it. Bitcoin's entire value proposition is that it
+[533.52 - 537.90]  cannot be controlled by the state. None of us would be here if it was controlled by the
+[537.90 - 540.00]  state. No one would even know about it.
+[540.00 - 545.74]  it. It is yet another financial instrument. So all the good things about Bitcoin are a
+[545.74 - 551.08]  function of it being separate from the state. But if you use Bitcoin as a company, your
+[551.08 - 555.82]  Bitcoin activity is governable by the state. So you forfeit Bitcoin's entire value
+[555.82 - 561.16]  proposition. There's no such thing as separation of money and state if you're a company. It
+[561.16 - 567.50]  doesn't exist. And this also means, if you think about it carefully, this also means there's
+[567.50 - 570.00]  actually no 21 million cap on the supply.
+[570.00 - 577.68]  you're a company. That doesn't exist. What companies call Bitcoin is not Bitcoin. Bitcoin is
+[577.68 - 584.12]  permissionless. It doesn't need KYC. You can send any amount of money to anyone on the planet for
+[584.12 - 590.98]  any reason. And what companies are using is obviously something else. Because Bitcoin is not
+[590.98 - 597.68]  permissionless for companies, right? Their Bitcoin usage is regulated by the state. This is a
+[597.68 - 599.98]  fork. Bitcoin is currently being forked.
+[600.00 - 604.38]  It's not a protocol level fork, it's a regulatory fork.
+[604.38 - 607.52]  One fork is permissionless, genuine Bitcoin.
+[607.52 - 610.52]  The other fork is permissioned by the state.
+[610.52 - 615.38]  And most people haven't really noticed this yet because the permissioned fork is mostly
+[615.38 - 618.82]  interoperable with genuine Bitcoin right now.
+[618.82 - 623.32]  But as the parasites become more threatened by Bitcoin, this fork is going to become more
+[623.32 - 626.24]  and more restrictive.
+[626.24 - 630.00]  And it gets even worse because Bitcoin defunds the state as we know it.
+[630.00 - 635.20]  So it's going to be fun to watch from a safe distance, but I don't think I'd want to be
+[635.20 - 643.56]  involved in any of this. So the parasites don't actually have a choice. They're going to
+[643.56 - 648.48]  rug every single one of these ventures by regulating them to the point that they become the
+[648.48 - 656.10]  enemy of Bitcoin and the enemy of freedom. They don't have a choice. So we have this new
+[656.10 - 659.90]  territory of freedom, but it's dependent on imports from the fiat.
+[660.00 - 665.84]  Dominion, so we need to produce goods and services in our territory of freedom. We need
+[665.84 - 669.96]  to work together to be able to do this. We need to be able to collaborate. But the way
+[669.96 - 674.62]  we do this right now is we use companies, but we can't use companies because incorporating
+[674.62 - 680.48]  a company makes your business permissioned by the Fiat Dominion, so that's a non-starter.
+[680.48 - 688.34]  So what's the solution here? Nosta gives us a self-custodial and portable web of trust
+[688.34 - 690.00]  that lets us build new types of social
+[690.00 - 698.00]  media in a way that can't be captured and gated and permissioned by parasites. And this
+[698.00 - 703.30]  web of trust can also let us build a new type of venture and a new type of economy that
+[703.30 - 709.64]  can't be captured and gated by parasites like governments and banks. A company is just a
+[709.64 - 719.28]  way to coordinate the way to control the allocation of resources towards some goal, right? So
+[719.28 - 720.00]  what if we
+[720.00 - 728.30]  refactor the commercial venture as a non-custodial coordination layer between sovereign individuals
+[728.30 - 734.94]  allocating their own time and resources towards solving a problem that they believe is worth
+[734.94 - 744.48]  solving. That's what I've been working on for the last sort of year or so. And instead of having
+[744.48 - 749.98]  it a centrally planned commercial venture, this is just a coordination layer that focuses
+[750.00 - 756.08]  sovereign human action towards solving problems for fun and profit. And I'm super grateful
+[756.08 - 761.76]  to OpenSats for a grant that they gave me. And also Sovereign Engineering with Pablo and Gigi
+[761.76 - 768.88]  was just really, really good for this. It helps solve a lot of problems. So this T-shirt that I'm
+[768.88 - 776.64]  wearing right now, this is the first product created with this new way of coordinating a
+[776.64 - 780.00]  commercial venture. Um, it was, it was
+[780.00 - 785.10]  was created in response to the problem of Nost Rocket itself not having any swag for
+[785.10 - 791.68]  the conference, right? So now I'm going to show you how this process works. So Nost Rocket
+[791.68 - 797.24]  is just a Nost client using standard relays. Just like you can make social media clients,
+[797.24 - 802.44]  you can also make more complex clients that do other stuff. There's no servers, no caching,
+[802.44 - 808.60]  there's nothing. It's purely just a Nost client with standard relays. And here you can see
+[808.60 - 810.00]  the over here.
+[810.00 - 817.86]  you can see the people who have been solving problems in the critical path towards creating
+[817.86 - 824.66]  Nost Rocket itself. And this shows the proportion of work that everyone has contributed. And
+[824.66 - 834.52]  part of that work is creating swag because all the cool projects have swag. So this is
+[834.52 - 840.00]  the problem tracker, the Nost Rocket problem tracker, where you can see the problem
+[840.00 - 843.84]  problems that were solved to create these shirts. So I'll come back to this problem
+[843.84 - 847.88]  tracker in a moment to show you something very special about it. But right now I just
+[847.88 - 855.76]  want you to notice that there's a problem listed here about not having any designs for
+[855.76 - 863.66]  any graphics for the T-shirts. And so I solved this problem by creating this PDF file. Apparently
+[863.66 - 869.24]  that's all you need. And it's just simple words on a shirt because I'm a pretty boring
+[869.24 - 870.24]  guy.
+[870.00 - 880.00]  And so now that I've solved that problem, I need to communicate the value of my work in comparison to the work of other people who've also contributed to the project.
+[880.00 - 888.00]  And so you do the work first, and then you tell the other contributors how much you believe that work is worth.
+[888.00 - 892.00]  And the only work that's valid is work that solves a problem.
+[892.00 - 897.00]  Because solving non-problems can be fun, but it's not a good foundation for a sustainable venture.
+[897.00 - 900.00]  And making everything centered on...
+[900.00 - 906.78]  problems and solutions, it also creates an environment that parasites can't survive in.
+[906.78 - 912.02]  So I'm ‑‑ oh, that was actually meant to play. Okay. Anyways. So here I'm just putting
+[912.02 - 920.00]  in, like, the value of the ‑‑ this is the calculator to calculate the value in stats.
+[920.00 - 924.38]  And this is the ‑‑ this is what's called a merit request, which is just ‑‑ this
+[924.38 - 929.00]  is where other contributors to the project can see my request here, and they can vote
+[929.00 - 930.00]  to approve or reject.
+[930.00 - 934.86]  it. And it's not just some like wishy-washy, like I like this guy, I don't like this guy.
+[934.94 - 940.84]  It's not like that. There are clear rules. And all you need to do is decide if this merit
+[940.84 - 945.78]  request is valid based on the rules. So having rules like this allows the organization to
+[945.78 - 950.86]  operate without any central authority making decisions about what direction things should
+[950.86 - 956.72]  go in. The direction that the project goes in is an emergent property of the rules about
+[956.72 - 959.46]  which type of problems and solutions are valid.
+[960.00 - 961.82]  And it's important to have clear rules
+[961.82 - 963.02]  about how to judge this
+[963.02 - 965.74]  because this is the entry point to the organization
+[965.74 - 967.78]  and any ambiguity about the rules
+[967.78 - 970.84]  gives parasites something to mess with
+[970.84 - 972.52]  so we make the rules very clear and explicit.
+[974.26 - 977.18]  So this has now been approved by the existing contributors
+[977.18 - 980.74]  and I now have these merits here in this table.
+[982.44 - 984.84]  So merits are just purely a way to quantify
+[984.84 - 987.52]  what proportion of work was done by everyone.
+[987.52 - 990.00]  And now...
+[990.00 - 998.18]  The T-shirt designs are done, but I don't know anything about actually printing T-shirts.
+[998.18 - 999.18]  But Sherry does.
+[999.18 - 1003.08]  Some of the people who have met Sherry, she's been at a few of these conferences.
+[1003.08 - 1008.26]  She found the supplier and arranged printing of the shirts.
+[1008.26 - 1013.28]  And so that's, she submitted a merit request, it's approved, so she's in this table as well.
+[1013.28 - 1017.60]  Now, she arranged the printing, but she didn't want to pay the printers because they don't
+[1017.60 - 1019.68]  take Bitcoin.
+[1019.68 - 1020.68]  But that's .
+[1020.00 - 1027.90]  a problem to solve. The T-shirt printers haven't been paid. He solved the problem by paying
+[1027.90 - 1035.80]  the printers with a bank transfer. I wanted to share this example because it highlights
+[1035.80 - 1043.52]  the fact that we can utilize the Fiat Dominion's productive capacity and our territory freedom
+[1043.52 - 1049.58]  can add value to that. So this is how we can bootstrap our productive base despite not
+[1049.58 - 1051.58]  actually
+[1050.00 - 1058.44]  been able to produce anything, um, right now. So, Jerko solved the problem and, and, uh, by
+[1058.44 - 1064.02]  paying the, the Fiat invoice and so now he has merits in his table as well. Um, and there, the
+[1064.02 - 1067.66]  reason there are all these other merits in there aside from the t-shirt merits is because the
+[1067.66 - 1072.26]  organization actually exists to build Nost Rocket itself and the t-shirts are just part of
+[1072.26 - 1076.76]  that. So, most of the problems being solved are software development problems. Um, but you
+[1076.76 - 1080.00]  can make a rocket that, that just creates t-shirts if, if you wanted.
+[1080.00 - 1087.24]  to. So now let's look at how this actually makes profit because that's how it can become
+[1087.24 - 1093.24]  self-sustaining. So any time someone pays for something built by a rocket, the SATs go
+[1093.24 - 1099.22]  directly to the contributors. It's non-custodial. So you'll notice here that the revenue is all
+[1099.22 - 1104.96]  zeros because no one's bought anything from NOS rocket yet because this talk I'm giving right
+[1104.96 - 1109.96]  now, this is the announcement that it's now live. Um, and-
+[1110.00 - 1114.84]  So now it's time for a live demo. And you have to be patient while I fix whatever breaks
+[1114.84 - 1132.84]  because it's a live demo. So this is Nostrocket.org. And I'll go here to the rockets. This is the
+[1132.84 - 1140.04]  Nostrocket end. Here's the merit table here with the proportion of
+[1140.00 - 1149.46]  work everyone's done. And this is the T-shirt product, which you can buy right now. So there's
+[1149.46 - 1156.72]  different sizes here, small, medium, large, extra large. So if you buy one, if someone
+[1156.72 - 1164.06]  buys one right now, then you'll see how the stats flow directly to the contributors. And
+[1164.06 - 1168.94]  there's only like 10 of these shirts. So someone just bought one. And there you can see the
+[1168.94 - 1170.00]  stats kind of.
+[1170.00 - 1175.52]  see they expand that that's yeah okay cool jeff got one and who's anyways um
+[1177.60 - 1181.52]  so uh so if you buy one anyway i've got them here at the conference and this is the only place you
+[1181.52 - 1190.00]  can get one of these shirts um so the cool thing about working this way is that this new type of
+[1190.00 - 1195.76]  venture doesn't have any accounting overhead uh the whole concept of profit and loss calculation
+[1195.76 - 1200.00]  is obsolete uh it's non-custodial so it doesn't need a treasury
+[1200.00 - 1203.32]  so it doesn't have the overhead of defending a treasury
+[1203.32 - 1205.38]  technically and socially
+[1205.38 - 1212.00]  so I think it's going to be quite an efficient way to work
+[1212.00 - 1215.90]  now I want to show you
+[1215.90 - 1219.02]  something cool about the problem tracker
+[1219.02 - 1224.30]  so this is the Nostrocket problem tracker
+[1224.30 - 1228.38]  here and the main idea I want to get across
+[1228.38 - 1229.98]  here is that all the problems exist
+[1230.00 - 1235.00]  in a tree type structure. So to create a new rocket, you state the problem you're trying
+[1235.00 - 1240.08]  to solve and all the other problems are nested under that one. That's how it becomes sort
+[1240.08 - 1247.16]  of guided in a way. And so here's the T-shirt problem, the graphics problem that I solved
+[1247.16 - 1252.40]  that we don't have any designs. That's nested under this problem, which is that there are
+[1252.40 - 1259.14]  no T-shirts. So here's the other problems solved there. And that's nested under there's
+[1259.14 - 1260.00]  no swag.
+[1260.00 - 1267.76]  for nostriga and that's nested under not everyone knows about nostrocket and they're all in a tree
+[1267.76 - 1273.20]  and this is the actual problem that nostrocket is solving we don't have a good way to focus the
+[1273.20 - 1278.64]  action of multiple humans while remaining sovereign and it's a long explanation there of
+[1278.64 - 1282.88]  what i'm trying to do and these are all the sub problems of that most of them are software
+[1282.88 - 1288.72]  problems because that's just where we are at the moment and that's nested under bitcoins not fixing
+[1288.72 - 1289.76]  the world fast enough and
+[1290.00 - 1297.98]  explain what I mean by that there. And this is the top-level problem that we're not living
+[1297.98 - 1304.46]  up to our full potential as humanity, because it doesn't, like, you need to make profit
+[1304.46 - 1310.66]  to make these things sustainable, but you also need some kind of unity of moral purpose
+[1310.66 - 1314.36]  to guide these things. Otherwise, we're just going to create the same situation again that
+[1314.36 - 1319.98]  we already have today. So that's why I think if you create a rocket and you
+[1320.00 - 1325.20]  can't figure out how it can be nested under this problem, then maybe it's something that's
+[1325.20 - 1331.24]  bad for humanity somehow. And it also allows you to see how if you're doing some menial
+[1331.24 - 1350.00]  level tasks, you can see exactly how that relates back to our adventure as a human species.
+[1350.00 - 1356.84]  So you can kind of experiment with Nost Rocket right now to create your own rocket for your project.
+[1357.00 - 1358.62]  It's buggy, and we're working on it.
+[1359.16 - 1366.94]  But if you want to stay in the loop, you can subscribe to updates, and you'll get updates by DM.
+[1369.30 - 1372.74]  Nost's web of trust, it's great for social media.
+[1373.06 - 1375.44]  It's going to become the entry point to the Internet,
+[1375.44 - 1379.72]  but it's also going to become the entry point to the commercial venture.
+[1380.00 - 1387.34]  the global economy. And one way or another, like this is my approach, but one way or another,
+[1387.40 - 1392.20]  we need to stop the economy from being dependent on fiat slavery, and we need to make it dependent
+[1392.20 - 1397.94]  on human freedom and the emancipation of the human spirit. We need to get this done.
+[1398.34 - 1400.22]  That's enough from me. Thank you very much.
+[1410.00 - 1410.62]  you

@@ -1,0 +1,676 @@
+[0.00 - 9.28]  All right. So anytime I talk to anybody about Noster, one of the first things that they always bring up is, oh, the relays.
+[9.64 - 12.40]  Yeah, that's going to be an issue as we continue to scale.
+[12.40 - 16.90]  And how are we going to make sure that they remain decentralized five, ten years from now?
+[17.06 - 18.50]  You really kind of look at the long tail.
+[19.38 - 26.90]  We have some of the brightest minds in the space that are building that have had experiences with relays.
+[26.90 - 30.00]  And I want to actually start off.
+[30.00 - 37.84]  with you sir because yesterday we were sitting over there and um you you were kind of you weren't
+[37.84 - 42.72]  frustrated but at the same time you wanted to bring up a concern that you that you've had with
+[42.72 - 49.04]  running your own relay and the challenges and i would just you know encourage you to kind of tell
+[49.04 - 52.80]  everybody here what we were talking about when we were sitting over in the corner of the room there
+[52.80 - 57.52]  well now my whole perspective changed now after watching rabble give us talk i mean you know i
+[57.52 - 60.00]  have no complaints now it's all you know
+[60.00 - 70.76]  hunky-dory, but to kind of go off of what we're talking about, we're sort of, I'm kind of working
+[70.76 - 77.00]  on a mental analogy in my head where, you know, I know it's easy to say, like, you know, when we
+[77.00 - 83.24]  get to problems, we'll address them then, but some of these, I feel like some of the
+[83.24 - 88.94]  problems is more like we need to build a 50-foot bridge, and we only brought 20 foot worth of wood,
+[88.94 - 90.00]  and it's like, well,
+[90.00 - 93.56]  yeah we're going to get to that problem but what's the plan and some of these things are
+[93.56 - 100.70]  kind of like seeable now and uh one of the big ones i think is uh dealing with people purposely
+[100.70 - 106.00]  being malicious and then it's like well you know we'll worry about that when it comes we'll you
+[106.00 - 111.18]  know i've dealt with that stuff and it's like we didn't know what to do necessarily and uh these
+[111.18 - 119.92]  are sort of you know we we talked about paid relays yesterday and uh rabble and ben
+[120.00 - 127.88]  And are big fans of ideas of paid relays being sort of like maybe the way big relays operate
+[127.88 - 129.38]  in the future.
+[129.38 - 134.20]  So that sort of addresses this idea of like, you know, people being malice essentially
+[134.20 - 139.06]  stopping spam through, you know, maybe like payments, getting on to, you know, the privilege
+[139.06 - 140.56]  of using a relay.
+[140.56 - 146.28]  But yeah, that's sort of more or less where I was getting at was when people are, you
+[146.28 - 150.00]  know, when you start snowballing and you start building this community kind of like
+[150.00 - 155.38]  You know, you want your trajectory to go up and to the right or for the audience this
+[155.38 - 157.62]  way.
+[157.62 - 161.30]  You know, you have these events that happen where you peak and then something happens
+[161.30 - 164.10]  and then you kind of collapse, condense that snowball.
+[164.10 - 166.84]  You're kind of left with like more of the core people and then you lose all the fluff
+[166.84 - 171.12]  around and then you miss out, you know, you stop the snowballing.
+[171.12 - 175.44]  And I would hate for that to happen with Nostra or any other, you know, Bitcoin, you know.
+[175.44 - 179.20]  Kind of like this happened with Bitcoin a couple of times when we lost the Bitcoin cash
+[179.20 - 180.20]  people.
+[180.00 - 186.76]  know arguably and you know I don't want Nostra to grow and then it fractures off into more you
+[186.76 - 193.12]  know other smaller projects that's not what we want so yeah so that's kind of I don't know if
+[193.12 - 197.52]  that's where you want to take it but that's sort of my I'm curious yeah I'm curious the rest of
+[197.52 - 202.54]  the panel as you guys hear that do you share some of that sentiment or concern of paid relays
+[202.54 - 209.94]  really kind of having the the actual incentive to to drive it um I'm not sure paid relays
+[210.00 - 214.92]  will really pan out that much. People don't really want to pay upfront for these kind
+[214.92 - 219.16]  of things. The friction of it is kind of like, eh, somebody is offering it for free. I'm
+[219.16 - 223.92]  going to go there. Then that guy disappears with the relay because it's free. Then they
+[223.92 - 228.00]  start trying to go back to the paid relay, but it's missing the events from the original
+[228.00 - 235.74]  one. So I'm not completely sold on it. I do think that when applications start forming
+[235.74 - 239.98]  around Nostr, like if you have a very specific use...
+[240.00 - 241.92]  case, and you want
+[241.92 - 243.70]  to build a business on it, you'll run your own relay
+[243.70 - 245.96]  for your stuff. You might gatekeep
+[245.96 - 247.72]  it a bit, but the data is still open,
+[247.82 - 249.84]  so you can export it, put in something
+[249.84 - 250.26]  else.
+[251.52 - 253.44]  I think it's going to be more business-driven.
+[253.76 - 255.86]  I don't think people are going to pay specifically to join
+[255.86 - 257.72]  relays. I think it'll be a business
+[257.72 - 259.72]  running a relay for its users, specifically for
+[259.72 - 261.82]  its users, and maybe
+[261.82 - 263.40]  they'll share the data. It'll be
+[263.40 - 265.72]  cross-compatible, obviously, so
+[265.72 - 267.26]  I think that's one way.
+[268.46 - 269.76]  Ever since I got into
+[269.76 - 269.98]  NASA,
+[270.00 - 272.88]  So that's like one of the first things that I thought.
+[272.88 - 277.52]  And I immediately thought, okay, paid relays are not going to be a thing.
+[277.52 - 281.24]  And I always thought of relays are just cost centers.
+[281.24 - 286.94]  When you pay for your Twitter blue subscription, whatever it's called, you don't pay for, okay,
+[286.94 - 292.88]  $4 for to be higher on the thread and $1 is for the infra.
+[292.88 - 298.80]  Like you pay whatever it is, and you are paying part of that is paying for the cost of running
+[298.80 - 300.00]  the infra.
+[300.00 - 307.82]  ops and whatever. I've always thought that the vast majority of big relays are just going
+[307.82 - 315.24]  to be part of the budget for a company. But the optionality of being able to I'm also
+[315.24 - 322.88]  going to store my data on this personal relay or on this community relay adds some color
+[322.88 - 330.00]  to the equation. I do think that there is a case for paid relays but you're not paying
+[330.00 - 336.18]  the data storage, you're not paying for the accessibility to the relay. You're
+[336.18 - 340.12]  paying because there is something special going on in that relay and you
+[340.12 - 344.16]  want access to that relay. And you're not paying for the relay, you're paying for
+[344.16 - 351.48]  access to the data. So I've been working on NIP29 which is like
+[351.48 - 356.68]  groups and communities and stuff like that. And to me the question is what is
+[356.68 - 361.44]  and which is an unanswered question yet.
+[360.00 - 365.12]  what is the right relay? What is the best relay? When most people join and understand what relays
+[365.12 - 370.88]  are, they think, okay, what is the best relay? We don't really have a good answer. But to me,
+[370.88 - 379.60]  the good answer is not about speed or availability or uptime. It has the data that I care about. It
+[379.60 - 385.52]  has the people that I want to interact with. And I would be willing to pay for a relay.
+[385.52 - 390.00]  Like, when you think about what Patreon is, it's
+[390.00 - 391.90]  It's access to a community.
+[391.90 - 396.48]  When you think about pay the Telegram groups or whatever it may be, it's access to a community.
+[396.48 - 403.52]  You're not paying for the technology itself and the ops itself.
+[403.52 - 409.82]  You're paying and part of that to serve what you want is running those ops.
+[409.82 - 415.04]  So I also have, like, strong disagreements with a lot of what you presented.
+[415.04 - 416.40]  I do want fragmentation.
+[416.40 - 420.00]  I think fragmentation is fantastic and I think that's what's not
+[420.00 - 429.00]  enables. It enables a very organic, very human-centred fragmentation, not a technological fragmentation.
+[429.00 - 432.92]  But, yeah. Emilio?
+[432.92 - 439.88]  I think it's good to maybe just stop and assess where we're at right now, to acknowledge the
+[439.88 - 446.00]  situation we're in currently, which is we have a couple of thousand active relays that
+[446.00 - 450.00]  are publicly accessible, which to me, that fact
+[450.00 - 457.20]  alone to me is pretty amazing and unbelievable. When I discovered Noster, my first question
+[457.20 - 464.38]  was like, okay, cool, who's going to run the relays? Why would anyone run relays? And most
+[464.38 - 470.70]  people kind of had that thought. But the fact is that we have, like, thousands of relays
+[470.70 - 476.42]  that are up and running and actively, you know, publicly available. So this public relay
+[476.42 - 479.98]  infrastructure that's available to anyone to use currently
+[480.00 - 488.18]  that we have. That's interesting. Why is this happening? And this is peacetime Noster. We're
+[488.18 - 495.10]  not getting actively attacked currently. We're not getting attacked too much by spammers
+[495.10 - 496.10]  really yet.
+[496.10 - 497.10]  It comes and goes.
+[497.10 - 504.78]  It comes and goes. You kind of see the waves of spam, but I would expect orders
+[504.78 - 509.22]  of magnitude higher attacks as we become more successful.
+[510.00 - 518.08]  um also we're not no no one's really trying to actively censor noster yet we haven't reached
+[518.08 - 524.48]  that level of success other than will uh other than jb yeah maybe whenever he nukes the relay
+[526.08 - 532.00]  which is a great service to noster every time he does that right um so i think it's good to
+[532.00 - 538.72]  kind of assess that and try to understand why this is happening it seems like you know there are a
+[538.72 - 539.84]  few a number of
+[540.00 - 544.56]  kind of bigger relays related to products and services that have been stood up on oster so
+[544.56 - 551.84]  that's amazing i think that's reasonable to expect that this will continue uh certainly at primal we
+[551.84 - 558.00]  we run a relay and we're planning to have like a paid relay as a part of our kind of premium
+[558.00 - 565.20]  service in the future um when it comes to paid relays to me it makes sense to kind of offer that
+[565.20 - 569.92]  service as a part of a bigger offering not just the paid relay in itself but who knows like
+[570.00 - 575.08]  like we said previously everything is allowed so everything will be tried so
+[575.08 - 580.18]  for sure we'll we'll get a ton of different kind of business models
+[580.18 - 584.24]  attempted out there and we'll see what sticks but to me the most impressive
+[584.24 - 591.72]  part of one of the most impressive parts of Noster is this ecosystem that that
+[591.72 - 599.22]  has already developed and it continues to grow of just products and services
+[599.22 - 601.82]  that
+[600.00 - 608.58]  that people are standing up and using, just acting in their own self-interest.
+[608.58 - 613.62]  That to me is pretty wild. I don't know if any of this helps.
+[613.62 - 618.68]  Can I respond to a little bit what you were saying earlier?
+[618.68 - 625.46]  So the first one is, I think the big, I think you're right about talking about the use cases
+[625.46 - 629.98]  for paid relays, just to kind of follow up on that, but I think the big one that we're
+[630.00 - 632.74]  And here is just a straight-up use case of spam prevention.
+[633.66 - 646.16]  So even if you, you know, like right now it's insanely difficult to prevent spam on Noster given malice with a large set of IPs.
+[646.32 - 649.34]  You know, tens of thousands of IPs, hundreds of thousands of IPs, whatever it might be.
+[650.06 - 652.20]  And if they really want to fuck with you, they can.
+[652.90 - 658.14]  And you can do IP banning, but when you look at your Datadog or New Relic and you start understanding your data,
+[658.14 - 659.88]  you're like, oh my God, I'm only getting a few.
+[660.00 - 665.28]  request per IP, and they're doing this crazy attack pattern, you know?
+[665.28 - 671.82]  So having, you know, one time, you know, similar to like how some Telegram channels are like
+[671.82 - 675.78]  a one-time pay, like, hey, we just want to make sure you're not a bot kind of thing.
+[675.78 - 680.10]  Like even if it's like insanely small amounts of money, like one Satoshi, the idea is like
+[680.10 - 682.06]  now you have some vested interest.
+[682.06 - 689.20]  It's not just this super ephemeral insect in pub that is a total throwaway like completely.
+[689.20 - 690.04]  It's more just like
+[690.00 - 697.50]  hey, if I am abusive with this reputation, I have to spend another Satoshi to get a brand
+[697.50 - 702.50]  new one in order to post on this relay. And that's actually that on itself would be super
+[702.50 - 706.22]  powerful. So when I'm talking about a paid relay, it doesn't necessarily have to be this
+[706.22 - 710.04]  like thing where it's like, oh, it's going to be this pay wall. It's more just like it's
+[710.04 - 713.92]  going to be like this awesome spam prevention micropayment thing that hasn't really been
+[713.92 - 717.12]  possible before. So I think it's like really cool.
+[717.12 - 718.66]  And then, sorry, did you want to?
+[720.00 - 722.12]  And then you talked about another point, you were talking about fragmentation.
+[722.12 - 727.72]  I want to make sure that when we're talking about fragmentation here, we have to be careful.
+[727.72 - 731.94]  I'm talking about fragmentation in terms of the usefulness and the protocol.
+[731.94 - 736.44]  You don't want people to interpret things radically different.
+[736.44 - 738.58]  You want things to be messy.
+[738.58 - 742.00]  Rabble had an amazing presentation, by the way.
+[742.00 - 747.94]  But you can easily, in my opinion, get confused where you're like, oh, it's messy and chaotic
+[747.94 - 749.94]  and fun, but things are still like
+[750.00 - 755.38]  productive versus things are chaotic and nothing makes sense and now I'm confused, you know?
+[755.38 - 761.06]  And like when I'm talking about fragmentation, I'm talking about someone taking their chips
+[761.06 - 766.06]  and saying, hey, I want to invent a new protocol, a new network that's not interoperable.
+[766.06 - 767.82]  That's what I was getting at there.
+[767.82 - 769.32]  So that's what I don't want, right?
+[769.32 - 773.86]  I like the spirit of what Ravel was saying, you know, like the idea of like, you know,
+[773.86 - 777.18]  free, let free, you know, like, you know, experiment and all that kind of stuff.
+[777.18 - 780.00]  But still, you have like this base interoperability.
+[780.00 - 781.52]  You know what I mean?
+[781.52 - 784.76]  So that's what I want to make sure, like, kind of stays core there.
+[784.76 - 792.58]  So the way I see Nostr is I think for the most part, nipple one, the first nip is Nostr.
+[792.58 - 796.68]  A lot of the other nips are protocols on top of Nostr.
+[796.68 - 801.84]  And it's okay to have competition of protocols that are built on top of Nostr.
+[801.84 - 804.76]  So DMs are a perfect example.
+[804.76 - 808.42]  So Jeff Gardner did a presentation yesterday going over all the nips.
+[808.42 - 810.00]  I don't even remember all this.
+[810.00 - 813.62]  DMs and encryption NIPs, because we have so many.
+[813.62 - 820.54]  We have NIP-04, NIP-44, we have NIP-17, we have NIP-29, NIP-28.
+[820.54 - 827.36]  And those are not completely competing, but 90% competing protocols.
+[827.36 - 830.20]  I think that's okay.
+[830.20 - 835.20]  I don't think necessarily the best and most elegant protocol will win.
+[835.20 - 840.02]  NIP-04 is horrendous in a lot of ways.
+[840.00 - 847.72]  of traction. Maybe it will win. I don't know. I hope not, but it might. But I think that's fine,
+[847.78 - 854.92]  and I think that's just the market or just us as a community finding what works, what's true,
+[855.44 - 861.94]  and maybe we will continue to have a few different competing standards for a while.
+[862.48 - 868.22]  Bitcoin Cash is somehow still producing blocks, so that could be the case that we have like this
+[868.22 - 869.94]  horrible DM spec.
+[870.00 - 874.94]  that refuses to die with 1% of adoption.
+[874.94 - 877.22]  It could be.
+[877.22 - 880.66]  So I don't have a huge problem, like, I don't have a problem at all with that.
+[880.66 - 884.24]  I think it's healthy to have these competing standards.
+[884.24 - 891.84]  And with regards to the pay relays, so I think I don't like the idea of to join a relay,
+[891.84 - 899.98]  you need to pay outright, because that creates, like, that kind of removes your
+[900.00 - 904.86]  yourself, and that's fine, like, yourself as the relay operator from the problem, because
+[904.86 - 911.48]  a person that is onboarding and they don't have Bitcoin, then they can't join your relay.
+[911.48 - 918.46]  So like, it's fine to remove yourself from the equation, because it is an efficient way
+[918.46 - 925.88]  to combat spam, for sure. For example, for new pubkeys that it has no idea, they don't
+[925.88 - 930.00]  have any follows, first time you see that pubkey, it requires 28...
+[930.00 - 933.46]  bits of proof of work on the events that you send.
+[933.46 - 937.94]  And after a while, it removes the proof of work requirement from the note, and you're
+[937.94 - 939.90]  just able to publish whatever you want.
+[939.90 - 942.94]  I think that is one solution.
+[942.94 - 945.62]  So I think we have a bunch of different solutions.
+[945.62 - 946.62]  You could...
+[946.62 - 951.24]  And when you say IP banning, you have IP plus pubkey, right?
+[951.24 - 953.18]  So you can do, like...
+[953.18 - 959.80]  It's not the rate limiting doesn't need to only account for the IP.
+[959.80 - 960.64]  Exactly.
+[960.00 - 964.82]  You can also take into account the pub key that the event is coming from.
+[964.82 - 971.88]  So like, I mean, we'll see when we are actually stress tested.
+[971.88 - 974.32]  But I think we have a lot of different solutions.
+[974.32 - 984.36]  Like another solution could be if I join a brand new pub key and I start publishing events,
+[984.36 - 990.00]  maybe the relay takes your event for an hour.
+[990.00 - 997.20]  Relays are very aggressive with rate limiting, so you are not going to be able to publish
+[997.20 - 1000.28]  like a whole slew of events.
+[1000.28 - 1004.86]  I think the Deimos relay does like five events per minute or something like that.
+[1004.86 - 1008.94]  But this is silly because you just make a script that creates infinite amount of
+[1008.94 - 1011.06]  inpubs, so it doesn't really solve anything.
+[1011.06 - 1014.76]  But I think you brought up an interesting thing with the proof of work idea, right,
+[1014.76 - 1020.00]  as a mechanism for additional rate limiting versus just the
+[1020.00 - 1027.08]  the small payments, what other sort of strategies have been deployed?
+[1027.08 - 1031.78]  Has anyone successfully done any sort of web of trust spam prevention within pubs that
+[1031.78 - 1032.78]  is widely deployed?
+[1032.78 - 1033.78]  What is that?
+[1033.78 - 1041.40]  So, for example, I run a relay, the one that only accepts 1, 4, 0, my name.
+[1041.40 - 1047.60]  So that really only accepts notes that are up to 140 characters, so like Twitter.
+[1047.60 - 1050.00]  And that one is based on my web of trust.
+[1050.00 - 1057.22]  So, you can only write to it from my perspective, only if you are, and that's, like, 30,000 people.
+[1058.24 - 1067.98]  And then is it, like, tiered, where, like, the more liked or trusted you are, you can do more volume of data, or what was that like?
+[1068.08 - 1072.12]  No, and then I just apply, like, the normal rate limiting factors.
+[1072.12 - 1076.44]  Okay, but then how do we, okay, so you have the idea of, like, payments, right?
+[1076.48 - 1077.52]  You have the idea of proof of work.
+[1077.52 - 1079.06]  You have the idea of, like, where we trust stuff.
+[1080.00 - 1109.52]  But if you go too much web of trust stuff, I think the analogy of, like, then it becomes a D&D game, you know, these relays become D&D games, so then it gets, like, you know, got to be kind of cognizant of, like, what that, you know, if every relay has a different web of trust sort of permission schema kind of idea, then it's, like, we're just maybe, like, reinventing, like, not necessarily a worse version of Mastodon, but just, like, a different version of, like, this kind of, like, permit, you know, rule set.
+[1109.52 - 1109.98]  I like.
+[1110.00 - 1115.50]  the D&D analogy, I don't know how to take that any further, but, you know.
+[1115.50 - 1132.32]  Yeah. Like I think so another tool is you accept events for like an hour, say. And if
+[1132.32 - 1140.00]  there is no engagement on that note, on that pub key, then
+[1140.00 - 1153.34]  then you remove it. So, like, I don't know. But I think this is not such a novel problem
+[1153.34 - 1157.66]  either. And we have a bunch of... Well, it is a super novel problem because
+[1157.66 - 1164.24]  of the identity system on Nostra is super ephemeral. So, it is a novel problem where
+[1164.24 - 1166.66]  other social medias don't have to really deal with this.
+[1167.80 - 1169.98]  Yeah, but you have...
+[1170.00 - 1173.94]  You do have the IP address.
+[1173.94 - 1179.70]  So with regards to IP address based rate limiting, which is already a thing when it doesn't come
+[1179.70 - 1185.40]  with any type of identity attached to the request.
+[1185.40 - 1191.40]  So think about how Google, like, prevents people from making mass amounts of Google
+[1191.40 - 1192.40]  e-mails.
+[1192.40 - 1193.40]  Right?
+[1193.40 - 1198.34]  They use all kinds of data, they have a sophisticated process, they use your IP, they do all kinds
+[1198.34 - 1199.34]  of stuff.
+[1199.34 - 1200.00]  They use the device.
+[1200.00 - 1205.50]  device that you're using to make the, they have a whole list of heuristics on how they
+[1205.50 - 1206.50]  do that.
+[1206.50 - 1208.22]  I mean, like, right?
+[1208.22 - 1212.52]  Are we saying that we have to relay operators are essentially going to need to do something
+[1212.52 - 1213.52]  similar?
+[1213.52 - 1214.52]  Or what do you mean?
+[1214.52 - 1215.52]  No, no, no.
+[1215.52 - 1218.16]  So, but here's the thing.
+[1218.16 - 1221.08]  Google needs to protect this one system.
+[1221.08 - 1225.02]  Which is the, of course, on the background, there's like a bunch of servers and whatnot.
+[1225.02 - 1230.00]  But they need to protect this one system, gmail.com, right?
+[1230.00 - 1240.52]  Whereas in order to attack Noster in this way, you'll need to attack basically an infinite
+[1240.52 - 1243.24]  it's such a large moving target.
+[1243.24 - 1247.26]  But you can reuse the same attack pattern for all the relays hypothetically if they're
+[1247.26 - 1251.78]  all using the same sort of protection mechanisms.
+[1251.78 - 1256.68]  So it's not like a it's like an easier to it's like you squash one Google and they're
+[1256.68 - 1260.00]  like, oh, there's like 20 more Googles, but then you just use the same attack pattern
+[1260.00 - 1263.64]  Yeah, but there are 20,000 more Googles.
+[1264.00 - 1266.28]  But what I'm trying to say is you just rinse and repeat.
+[1266.94 - 1267.70]  I mean, because think about it.
+[1268.16 - 1271.60]  There might be 1,000 relays, but they're not all popular,
+[1271.80 - 1273.98]  and they're not all well-run, and they're not all robust,
+[1274.18 - 1278.08]  and they're going to fall over as soon as they get a few dozen requests per second.
+[1278.62 - 1281.64]  And you're going to have some that can take thousands of requests per second, right?
+[1281.72 - 1287.60]  Plus, what I'm trying to say is I don't think it's actually that hard.
+[1287.60 - 1289.98]  Like, if someone truly wants to be malice,
+[1290.00 - 1292.44]  It's not, like, a big deal.
+[1292.52 - 1294.96]  That's why I'm thinking, like, that's what I was trying to say.
+[1295.08 - 1303.32]  Like, the small, tiny payment is, like, super interesting because it, like, it does something that, like, really wasn't possible to be thwarted so easily.
+[1303.40 - 1305.04]  Like, it's, like, such an easy way.
+[1305.18 - 1306.46]  And it's, like, whoa, this is crazy.
+[1306.60 - 1307.30]  But it's too easy.
+[1308.30 - 1314.62]  Like, if somebody's going to be malicious about the situation, then they're just going to get a lightning wallet and fund.
+[1314.96 - 1315.64]  Yeah, but then.
+[1315.70 - 1318.18]  Like, $10,000 will get you 10,000 endpubs in there.
+[1318.18 - 1319.74]  Yeah, but then you, but that.
+[1320.00 - 1330.96]  No, no, no. Dude, one sat is huge when you're talking about millions of transactions and you can ban accounts and you have to recreate those accounts for one Satoshi.
+[1331.30 - 1337.24]  Attacker soon is like, wait a minute, I'm just paying this guy money in order to spam him.
+[1337.34 - 1341.72]  It's been done so many times on Bitcoin on-chain. Like dust attacks, you know?
+[1342.12 - 1345.56]  But then this goes into what's spam. This is a whole different conversation.
+[1345.56 - 1347.32]  I'm not talking about the...
+[1347.32 - 1348.68]  If you play for...
+[1350.00 - 1357.70]  I'm optimistic that the combination of Web of Trust, payments, and proof of work
+[1357.70 - 1363.76]  will solve spam once we actually start getting hammered by a bunch of spam.
+[1363.76 - 1368.56]  And it will be very obvious which relays are set up to handle all of this and which ones
+[1368.56 - 1369.56]  aren't.
+[1369.56 - 1373.54]  Also, which indexers are able to handle this.
+[1373.54 - 1378.02]  Because we run an indexer, of course, and there are other people who run indexers, and
+[1378.02 - 1379.98]  we get attacked with
+[1380.00 - 1384.84]  when any relay gets attacked, right, if we try to index all of this.
+[1384.84 - 1392.56]  So I think, yeah, I'm optimistic that a combination of these things where if your mPub is in some
+[1392.56 - 1399.18]  sort of, it has like a higher trust ranking in the Web of Trust, you don't need to provide
+[1399.18 - 1406.02]  proof of work or a payment, but if you're a new user, a new account, whatever the application
+[1406.02 - 1410.02]  that's posting your notes needs to do a bit of proof of work just to kind of
+[1410.00 - 1413.86]  kind of add some cost to it, or send one SAT to a relay.
+[1415.00 - 1419.72]  To me, that seems like, I don't see why this wouldn't work as a solution.
+[1420.58 - 1423.72]  Do you get the impression that none of this would have been possible
+[1423.72 - 1429.10]  unless we had a lightning network where you can charge one SAT of proof of work?
+[1429.10 - 1435.36]  We certainly have tools and weapons that legacy networks don't have,
+[1435.90 - 1437.08]  like the lightning network.
+[1440.00 - 1445.38]  willing to use this, right? I think Lightning is an elegant solution,
+[1445.38 - 1449.86]  but kind of going back, I think there's obviously ideas of combinations of time delay, proof
+[1449.86 - 1452.56]  of work where you're actually having to crunch something, and then where something where
+[1452.56 - 1455.82]  it's like, hey, this identity has been around long enough where they don't need to do that
+[1455.82 - 1457.98]  proof of work. I think if Lightning didn't exist, I think
+[1457.98 - 1461.38]  Nostra would still be okay. Like, I think Lightning's obviously an elegant
+[1461.38 - 1465.68]  solution in that, but, you know, you maybe have alternatives that are still okay.
+[1465.68 - 1470.00]  Yeah, I see the Lightning piece not as fundamental for
+[1470.00 - 1479.10]  for this part, for, like, the spam prevention, I do see it as close to fundamental for in
+[1479.10 - 1486.42]  order to be able to run the actual relay and pay for your infra without KYC-ing yourself,
+[1486.42 - 1493.84]  not tying, not requiring the legacy payment, because if the relay operations are sitting
+[1493.84 - 1500.00]  on top of the fiat payment system, then you can get Wikileaked, right?
+[1500.00 - 1504.42]  You can get the same operation of, okay, you're running this release,
+[1504.52 - 1508.12]  but we're shutting you down because you cannot pay for your invoice.
+[1508.48 - 1512.72]  So to me, that is the important part where you need,
+[1512.84 - 1514.88]  and it doesn't require Lightning, it just requires Bitcoin,
+[1515.42 - 1517.44]  but Lightning makes it better.
+[1519.28 - 1521.96]  But yeah, to me, with the spam prevention,
+[1521.96 - 1527.44]  it's like all these things are tools on the relay operator tool set.
+[1527.44 - 1529.90]  Like even in the proof of work.
+[1530.00 - 1537.16]  As you see spikes on, for example, as you see spikes as a relay operator that are like
+[1537.16 - 1545.24]  100X from what is normal to receive in terms of event count, you might start ratcheting
+[1545.24 - 1547.36]  up the proof of work requirement.
+[1547.36 - 1550.64]  When it goes down, you can lower it.
+[1550.64 - 1557.74]  Clients are like we have standardized to say like a client can see that the relay is rejecting
+[1557.74 - 1560.00]  you because of the proof of work requirement.
+[1560.00 - 1567.86]  requirement and the client can can act based on that if we fast forward uh call it five ten years
+[1567.86 - 1577.70]  from now and we see large relays out there um do you still see uh those relays being all paid
+[1577.70 - 1584.50]  relays a mix of paid and and not paid and if you if you have large relays that aren't paid
+[1584.50 - 1589.98]  i'm assuming that's being paid for by some type of ai algorithm data harvesting
+[1590.00 - 1597.14]  type scenario which bifurcates basically the user is is then looking at this and saying i'm basically
+[1597.14 - 1601.94]  giving away my data for free and then they're going to do all these things because of it or i
+[1601.94 - 1609.20]  can pay for this relay and not be a victim of them using my data is that the future you see
+[1609.20 - 1615.84]  10 years from now uh with how the backbone of this infrastructure is being run or am i like
+[1615.84 - 1620.00]  way off base with i kind of think i think any of the data once it's once inside
+[1620.00 - 1625.34]  out there on the whole store, it's going to be harvested regardless. It's public data.
+[1625.34 - 1629.96]  It's the same API as long as you have access to it. Whether you're posting new events or
+[1629.96 - 1637.62]  not, you still have access to it all. So maybe it will be easier because you want people
+[1637.62 - 1642.74]  to post stuff for free to the relay so that you can harvest the data, analyze it, train
+[1642.74 - 1646.80]  something with it. Fair enough. But I still think it's going to be business oriented.
+[1646.80 - 1650.00]  Like Primal runs a relay. I'm connected to the relay.
+[1650.00 - 1655.20]  relay, whether they allow my event kinds to run on it.
+[1655.20 - 1656.28]  Right now you do.
+[1656.28 - 1662.82]  Like I post, I use the CoinJoin coordinator discovery mechanism, I point to your relay.
+[1662.82 - 1664.14]  I use my own kind.
+[1664.14 - 1665.16]  You let it run in there.
+[1665.16 - 1668.18]  So eventually you'll probably get it.
+[1668.18 - 1669.18]  You're welcome.
+[1669.18 - 1670.18]  Yeah?
+[1670.18 - 1673.00]  I don't run a coordinator.
+[1673.00 - 1677.50]  I just run the discovery tool.
+[1677.50 - 1679.76]  Eventually I think it's going to be business oriented.
+[1679.76 - 1680.00]  I use.
+[1680.00 - 1684.14]  to run my own relay for the discovery event, they started attacking me. I didn't want to
+[1684.14 - 1690.58]  run a whole relay full of RAM and all that stuff. Like, screw that. I just send them
+[1690.58 - 1696.14]  to you. Eventually, this will be blocked. Like, if you have your own business to run,
+[1696.22 - 1700.14]  you don't want to get attacked. If I'm giving you the attack vector, you'll cut me off.
+[1700.68 - 1704.32]  Then I can run my own relay and protect it in a more serious way if I have to.
+[1705.12 - 1709.46]  Yeah. So, all of this makes sense. I think it's reasonable to expect that there will
+[1709.46 - 1710.00]  be probably...
+[1710.00 - 1717.92]  dozens maybe hundreds of uh big relays maybe even thousands of big relays and a massive long tail
+[1719.20 - 1726.08]  who knows how many relays very very long hobbyist tail but really like six relays that are like
+[1726.08 - 1731.20]  super popular probably that's what i think that's very pessimistic i think we'll have way more than
+[1731.20 - 1736.32]  six but the idea that we're talking like 10 years out that was the question right yeah and so you're
+[1736.32 - 1739.84]  thinking like a some sort of pareto distribution where like almost
+[1740.00 - 1741.76]  everyone's on the top five.
+[1741.96 - 1743.14]  I hope that's not the case.
+[1743.14 - 1746.02]  I think that's super optimistic for me.
+[1746.48 - 1748.54]  I think that
+[1748.54 - 1752.46]  an open software, open protocol,
+[1752.60 - 1753.92]  open ideas of all these things
+[1753.92 - 1755.34]  is really powerful.
+[1757.28 - 1758.12]  For instance,
+[1758.38 - 1759.66]  it's a similar idea of saying,
+[1759.80 - 1761.46]  hey, I'm using Bitcoin, but I'm not running a node.
+[1761.60 - 1763.36]  But you know you can run a node,
+[1763.44 - 1765.54]  and that by itself is really, really important.
+[1765.84 - 1768.12]  If I could use Bitcoin,
+[1768.22 - 1769.18]  but I know I couldn't run a node,
+[1770.00 - 1773.30]  that actually changes me, even though if I don't run a node or not?
+[1773.30 - 1775.30]  So here's another way to look at it.
+[1775.30 - 1784.30]  If we say we believe that the majority of the big relays will be kind of business-backed, business-related,
+[1784.30 - 1791.10]  I am convinced that there will be many more than six successful businesses on top of Nostradamus.
+[1791.10 - 1797.70]  Well, hold on. There's a difference between businesses that are successful and when you download an app,
+[1797.70 - 1800.00]  how many, like, which would
+[1800.00 - 1803.36]  Which relays are you going to connect to? And I think there's going to be very, very
+[1803.36 - 1807.44]  popular ones that you want to connect to that are going to be super dominant.
+[1807.44 - 1811.64]  I mean, I'm still saying there's going to be a long tail of hobbyists and even then
+[1811.64 - 1816.68]  maybe a bunch of a ton of middle tier stuff. But, you know, when you're when you are spinning
+[1816.68 - 1823.44]  up a wallet or a Nostra client, you know, how many relays do you think you're going
+[1823.44 - 1828.76]  to be connecting to by default? So at Primal, we started off like just for
+[1828.76 - 1830.00]  kind of expediency sake.
+[1830.00 - 1833.92]  we started off, we were connecting people to the most popular relays,
+[1834.08 - 1838.26]  and then we realized recently that that's not really the best practice.
+[1839.10 - 1844.60]  And what we changed was we kind of keep track of all of the active relays.
+[1844.72 - 1846.58]  We mentioned maybe a couple thousand of them.
+[1847.00 - 1850.96]  So what we do now is we spread them out.
+[1851.26 - 1858.36]  So a new user gets assigned a dozen relays semi-randomly from that list.
+[1858.36 - 1860.00]  So we kind of spread out the...
+[1860.00 - 1863.40]  But these aren't like Bitcoin nodes, these aren't like fungible relays.
+[1864.40 - 1865.06]  They aren't.
+[1865.62 - 1867.58]  So that's going to create different UX.
+[1868.32 - 1878.42]  Yes, and so the logic actually picks a handful of big relays, like one or two big ones, and spreads out the rest.
+[1878.42 - 1885.54]  So the rest are kind of like LARPing a little bit, but really it's the big relays that are doing the heavy lifting there, you know?
+[1886.50 - 1887.92]  We're doing our best to spread it out.
+[1887.92 - 1890.00]  I'm not saying it's bad, I'm just saying 10 years.
+[1890.00 - 1894.98]  years from now is a long time. I'm thinking if Nostr is successful, it's like for me...
+[1894.98 - 1900.98]  If Nostr is successful, I think we're looking at hundreds of businesses with lots
+[1900.98 - 1903.14]  of users. Well, how many of those are going to be
+[1903.14 - 1906.54]  open? Question in here. So when we're looking
+[1906.54 - 1909.76]  at how nature progresses... We're having our moment here.
+[1909.76 - 1914.54]  No, no, no. No, this is all good. But I think this is what we're really getting at is when
+[1914.54 - 1919.24]  we look at nature and we look at how it progresses, and you look at a forest that's growing and
+[1919.24 - 1920.00]  cropping up, right?
+[1920.00 - 1923.40]  And you have all these different species inside of that forest.
+[1923.60 - 1924.82]  You're saying, that's healthy.
+[1924.90 - 1925.80]  I can see the growth.
+[1925.90 - 1927.04]  I can see these things happening.
+[1927.20 - 1928.38]  There's large trees.
+[1928.50 - 1929.42]  There's small plants.
+[1930.06 - 1934.34]  So when we look at the network of relays, we have large relays.
+[1935.60 - 1941.26]  I'm running a relay off of my umbral, which is just backing up my speech.
+[1942.86 - 1947.44]  So when we look at that trend, and I know we don't have a lot of data here
+[1947.44 - 1950.00]  because we're dealing with two years of growth.
+[1950.00 - 1965.50]  Are we seeing a natural-looking growth of relays, small and large, or are we seeing some type of consolidation with a primal relay that's just taking over and it's totally dominating the entire space?
+[1965.92 - 1968.86]  By the way, that's not the case at all in terms of relays.
+[1969.12 - 1970.58]  Primal is not dominating.
+[1970.94 - 1975.06]  I don't think we're even in the top 10 or top 20 relays.
+[1975.06 - 1980.00]  So, no, we are – so if we are looking at the –
+[1980.00 - 1987.94]  trend. The trend is it's kind of either flat or going in the wrong direction. And there
+[1987.94 - 1998.72]  is really good reason for in terms of active relays and, yeah, relays being used in general.
+[1998.72 - 2003.84]  And there is really good reason for that. So we started with a bunch of enthusiastic
+[2003.84 - 2009.38]  people in Oster. We can say that there are a few of us that want to run the relays just
+[2009.38 - 2010.38]  like we want to run the relays.
+[2010.00 - 2015.76]  run the node. 50% of the Bitcoin nodes are not actually used, but we want to run the node,
+[2015.84 - 2022.92]  we want to run the relay, right? The vast majority, and yes, I am going to mention Outbox for the ones
+[2022.92 - 2032.36]  that know the punchline. The vast majority of clients said, oh, well, figuring out to which
+[2032.36 - 2038.52]  relays I should connect to, it's kind of hard. I'm just going to let the user say, okay, you can
+[2038.52 - 2039.88]  add this relay.
+[2040.00 - 2046.62]  But I'm just going to hard code, as a client developer, I'm just going to hard code Relay.Demos
+[2046.62 - 2053.22]  and Relay.Primal and maybe two more relays to be safe.
+[2053.22 - 2061.46]  So obviously everything centralized around four, five, six, ten relays.
+[2061.46 - 2065.88]  Obviously the problem with that is that if those relays ban you or you cannot access
+[2065.88 - 2070.00]  them or they delete your stuff or whatever happens, your data is going to be deleted.
+[2070.00 - 2077.44]  gone. If you are not in those relays, you are not seen by most people. So, for example,
+[2077.44 - 2085.04]  I follow Mike from Gossip. And from some clients, if I go to his profile, because he doesn't
+[2085.04 - 2092.60]  publish to any of the big relays, I see nothing. Like I see just the profile and zero events
+[2092.60 - 2100.60]  from him. So, that's where the Outbox model, formerly known as Gossip protocol, was created.
+[2100.00 - 2102.00]  comes in where the
+[2102.00 - 2104.12]  client says, oh, like
+[2104.12 - 2106.12]  you were saying just now, there are a bunch of clients
+[2106.12 - 2107.96]  but what relays are they going to use?
+[2108.54 - 2109.96]  What relays are they
+[2109.96 - 2111.88]  going to use? That is the most important
+[2111.88 - 2114.28]  question. Like, that is 90%
+[2114.28 - 2115.70]  of the
+[2115.70 - 2117.60]  problem that needs to be solved.
+[2117.66 - 2119.86]  Not the problem that needs to be solved, the problem that needs
+[2119.86 - 2121.78]  to be addressed by
+[2121.78 - 2122.68]  more clients.
+[2123.62 - 2125.82]  And I see a very healthy
+[2125.82 - 2127.94]  positive direction in this
+[2127.94 - 2129.84]  sense. A lot of clients are
+[2129.84 - 2130.06]  eating.
+[2130.00 - 2137.94]  implementing or have implemented the outbox model. And that response, because, yes, until
+[2137.94 - 2144.68]  six months ago or one year ago, it was mostly LARPing, right? Like you just said. Oh, choosing
+[2144.68 - 2148.76]  the small relays, it's mostly LARPing because no one reads from them.
+[2148.76 - 2155.24]  I use that in a kind sense. I LARP. Running a relay is fun.
+[2155.24 - 2160.00]  But with
+[2160.00 - 2164.84]  the outbox model, I will actually go and connect to your relay and I will actually use it to
+[2164.84 - 2171.42]  fetch data from you. Without me having to, like the user, having to make all these decisions
+[2171.42 - 2180.74]  on where to go and add this manually, this relay. And so far, we've been mostly talking
+[2180.74 - 2189.98]  about the global use case, which I think it's why it's coloring the conversation. And we
+[2190.00 - 2196.82]  to understand that we are talking about this one specific use case of Nosr.
+[2196.82 - 2206.06]  In my mind, the outbox model for that particular use case, the outbox model is kind of mandatory.
+[2206.06 - 2212.94]  You can't really have censorship resistance and good UX if you don't care about censorship
+[2212.94 - 2216.36]  resistance without the outbox model.
+[2216.36 - 2220.00]  For the communities, for the private groups.
+[2220.00 - 2228.80]  for like an internal Slack type or Discord type, Outbox is wrong. For a big, big, like Telegram
+[2228.80 - 2235.92]  and Discord, these are huge, huge cases, right? So we need to understand that that part also exists.
+[2235.92 - 2245.52]  But for the Twitter, for the more public square style conversation, Outbox is kind of fundamental.
+[2245.52 - 2250.00]  Because otherwise, yes. Otherwise, it is slurping. But I think in that
+[2250.00 - 2254.88]  sense, we're trending in the right direction. The number of relays has been responding to
+[2254.88 - 2261.04]  the fact that no client was implementing Outlooks, or very few clients were implementing Outlooks.
+[2261.04 - 2264.04]  But in that sense, we are trending in the right direction.
+[2264.04 - 2267.60]  Cooks, what are your thoughts?
+[2267.60 - 2275.86]  So I think, honestly, I would, my idea would be to kind of like start trying to separate,
+[2275.86 - 2279.88]  like you know, you're trying to work on communities and groups. What if every community and group,
+[2279.88 - 2280.88]  and
+[2280.00 - 2282.20]  We've talked about this for years now in Nostra,
+[2282.28 - 2284.38]  basically having a relay for different topics.
+[2284.98 - 2288.52]  Like, you separate a community based by relay.
+[2289.22 - 2293.74]  And that would allow some leeway for scale to some degree.
+[2295.18 - 2297.46]  But there has to be a natural incentive,
+[2297.58 - 2299.60]  an economic incentive for that.
+[2300.74 - 2302.50]  It could be just a community, right?
+[2302.50 - 2306.32]  Like, if you're just segregating to smaller relays
+[2306.32 - 2307.32]  just based on topic,
+[2308.04 - 2309.78]  I mean, you probably still need some kind of gateway.
+[2309.78 - 2310.28]  Like...
+[2310.00 - 2312.90]  People don't want to connect to 50 different relays based on the topic.
+[2313.26 - 2314.18]  You have to be smart about it.
+[2314.26 - 2316.80]  You have to filter on demand.
+[2316.98 - 2320.88]  You have to have some entry server which will direct you to the right direction.
+[2321.84 - 2322.18]  All right.
+[2322.24 - 2324.12]  Y'all ready for what will actually happen?
+[2324.70 - 2325.00]  All right.
+[2325.28 - 2328.04]  So six relays is actually super optimistic.
+[2328.20 - 2329.38]  Let me jump back.
+[2329.86 - 2331.80]  I'm not being pessimistic when I say that.
+[2332.74 - 2334.44]  Pessimistic would be like what GitHub did.
+[2334.52 - 2336.10]  They dominated the Git protocol.
+[2336.22 - 2336.96]  Everyone's using GitHub.
+[2336.96 - 2340.00]  And now we're like, oh, shit, if we want to go to GitLab, it's like we're losing.
+[2340.00 - 2343.94]  using a lot of the niceties from GitHub, right, because they've done such a damn good job
+[2343.94 - 2349.32]  and it's free and blah, blah, blah. So, like, you have this free relay that does, like,
+[2349.32 - 2353.22]  a really good job. They don't make you do any proof of work, no payments, all this stuff.
+[2353.22 - 2358.66]  They do, like, super sophisticated Google-like authentication weird shit, you know, Illuminati
+[2358.66 - 2364.02]  CIA type verification that we don't understand. And then they have the great UX and then they
+[2364.02 - 2368.12]  decide to make rule changes and stuff, but they're at such large scale that, like, it's
+[2368.12 - 2370.00]  like, oh, everyone's going through this.
+[2370.00 - 2375.50]  relay. And that's more dystopic. If you have at least three or four really big relays that
+[2375.50 - 2378.34]  are doing really good jobs, everyone kind of holds each other accountable because it's
+[2378.34 - 2385.00]  like oh, if Twitter clone A does a bad job, I go to Twitter clone B. But if it's just
+[2385.00 - 2388.90]  Twitter, right, and then they do something you don't like, you don't have a perfect clone
+[2388.90 - 2394.56]  of this thing. But with Nostra, you would have that. And I'm thinking that's optimistic.
+[2394.56 - 2400.00]  It's like you have choices, and these choices kind of hold the whole thing together.
+[2400.00 - 2404.64]  thing together and pessimistic would be like we only have one choice because someone did
+[2404.64 - 2407.44]  a really good job and no one really competed with them.
+[2407.44 - 2414.10]  If everyone has the same opportunity on Oster, which we all do, why would you think that
+[2414.10 - 2419.08]  there would be only one competent player to execute something like this? There would be
+[2419.08 - 2421.02]  many competent players.
+[2421.02 - 2425.06]  Can I ask you a question? Why did GitHub get so popular?
+[2425.06 - 2430.00]  It's a really bad analogy.
+[2430.00 - 2434.96]  is creating a bunch of really useful metadata that you can't export.
+[2435.22 - 2437.12]  Like, you can't, just because you do a Git clone,
+[2437.22 - 2438.58]  you don't have, obviously, the issues.
+[2438.58 - 2442.24]  But it didn't start, I mean, okay, like, when Git started, what, in, like, 2016?
+[2442.80 - 2443.60]  When did Git start?
+[2443.82 - 2446.26]  No, wait, I mean, I'm going to jump in here.
+[2446.38 - 2450.34]  We literally had a presentation yesterday
+[2450.34 - 2453.28]  on a new decentralized GitHub, right?
+[2453.94 - 2458.02]  Let's say, look at the speech that's happening around the world right now
+[2458.02 - 2460.24]  and how stupid it all is.
+[2460.00 - 2466.28]  already is and how governments are trying to step in and censor what people can say and do
+[2466.28 - 2472.16]  and where they can get it, if you don't think that in the next four years or six years or whatever
+[2472.16 - 2478.10]  that that's only going to intensify and get worse and go after centralized GitHubs and things like
+[2478.10 - 2484.20]  that, you're out of your mind. I'm sorry. That's going to happen. It's going to get worse. We're
+[2484.20 - 2489.62]  just getting warmed up right now, folks. So when we see a presentation yesterday of a
+[2489.62 - 2489.96]  decent
+[2490.00 - 2496.00]  GitHub, and the government maybe steps in and goes to GitHub and tries to start preventing what can
+[2496.00 - 2502.14]  be seen and what can be posted and whatnot, I think there's a massive natural tailwind incentive
+[2502.14 - 2509.94]  to start posting into a decentralized version of that. Who wants to run that relay? Who wants to
+[2509.94 - 2513.44]  have the economic incentive to back that up? There's a lot of people that are going to want
+[2513.44 - 2518.98]  to have that incentive to do it. So, I mean, I appreciate the pushback a ton, and that's why
+[2518.98 - 2519.94]  I wanted you.
+[2520.00 - 2524.88]  up here on this on the stage to be honest with you but i think we also have to to balance out
+[2524.88 - 2530.68]  the argument with what is what are we seeing from from the backdrop of like what's happening in the
+[2530.68 - 2536.62]  world that's going to push and incentivize more people to come into this space as to just saying
+[2536.62 - 2540.60]  this is what the world looks like today and nobody's going to move there there's forces that
+[2540.60 - 2545.66]  are moving people towards this and there's things that are also pulling it pulling people towards it
+[2545.66 - 2549.76]  so what other things are you guys seeing this this is the question
+[2550.00 - 2562.02]  What other things are you guys seeing that you think are these environmental factors that are going to push people towards Nostr and running a relay and having an economic incentive to do it outside of, let's say, GitHub?
+[2562.76 - 2565.06]  Can I just respond to the GitHub question?
+[2566.90 - 2574.20]  So I don't think that's the best comparison because, like, our pattern in Nostr is not to post to one relay, right?
+[2574.20 - 2580.00]  So our pattern in all Nostr clients is you post to, you know, another.
+[2580.00 - 2588.48]  of relays, maybe half a dozen or a dozen, so it will be very hard. I'm not saying it's impossible,
+[2588.48 - 2596.00]  it's a concern that we should kind of keep an eye on, but it would be very hard for just one player
+[2596.00 - 2602.64]  to kind of dominate the relay space. Well, I mean, Git is like that. You can push to multiple repos,
+[2602.64 - 2608.32]  but I mean, this is future thinking. 10 years is hard to think about. We're thinking 10 years from
+[2608.32 - 2610.00]  now when, you know, potentially
+[2610.00 - 2615.40]  volume 10,000 Xs, right? And not every relay is going to be able to, you know, there's
+[2615.40 - 2619.40]  not necessarily going to be tons of reliable relays that can handle tons of volume. You're
+[2619.40 - 2622.66]  going to have a bunch of hobbyists like what you're saying, like the backup relay where
+[2622.66 - 2625.64]  you send all your stuff to your backup. I think that's going to be maybe a super common
+[2625.64 - 2629.80]  use case, right? Sorry, I need to challenge that false premise
+[2629.80 - 2635.62]  because you kind of just like slid it in. This is all based on the assumption that all
+[2635.62 - 2640.00]  relays, like the forecast model, that all relays must keep all these huge chunks of
+[2640.00 - 2646.52]  data, like, we have horizontal sharding within relays, within Noster, just organically.
+[2646.52 - 2649.16]  We don't need to have these huge relays.
+[2649.16 - 2655.00]  If we have a 10,000X growth, the idea of, oh, and then the relays will crumble down
+[2655.00 - 2660.44]  because only one relay is going to be able to sustain, that is just not how it works.
+[2660.44 - 2663.70]  It just depends what you think a relay's volume will be in the future.
+[2663.70 - 2669.24]  If you don't think relays are going to be, like, massive, you know, these massive ideas,
+[2669.24 - 2670.24]  then you're right.
+[2670.24 - 2670.74]  But if.
+[2670.00 - 2674.88]  If the idea where people are all going to be pushing to the same relay, potentially,
+[2674.88 - 2679.56]  like, hey, that relay is really popular, all the clients send to a bunch of relays but
+[2679.56 - 2683.44]  also that one, and everyone sends that one, that relay is going to need to be, like, super
+[2683.44 - 2684.44]  beefy.
+[2684.44 - 2685.44]  Yeah.
+[2685.44 - 2686.44]  And it will fall down.
+[2686.44 - 2689.02]  Or maybe it doesn't because the business is running it.
+[2689.02 - 2692.62]  And this goes back to the point I was trying to make about GitHub doing a really good job,
+[2692.62 - 2693.62]  right?
+[2693.62 - 2698.86]  A client that does that is a malicious client, outright a malicious client.
+[2698.86 - 2700.00]  Thanks for pointing to a relay.
+[2700.00 - 2704.00]  They don't have to point to a single relay.
+[2704.00 - 2709.16]  I'm just saying all clients might point to a relay as one of their set of relays because
+[2709.16 - 2710.94]  it's a really popular one.
+[2710.94 - 2712.50]  That doesn't make them malicious.
+[2712.50 - 2719.26]  If the user has no agency, whether they control it, I would say it's malicious.
+[2719.26 - 2720.30]  It's a business thing, though.
+[2720.30 - 2722.06]  It's a business decision to do that.
+[2722.06 - 2724.42]  Yeah, it's a reasonable pattern you're describing.
+[2724.42 - 2728.56]  I just don't think it's around one relay.
+[2728.56 - 2730.00]  Even one relay sucks.
+[2730.00 - 2731.60]  eventually will suck if it gets too busy.
+[2731.84 - 2733.98]  People will move to the next one. That's what people do.
+[2734.18 - 2735.42]  What happens if it doesn't suck?
+[2736.18 - 2737.66]  Well, stick around until it does suck.
+[2737.66 - 2738.58]  Everything sucks eventually.
+[2739.04 - 2741.18]  Guys, we have two minutes.
+[2741.80 - 2743.84]  Two minutes. I want each of you
+[2743.84 - 2745.86]  to take 30 seconds of your
+[2745.86 - 2747.40]  closing thoughts on
+[2747.40 - 2749.84]  the conversation, whatever it is that you want to
+[2749.84 - 2752.02]  highlight to the audience about this particular topic.
+[2752.14 - 2753.08]  Go ahead, Pablo, go first.
+[2753.88 - 2755.72]  All right. Yeah, I think
+[2755.72 - 2757.60]  the whole really concern is
+[2757.60 - 2760.00]  19
+[2760.00 - 2769.12]  99% uncalled for. It's a top down view of the world looking for a solution where we
+[2769.12 - 2772.90]  all need to get together and decide what is going to happen in the next ten years and
+[2772.90 - 2782.88]  what do we need to force the market to do. I think number of relays, just like number
+[2782.88 - 2790.00]  of Bitcoin notes, it will go up, it will go down, as demand, as our demand.
+[2790.00 - 2797.40]  And I think, I literally think that the only thing that matters is clients having Outbox.
+[2797.40 - 2803.04]  Because Outbox, the Outbox model fixes all of these issues without us having to make
+[2803.04 - 2805.24]  any grand plans and grand decisions.
+[2805.24 - 2806.24]  Miljan.
+[2806.24 - 2811.20]  I'm personally optimistic about the open market, free market, kind of handling
+[2811.20 - 2816.00]  this in an organic way, kind of what we've been doing so far.
+[2816.00 - 2820.00]  And I think it's also useful to have these types of discussions and brainstorms.
+[2820.00 - 2821.90]  to try to identify problems before they
+[2821.90 - 2823.82]  become massive problems, right?
+[2824.02 - 2825.86]  Very much so. Cooks? Yeah, I think it's
+[2825.86 - 2827.36]  going to work out eventually because
+[2827.36 - 2829.82]  every business will probably
+[2829.82 - 2831.92]  want a reliable connection for their
+[2831.92 - 2834.10]  users. It's an open data structure.
+[2834.26 - 2835.90]  Everyone knows how to parse it, how
+[2835.90 - 2837.82]  to move it along. You're not walled in
+[2837.82 - 2840.16]  anymore, and that's
+[2840.16 - 2841.88]  good enough, honestly. I think it will just
+[2841.88 - 2844.02]  if people hate the service they're on
+[2844.02 - 2845.94]  because something happened, they'll just move on to
+[2845.94 - 2846.42]  the next one.
+[2846.42 - 2850.00]  I am a big
+[2850.00 - 2855.76]  fan of Nostra. I used to hate Nostra, actually, when it first came out. And then the more
+[2855.76 - 2859.44]  I talk to Joff and the more I use it, the more of a lover I became of it. I'm a super
+[2859.44 - 2864.52]  big fan of Nostra for ephemeral use cases. It shines so bright for ephemeral message
+[2864.52 - 2871.28]  passing and being a message buffer for projects and stuff, such as like super test nets, like
+[2871.28 - 2878.20]  coin join ideas, OAuth, like just the list goes on of just awesome developer experiences
+[2878.20 - 2879.96]  that Nostra enables because of its frictionless
+[2880.00 - 2887.60]  environment. I'm really looking forward to what do the reliable persistent use cases
+[2887.60 - 2892.78]  look like. That's what I think we're really talking about here. And I think it is already
+[2892.78 - 2896.04]  doing an amazing job for the ephemeral stuff. As long as you don't care about that data
+[2896.04 - 2902.40]  being around forever, it's amazing right now. I'm really interested in, you know, we talked
+[2902.40 - 2907.36]  about so many different tools and pieces and strategies. I'm really interested to see which
+[2907.36 - 2909.80]  ones take off, you know, for the, you know.
+[2910.00 - 2912.00]  for those next use cases.
+[2912.00 - 2913.18]  That's all I got.
+[2913.18 - 2913.76]  All right.
+[2913.76 - 2917.68]  Hopefully you guys enjoyed the debate.
+[2917.68 - 2918.98]  It was a good back and forth.

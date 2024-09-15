@@ -1,0 +1,630 @@
+[0.00 - 8.36]  Next panel, we're going to talk about funding NOSTR, and I'll just introduce our guests
+[8.36 - 10.00]  as they come up.
+[10.00 - 18.46]  Unless you want to have a little lunch or something like that, we can...
+[18.46 - 22.22]  Yeah, we'll get going.
+[22.22 - 23.22]  Bring your lunch up, Preston.
+[23.22 - 24.22]  We're casual.
+[24.22 - 25.22]  It's an un-conference.
+[25.22 - 30.22]  It's an un-conference.
+[30.00 - 32.44]  In between sessions, he's got to get a quick bite.
+[32.56 - 38.36]  All right, guys, let's grab a microphone and get ourselves comfortable.
+[38.36 - 43.42]  This is going to be a great discussion, and it talks about how to fund NOSTR.
+[44.48 - 55.12]  So we have Preston, Alex, Odell, and for the first time, I think, on the stage here in Riga, Marty, you're going to moderate for us?
+[55.26 - 56.18]  Or were you on another panel?
+[56.28 - 57.62]  Forgive me if I missed you.
+[57.92 - 59.02]  You are correct.
+[59.02 - 59.98]  This is my first panel.
+[60.00 - 64.68]  of the week and i'm very excited to be here got thrown on last minute and it's a topic that we
+[64.68 - 69.40]  talk about a lot so i'm excited for the conversation you got it we're here to talk about funding
+[69.40 - 75.42]  noster like i said we talk about it a lot on rhr particularly not only funding noster but bitcoin
+[75.42 - 83.34]  but before we get into the specifics matt when we say funding noster what is the context of that
+[83.34 - 88.02]  the different context of that in your mind have you zapped today i have actually got a zap war
+[88.02 - 89.96]  with you there's a little bit of a zap war going
+[90.00 - 97.76]  on. That's how we're going to fund Nostr. Is Paul here? I don't know if Paul is here.
+[97.76 - 102.56]  That hummingbird, everyone go follow hummingbird on Nostr and just look at the zaps on their
+[102.56 - 109.66]  note. When you think about funding Nostr, it's interesting, right, because it's a fortunately
+[109.66 - 115.24]  it's a very false focused ecosystem. It's an open source focused ecosystem. Almost every
+[115.24 - 119.98]  project in the space is open source. A lot of them do not have
+[120.00 - 124.06]  obvious monetization models or sustainable funding models for
+[124.06 - 131.38]  themselves I think there will be a lot of interesting strategies that different
+[131.38 - 136.76]  projects employ to try and get sustainable funding but in the meantime
+[136.76 - 142.46]  what that means is that a lot of the funding is based on donations right and
+[142.46 - 148.12]  one of the cool things about Noster is Noster has Bitcoin built into it or if
+[148.12 - 151.74]  you use rabble's client
+[150.00 - 153.34]  It just has a random unit that you zap and the units go up.
+[153.86 - 155.14]  But not Bitcoin.
+[156.64 - 159.36]  And I think that will be huge in the future.
+[159.54 - 163.04]  I think, like, developers will post, they'll post on Nostr,
+[163.10 - 166.64]  they'll have a new software update, or they'll be teasing something,
+[166.94 - 169.98]  and their users will directly fund them with no middleman.
+[171.04 - 174.16]  But that's a time and maturity and adoption thing.
+[174.22 - 178.52]  And right now, unfortunately, like, we are seeing the early signs of that,
+[178.52 - 180.26]  but we're not seeing that in real life.
+[180.00 - 188.86]  real meaningful amounts. People need to pay their rent. They need to support their family.
+[188.86 - 195.62]  They need to feel comfortable leaving whatever their well-paying, soul-sucking job is to
+[195.62 - 202.78]  work on this very new, nascent, open source protocol. And as a result, they need some
+[202.78 - 210.02]  kind of security. And so what we've seen come into play, which is these organizations
+[210.00 - 219.00]  organizations, these nonprofits, specifically OpenSats, which is what I work on, and HRF,
+[219.00 - 223.94]  which is what Alex works on, are really stepping up to the plate and providing a lot of the
+[223.94 - 229.10]  early funding for a lot of these Nostra developers. And I think I can speak for both of us that
+[229.10 - 234.44]  hopefully for a lot of them this will just be kind of the jump start, right? It's the
+[234.44 - 238.56]  paddles on the chest and then they get up and they're the Frankenstein beast and they
+[238.56 - 239.68]  just keep going, right?
+[240.00 - 243.78]  But right now, it's actually incredibly optimistic.
+[243.78 - 254.86]  The amount of developers we have working on this space full-time, the amount of designers, the amount of just open-source contributors in general is incredibly impressive.
+[256.26 - 262.28]  Compared to any other industry ecosystem at this stage in its life, I just think it's unparalleled.
+[262.94 - 264.68]  Yeah, and that's a good point there.
+[264.68 - 268.06]  Shifting to you, Alex, I think I'm going to throw this out there.
+[268.76 - 269.96]  You mentioned OpenSAT.
+[270.00 - 271.00]  That's HRF.
+[271.00 - 276.52]  You guys have been doing the funding of Bitcoin open source developers for years now.
+[276.52 - 281.50]  Were there lessons learned in building up those funds to fund Bitcoin developers that
+[281.50 - 287.12]  were easily applicable to Nostr as it started to emerge?
+[287.12 - 292.80]  When it comes to Bitcoin or Nostr funding, I think that a lot of organizations tend to
+[292.80 - 294.80]  be very conservative.
+[294.80 - 296.18]  They're worried about their image.
+[296.18 - 298.12]  They want to support the right projects.
+[298.12 - 299.12]  They're worried about blowback.
+[299.12 - 300.12]  They don't want to .
+[300.00 - 304.72]  fund a project that might be a liability down the road whether it's due to you know
+[304.72 - 310.96]  some crazy developer who posts weird stuff on social media or someone who is not that sociable
+[310.96 - 315.92]  i think one thing that href has learned that it is important to take risks early on when you have a
+[315.92 - 321.12]  burgeoning new ecosystem that's not been like vetted by corporate lawyers and auditors and
+[321.12 - 326.00]  you know people in suits to say well this is you know clean or this is good for the brand
+[326.00 - 330.00]  of whatever you're supporting it's important to take calculated
+[330.00 - 335.56]  created risks early on, support small and early projects that don't have, you know,
+[335.56 - 339.84]  you can't have a multiyear long track record when it comes to Nostra development when the
+[339.84 - 344.76]  protocol is only a couple months old in the beginning. So I think what I would say is
+[344.76 - 349.56]  we've learned to take some risks, be calculated, do, of course, you've got to do your vetting,
+[349.56 - 354.28]  you've got to look at a developer's history, proof of work, what they've done in the past.
+[354.28 - 360.00]  So it's important to be able to be action oriented, take some risks, get shit done.
+[360.00 - 362.06]  and support a protocol in its infancy
+[362.06 - 365.24]  so it can continue to grow and develop.
+[365.24 - 368.86]  With that in mind, what are your, in terms of funding needs
+[368.86 - 370.64]  right now, from your perspective,
+[370.64 - 374.44]  is HRF and OpenSats looking at all the projects
+[374.44 - 377.66]  and prioritizing what to fund?
+[377.66 - 380.54]  How do you guys approach that?
+[380.54 - 383.84]  I think one issue that is plaguing a lot of open source
+[383.84 - 386.24]  developers, and this is not just with Bitcoin or Nostr
+[386.24 - 388.78]  specific, is just figuring out ways
+[388.78 - 391.14]  for sustainable long-term growth.
+[390.00 - 395.58]  support right now a lot of funding and open source is on a grant based model
+[395.58 - 400.60]  where you give someone a grant to work for maybe six months a year maybe two
+[400.60 - 405.68]  years if you're lucky and then six months year two years down the line you
+[405.68 - 409.38]  reassess and that can be very stressful for developers who don't know whether
+[409.38 - 415.12]  they're gonna have an income or salary after their grant is over and in a grant
+[415.12 - 419.68]  based model it often is very confusing for grantees as to okay what are the
+[419.68 - 422.04]  objectives
+[420.00 - 426.78]  criteria for me to renew my grant? Will I still be supported down the line? And oftentimes that
+[426.78 - 431.74]  doesn't actually have to do with the quality of your work, but just has to do with the state of
+[431.74 - 435.22]  financial markets or the state of Bitcoin markets at the time, whether we're in a bull or bear
+[435.22 - 439.90]  market, whether people that actually traditionally give you funding have money. And that's very
+[439.90 - 446.36]  stressful for grantees, and that's not an easy problem to solve, but we're working on it.
+[446.36 - 449.98]  Yeah, I mean, I think like twofold. First of all,
+[450.00 - 455.14]  It's always about increasing donor base and getting as much donations as possible.
+[455.62 - 463.52]  I mean, huge shout out to Jack, who's the overwhelming majority of OpenSats donations in terms of amount.
+[464.10 - 475.20]  But I will say one of the cool things about OpenSats is we have, I think, nearly 10,000 individual donations because people can just easily donate with Bitcoin or dollars.
+[475.32 - 477.54]  And if they donate with dollars, we automatically convert into Bitcoin.
+[477.54 - 480.02]  So we're just trying to increase.
+[480.00 - 484.76]  increase that donor base, make sure that we have the funds available for open source developers
+[484.76 - 492.48]  regardless of where we are in the Bitcoin cycle. But then the second piece is how do
+[492.48 - 500.76]  you scale these things up? And it's difficult. As Alex said, the renewal process is a mental
+[500.76 - 505.28]  time sink for everybody involved, not just the developers but also the teams that are
+[505.28 - 510.00]  allocating funds and processing all the paperwork and whatnot that is necessary.
+[510.00 - 517.00]  There's a lot of burnout in every direction. Developers are burned out. People on our team are burned out.
+[517.00 - 527.00]  It's just everyone is incredibly hard working and there's very little time to go around and there's pain points that just keep popping up in different places.
+[527.00 - 533.00]  Communication is a major issue that we are specifically working on at OpenSats.
+[533.00 - 540.00]  It's great when you receive a grant and we're almost at 200 outstanding grants.
+[540.00 - 544.88]  at opensets which is kind of insane to think about for such a young organization but i think we're at
+[545.68 - 551.76]  at like 800 or 900 denied grants and if you just start to think about like the level of paperwork
+[551.76 - 556.56]  and communication that is required to not only manage the existing grants but then also
+[557.28 - 564.24]  uh manage the inbound interest and and need um it's quite monumental and we personally are
+[564.24 - 569.12]  trying to do it on a very lean budget you know opensets 100 pass through so we don't take a cut
+[569.12 - 570.96]  of any donations
+[570.66 - 573.80]  So we have to fund our operations through a separate operations budget.
+[574.50 - 579.58]  And as a result, and we're very transparent with it, we try and keep that number as low as possible.
+[580.16 - 582.40]  So there's a lot of learning experiences there.
+[583.60 - 585.94]  Preston, any thoughts to add to this, pull you into the conversation?
+[585.94 - 592.56]  On the OpenSAT stuff, no, I don't have anything additional to add other than, to Matt's point,
+[593.14 - 597.58]  getting donations from people that have really kind of leaned into this
+[597.58 - 600.16]  because they understand how important the free speech aspect is.
+[600.00 - 607.52]  of it is is vital um i think that that's going to be a main source of funding uh moving forward
+[607.52 - 611.44]  it's going to have to be a main source of funding moving forward because from like an investment
+[611.44 - 617.44]  standpoint um a lot of this space this is a hard truth i'm about to say is uninvestable
+[618.08 - 625.04]  um just because of where we're at in the timeline and the the risk profile of some of the startups
+[625.04 - 629.92]  and the protocol itself is you know as far as the size of it
+[630.00 - 639.56]  Because this is this is one of the challenges that you have from an investment standpoint, because we're Bitcoiners and we understand what that hurdle rate is.
+[640.00 - 646.56]  It's compounding and we're going to be pretty conservative about 50 percent annualized is what we're saying is the hurdle rate.
+[647.12 - 651.24]  People in traditional finance would tell you the hurdle rates five percent today.
+[651.54 - 654.66]  Right. And we're looking at it. We're saying, no, the hurdle rate is 50 percent.
+[654.66 - 659.76]  So if I'm going to be a good steward of my LPs that are providing capital to me.
+[660.00 - 668.90]  And I'm going to employ that in a way that's going to get a return because the number one question I always hear in the VC side is, well, why don't I just buy Bitcoin?
+[669.34 - 670.84]  Like, why am I investing in you guys?
+[671.40 - 682.76]  And so I have to look at every single thing from this hurdle rate of 50% annualized or else I can't look at that person with a straight face and say, oh, yeah, I can outperform that.
+[683.06 - 688.44]  Because if I'm not making decisions that is trying to outperform 50% hurdle rate, well, what am I doing, right?
+[688.44 - 689.68]  So when we look at.
+[690.00 - 694.96]  all these all the startups in the space and we're saying all right it's like what's investable
+[695.76 - 702.80]  can it can it compound can the top line you know outperform 50 well very early stage stuff can
+[703.60 - 708.32]  but when you account for all the technical risks the protocol risk all this i mean we had a
+[708.32 - 714.00]  conversation up here about relays i mean i don't know what the consensus was you know for the
+[714.00 - 719.92]  people listening that was a spicy one it was yeah but in a good way right and
+[720.00 - 722.64]  Do we know what this looks like in five, ten years from now?
+[722.74 - 723.66]  No, we don't.
+[724.26 - 725.32]  I'm very hopeful.
+[725.72 - 732.36]  I think the environmental factors are really going to push more people to come on board.
+[732.80 - 734.44]  I wouldn't want to be Elon right now.
+[734.56 - 735.44]  I can tell you that much.
+[736.94 - 739.38]  I think he's got a massive target on his back.
+[739.48 - 745.64]  And so let's say they lean into that and they really start to pressure him even more than they already did
+[745.64 - 749.08]  by not honoring his options over at Tesla, right?
+[749.08 - 750.04]  Like we could get into a home.
+[750.00 - 755.08]  you know put the tinfoil hat on why do you think that that didn't happen um i think some of it had
+[755.08 - 759.30]  to do with twitter to be quite you know honest with you so like what happens when they amplify
+[759.30 - 763.96]  that i think it's going to give a nice tailwind into the protocol into noster and i think it's
+[763.96 - 769.52]  going to help assist making some of these things de-risked and and you know make the math work a
+[769.52 - 774.08]  little bit but i'd tell you right now the the the economic calculation and the math on it right now
+[774.08 - 780.00]  is very hard for for-profit uh funds vc funds that are trying to allocate cash
+[780.00 - 785.22]  in a way that's very responsible but yeah I mean I would just to add there
+[785.22 - 793.92]  like I wear multiple hats literally and one of those hats is is venture right we
+[793.92 - 799.66]  have we have 1031 we're focused mostly on Bitcoin businesses we have a single
+[799.66 - 803.88]  investment in the Nostra space and primal and we tend to agree with you
+[803.88 - 808.20]  that a lot of this is very early in terms of investable opportunities and
+[808.20 - 812.00]  and and obvious business
+[810.00 - 814.94]  models on how this all works out um i will say i think it's actually kind of beautiful i think
+[814.94 - 824.54]  um historically speaking when you see new tech develop um it's it's largely led by vc investment
+[824.54 - 831.56]  and vc investment comes with their own incentives and and and and some of them can be quite broken
+[831.56 - 837.06]  but in the opposite side it's like we have this these open source grants that are being provided
+[837.06 - 839.84]  and the first major incentive that that provides
+[840.00 - 846.52]  a project maintainer or founder or something is you actually have a strong incentive to have
+[846.52 - 854.62]  a open source project. Historically, like if you took VC money, and I think Bitcoin-focused VCs are
+[854.62 - 860.24]  not really included in this for the most part. They encourage you to keep everything closed
+[860.24 - 863.94]  source and proprietary and walled gardens as much as possible because they want to protect their
+[863.94 - 869.28]  moat. And the open source grants does the exact opposite. The second piece is it gives founders
+[869.28 - 870.00]  a lot of flexibility.
+[870.00 - 873.54]  because they're not actually giving up any equity in their business right
+[873.54 - 876.36]  they're getting no strings attached grants while they figure things out and
+[876.36 - 880.56]  see what the business model could be while they work things out and then the
+[880.56 - 884.94]  third piece I would say is you know you said the hurdle rate is is a
+[884.94 - 889.50]  conservative 50% I mean 10 years the last 10 years it's 63 percent year over
+[889.50 - 893.88]  year on Bitcoin so like Bitcoin is very much the opportunity cost when you're
+[893.88 - 899.00]  talking about talking about anything you build and it's not just from an
+[899.00 - 901.94]  investor's landscape
+[900.00 - 908.24]  Like, if you are a founder, if you're an individual, you should probably have the overwhelming majority of your assets in Bitcoin.
+[908.86 - 922.04]  And every time you are bootstrapping your own project, whether that's a bakery or whether that's a Nostra client, like, you should be factoring in the opportunity cost of that yearly return that we see on Bitcoin.
+[922.04 - 929.44]  Yeah, just to add to this, I was upstairs listening to Oscar Meyer from Fountain explain how they did.
+[930.00 - 933.40]  their migration to Nostr, and having listened to that,
+[933.46 - 937.60]  it seemed like a pretty Herculean effort on their team's side.
+[937.68 - 941.64]  And I think what he mentioned upstairs is that Nostr, at the protocol level,
+[941.64 - 947.38]  really needs to work on standardization that makes it easier for incoming companies
+[947.38 - 951.86]  that want to come on to Nostr to do so, via NIPS particularly.
+[952.16 - 955.92]  And the reason I bring this up is because if you're a founder out there building on Nostr
+[955.92 - 958.50]  and you want to build a business that's monetizable,
+[958.50 - 960.50]  I think focus should be on Nostr.
+[960.00 - 961.84]  should be on creating those bridges
+[961.84 - 963.96]  that make it easy for incumbent
+[963.96 - 965.72]  companies to get on to Noster because
+[965.72 - 966.68]  that will show
+[966.68 - 969.94]  for-profit VCs that there's a lot of activity
+[969.94 - 971.78]  here. It would increase the
+[971.78 - 973.90]  potential for you to get funded as a
+[973.90 - 975.62]  business. But as we said,
+[976.02 - 977.68]  particularly in VC, timing is
+[977.68 - 979.60]  a big part of it and it's objectively
+[979.60 - 981.88]  true that it is very early on
+[981.88 - 983.72]  in Noster and the timing
+[983.72 - 985.62]  probably isn't perfect for
+[985.62 - 987.28]  deploying capital into
+[987.28 - 989.70]  businesses for
+[989.70 - 990.00]  VCs.
+[990.00 - 996.96]  like return one thing that makes it really hard to is matt hit a little bit on the competitive moat
+[996.96 - 1003.88]  um i mean anybody who's an investor so i i have i come with this warren buffett value investing
+[1003.88 - 1011.26]  background like hardcore background and studying him and all that kind of stuff um what you find
+[1011.26 - 1015.44]  is was one of the most important things he looks at is having a competitive moat i want to buy
+[1015.44 - 1020.00]  something i want to squat on it for 20 years and i don't want some other actor
+[1020.00 - 1023.88]  to come in there and erode my competitive advantage in the marketplace so that I can
+[1023.88 - 1027.54]  continue to, you know, benefit from the free cash flows that the company kicks off.
+[1028.32 - 1034.64]  And when we look at this particular space, it's very hard for an investor to look at
+[1034.64 - 1040.20]  a business that's so open that any person can then, hey, you can make a client.
+[1040.38 - 1043.20]  Oh, and I can make a client and I can tweak it just this little bit.
+[1043.28 - 1047.62]  I can basically fork what you're doing and just tweak it this little bit from a competition
+[1047.62 - 1050.00]  standpoint, and this is what makes.
+[1050.00 - 1055.26]  Nostra so great right we all know that but from an investor's lens they're looking at that and
+[1055.26 - 1060.82]  they're saying risk risk risk risk I could just get chewed out like I could have the best client
+[1060.82 - 1065.86]  for two years and then year three it's gone and like poof there goes your investment and there
+[1065.86 - 1071.22]  goes your return and there goes bitcoin right goodbye yeah I mean but you also have the
+[1071.22 - 1076.10]  alternative when you build on open protocols and you build in an open source fashion where if you're
+[1076.10 - 1080.00]  bootstrapping a new business you don't have to do it from the ground up you
+[1080.00 - 1084.24]  You get to take advantage of everyone else's network effect, and you're all compounding
+[1084.24 - 1085.30]  on top of each other.
+[1085.30 - 1093.12]  So there is a bit of a give and take there, and I personally believe that we should all
+[1093.12 - 1100.74]  try and be the change we want to see in the world, and I do think that traditional investing
+[1100.74 - 1106.08]  techniques are going to be flipped on their head, and the way people think about things
+[1106.08 - 1109.96]  in this way going forward will change significantly.
+[1110.00 - 1118.38]  Part of that's open source, and then secondly, part of that is us moving towards a Bitcoin standard and money not being so cheap.
+[1118.78 - 1123.96]  You know, money actually having a real cost and a real hurdle rate that you need to outperform.
+[1124.92 - 1132.94]  Shifting this back to open source funding, I'm sure there's a lot of people in the crowd who are particularly interested to hear what you have to say.
+[1133.00 - 1138.96]  Alex, Matt, from your perspectives, you mentioned the communication, the amount of inbound that you guys have.
+[1138.96 - 1140.16]  Like, what advice would you give?
+[1140.00 - 1142.94]  give to open source developers looking to a grant?
+[1142.94 - 1146.90]  What boxes do they need to check to make sure that they're getting noticed and that they
+[1146.90 - 1148.76]  have a high likelihood of getting accepted?
+[1148.76 - 1152.76]  First of all, raise your hand if you're on an HRF or OpenStats grant in this room
+[1152.76 - 1153.76]  right now.
+[1153.76 - 1154.76]  Okay.
+[1154.76 - 1155.76]  That's awesome.
+[1155.76 - 1161.50]  Hopefully next year the hands are even more.
+[1161.50 - 1166.04]  I mean, I think the number one thing is what's really cool about providing open source grants
+[1166.04 - 1169.98]  and then I'll hand it over to Alex is that there really is usually
+[1170.00 - 1176.72]  a verifiable proof of work in terms of commits and repo activity. Also on Nostr in general
+[1176.72 - 1180.64]  because it is a communication protocol, you get to see a lot of these projects actually
+[1180.64 - 1185.88]  develop in real time and interaction between them and their users. The more information
+[1185.88 - 1194.08]  we have, the better. Obviously, in terms of resources, everyone is a bit constrained.
+[1194.08 - 1199.94]  So one of the issues is, like, having a reasonable ask in terms of how much money you're looking
+[1199.94 - 1200.94]  for in Nostr.
+[1200.00 - 1208.56]  for but i think both us and hrf have been trying to push the limits a bit on on what kind of funding
+[1208.56 - 1215.68]  we can provide and actually sometimes we do uh dual fund uh projects where both hrf and us will
+[1215.68 - 1222.00]  split um a grant uh and there's communication there you know that there's like honest communication
+[1222.00 - 1228.80]  there both with the grant uh recipient is is is saying to us you know oh we're also applied for
+[1228.80 - 1231.92]  a grant on hrf and
+[1230.00 - 1232.80]  And then also friendly communication
+[1232.80 - 1234.72]  between Alex and the rest of his team
+[1234.72 - 1238.40]  and us in terms of actually verifying that's the case.
+[1238.40 - 1240.30]  We haven't seen anyone abuse that yet.
+[1240.30 - 1241.98]  But I would say, in general, first of all,
+[1241.98 - 1245.10]  it's a longer process than you're probably hoping for.
+[1245.10 - 1246.72]  Hopefully, we can cut that time down.
+[1246.72 - 1249.06]  And the more information we have, the more proof of work,
+[1249.06 - 1250.74]  the better.
+[1250.74 - 1252.32]  Yeah.
+[1252.32 - 1254.36]  At Ahrefs, we have a Bitcoin development fund.
+[1254.36 - 1255.94]  And even though it's called the Bitcoin Development Fund,
+[1255.94 - 1257.38]  we also support Nostra projects.
+[1257.38 - 1259.30]  We support free and open source.
+[1259.30 - 1261.20]  Bitcoin and Nostra.
+[1260.00 - 1261.02]  projects.
+[1261.02 - 1263.12]  And the number one piece of advice
+[1263.12 - 1265.94]  I would give to aspiring developers or educators,
+[1265.94 - 1267.88]  activists, community builders who
+[1267.88 - 1269.78]  are looking for grants and funding is,
+[1269.78 - 1272.78]  don't be afraid to make the ask.
+[1272.78 - 1274.52]  The worst that can happen is we say no,
+[1274.52 - 1276.88]  and then you can always reapply.
+[1276.88 - 1279.32]  So the first step is just, yeah, don't be afraid to make the ask.
+[1279.32 - 1280.82]  Don't be afraid to apply for funding.
+[1280.82 - 1283.08]  Don't be afraid to ask for help in this space,
+[1283.08 - 1285.62]  whether that's for applying for a grant
+[1285.62 - 1287.54]  or whether that's just asking for a referral,
+[1287.54 - 1289.92]  whether that's just showing up to a conference
+[1289.92 - 1291.42]  now.
+[1290.00 - 1292.06]  asking for travel grants.
+[1292.06 - 1294.34]  We're trying to support everyone.
+[1294.34 - 1296.30]  And although it's impossible to support everyone,
+[1296.30 - 1299.24]  given limited constraints, we're doing our best
+[1299.24 - 1301.72]  to try to expand open source funding,
+[1301.72 - 1303.70]  give more funds every year, support more people,
+[1303.70 - 1305.40]  support more projects.
+[1305.40 - 1307.18]  So yeah, the number one thing I'd say
+[1307.18 - 1308.70]  is don't be afraid to ask.
+[1308.70 - 1309.20]  Yeah.
+[1309.20 - 1312.20]  The amount of times I've seen a Nostra post where someone's
+[1312.20 - 1313.90]  like, why aren't you funding this thing?
+[1313.90 - 1315.76]  It's like, well, they should apply.
+[1315.76 - 1318.20]  Go to the website, put an application in.
+[1318.20 - 1319.86]  If you don't apply, we can't fund you.
+[1319.86 - 1320.36]  We can't do it.
+[1320.00 - 1326.54]  story Marty I would just say it's if people in this room the builders in this
+[1326.54 - 1331.28]  room are looking at this and hearing this conversation thinking about what it
+[1331.28 - 1334.04]  is you want you want to build something you just don't know what it is this is
+[1334.04 - 1337.74]  this is what I would tell you to start with the upstream you know incentives
+[1337.74 - 1342.28]  and impacts that are playing out speech they've got to try to control the speech
+[1342.28 - 1349.22]  these you know lizard people are trying to control the speech aggressively it's
+[1349.22 - 1351.94]  it's going
+[1350.00 - 1355.94]  amplify it's going to amplify aggressively okay so there's going to be
+[1355.94 - 1362.90]  this movement towards Nostra right what exists today that is vital for free
+[1362.90 - 1368.00]  speech and for free and open communication like github right or
+[1368.00 - 1372.38]  signal or like these things that would that that already exists in the world
+[1372.38 - 1378.02]  and then think is it built over on Nostra or could it be built better and
+[1378.02 - 1381.92]  in thinking those
+[1380.00 - 1385.56]  very big broad terms as you're thinking about putting in your application of of the business
+[1385.56 - 1389.94]  that you're or the idea that you're trying to build out um that was really for me that was
+[1389.94 - 1394.56]  really exciting yesterday to see the whole github thing and all the work that went into that because
+[1394.56 - 1400.34]  that's huge it's absolutely huge so that that would be my bit of advice for people sitting in
+[1400.34 - 1405.38]  the room that are maybe looking to do something is just start with the free speech understand that
+[1405.38 - 1409.98]  there are things that are already constructed in a very centralized kind of way and and build it
+[1409.98 - 1416.06]  and that really helps you build it and I'm happy to read and to write them but all that's how this
+[1416.06 - 1421.86]  is going to translate so thanks everyone for watching and I hope that you have a great day
+[1421.86 - 1426.60]  and I'll see you in the next video now thank you
+[1410.00 - 1411.56]  and then talk to these guys
+[1411.56 - 1413.44]  or submit your application with these guys.
+[1414.68 - 1417.46]  Shifting back to what you started with, Matt,
+[1417.50 - 1418.50]  like the concept of Zaps
+[1418.50 - 1421.42]  and being able to directly not only fund projects,
+[1421.52 - 1423.32]  but you can tip people for their content.
+[1423.66 - 1425.72]  And we've discussed this for many years
+[1425.72 - 1427.48]  because we've been on Podcasting 2.0
+[1427.48 - 1429.16]  for probably three or four years now.
+[1429.62 - 1431.46]  We recognize that the amount of people
+[1431.46 - 1433.20]  streaming us Zaps or boosting us
+[1433.20 - 1435.42]  during the show isn't material yet,
+[1435.52 - 1437.30]  but you can squint and look forward
+[1437.30 - 1439.94]  and if adoption of Bitcoin in these apps increases,
+[1440.00 - 1445.36]  that it could become a significant revenue stream for pockets like do you think that potential
+[1445.36 - 1452.44]  exists for funding projects businesses and yeah no i think it's absolutely massive i think people
+[1452.44 - 1456.40]  are really sleeping on that i mean it enables business models that were just never even
+[1456.40 - 1464.46]  possible before um it it enables audience and uh donation based funding uh without a middleman
+[1464.46 - 1469.74]  very low fees uh very low friction transactions a lot of times people want to support
+[1469.74 - 1470.24]  you
+[1470.00 - 1473.70]  But if there's any little bit of friction there, they fall off and they don't support. Right.
+[1473.70 - 1484.48]  So you want to reduce the friction as much as possible. And seeing it on Noster, I mean, we've reduced that friction over the last year and a half, two years so significantly.
+[1485.02 - 1498.66]  I think it's easy to just underappreciate how far we've come. But like I said earlier, like me and Marty, we literally got into a zap battle over supporting that Hummingbird film about Bitcoin jungle.
+[1498.66 - 1499.70]  And.
+[1500.00 - 1503.64]  It was very low friction for us to send a lot of money to them.
+[1504.90 - 1507.36]  And I assume that Zap Battle will probably continue
+[1507.36 - 1510.14]  and someone else on the live stream might pick it up
+[1510.14 - 1512.34]  and start battling us as well.
+[1514.00 - 1517.16]  But on the podcasting 2.0 piece, that was another key, right?
+[1517.40 - 1519.32]  Is lower the friction as much as possible.
+[1519.74 - 1524.42]  Oscar and the team at Fountain have done a really good job
+[1524.42 - 1525.32]  at lowering that friction.
+[1526.28 - 1527.70]  Some trade-offs were made.
+[1527.70 - 1530.16]  You know, a lot of dependency on...
+[1530.00 - 1534.66]  custodial wallets hopefully we we can move away from that or at least have more private
+[1534.66 - 1541.16]  uh privacy focused custodial wallets with stuff like cashew um but we're definitely seeing a
+[1541.16 - 1548.92]  trend up even if it's just um maybe maybe the amounts are aren't as high as people would expect
+[1548.92 - 1553.38]  them to be like clearly like on the podcasting side you make a lot more money doing advertisement
+[1553.38 - 1559.98]  based model still but like if we if me and marty like open our nodes uh like at any moment
+[1560.00 - 1564.72]  There's, like, someone, at least one person, like, sending one sap per bite while they're, like, listening.
+[1565.48 - 1571.90]  And we're just sending one sap per minute while they're listening to the podcast, which is, like, super empowering and super cool to watch.
+[1571.92 - 1577.08]  And we've seen that trend up in terms of number of payments, if not the total amount.
+[1578.26 - 1587.86]  Just looking at it from an incentive standpoint, I know what my podcast makes on the traditional side, traditional advertising side.
+[1587.86 - 1590.02]  And I know what it makes by people.
+[1590.00 - 1598.80]  streaming me sats the disparity is so absurdly large the difference that if a person is is
+[1598.80 - 1603.52]  coming over through a natural incentive they're not coming for the money they're doing it to
+[1603.52 - 1610.16]  support the network because you're in i don't say this to offend anybody we're kind of in an r d
+[1610.16 - 1616.32]  phase with this this is not like full production like deployment we're sucking a whole bunch of
+[1616.32 - 1620.00]  demand naturally over to it at this point you're not even close to that right now
+[1620.00 - 1624.72]  on the numbers that i'm seeing um that doesn't make it wrong it doesn't make it right i'm just
+[1624.72 - 1630.40]  trying to like properly frame the current setup in the environment that i'm personally seeing with
+[1630.40 - 1637.92]  with this the challenge that you run into is is this model is so ingrained uh this advertising
+[1637.92 - 1644.96]  model the whole spotify and all this kind of stuff these are massive massive uh you know things that
+[1644.96 - 1650.24]  are going to take a lot of time to to switch over what what is the timeline uh
+[1650.00 - 1656.04]  it's not four years. I think it's more than four years for this particular topic. I think you're
+[1656.04 - 1664.60]  like eight to 10 plus personally, but yeah, I mean, I think, um, as Bitcoin, as we talk about
+[1664.60 - 1669.86]  incentives a lot, right. And the beauty of the value for value model, the beauty of beauty of
+[1669.86 - 1675.58]  direct user funding or direct audience funding is you have this nearly perfect incentive, right.
+[1675.58 - 1679.92]  Which is, uh, the creator, whether they're a podcaster, whether they're a developer.
+[1680.00 - 1685.44]  is directly getting rewarded from their user base.
+[1686.06 - 1688.02]  And as a result, they are the stakeholder
+[1688.02 - 1690.68]  that they are trying to provide as good of a service
+[1690.68 - 1692.52]  or as good of a podcast as possible.
+[1692.52 - 1696.02]  The advertising model at its core
+[1696.02 - 1699.18]  is a surveillance capitalism model
+[1699.18 - 1700.90]  that perverts every incentive
+[1700.90 - 1704.94]  and makes these large tech companies incredibly predatory.
+[1705.10 - 1706.52]  They make the podcast incredibly predatory.
+[1706.52 - 1709.98]  And they try and track their users as much as possible.
+[1710.00 - 1720.44]  That's why we start to see stuff like Spotify do these exclusive deals where they can try and track podcast listens even more so and know who the demographics of your user are and all this other stuff.
+[1721.50 - 1726.84]  So it's important that we start going down this trajectory of trying to improve the incentives.
+[1727.44 - 1734.40]  The second piece there is there's something about it on Nostr rather than podcasting 2.0 because I agree with you.
+[1734.40 - 1739.36]  The disparity is massive between advertisements and value for value.
+[1740.00 - 1745.32]  On Nostr, you do have that social signal element that you don't really have on Podcasting 2.0.
+[1745.40 - 1751.80]  You do kind of, on Rabbit Hole Recap, we read boosts, which is probably where we get the majority of our sats from Podcasting 2.0
+[1751.80 - 1754.70]  because they get, like, shout out in the podcast.
+[1754.80 - 1755.62]  They hear their name, right?
+[1755.64 - 1756.56]  They get that social signal.
+[1756.98 - 1762.40]  And I think just that little element on Nostr clients of having that social signal, your little badge, you know,
+[1762.44 - 1766.54]  saying that I zapped more than Marty, does encourage people to do it.
+[1766.54 - 1770.06]  And then the third piece is it's different.
+[1770.00 - 1777.88]  for a Joe Rogan than a new podcaster. A new podcaster actually has a lot of trouble getting
+[1777.88 - 1783.62]  advertisement deals. A new developer that has a brand new project has a lot of trouble
+[1783.62 - 1788.52]  having any kind of monetization scheme. And there's actually not that much friction for
+[1788.52 - 1793.06]  them to have more in value for value than they do from any kind of alternative. They
+[1793.06 - 1800.00]  have no alternative. That is the only way they can go.
+[1800.00 - 1803.92]  Adam Curry rolling over in his bed right now from afar, value for value.
+[1804.04 - 1805.96]  Well, maybe one day he'll understand Nostrad.
+[1806.68 - 1808.18]  I just texted him about it, actually.
+[1808.40 - 1811.08]  But going back to what Alex said earlier,
+[1811.38 - 1816.22]  if you want to monetize via value for value, don't be afraid to make the ask.
+[1816.62 - 1820.58]  And figuring out unique interaction models with your audience,
+[1820.66 - 1823.92]  like Matt mentioned, we read the top four boosts each week on Rabbit Hole Recap,
+[1824.00 - 1828.16]  and that creates a marketplace so that people get their boosts read
+[1828.16 - 1829.90]  on the episode week in and week out.
+[1830.00 - 1833.42]  And so as a creator or somebody building an app,
+[1833.42 - 1837.50]  trying to get people to interact with your Nostra notes,
+[1837.50 - 1840.14]  think about unique ways to incentivize people to do that
+[1840.14 - 1842.70]  so that they are more compelled to zap you
+[1842.70 - 1843.62]  and then you can take that money
+[1843.62 - 1845.36]  and go build what you want to build.
+[1847.34 - 1848.18]  Switching gears,
+[1848.18 - 1849.88]  you didn't really answer the question earlier.
+[1849.88 - 1852.26]  What do we think is the most prescient need
+[1852.26 - 1855.04]  in terms of areas of the Nostra protocol
+[1855.04 - 1858.94]  that need funding, attention, review, focus?
+[1860.00 - 1875.30]  I mean, I don't have a good answer for you, Marty. Like everything and everywhere. And it's cool because we are working on, there's so many different, there's so many projects being worked on in Nostra, like we can't even keep track of all of them.
+[1875.30 - 1887.48]  I think anyone in this room that says they know every single Nostra project that exists is just 100% full of shit. Like there's no way that you're able to track all of this. It's a full-time job in itself.
+[1887.48 - 1890.12]  And I think that's the cool part.
+[1890.00 - 1897.50]  part, because you can build on it in an open, permissionless way. I will say, like, we probably
+[1897.50 - 1903.30]  don't need more Twitter-like clients, but also more don't hurt, and maybe there's a
+[1903.30 - 1907.36]  better one that comes out, you know, so I'm not going to discourage people from doing
+[1907.36 - 1917.76]  that. In general, with how we do Open Stats funding, is we try not to do, you know, the
+[1917.76 - 1920.00]  way Open Stats works is we have a nine-person board.
+[1920.00 - 1925.84]  and during the review process it requires five of nine board members to approve your grant and
+[1925.84 - 1930.00]  the reason for that is because we wanted it to be as corruption resistant as possible
+[1930.64 - 1937.76]  so individual biases of board members don't don't corrupt that process and especially when you start
+[1937.76 - 1943.84]  to talk about larger numbers and more donations received that becomes more and more of a concern
+[1943.84 - 1949.52]  so it's important to have that base level foundation so it's hard to speak in broad
+[1949.52 - 1949.84]  broad
+[1950.00 - 1954.52]  strokes about how OpenStats review process works, and it's probably one of the most frustrating
+[1954.52 - 1960.12]  things for grant recipients, because they could have a 45-minute conversation with me or one of
+[1960.12 - 1964.42]  the other OpenStats board members, and they'll pretty much still have no insight into whether
+[1964.42 - 1969.88]  or not they might get approved. But there are general broad themes, and in general there,
+[1970.30 - 1976.84]  we don't, we tend not to be like, oh, well, this is a client, and there's too many Twitter-like
+[1976.84 - 1980.00]  clients, so we're not going to fund this. It's, does this project
+[1980.00 - 1988.54]  project have a, is there a need for this project? Does it accomplish something in a way that
+[1988.54 - 1992.90]  other projects aren't tackling? And is there verifiable proof of work that this project
+[1992.90 - 1997.56]  actually exists? It's not just like an idea. So I don't want to discourage anyone from
+[1997.56 - 2003.20]  doing, from working on anything in the nonstop space. I think it's so early that it would
+[2003.20 - 2008.06]  be incredibly conceited to say that we know how to do everything. We actually know how
+[2008.06 - 2010.00]  to do very little.
+[2010.00 - 2013.56]  A lot of these things will be figured out over time as people experiment.
+[2013.72 - 2015.28]  So the more experimentation, the better.
+[2016.04 - 2021.96]  To add to Matt's point, I totally agree with him that if anyone thinks that they know 100% of what's going on in Nostra, they're full of shit.
+[2022.04 - 2022.84]  That's totally true.
+[2023.32 - 2030.60]  I feel like I took a two-week break from the Internet where I just chilled and relaxed and tried to detox myself from the toxic algorithms.
+[2030.60 - 2033.62]  I come back, and I'm just like, what's been going on in Nostra?
+[2033.70 - 2036.42]  I'm just like, ooh, all this new stuff going on.
+[2036.42 - 2039.90]  A slightly contrarian take on what I think.
+[2040.00 - 2045.16]  needs the most development in Nostr is I feel like we're
+[2045.16 - 2048.08]  obviously not fully funding all the Nostr developers out there.
+[2048.08 - 2050.12]  There's a lot of projects, a lot of amazing developers
+[2050.12 - 2051.22]  who still need funding.
+[2051.22 - 2054.58]  But I think that we are slightly underfunding
+[2054.58 - 2056.72]  people who are doing community building,
+[2056.72 - 2060.10]  who are doing marketing, people who are onboarding new users.
+[2060.10 - 2062.86]  Because right now, let's be honest,
+[2062.86 - 2064.50]  Odell and many people here on the panel
+[2064.50 - 2067.72]  have taken the brave step of deleting their X account.
+[2067.72 - 2071.04]  Many of us still use X every day.
+[2070.00 - 2072.68]  And I'm part of this crew.
+[2072.68 - 2074.12]  I even paid for a blue check mark.
+[2074.12 - 2076.86]  And you know, Odele, you can roast me for that,
+[2076.86 - 2079.66]  paying $8 a month to boost my algorithmic reach on X.
+[2079.66 - 2083.56]  Did you use a KYC phone number when you did that?
+[2083.56 - 2084.06]  I did.
+[2084.06 - 2084.56]  Whoa, whoa, whoa.
+[2084.56 - 2085.06]  I did.
+[2085.06 - 2085.64]  I did.
+[2085.64 - 2086.60]  So you got me there.
+[2086.60 - 2087.76]  The issue isn't the payment.
+[2087.76 - 2090.64]  The issue is the identity verification.
+[2090.64 - 2093.26]  I think, actually, in a lot of ways,
+[2093.26 - 2095.10]  one of the good things that X is doing
+[2095.10 - 2098.48]  is it's proving at scale that people will pay for a product
+[2098.48 - 2101.24]  so you don't need to rely on the advertising.
+[2100.00 - 2107.62]  model, and I think that's a key piece that people miss, is that actually we probably
+[2107.62 - 2113.84]  should be encouraging more and more projects to have some kind of premium model where users
+[2113.84 - 2116.14]  pay them directly.
+[2116.14 - 2121.60]  It's not Adam Curry's value for value, because Adam Curry's value for value is you pay what
+[2121.60 - 2129.00]  you feel like, but I think it is a step towards sustainable, more freedom-focused, user-focused,
+[2129.00 - 2130.00]  human-focused business.
+[2130.00 - 2134.72]  models and i think one thing that hrf does is slightly different in the bitcoin funding space
+[2134.72 - 2139.60]  is we would try to fund circular economies we try to fund global communities because we want people
+[2139.60 - 2144.00]  to be able to actually use bitcoin and if people want to be able to use bitcoin they have to know
+[2144.00 - 2147.76]  it exists they need to be in they need to have an environment where they can safely learn how
+[2147.76 - 2153.44]  to actually install a wallet safe on and on off ramps within their country so we try to fund
+[2153.44 - 2157.84]  bitcoin circular economies and educators and activists around the world i think that and i
+[2157.84 - 2159.92]  think we need a little bit of that in oster where
+[2160.00 - 2174.74]  We need a way to, obviously, Nostr is different than Bitcoin, and an innovation hub or a circular economy is not the same as a booth at a conference where you can learn about Nostr.
+[2174.82 - 2182.24]  But we need ways to better on-ramp people to Nostr, educate people of Nostr, get people to actually know that Nostr exists.
+[2182.70 - 2185.60]  And I'm not sure what's the best way to do that right now.
+[2185.60 - 2190.00]  Is it funding people to go to non-Bitcoin and non-Nostr conferences?
+[2190.00 - 2191.38]  to educate people about Nostr?
+[2191.52 - 2193.78]  Is it paying people to get on panels
+[2193.78 - 2195.68]  at mainstream conferences around the world
+[2195.68 - 2197.04]  so people know that Nostr exists?
+[2197.58 - 2201.86]  Is it just, you know, starting a global campaign
+[2201.86 - 2203.62]  to get people to delete their ex-account
+[2203.62 - 2205.98]  and to use Nostr exclusively?
+[2206.12 - 2206.56]  Who knows?
+[2207.76 - 2210.04]  But change comes from within,
+[2210.12 - 2212.40]  and we have to start, even in the Bitcoin community,
+[2212.72 - 2214.66]  getting people to use Nostr.
+[2214.82 - 2216.48]  Like, it's amazing how oftentimes
+[2216.48 - 2218.26]  I go to a Bitcoin conference and ask people,
+[2218.26 - 2219.94]  well, what's the best way to stay in touch with you?
+[2220.00 - 2222.00]  and they're like, oh, follow my Twitter, follow my X.
+[2222.00 - 2223.24]  I'm like, oh.
+[2223.24 - 2224.24]  We need to get to the point where
+[2224.24 - 2225.94]  you go to a Bitcoin conference, and the first thing someone
+[2225.94 - 2228.04]  says is, follow me on Nostr.
+[2228.04 - 2230.04]  DAN GALPIN- Damn right.
+[2230.04 - 2232.46]  I've been thinking about your question a little bit more.
+[2232.46 - 2235.88]  One of the things I'm really excited about is,
+[2235.88 - 2239.02]  I think one of the cool parts about Nostr
+[2239.02 - 2242.52]  is this idea that people can control their experience,
+[2242.52 - 2247.80]  that the user has fine-tuned controls on how they experience
+[2247.80 - 2250.00]  Nostr and what content they see and how
+[2250.00 - 2255.38]  they consume it. And I think while there's a lot of good work
+[2255.38 - 2262.80]  that is moving towards that direction, and I'm really excited about like DVMs and this
+[2262.80 - 2268.66]  idea of like choosing your algorithm and like algorithmic marketplaces where you can choose
+[2268.66 - 2271.84]  different things, I think there's still a lot of work to be done there.
+[2271.84 - 2274.42]  And the key issue there is it's like twofold, right?
+[2274.42 - 2279.98]  It's the technical issue of how do we provide users as
+[2280.00 - 2284.34]  much control as possible of their experience so instead of having like a top-down censorship model
+[2284.34 - 2289.96]  like you see with x or tiktok or something like that it's the users ultimately choosing how they
+[2289.96 - 2296.52]  experience the protocol but the second piece is trying to do that in a non-overwhelming with very
+[2296.52 - 2300.60]  little friction because if it's if it's overwhelming and you just like all of a sudden hit them with a
+[2300.60 - 2304.42]  bunch of sliders and a bunch of options and a bunch of different things then we've also failed
+[2304.42 - 2308.66]  on that regard and when when we're talking about onboarding people to noster like if they hit that
+[2308.66 - 2309.98]  piece of friction they're just
+[2310.00 - 2313.54]  going to get overwhelmed and they're just going to go back to facebook or linkedin or wherever
+[2313.54 - 2321.26]  the hell they are on the incentives to drive people to noster i think that the the western
+[2321.26 - 2326.80]  governments are going to probably do most of the heavy lifting for us um so like we can do a lot
+[2326.80 - 2330.90]  of these things and attract people in but i think the real pull and the real demand that's going to
+[2330.90 - 2334.32]  come out of it is just people that get very frustrated because they're going to have a
+[2334.32 - 2339.80]  a 2020 covid like experience not necessarily a pandemic but like
+[2340.00 - 2344.58]  like all of my friends was like, wow, like I didn't realize that government was like truly
+[2344.58 - 2349.08]  like censoring us and like not allowing us to see stuff. Like everybody was weirded out,
+[2349.16 - 2353.32]  very weirded out after 2020. And I think that there's more of that kind of stuff on the horizon
+[2353.32 - 2359.92]  that's going to just naturally push people over. From an investment, I don't know if this is a
+[2359.92 - 2365.38]  good answer, but I find the interoperability stuff to be really important. And oftentimes
+[2365.38 - 2369.98]  there's not like a business there, unfortunately. And it's people like
+[2370.00 - 2374.32]  Pablo and many others that have been on stage you know the last day and a half
+[2374.32 - 2381.34]  that are out there clacking on keys writing like amazing code that is
+[2381.34 - 2385.94]  benefiting the connectivity between all of this type of stuff so when I see open
+[2385.94 - 2389.68]  sats and I see some of the stuff that they're that they're funding I I
+[2389.68 - 2393.82]  absolutely love this program because it's it's the thing that's kind of
+[2393.82 - 2397.96]  stitching this all together that's going to eventually give us the performance
+[2397.96 - 2401.36]  that were in better
+[2400.00 - 2407.40]  than of what we're used to having in these centralized, you know, cesspools that are, you know, feasting off of us.
+[2408.18 - 2411.44]  And it's going to be a completely different experience on the other side.
+[2411.52 - 2415.08]  But stitching it all together because it's so decentralized is really challenging.
+[2415.26 - 2419.08]  So I was on a Noster Nest the other day listening to a Noster Nest.
+[2419.88 - 2424.66]  And, you know, there was, I don't know, 20 people listening.
+[2424.66 - 2428.80]  And when you're on Twitter and you go on a Spaces.
+[2430.00 - 2444.72]  If you have somebody with 10,000 followers or 100,000 followers or whatever, their entire group of followers see that they're in a space, which then drives more engagement and more interaction and more people on stage because it's all centralized.
+[2445.26 - 2453.42]  So when we're looking at the Noster Nest, is there some type of, you know, little circle that goes around the person's image that they're in the room listening to that?
+[2453.42 - 2459.76]  No, this is interoperability pieces where you're connecting things that drives engagement.
+[2460.00 - 2465.12]  that Noster Nest but you have to have a client that's willing to to code that up you have to
+[2465.12 - 2472.40]  have you know all the all the engineering behind all that is not easy it takes time it takes a lot
+[2472.40 - 2478.52]  of time to stitch that all together so I I get excited about the interoperability piece I think
+[2478.52 - 2484.46]  it's a real challenge to have it funded but um you know the non-profit and and you know having
+[2484.46 - 2489.76]  an appreciation for kind of where we're at in this prototype slash R&D phase is is very important
+[2489.76 - 2489.98]  for us
+[2490.00 - 2492.10]  especially for everybody in this room that are real builders,
+[2492.76 - 2495.28]  I would just try to encourage people to do more of that.
+[2496.46 - 2496.64]  Yeah.
+[2497.44 - 2499.58]  We've got three minutes left, so I'll make a comment,
+[2499.80 - 2503.04]  and then I'll throw it to you three for final thoughts on this.
+[2503.08 - 2506.64]  But I think it's important to really point out
+[2506.64 - 2509.70]  how far funding for developers has come
+[2509.70 - 2511.10]  over the last five years specifically,
+[2511.28 - 2514.68]  and just give a shout-out to you two gentlemen specifically
+[2514.68 - 2515.76]  for pushing this forward.
+[2516.02 - 2518.78]  And then on the for-profit side,
+[2518.78 - 2519.98]  like funds like EgoDeath...
+[2520.00 - 2524.08]  Disclaimer, I'm a partner at 1031.
+[2524.08 - 2525.08]  Coming to market.
+[2525.08 - 2526.08]  Literally wearing the hat.
+[2526.08 - 2527.08]  Yeah.
+[2527.08 - 2532.40]  I think everybody's talked about it in the past, like Linux Foundation, Redbox, but I
+[2532.40 - 2537.20]  think Bitcoiners have done a really good job over the last five years, particularly sort
+[2537.20 - 2541.06]  of paving the path for how to fund open source development and setting a new model.
+[2541.06 - 2543.74]  It's just been really cool to see play out.
+[2543.74 - 2547.20]  With that, I'll throw it to you guys for final thoughts.
+[2547.20 - 2549.44]  See the change you want to see in the world and use Nostr.
+[2550.80 - 2553.84]  To echo a very smart person, stay humble, stack sats.
+[2554.38 - 2556.68]  Also, stay humble and zap your friends.
+[2557.98 - 2559.16]  Don't get frustrated.
+[2560.02 - 2562.96]  If you are going for funding and you're getting a lot of no's,
+[2563.00 - 2566.60]  just kind of understand the environmental setting that we're in and how early we are
+[2566.60 - 2571.06]  and where you can kind of go for certain types of funding like we talked about on stage.
+[2571.58 - 2572.74]  It's just going to take time.
+[2573.00 - 2573.90]  It's just going to take time.
+[2573.90 - 2577.04]  And, you know, if the governments start doing their heavy lifting,
+[2577.16 - 2578.44]  maybe it'll move a little faster.
+[2578.58 - 2579.24]  So we'll see.
+[2580.00 - 2580.62]  That's all we got.
+[2580.80 - 2581.30]  Thank you, guys.
+[2582.30 - 2582.74]  Thank you.

@@ -1,0 +1,280 @@
+[0.00 - 0.88]  Hello, hello.
+[3.76 - 5.62]  So where to begin?
+[6.88 - 12.60]  So this is basically Hornet storage, but kind of started as that.
+[12.68 - 16.34]  I would say that was the seed, and a lot has blossomed from it.
+[17.66 - 22.60]  But to begin, we're going to just start with the all-in-one Hornet storage Nostra relay.
+[22.60 - 29.60]  And basically how this thing works is it can host all of the normal Nostra notes that normal...
+[30.00 - 35.70]  relays host, but it can also host Blossom blobs, which a lot of people are starting
+[35.70 - 39.52]  to get a lot more familiar with. And, you know, the beauty of Blossom is that
+[39.52 - 45.06]  it provides the data portability that your normal Noster notes have, but for your media
+[45.06 - 49.12]  as well. Because, you know, if a relay bans you for
+[49.12 - 53.18]  any reason, you can just move your post to another relay because they're all signed by
+[53.18 - 60.18]  your key. And that would be what Blossom provides as well for your media.
+[60.00 - 66.04]  So, Hornet Storage tries to provide that. But there is something that happens when the
+[66.04 - 70.24]  media files get really large. It's basically called a delay attack.
+[70.24 - 75.62]  Where the only way you can verify that I signed the video is if you download it first.
+[75.62 - 79.08]  And if it's a really large video, it might take you, you know, ten minutes to download
+[79.08 - 82.50]  it. So, by the time you finish downloading it,
+[82.50 - 86.74]  you then have to verify it and it might be that I sent you the wrong video.
+[86.74 - 90.00]  So, Merkle trees basically provide this chunking where you can download it.
+[90.00 - 97.76]  branch by branch and verify that every branch is signed with the signature that signed the
+[97.76 - 103.16]  route. So it's still just one signature, just like your Nostra notes are.
+[103.88 - 109.58]  So the Hornet Storage Relay supports all three of those. And it comes with a really nice GUI panel
+[109.58 - 114.48]  that I'm going to show you guys where relay operators will finally be able to have an
+[114.48 - 119.68]  experience kind of like how the miners do with their mining farms and the dashboard panels that
+[119.68 - 120.68]  they use.
+[120.00 - 129.78]  that they have. So you can see here you got some different graphs that display the percentage
+[129.78 - 136.96]  of what you're storing, like photos or videos or normal notes. You have your paid subscribers
+[136.96 - 142.56]  at the top. And it's all interactable. And this is all currently functional. You also
+[142.56 - 148.88]  have the number of addresses. So if people start switching to Bolt 12, you can track
+[148.88 - 150.00]  that and just the number of
+[150.00 - 154.70]  users that you have on your relay as well. You can track how many gigabytes per month
+[154.70 - 161.82]  you're storing in total. And you could do a month by month. And then that's basically
+[161.82 - 167.24]  the same thing but for notes and media segregated. Over here on the right you have your wallet,
+[167.24 - 172.28]  a little bitcoin graph, see the price of bitcoin, all of your transactions, people who are paying
+[172.28 - 177.12]  you, you know, if you're a paid relay. And they even have a button for switching to sats
+[177.12 - 184.12]  if you want to denominate in that.
+[180.00 - 186.26]  Then here is the settings page.
+[186.26 - 188.60]  So this is, I think, the most magical part.
+[188.60 - 193.22]  You can really configure how you want to host data.
+[193.22 - 194.60]  You don't have to do everything.
+[194.60 - 199.36]  You can store blossom blobs, you can store the merkle trees, you can turn those off altogether
+[199.36 - 200.84]  if you want.
+[200.84 - 206.16]  Here is just the different kind numbers, supporting different nips, you know, just giving you
+[206.16 - 210.00]  really full toggle ability.
+[210.00 - 218.10]  And then, you know, some people don't want to host photos and videos, the content moderation problem, so you can turn those off as well if you want.
+[220.26 - 221.98]  Same with audio down there.
+[225.42 - 232.78]  Just kind of make it a nice experience for relay operators, because they're like the backbone of the network at the end of the day, like the server operators.
+[232.78 - 239.98]  And then here you have statistics for each kind number, so you can kind of track the trends of maybe different new Nostra apps.
+[240.00 - 246.12]  that are emerging. Because, you know, new apps tend to have new kind numbers. So that's
+[246.12 - 250.26]  pretty much the panel. And there is a light mode as well. It's like a bit of a flash bang
+[250.26 - 259.00]  for everyone. But, yeah, so that's the beginning. And, you know, since we built this relay with
+[259.00 - 264.86]  the ability to store all types of files, we thought might as well build a little decentralized
+[264.86 - 269.42]  Dropbox to test it all out. So this is NosterBox.
+[270.00 - 271.26]  It still isn't released yet.
+[271.40 - 273.08]  It will be out in maybe two weeks,
+[273.24 - 275.02]  but it's pretty far along.
+[275.54 - 276.70]  And I'm just going to show you guys
+[276.70 - 277.66]  what it looks like as well.
+[278.76 - 280.50]  So here you log in with your private key.
+[282.06 - 284.58]  And we want to support other things later,
+[284.68 - 285.48]  maybe like BitTorrent,
+[285.56 - 287.00]  so there's a little side panel.
+[288.48 - 290.68]  But it starts here,
+[290.68 - 292.18]  where we're going to add a relay.
+[292.94 - 295.04]  Just start from the beginning.
+[297.42 - 298.64]  Oh, and those are two different
+[298.64 - 300.00]  transport protocols at the top.
+[300.00 - 304.76]  by the way. You could support QUIC instead of WebSockets, which is a little bit faster,
+[304.76 - 309.72]  but both are available. So this is connecting to a Hornet storage relay right now. This
+[309.72 - 318.18]  is just the NosterBox app. And we're connected. So now we're going to upload a file just like
+[318.18 - 323.88]  you would in Dropbox. And on the top right there, you can see it's uploading.
+[330.00 - 338.92]  And it's uploaded. We got a grid view or list view. You can even make new folders. And all
+[338.92 - 343.94]  of these are, like, tracked with Nostra Notes. We forked NIP 96, which is, like, this metadata
+[343.94 - 349.44]  Nostra Note. I've seen Will support it. I think it's a really good, simple note that
+[349.44 - 354.24]  you can incorporate multiple types of file storage into. So it has support for Blossom
+[354.24 - 359.66]  and sign up Merkle trees and even torrents. So we'll release that very soon, the documentation
+[359.66 - 360.66]  on it.
+[360.00 - 363.50]  But here you have your receiving addresses.
+[363.50 - 368.84]  So this is a way you could pay your Nostra relay to store your data so you don't have
+[368.84 - 375.30]  to pay Microsoft and, you know, all these companies that just hold your stuff hostage.
+[375.30 - 376.30]  You can switch.
+[376.30 - 378.58]  It's like a free market for data storage now, you know.
+[378.58 - 382.76]  Nostra is really starting to blossom beyond text.
+[382.76 - 384.12]  This is the proof of that.
+[384.12 - 387.18]  So this was just sending a transaction basically.
+[387.18 - 389.80]  It's going to be using the Neutrino wallet.
+[389.80 - 390.80]  So it has
+[390.00 - 396.14]  has compact block filters, more privacy friendly for your IP.
+[396.14 - 398.80]  And then here is the relay you're connected to
+[398.80 - 399.92]  and the NIPS they support.
+[399.92 - 402.06]  And then you can even subscribe to them.
+[402.06 - 404.10]  And you can do like a monthly subscription.
+[404.10 - 407.52]  And we've built a NIP that we'll be releasing soon as well,
+[407.52 - 412.66]  where you can essentially issue an invoice as an OsterNote
+[412.66 - 413.64]  and then pay it.
+[413.64 - 415.32]  And once you've paid the invoice,
+[415.32 - 417.10]  then you'll show up in the relay panel.
+[417.10 - 420.60]  So it really automates the paid relay process.
+[420.00 - 426.52]  And, yeah, that's NostraVox. So the thing that we really started this
+[426.52 - 433.08]  all for was to work on the decentralized GitHub. And now that the relay is there and we've
+[433.08 - 439.76]  been able to store files, we finally are ready to show the progress on the decentralized
+[439.76 - 442.68]  GitHub. And because, you know, we're storing those
+[442.68 - 447.72]  Git trees in the same way with the Sionic Merkle trees on the Hornet storage relays
+[447.72 - 450.00]  just like we're storing these files.
+[450.00 - 453.94]  And, you know, Blossom Blobs are great, but they're better for small files because of
+[453.94 - 456.90]  that delay attack risk that Merkle trees prevent.
+[456.90 - 462.02]  So without further ado, I'm going to finally show what we've been working on for like two
+[462.02 - 463.10]  and a half years now.
+[463.10 - 465.72]  So this is Nestor.
+[465.72 - 468.36]  It's a desktop app, Electron app.
+[468.36 - 471.74]  And it is like Twitter and GitHub combined.
+[471.74 - 477.14]  On the right here we have these toggles where you can essentially turn them on and off and
+[477.14 - 478.58]  it will change your feed.
+[478.58 - 480.00]  And that code toggle.
+[480.00 - 484.66]  lets you see GitHub related content and the social is, you know, your normal notes and
+[484.66 - 489.48]  then media is, you know, the decentralized videos and photos and whatnot.
+[489.48 - 495.36]  So we can just watch it happen and I'll try to walk us through all the different parts
+[495.36 - 496.50]  it goes through.
+[496.50 - 499.48]  But it's definitely more involved.
+[499.48 - 508.68]  So yeah, here you can just scroll through the feed and...
+[508.68 - 510.00]  So here we like turn off...
+[510.00 - 515.68]  post, and now there are no retweets on the feed. So I think, you know, a marketplace
+[515.68 - 519.74]  of algorithms is definitely the future, but I think toggles are a kind of a simple way
+[519.74 - 527.50]  to filter your feed. That's nice. So here is, like, someone's profile. And search is
+[527.50 - 538.38]  working very well. Web of trust-based search. Just searching keyword there. So this is the
+[538.38 - 540.00]  profile of Nestor Tester.
+[540.00 - 544.32]  a little cat. Gems on the right are kind of cool. Just a little feature we added where
+[544.32 - 559.12]  kind of like pinned tweets, your most popular stuff you can showcase.
+[559.12 - 563.18]  So here we'll go to repositories. This goes to your profile. But there's a little code
+[563.18 - 570.18]  section now. And here is a repo. So you can open up a file.
+[570.00 - 579.74]  Edit files.
+[579.74 - 587.16]  Just like GitHub.
+[587.16 - 590.20]  So here we can create issues.
+[590.20 - 595.56]  We even added the sub-issues, which was a good idea from some of the people on Noster.
+[595.56 - 597.46]  I thought that was cool.
+[597.46 - 599.54]  GitHub doesn't have sub-issues.
+[599.54 - 600.54]  So.
+[600.54 - 601.54]  .
+[601.54 - 602.54]  .
+[602.54 - 603.54]  .
+[603.54 - 604.54]  .
+[604.54 - 609.54]  .
+[600.00 - 606.48]  going beyond them and here you can assign people to an issue that you're creating
+[608.16 - 614.80]  using the same mechanism that we use for search you can even add labels you can even create labels
+[614.80 - 629.98]  so these are little labels you can add to your
+[630.00 - 631.96]  repo and you can save them
+[631.96 - 634.10]  and just have a little index
+[634.10 - 636.00]  of them for later. Here are
+[636.00 - 637.78]  these ZapRaisers, which are really cool.
+[637.96 - 640.02]  So basically you assign
+[640.02 - 642.02]  an issue to one
+[642.02 - 643.74]  of these ZapRaisers and then you can just
+[643.74 - 645.88]  try and crowdfund it
+[645.88 - 648.00]  and if it raises enough money then
+[648.00 - 649.42]  maybe someone will actually
+[649.42 - 651.66]  finish the issue and
+[651.66 - 653.66]  collect the bounty. Here's the
+[653.66 - 654.88]  PR section.
+[656.94 - 658.00]  So people can have
+[658.00 - 659.60]  conversations under pull requests.
+[659.60 - 659.98]  You can
+[660.00 - 689.56]  Check out the commits involved in a pull request, the changes, the parents, different files.
+[689.56 - 690.00]  There's.
+[690.00 - 698.12]  Just collapsing them and checking stuff out.
+[698.12 - 708.14]  You can review changes here and write comments, approve a pull request.
+[708.14 - 714.02]  And then here we have a Kanban board just like on GitHub for, you know, large companies
+[714.02 - 716.74]  where you have a lot of different developers.
+[716.74 - 720.00]  You guys can sign.
+[720.00 - 723.74]  those white, one of those white boards where you assign tasks and what's in progress and
+[723.74 - 734.16]  whatnot. That's all working on Nostra notes. Here you can create a pull request, assign
+[734.16 - 736.16]  people to it, kind of like how you create an issue.
+[750.00 - 757.50]  All right. So that was the UI side of things. But on the back end, there's some really important
+[757.50 - 763.56]  notes that I want to mention and then I'll show you a little demo of the CLI.
+[763.56 - 773.26]  So a lot of people have been focused on patches for GitHub over Nostr. And the issue with
+[773.26 - 780.00]  patches is that, they don't preserve the commit hash, the tags.
+[780.00 - 783.16]  or the author of the person doing the commit
+[783.16 - 785.26]  inside the Git tree itself.
+[785.58 - 787.22]  And, you know, you can always write that stuff
+[787.22 - 788.98]  in an external NostraNote,
+[789.26 - 790.92]  but it's not actually in the Git tree.
+[790.92 - 793.16]  And if we want to achieve perfect consistency
+[793.16 - 794.62]  of the actual Git tree
+[794.62 - 796.70]  in a cryptographically verifiable way
+[796.70 - 799.30]  where the hash of the Git tree is completely matching,
+[799.78 - 801.92]  which makes verification of everything much easier,
+[802.46 - 805.04]  then you'd want to achieve that, you know?
+[805.58 - 808.20]  And here I'm going to show you how we did it.
+[808.20 - 810.20]  There is this esoteric...
+[810.00 - 816.90]  generic new Git command called Git bundle that lets you turn an individual push into
+[816.90 - 823.60]  a pack file, which is what Git works on typically. And when you send the pack file to a relay,
+[823.60 - 830.76]  he can pull from it and integrate your commit while preserving the commit hash, the tags,
+[830.76 - 835.38]  and the authorship. So it achieves perfect consistency. And here I'm going to show you
+[835.38 - 840.00]  a little side-by-side thing. On the left, we have the user doing the push.
+[840.00 - 843.16]  And on the right, we have the Hornet storage relay.
+[843.16 - 845.70]  We call the permission system Airlock because it's
+[845.70 - 849.42]  kind of like authenticating the person before they come in,
+[849.42 - 851.28]  which all works on Nostra Notes as well.
+[851.28 - 853.34]  But here, you can kind of just see
+[853.34 - 856.36]  the workflow of what happens.
+[856.36 - 858.56]  So Airlock is initiated on the right.
+[862.92 - 864.68]  Then here, we're just setting our key,
+[864.68 - 867.04]  importing our Nostra key.
+[867.04 - 869.92]  Then we're going to unlock it for the session.
+[869.92 - 870.42]  Here we go.
+[870.00 - 873.60]  usually stays in memory for like 72 hours.
+[873.60 - 877.06]  Then here we're going to initiate a new repository.
+[877.06 - 879.48]  And this is all using git helper functions
+[879.48 - 882.92]  and using the git nestor CLI under the hood,
+[882.92 - 885.64]  but it's all normal git.
+[885.64 - 890.92]  So cd into the repo, assign our key, the Noster key
+[890.92 - 893.60]  that we just did in the first command.
+[893.60 - 896.44]  Now we're going to add airlock, the relay as our remote,
+[896.44 - 900.00]  kind of like you would if you were going to add GitHub.
+[900.00 - 910.48]  here we're gonna add the files to, um, uh, the stage, I guess, and then we'll do our
+[910.48 - 917.94]  first commit, push it, and then on the right here you can see how the bundle file was received
+[917.94 - 923.04]  in the, in the scroll, and, uh, then, uh, three lines down from that you can see how
+[923.04 - 928.88]  it pulls the changes from the bundle file and puts them into the main branch. Um, and
+[928.88 - 930.00]  the commit hashes
+[930.00 - 936.20]  they're all perfectly matching. The Git tree is perfectly synchronized. So I think that
+[936.20 - 942.12]  was a very difficult task. Last year our original plan was to literally turn the Git folder
+[942.12 - 946.18]  into a Merkle tree and sign the root. And it did not work. So we had to figure out another
+[946.18 - 952.78]  way to achieve consistency. Luckily the bundle files emerged while I was scrolling on Noster,
+[952.78 - 959.40]  by the way. Complete coincidence. I saw this blog post about it from Hacker News. And then
+[959.40 - 960.00]  I was like, man.
+[960.00 - 962.14]  man, I wonder if these achieve perfect consistency
+[962.14 - 964.18]  because they were much newer than patches.
+[964.40 - 965.80]  They're like from 2018 or something.
+[966.66 - 968.82]  So after a lot of trial and error,
+[969.32 - 970.52]  they finally worked out.
+[971.92 - 975.12]  So yeah, it's really been a long road,
+[975.30 - 976.76]  but in the next two or three weeks,
+[976.80 - 978.90]  I think it will be completely integrated
+[978.90 - 982.26]  into the front end and absolutely releasable.
+[982.50 - 984.78]  So we're really excited about that.
+[985.16 - 986.74]  But before I go,
+[986.74 - 988.48]  there's one more thing I want to show you guys
+[988.48 - 990.00]  that has to do with the output.
+[990.00 - 997.28]  box model. And basically, the out box model is really cool. But I think there's a way
+[997.28 - 1003.14]  that we could improve it a bit. So in the bottom right there, you can see that infinite
+[1003.14 - 1008.28]  loading bar. This happens sometimes when there are missing Nostra notes. For example, if
+[1008.28 - 1013.96]  I'm not on the same Nostra relay that you're on, then I can't see your posts a lot of the
+[1013.96 - 1020.10]  time. Especially if my relay isn't syncing. So the idea of the out box model is that you
+[1020.00 - 1025.04]  model is honestly very clever. And, you know, it took me a while to adjust to it, but you guys
+[1025.04 - 1031.44]  had a good point. And the idea is just to reach out to other people's relays and retrieve the
+[1031.44 - 1038.18]  data instead of just always trying to retrieve the data from your own relay. And this is cool,
+[1038.18 - 1043.46]  but sometimes it's hard to get somebody's latest relay list. You know, if I don't know your list
+[1043.46 - 1048.26]  of relays, how can I reach out to them, you know? And with the outbox model, they tried to solve
+[1048.26 - 1050.00]  it by creating something called NIPC.
+[1050.00 - 1054.82]  65, which is like a mini relay list. It has like two relays on it. And the goal is to spread that
+[1054.82 - 1060.92]  little mini list across as many relays as you can. But sometimes these relays aren't even
+[1060.92 - 1063.64]  communicating with each other. They're in completely different countries. They don't
+[1063.64 - 1069.88]  even know that the other one exists. So that NIP 65 node doesn't get to everyone. And the idea with
+[1069.88 - 1076.68]  this is to basically put your NIP 65 node on the BitTorrent DHT. Because the BitTorrent DHT has
+[1076.68 - 1080.00]  10 million nodes and the idea is that all the other nodes
+[1080.00 - 1085.14]  are able to find each other more easily using the DHT.
+[1085.14 - 1091.80]  They have like this B tree of the locations of nearby nodes and it's designed for discovering
+[1091.80 - 1093.18]  each other.
+[1093.18 - 1101.06]  So the idea is you can basically publish a thousand byte file on the DHT for free.
+[1101.06 - 1102.06]  As much as you want.
+[1102.06 - 1107.02]  And usually people republish every two hours or longer.
+[1107.02 - 1110.00]  But you can just put your relay list on the DHT.
+[1110.00 - 1115.76]  time and then anytime someone wants to find your relays they just need your DHT key and they can
+[1115.76 - 1121.24]  instantly pull it from the DHT and then pull your data whatever note is missing can be pulled so
+[1121.24 - 1125.80]  it's a little bit more resilient than just expecting the snip 65 note to get spread around
+[1125.80 - 1130.46]  to all of the relays because sometimes like I said the relays don't even know that the other
+[1130.46 - 1136.82]  ones exist so the DHT kind of makes them aware of each other so that they can you know make become
+[1136.82 - 1139.86]  accessible to you so yeah I think this will really
+[1140.00 - 1143.24]  just finish off the outbox model and polish it off.
+[1144.94 - 1147.60]  But, yeah, so that's it for the technical stuff.
+[1147.74 - 1149.36]  I just want to give a shout-out to the team
+[1149.36 - 1152.46]  because there's a lot of us that have done this.
+[1152.90 - 1156.54]  So there's some of us in the U.S., Adam in the U.K.,
+[1156.54 - 1159.86]  been there since the beginning, and Chris in Indonesia.
+[1160.58 - 1162.84]  Chris really worked hard on the DHT.
+[1163.38 - 1166.00]  Sapui took the relay to another level.
+[1166.64 - 1168.28]  And then Marty Maumi recently joined us
+[1168.28 - 1170.14]  and helped us a lot with that.
+[1170.00 - 1177.40]  the we ended up using a lot of his stuff with the Noster box and the Kanban board. And then
+[1177.40 - 1182.52]  Cypher is our pseudonym. So we don't know where he is. It's good to have one on the
+[1182.52 - 1185.12]  project. But, yeah, thank you very much.

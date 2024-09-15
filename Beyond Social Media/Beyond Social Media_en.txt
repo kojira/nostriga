@@ -1,0 +1,337 @@
+[0.00 - 7.52]  The plan was originally to have a fireball machine on stage, making fireballs, but I didn't get around to it.
+[7.76 - 9.64]  And also, there's probably some issues around that.
+[10.00 - 15.68]  But yesterday, I hacked together this little project here, which we'll demo, and we'll see if this works.
+[16.12 - 21.78]  And this is a bit of Nostra hardware, which I really like, like marrying hardware and Nostra.
+[21.88 - 23.14]  So we're going to see if this thing works.
+[23.70 - 25.50]  I'll just put it around my neck, I guess. I'll wear it.
+[25.92 - 28.82]  Is there any Nostra wearable devices out there, or is this a first?
+[28.82 - 30.06]  Has anyone seen any Nostra?
+[30.00 - 34.08]  wearable devices. I think it's like a part of NOSTA we haven't explored enough is the
+[34.08 - 41.12]  fashion scene. There we go. Can you plug in my, this is HDMI.
+[55.12 - 59.12]  There we go. I didn't plug in enough. No, I don't need the clicker. It's fine.
+[60.00 - 82.26]  Okay, how do I make, because it's not on there, should it be on there?
+[82.26 - 86.90]  It's registering but we've still got the screen on here, how do we, because I've got the screen
+[86.90 - 90.00]  here.
+[90.00 - 93.12]  do I how do I get on here because it's not it's not showing up on the big
+[93.12 - 98.42]  screen here do they need to switch over or something
+[103.84 - 106.84]  no
+[106.84 - 121.50]  yeah it's mirrored so you can see that display it's not coming through
+[120.00 - 149.76]  We've got an issue getting my screen on the big screen here, but I suppose I can get started
+[149.76 - 150.00]  while the
+[150.00 - 155.46]  issues being solved and then we can kind of like yeah I can work backwards so yeah my interest is
+[155.46 - 160.78]  in the other stuff part of of Nostra um for me Nostra because you know there was um the relationship
+[160.78 - 164.88]  between building marketplaces decentralized marketplaces and the beginnings of Nostra
+[164.88 - 169.26]  so that's one of the things which we initially wanted to build was a marketplace on Nostra and
+[169.26 - 177.12]  and that idea so I think um we sometimes come across as like crazy like even we're evangelizing
+[177.12 - 179.98]  in this sort of crazy wild-eyed way often like we do with big
+[180.00 - 185.04]  Bitcoin, where we're like, this thing can solve a lot of problems. And we say Bitcoin and we say
+[185.04 - 191.66]  NOSTA. But then really, those words, those terms are referencing a collection of technologies. So
+[191.66 - 197.10]  if you kind of remove just the NOSTA part, if you just say, okay, this new topology, where all
+[197.10 - 201.72]  servers are doing is just relaying data, that can solve a lot of problems on the internet. And then
+[201.72 - 204.74]  suddenly, all these things start to make sense. It's like, okay, what can we build with this new
+[204.74 - 209.06]  topology of dumb server smart clients, and some public key crypto as well.
+[210.00 - 212.08]  So that's the thing which we've been exploring.
+[212.56 - 215.20]  I guess I can plug this device in and see if it works.
+[215.74 - 219.32]  So this is based off a project called the Nostra Zap Lamp.
+[220.02 - 223.00]  And what this does is it just...
+[223.00 - 227.26]  So I think we assume that all clients and users of Nostra
+[227.26 - 228.72]  are going to be people.
+[229.42 - 232.86]  We start to see some AI clients
+[232.86 - 235.24]  which are starting to act as users.
+[235.56 - 237.26]  But hardware can also be users.
+[237.26 - 238.82]  It doesn't have to be a human being.
+[238.88 - 239.68]  Ah, fantastic.
+[240.00 - 240.80]  Thank you so much.
+[242.68 - 243.70]  I think I just need to mirror.
+[248.96 - 253.28]  There we go. Nice.
+[257.00 - 259.34]  Yeah, it doesn't just need to be a human being.
+[260.30 - 263.00]  So the way I was going to start the talk
+[263.00 - 266.52]  was I was trying to rejiggle Nostra.com,
+[266.98 - 269.72]  and I wanted a better phrase to kind of explain
+[269.72 - 270.16]  what I was going to say.
+[270.00 - 275.16]  roster is rather than restricting it's just social media and I like the idea of a better internet is
+[275.16 - 280.48]  possible like we were promised this internet and this information revolution and for a lot of us
+[280.48 - 285.48]  it didn't really happen or it kind of got siloed or co-opted or became part of private interest
+[285.48 - 289.50]  and I think we should never take off the eyes off the prize which is a better internet is possible
+[289.50 - 294.74]  and that kind of term is from the you know within anarchism they say a better world is possible
+[294.74 - 299.12]  just to say that we're not at the end of history things progress stuff can get better and the way
+[299.12 - 300.04]  we do stuff can get better
+[300.00 - 305.76]  better, and similarly with Nostra, I think, we see the potential for it to make the type
+[305.76 - 310.86]  of internet which we originally hoped for when the internet came about, which is where
+[310.86 - 315.12]  control empowers users as opposed to empowering server admins.
+[315.12 - 321.88]  Anyway, so the, as I said, I'm very interested in using hardware, so what I've got here is
+[321.88 - 325.54]  a little microcontroller plugged into a relay, and then I hacked this together yesterday,
+[325.54 - 329.40]  so hopefully it works, it's been bashed around in my bag, but it's just an LED strip thing,
+[329.40 - 330.40]  and we.
+[330.00 - 338.00]  gallwch agos unrhyw beth i mewn i hyn. Felly, yn y bôn, rwyf wedi'i gysylltu â'r profil NOSTA o Jaffe i'w
+[338.00 - 343.00]  cwblhau cyhoeddus. Felly, dyna dim ond cychwyn. Ac fel y byddwn i ar hyn o bryd, rydw i'n
+[343.00 - 347.00]  dal ar y mynydd. Ie. Fel y byddwn i ar y mynydd, oherwydd mae'r cyswllt wedi'i gysylltu â'r un
+[347.00 - 352.00]  argyfwng, mae'n dda i'w gweithio. Felly, a allai rhywun dweud, Ffyrdd Jaffe, rhai arian ar NOSTA,
+[352.00 - 358.00]  os gwelwch. Ac yna, gobeithio y bydd y peth hwn yn llesu. Felly, mae'r peth hwn yn unigol, ac mae'n gweithio
+[358.00 - 360.00]  ei hunain, cwblhau cyhoeddus.
+[360.00 - 365.60]  ac yna mae'n cysylltu â, yna mae'n ysgrifennu i ffyrdd Ffyrdd Ffyrdd Ffyrdd neu adnoddau
+[365.60 - 369.60]  ac yna pan fyddwch chi'n zapio'r ffyrdd, mae'n mynd i ddynnu'r adnodd i lawr a ddweud o, mae'n zapio
+[369.60 - 373.20]  ac yna mae'n mynd i roi'r ffyrdd arno ac yna roi'r llai arno gobeithio.
+[373.20 - 374.80]  Gadewch i ni weld a yw'n gweithio.
+[374.80 - 377.60]  O, dyna ni, mae rhywun wedi zapio Ffyrdd Ffyrdd Ffyrdd, edrychwch ar hynny.
+[377.60 - 382.20]  Ac rydw i wedi adeiladu un o'r rhain i fy hun ac rydw i wedi'i gael yn fy swyddfa ac mae'n ddiddorol iawn
+[382.20 - 385.00]  oherwydd rydych chi'n sefydlu yno a'ch bod chi'n ychwanegu, yn teimlo ychydig yn anodd,
+[385.00 - 386.80]  nad ydych chi'n cael hyder ac mae'r byd yn eich amgylch.
+[386.80 - 388.80]  Ac yna, yn sydyn, mae'r peth bach yn llais ymlaen yn ôl ac rydych chi'n meddwl,
+[388.80 - 390.00]  wel, mae rhywun sy'n ei hoffi i mewn rhywle.
+[390.00 - 393.96]  enough to give me some sats. Yes, so I'll leave that plugged in and then if people want to, you
+[393.96 - 398.68]  know, zap off Jaffe, then I'm sure he'd enjoy having it. Oh, there we are, we've got another zap
+[398.68 - 407.28]  there. They actually queue as well the notes. It's very cool that a $2 microcontroller can run a
+[407.28 - 412.60]  NOSTA client and then can do all the things which it needs to be able to do to connect to the NOSTA
+[412.60 - 420.00]  network. And actually, this opens a whole new world of possibility. So, within IoT...
+[420.00 - 425.12]  fel'r math o ddewis ydw i'n ei ddefnyddio, yw ESP32, mae'n gyfrif microcontroler 10 mlynedd oed,
+[425.12 - 428.56]  sy'n cael ei ddefnyddio drwy'r byd o IOT, gall hynna hefyd, mae pobl yn
+[428.56 - 434.08]  ysgrifennu'r hyn sydd wedi'i wneud, mae'n dda, gall hynna hefyd, gallwn ei gysylltu â NOSTA,
+[434.08 - 440.32]  gallwn ei gysylltu â'r rhwydwaith NOSTA. Felly, dyma'r prosiect arbennig oedd y prosiect NOSTA-ZAP-LAMP,
+[440.32 - 444.48]  a gallwch weithredu'r prosiect, ac mae gennym arweinyddiaeth weminar ar gyfer hyn, felly gallwch
+[444.48 - 450.00]  adeiladu'r peth hwn yn gyflym iawn, dim ond rheolaeth, microcontroler, ac yna os ydych chi'n mynd ymlaen i
+[450.00 - 454.00]  the web installer, then you can actually flash this from your browser, which is pretty nice.
+[454.00 - 458.00]  It's quite a nice little project to start playing around with some hardware.
+[458.00 - 462.00]  And then in there you can just connect a public key. But inevitably from
+[462.00 - 466.00]  this project you think, okay, so now, so Black Coffee, somebody who works on
+[466.00 - 470.00]  bits and other bits stuff, he also built this incredible NOSTA library
+[470.00 - 474.00]  for Arduino. So if you go into Arduino and you type in NOSTA in the libraries,
+[474.00 - 478.00]  then you'll see the NOSTA library come up, and you can implement
+[478.00 - 480.00]  NOSTA into your hardware projects.
+[480.00 - 484.00]  Felly, y peth nesaf yw, gadewch i ni adeiladu defis IOT.
+[484.00 - 486.44]  Felly, fe adeiladwyd defis IOT.
+[486.44 - 487.44]  Rwy'n hoffi IOT.
+[487.44 - 488.44]  Rwy'n hoffi'r syniad o IOT.
+[488.44 - 493.00]  Rwy'n hoffi'r syniad o awtomatiwn a gallu troi pethau i mewn ac allan o fy mhobl gyda'r ffôn.
+[493.00 - 497.70]  Ac, chi'n gwybod, cwylio'r lefelau o'r bateriaethau gwyddonol wrth fynd yma i sicrhau bod y panelau gwyddonol yn gweithio.
+[497.70 - 498.70]  Rwy'n hoffi'r holl hynny.
+[498.70 - 506.56]  Ond dwi ddim yn hoffi'r termau a'r canlyniadau rydych chi'n eu cael mewn gwaith software IOT, ac roedd y cwot hwnna'n gwych.
+[506.56 - 510.00]  Nawr, hyd yn oed George Orwell ddim wedi cynnig y byddem yn brynu'r adolygiadau gwyddonol.
+[510.00 - 514.26]  devices and install them ourselves into our homes and I think it's very true like the things which
+[514.26 - 519.48]  we install IoT things we install into our homes are very dangerous and it's important you know
+[519.48 - 526.90]  as people who want freedom and liberty that we empower people to and we build IoT which doesn't
+[526.90 - 531.04]  snoop on our networks and snoop on us as well so I got another little gizmo over here I'll dangle
+[531.04 - 538.44]  this one oh over there just in case anyone wants to carry on tipping Fiat Jeff right there I got
+[538.44 - 540.00]  another one here this one's a little bit more dangerous
+[540.00 - 542.00]  because it's 230 volt.
+[570.00 - 582.64]  Rydw i ddim yn siŵr y bydd hwnna'n gweithio. Iawn, gadewch i ni roi cymaint i hyn. Felly, y lamp hwn, eto, mae wedi cael ei
+[582.64 - 587.04]  rannu yn fy bag, felly gobeithio y bydd hyn yn gweithio. Eto, mae'n gweithio gyda chyflenwyr NOSTA ac mae'n
+[587.04 - 592.32]  gweithio gyda chyngorau. Ac mae'n ddewis IOT. Mae'n lamp ddwm. Cwnaethom ei gael o'r siop diwethaf.
+[592.32 - 597.68]  Mae'n 20 dolar neu 20 euro, sori. Ac rydw i wedi troi'r llun o un o'r microcontrolwyr hynny,
+[597.68 - 600.00]  sy'n cael ei gael mewn dewis IOT yn unrhyw ffordd.
+[600.00 - 603.60]  ac rydw i wedi'i roi'n cyhoeddus yn cyhoeddus ac rydw i'n mynd i ddiamio'r cwbl
+[603.60 - 606.20]  yn defnyddiol gan ddefnyddio gwaith gweithredol iawn i'w ddefnyddio.
+[606.20 - 609.80]  Mae'n ddewis cynnyrch, nid yw'n gwneud unrhyw beth ffyncyn,
+[609.80 - 612.20]  nid yw'n gwrando ar unrhyw beth rhwydwaith,
+[612.20 - 614.60]  ac mae'r coed yn hollbwysig ac yn agored.
+[614.60 - 618.20]  Rydw i'n mynd i gysylltu â'r ddewis, gobeithio.
+[618.20 - 620.60]  Byddaf yn ailadrodd y cwbl hwn a gweld a yw'n cysylltu.
+[620.60 - 624.60]  A yw fy hotspot yn dal i fynd?
+[624.60 - 626.60]  Ie, mae'n cael ei gweld.
+[626.60 - 629.60]  Rydw i'n meddwl efallai y bydd gen i broblemau gweithredu.
+[630.00 - 635.00]  A gadewch i mi ysgrifennu. Rwy'n mynd i wneud ysgrifennu anodd, oherwydd byddwn i'n llwyddo fy mhrofiad.
+[640.00 - 644.00]  Iawn. Efallai fy mod i'n ceisio gwneud cymaint o ddemosion yma.
+[644.00 - 648.00]  Ond mae'r syniad yw efallai y gallwn gael y software ar fy ffôn.
+[648.00 - 650.00]  Efallai fod yn rhan o'r software IOT.
+[650.00 - 653.00]  Ac yna gallaf wneud pethau fel darllen y batreoedd a'r panelau gwyddonol.
+[653.00 - 656.00]  Ac mae ganddyn nhw bwyn, gallaf droi'r lliwtriau ar a law ar ffôn.
+[656.00 - 658.00]  A dyna'r hyn y mae'n ei wneud.
+[658.00 - 660.00]  Ond nid ydym ni'n ceisio...
+[660.00 - 667.76]  sgwys IOT i mewn i'r gwaith NOSTA, ac nid yw'n gwneud llawer o dderbyn. Rydyn ni'n defnyddio'r topolegiad
+[667.76 - 673.08]  o ddarparu data i ddarparwyr dum i wneud IOT. Ac yna, mae'n debyg, mae hynny'n gwneud
+[673.08 - 682.28]  ymddiriedaeth mewn gwirionedd. O, na. A ydw i wedi hwylio fy ngwyliau? Fel ffwrdd? Na, nid wyf wedi'u hwylio.
+[682.28 - 689.96]  Gadewch i ni edrych ymlaen. O, o, c'mon, gadewch i mi roi lliw gwydr.
+[690.00 - 696.08]  Ie, rydyn ni'n cael lliw gwyrdd. Gadewch i ni weld a oes hynny'n gweithio. Felly mae gen i bwtwn yma nawr.
+[696.08 - 704.88]  Client ddwm, mae ganddo'i gwartheg Nosta, ac rydw i'n mynd i DM fy lliw a gweld a ydy'r lliw yn troi i fyny.
+[704.88 - 706.88]  Ydy'r lliw wedi troi i fyny?
+[706.88 - 708.88]  Nid.
+[720.00 - 728.98]  My little signal pin's fallen out for the device.
+[728.98 - 730.38]  I'll see if I can put it back in one second.
+[748.94 - 749.30]  Okay.
+[750.00 - 758.08]  Dwi ddim yn siŵr... O, dwi'n meddwl fy mod i wedi clwyddo i mewn i'r pyn anghywir.
+[758.08 - 763.28]  Dwi ddim yn cofio beth oedd y pyn a wnes i ei sefydlu gyda, felly dyna'r broblem yno.
+[765.12 - 769.28]  Nid, nid yw'n gweithio. Mae'r pyn... Felly, yn y bôn, mae gennych chi'r GPIOs yma ar y
+[769.28 - 773.12]  controler micro, a gallwch chi anfon signal uchel, a bydd hynny'n troi'r relai arnynt, sy'n
+[773.12 - 777.52]  troi'r llai arnynt. Wel, mae hynny'n cofio'r swith, ond dwi ddim yn gwybod
+[777.52 - 780.00]  beth o'r pyn y gallaf...
+[780.00 - 785.00]  wedi'i gysylltu â hynny. Felly, ie, mae hynny'n ymwneud â pheth. Un mwy o geisio.
+[796.00 - 804.00]  Iawn, rwy'n ceisio pin 27, gadewch i mi weld. Iawn, mae hynny'n arwain gwell. Rwy'n mynd i'w roi
+[804.00 - 810.00]  i'r hot spot ac yna i'w cysylltu â'r relay. Iawn, mae hynny'n ymwneud â pheth.
+[810.00 - 818.60]  There we go. It's working. It was pin 27. There we are. I just love it. Look at that. You can turn the lights on.
+[819.88 - 824.52]  And I don't have these horrible terms and conditions. Fantastic. I'll leave that on just to dazzle you.
+[825.88 - 830.58]  So, yeah, there's a couple of examples of kind of fringe out-of-the-box thinking when it comes to NOSTA and what we can use NOSTA for.
+[831.00 - 839.52]  There is good free and open source IoT things out there like MQTT, but they do require you to run a server and open ports and all this other stuff.
+[839.52 - 840.00]  And it's a bit of.
+[840.00 - 845.64]  pain. Whereas what I like about the Nostra IoT thing, the thing we're developing and we'll sell
+[845.64 - 851.52]  and whatever, is just a European plug socket you can plug anything into and you can just turn it on
+[851.52 - 857.64]  and off, you know, with your phone. I think that's the first step. But what's cool about it is the
+[857.64 - 862.78]  person who's buying that privacy-centric IoT device, they don't even need to know that it's
+[862.78 - 867.88]  using Nostra. They're just buying a privacy-centric IoT device off the internet, they're plugging it
+[867.88 - 870.00]  in, they're scanning a QR code, putting in the Wi-Fi details.
+[870.00 - 876.56]  and then boom they've got um is it turning on and off no it's not i can hear clicks and i think
+[876.56 - 882.86]  it's people zapping uh fiat jaffs so the guy's getting rich right now um yeah so so uh that's
+[882.86 - 887.52]  exciting the the idea of people using something i don't even know that they're using nosta but
+[887.52 - 892.64]  it's just kind of like bleeding into you know um helping solve all these uh problems so then it's
+[892.64 - 896.54]  like what other stuff obviously the um the marketplace like i said before that's one of
+[896.54 - 899.54]  the things i'm interested in and we've been building um i'll show you a little update
+[899.54 - 900.02]  actually today
+[900.00 - 905.50]  oherwydd mae'n eithaf hwyl. Felly, dyma'r farchnad Nostra, gallwch ddod i'r farchnad.nostra.com
+[905.50 - 910.10]  ac yna, rydych chi'n cael merchennwyr, ac rydych chi'n cael llyfrau cyhoeddus y merchennwyr,
+[910.10 - 913.80]  ac yna, gallwch ddod i mewn i'r cynhyrchion y maen nhw'n eu gwerthu o'u llyfrau cyhoeddus
+[913.80 - 919.30]  ac yna, dangos iddyn nhw mewn farchnad frontend, sy'n yr hyn yw hyn, felly dim ond farchnad frontend.
+[919.30 - 925.20]  Felly, gadewch i mi ddynnu merchennwyr yn gyflym a gweld a ydym ni'n gallu...
+[925.20 - 930.00]  Oh no. Uh-oh. Back.
+[930.00 - 931.08]  Hopefully I don't leak anything here.
+[932.62 - 933.92]  Is Nostamarket enabled?
+[936.24 - 936.88]  Here we go.
+[938.10 - 940.16]  So those of you who don't know, this is LNBits,
+[940.24 - 941.76]  which is a project we work on.
+[941.82 - 944.62]  We have these extensions, and we can do some Nostastuff in here.
+[945.36 - 948.18]  We made the first Nostaclients for Nostamarket.
+[948.96 - 952.40]  Plebeian.market think use NIP15, which is the NIP for it.
+[953.96 - 957.88]  But in this, the idea is that you have a market stall,
+[958.16 - 959.32]  and you have all your products on there,
+[959.32 - 960.18]  and then you just sign the...
+[960.00 - 963.60]  cynnig y cynnig y cynhyrchion yn ymddangos i'w symud ymlaen ac yna gall rhywun
+[963.60 - 967.86]  ddisgrifio ac yna dynnu'r cynnyrchion hynny i lawr ac yna'u pwyllgoru.
+[967.86 - 972.36]  Felly rwyf wedi gwneud merchant yma, felly fy mod i'n ddaw i ddefnyddio'r merchant yma.
+[972.36 - 977.84]  Ac yn y gwaith mae gennym ni gwaith, ddwy gwaith mewn gwirionedd, ac rydym yn gweithio,
+[977.84 - 982.34]  dydyn ni ddim yn gweithio yn unrhyw beth yno, dyma ni, rydym yn gweithio rhai ceg Cymraeg,
+[982.34 - 985.94]  sy'n gwaith gwych y gallwch chi'w bwyllgo yng Nghymru, os oes gennych chi un yng Nghymru lle rwy'n byw,
+[985.94 - 989.98]  dylai i chi bwyllgo un. Felly yr hyn rwy'n ei angen yw'r ceg cyhoeddus merchant yma,
+[990.00 - 995.44]  uh here we go and if i click there i can copy the public key and go to nosta market
+[996.00 - 1004.24]  um and then where do i go i go to stall shops here um i go to settings and then i pop in
+[1005.44 - 1010.24]  merchants uh you can have lists of merchants as well so we'll maintain a list of like vanilla
+[1010.24 - 1015.28]  merchants selling normal stuff um and then when you pull all this that data into this front-end
+[1015.28 - 1019.52]  client it then becomes like an amazon or an ebay type thing uh but then obviously you know if you're
+[1020.00 - 1025.04]  os nad ydych chi'n golygu eu bod yn cael cwylio cwyliau Cymraeg, ac rydych chi'n yng Nghyngor ac mae'n gyfrifol i'w
+[1025.04 - 1028.52]  ddod o hyd i cwyliau Cymraeg, yna allech chi gael... Ie, mae yna rywfaint o
+[1028.52 - 1033.56]  rhwystrau cyffredinol yno, wrth gwrs. Iawn, felly, byddaf am ddarparu'r cwyliau cyhoeddus hwnnw.
+[1033.56 - 1039.60]  Ac nawr, pan fyddaf yn mynd yn ôl i'r siop, gyda chyfle, byddwn yn dda... O, cwyliau Cymraeg. O, dyna
+[1039.60 - 1044.00]  y cwyliau cyhoeddus hwnnw, mae hynny'n anodd. Felly rydw i'n cymryd i mewn nawr. Felly mae gennyf
+[1044.00 - 1050.00]  gweithwyr eraill yma. Mae gennym ni'n siop, ac mae CriptoCoffee wedi cael gweithiwr
+[1050.00 - 1053.68]  sefydliad. Felly os wyf i weld deunyddion y cynhyrchiad, rhaid i chi weld llawer o ffilmiau ond
+[1053.68 - 1059.04]  nid ydych chi'n gallu. Cliciwch i'w ddarparu i cart. Ac wrth i mi fynd i cart, pa mor yw'r cyfnod?
+[1059.04 - 1063.52]  Rwy'n mynd i ystyried. Bla, bla, bla, bla, bla. Ie, golliwch, os gwelwch chi eisiau.
+[1065.84 - 1069.28]  Golliwch, gwasgwch, cashew. Efallai y gallwn ni ddarparu llyquid hefyd.
+[1071.92 - 1074.40]  Iawn, iawn. Yn amlwg, oherwydd ein bod ni'n
+[1074.40 - 1080.00]  ymddygiadau, mae'r holl wybodaeth yr ydych chi'n ei roi yn gwirioneddol yn gwirioneddol.
+[1080.00 - 1083.60]  rydyn ni ddim yn mynd i roi unrhyw beth i mewn, rydyn ni'n mynd i leoli adroddiad ac yna dwi'n cael
+[1083.60 - 1086.96]  cyflenwad llythyn ac yna mae'r holl beth sy'n digwydd, mae'r holl cyfathrebu hwnnw
+[1086.96 - 1092.72]  rhwng y cynllun frontend hwnnw a'r gweithgarwyr back-end sy'n gweithio yma
+[1092.72 - 1099.60]  yn digwydd drwy nipo ffives, rwy'n siwr, nipo 4 dms, sydd i mi fod yn ddigon dda ar gyfer
+[1099.60 - 1105.44]  yr hyn rydyn ni'n ei ddefnyddio, ond rydyn ni'n ddigon dda, rwy'n credu, ar ochr y gweithgarwyr, bydd gennym, neu rhywbeth,
+[1105.44 - 1109.84]  rydyn ni ddigon ddigon ddigon, fel nipo 17 neu rhywbeth, ar gyfer ychydig mwy o ffives.
+[1110.00 - 1119.42]  Ie, os byddaf yn gwneud hynny, arwain. Dyma ni. Mae'n cael ei wneud. Felly, mae'n debyg, rydych chi'n cael eich profiad
+[1119.42 - 1126.38]  fel profiad check-out eithaf normaidd, rwy'n credu. Ac nawr, nawr rydw i wedi lleoli'r arwain.
+[1126.38 - 1131.24]  Gallaf fynd i'r arwain yma ac yna gallaf weld yr arwain sydd wedi cael ei wneud, ac yna gallaf
+[1131.24 - 1139.74]  hyd yn oed sgwrsio â'r arwain, dweud, chi'n gwybod, ble yw fy ngheg?
+[1140.00 - 1144.84]  Oh, that's sad, isn't it?
+[1145.50 - 1146.76]  Maybe I'm pushing it too far.
+[1147.20 - 1151.86]  If we select customers here, payment received.
+[1151.98 - 1152.98]  Or maybe it's because we're there.
+[1153.84 - 1154.16]  Hello.
+[1154.16 - 1154.24]  Hello.
+[1160.38 - 1161.24]  Let's refresh.
+[1163.74 - 1165.18]  Give me some chat.
+[1165.34 - 1165.92]  There we go.
+[1166.04 - 1166.60]  It's coming through.
+[1170.00 - 1177.04]  my cakes and of course these are just uh regular nipo4 dms back and forth um but you've got
+[1177.04 - 1180.48]  these plug and play nips and then obviously you know you put them all together and you can build
+[1180.48 - 1184.48]  all sorts of different things and we can make use of dms just within the the marketplace extension
+[1184.48 - 1190.16]  here um and yeah you can see it just it works pretty well um still lining out the bugs but
+[1190.16 - 1194.88]  uh yeah it's pretty pretty reliable these days and you end up with a sensitive resistant
+[1194.88 - 1199.92]  marketplace um which is very hard to take down the missing piece of the puzzle
+[1200.00 - 1206.76]  are in a lot of applications outside of the social stuff is reputation so I like the work which is
+[1206.76 - 1210.78]  being done on a way of trust but I also think we should probably do some more science on other
+[1210.78 - 1218.16]  forms of reputation systems there's some good proposals out there for that Vladstan's got a
+[1218.16 - 1222.86]  good proposal which is having a kind of open time stamps for reputation where you you pay to leave
+[1222.86 - 1226.72]  a reputation and the more you pay it gets further up the Merkle tree and has more weight to it so
+[1226.72 - 1229.62]  sort of weighted reputation I think maybe and then
+[1230.00 - 1232.38]  yeah, we're just having a discussion upstairs,
+[1232.56 - 1234.36]  and there was the idea of maybe using an LLM
+[1234.36 - 1236.74]  to look at all of your posts and say,
+[1236.82 - 1238.12]  you know, is Ben an okay guy?
+[1238.64 - 1239.50]  Should I trust him?
+[1239.84 - 1242.48]  And then this LLM using a vending machine,
+[1242.56 - 1243.54]  a vending machine would say,
+[1243.60 - 1244.52]  oh, yeah, Ben seems to be all right.
+[1244.58 - 1246.88]  It gives me a little summary or something for the merchant.
+[1247.34 - 1248.40]  That could be quite interesting, too.
+[1248.42 - 1249.36]  So I think probably a marriage
+[1249.36 - 1251.04]  of all these different reputation systems could work.
+[1251.04 - 1252.66]  But then if we have a reputation system,
+[1252.76 - 1254.08]  we can have the marketplace,
+[1254.36 - 1256.18]  and it's functional, and we can kind of trust it.
+[1257.16 - 1258.50]  And then you can have Uber,
+[1258.50 - 1259.58]  and you can have Airbnb.
+[1260.00 - 1263.84]  ac yna gallwch gael pob un o'r ddiffyniadau gwahanol hynny sy'n mynd ymhell ymlaen â'r
+[1263.84 - 1269.36]  rhwydwaith cymdeithasol. Felly mae'n ymwneud â phethau eraill, ydy'n dda? A dyma lle, dydw i ddim
+[1269.36 - 1273.36]  yn gwybod os gallwch chi ddweud, ond dydw i ddim yn hapus iawn am y amser. Felly, y bore yma, roeddwn i'n
+[1273.36 - 1277.40]  mynd o amgylch y cyfarfod ac roeddwn i'n gofyn i bobl am enghreifftiau o'r pethau eraill
+[1277.40 - 1283.80]  y maen nhw'n edrych arnyn nhw, a beth mae gennym ni? O, ie, mae Wasabi yn defnyddio co-ordinaethau, yn defnyddio
+[1283.80 - 1290.00]  NOSTA i ddod o hyd i co-ordinaethau i gyfrannu, ac yna mae NOSTA Wallet Connect, wrth gwrs,
+[1290.00 - 1297.60]  course, vending machines, micro lancing. Oh, yeah, I spoke to Oscar from Fountain and he was
+[1297.60 - 1303.34]  really interested in the idea of API calls via Nostra, just using Nostra instead of just a
+[1303.34 - 1308.74]  normal REST API. And someone said about Will and Damus and how he's doing silent payments,
+[1308.90 - 1313.34]  doing the Duffy key exchange in order to be able to do a silent payment over Nostra. He wants to
+[1313.34 - 1319.72]  explore that. And then there's Trust Roots and they're doing coach surfing. So I'm blown away
+[1319.72 - 1320.04]  by that.
+[1320.00 - 1326.48]  prosiectau y mae pobl yn gweithio arnyn nhw o fewn ein cymuned Nostra a sut mae
+[1326.48 - 1329.68]  llawer o brosiectau yn barod ac mae llawer o gyffrediniaeth gan bobl
+[1329.68 - 1333.44]  ar bethau eraill sy'n gallu cael eu adeiladu gyda Nostra.
+[1336.72 - 1340.88]  Roeddwn i'n gweld Nicholas yma o Galoi. Y tro diwethaf yn Costa Rica,
+[1340.88 - 1344.40]  yn Nostra Rica, fe wnaethon nhw argymhell bitcoini lleol. A oes unrhyw un wedi adeiladu bitcoini lleol
+[1344.40 - 1350.00]  yn Nostra? A yw hynny'n beth? Dydw i ddim yn gallu cadw trac. A yw unrhyw un yn gwybod?
+[1350.00 - 1351.10]  Hopefully that will exist.
+[1353.00 - 1358.90]  I actually had a chat with the developer of LocalBitcoins
+[1358.90 - 1360.74]  and asked whether he would...
+[1360.74 - 1361.34]  Monstro.
+[1362.00 - 1362.60]  What's it called?
+[1362.64 - 1363.00]  Monstro.
+[1363.38 - 1363.78]  Monstro.
+[1363.82 - 1365.44]  Well, there we are, Monstro, LocalBitcoins on Nostra.
+[1365.50 - 1365.92]  And it works?
+[1366.10 - 1366.44]  Yeah.
+[1366.82 - 1367.12]  Cool.
+[1367.40 - 1367.86]  All right, there we are.
+[1367.90 - 1368.52]  You can buy Bitcoin.
+[1368.70 - 1369.20]  It exists.
+[1369.36 - 1369.76]  Fantastic.
+[1370.40 - 1373.46]  Yeah, I spoke to Jeremiah from LocalBitcoins,
+[1373.58 - 1374.90]  and he really likes Nostra.
+[1375.04 - 1376.90]  And we were talking about this exact same thing.
+[1376.90 - 1378.58]  And I could imagine if you built LocalBitcoins now,
+[1378.66 - 1379.56]  it would probably be on Nostra.
+[1380.00 - 1382.74]  and it exists, so, and yeah, there we are,
+[1382.78 - 1384.80]  a bit of sensory resistance there.
+[1385.88 - 1387.50]  And then, oh, the other thing which I was thinking about
+[1387.50 - 1388.94]  more recently is themed clients.
+[1389.62 - 1394.60]  So, because it's kind of easy to build a client on Nostr,
+[1395.16 - 1397.50]  we're used to having a generalized client.
+[1397.66 - 1398.48]  So, like, at the beginning of the internet,
+[1398.54 - 1400.18]  you had all these forums which came up,
+[1400.24 - 1401.50]  and then, you know, you would have, like,
+[1401.52 - 1402.38]  if you're into British Bulldogs,
+[1402.46 - 1403.62]  you would go on a British Bulldog forum,
+[1403.68 - 1405.42]  and they would be your people, the stuff you're interested in,
+[1405.64 - 1407.04]  and you would hang out there, and, you know,
+[1407.08 - 1408.56]  birds of a feather, they've probably got similar interests
+[1408.56 - 1409.36]  to what you're interested in.
+[1410.00 - 1418.00]  Ac yna, wrth i'r amser fynd ymlaen, roedden ni'n gwneud llawer o gweithgareddau cyffredinol sy'n cymryd pawb i mewn oherwydd y gwirionedd o effaith y rhwydwaith defnyddwyr.
+[1418.00 - 1426.00]  Ond rwy'n meddwl nawr, gallem gael, efallai, y gorau o'r ddwy wladau, lle mae gennym y gwirionedd o effaith y rhwydwaith defnyddwyr, o'r holl ddefnyddwyr NOSTA.
+[1426.00 - 1430.00]  Ond yna, gallem gael cynulleidfaoedd ddynol. Felly, rwy'n eithaf yn ymwneud â'r syniad o ddynulleidfaoedd dynol ar gyfer gwahanol bwydau.
+[1430.00 - 1440.00]  Mae'n teimlo fel fforwm. Mae'n edrych fel yr hyn rydych chi'n ei wneud, ond yna, mae'n lles genedlaethol.
+[1440.00 - 1443.64]  client which is very easy to theme or something. That's something which I'm personally looking
+[1443.64 - 1449.54]  forward to. Anyone else got any fringe NOSTA stuff which isn't social networking which they've seen
+[1449.54 - 1456.64]  and like the sound of and interested in? Anyone at all? No? All right, fair enough.
+[1458.52 - 1466.10]  But yeah, so I think just abstracting the concept behind NOSTA, the simple topology,
+[1466.10 - 1468.98]  what can we build with it? What can we fix with it?
+[1470.00 - 1473.70]  And, yeah, that's basically it, I think.
+[1474.18 - 1475.08]  I probably finished a little bit early,
+[1475.14 - 1476.40]  but the other guy finished a little bit late,
+[1476.46 - 1478.68]  so I think we should probably...
+[1478.68 - 1481.22]  We need some time back, Ben, so this is perfect.
+[1481.56 - 1482.84]  Oh, fantastic. Cool.
+[1482.84 - 1482.92]  Thank you.
+[1485.88 - 1488.24]  Let me just say my...

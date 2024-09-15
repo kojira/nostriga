@@ -1,0 +1,221 @@
+[0.00 - 7.52]  Hello. It's kind of crazy. It's been, like, two years. I think I started working on Domus
+[7.52 - 13.90]  in 2020. Early 2020. And I kind of feel like an old man. I don't know. I still have nip
+[13.90 - 20.84]  zero four DMs in my client. There's a lot of crazy, cool stuff happening. And I started
+[20.84 - 25.26]  thinking, like, wow, like, I feel like I'm so out of date with, like, the latest technology
+[25.26 - 29.56]  in Nostra. And just things are moving at such an insanely accelerated rate in this space.
+[30.00 - 35.74]  That even me, like, I spend every day, like, looking at nips, just the markdown version
+[35.74 - 36.74]  of that.
+[36.74 - 37.74]  Yeah.
+[37.74 - 40.96]  That it's, like, I still miss so much stuff.
+[40.96 - 46.40]  And so I decided to go and I think this was the first proposed talk on the Nostriga GitHub
+[46.40 - 47.40]  repo.
+[47.40 - 53.36]  But then after this, there's been, like, what, five or six, you know, talks on private, like,
+[53.36 - 54.36]  DM technology.
+[54.36 - 57.92]  And so I'm really glad that, you know, we got this kick started and we're talking about
+[57.92 - 60.00]  this now, even though it's been it's only been, like, two years.
+[60.00 - 66.28]  years or so since we started Nostr. But it's a pretty important topic because as I'll get
+[66.28 - 70.84]  into, you know, privacy is pretty fundamental. You can't have free speech without privacy.
+[70.84 - 75.84]  So let's get into it. This is me. I work on protocol stuff. I've been working on Bitcoin
+[80.12 - 85.12]  Core. Not developing on Bitcoin Core in 2010. How did I break this already? You can see
+[85.12 - 90.12]  my calendar. I've been working on it for a long time. I've been working on it for a
+[90.00 - 102.76]  What happened? There we go. I've been working on Lightning very early. I'm kind of a protocol
+[102.76 - 107.12]  hipster in some sense. I'm starting to work on Arc now. I think it's kind of cool. Shout
+[107.12 - 115.48]  out to Steven Roos. And, yeah, NostrDev. So let's jump into private Nostr. I really
+[115.48 - 120.00]  wanted to just do a kind of like a high-level overview of kind of the latest privacy technology.
+[120.00 - 124.14]  I'm not going to jump into nips on this panel, on this discussion.
+[124.14 - 125.72]  There's been a lot of discussions on this.
+[125.72 - 128.36]  The Jeff G did a really good one that dove into some of these things.
+[128.36 - 132.94]  But I'm going to give a high level about kind of the current privacy issues on Nostr.
+[132.94 - 134.40]  Can we even make Nostr more private?
+[134.40 - 135.88]  Is that something we want to do?
+[135.88 - 137.82]  Is that something we can even do?
+[137.82 - 139.12]  What does a private Nostr look like?
+[139.12 - 140.12]  Like, what does it mean?
+[140.12 - 146.32]  Does it just mean more DM, like, more DM types, or, like, can we make all of Nostr private?
+[146.32 - 147.32]  Oh.
+[147.32 - 149.86]  And is private Nostr even possible?
+[149.86 - 150.86]  So.
+[150.00 - 152.82]  So let's jump into it.
+[152.82 - 157.96]  I really like Rabl's description of his little tag line, the social app protocol.
+[157.96 - 162.44]  It truly underpins a very important aspect of the protocol, which is the social graph
+[162.44 - 163.66]  layer.
+[163.66 - 168.38]  And it enables lots of kind of unique and cool things.
+[168.38 - 172.16]  And one of the properties of the Nostra protocol is how open it is.
+[172.16 - 173.72]  Openness is awesome.
+[173.72 - 179.06]  I truly believe that the reason why developers find it so easy to build interoperable apps
+[179.06 - 180.06]  in the first place is because
+[180.00 - 183.28]  Because the data is there. You can see it. You can pull it down.
+[183.28 - 186.22]  If some client is doing something weird, you can be like, oh, okay, I guess I'll adapt
+[186.22 - 190.12]  my client to that weird thing you're doing. So openness is a really important property
+[190.12 - 194.44]  and we want to keep it keep that property there.
+[194.44 - 202.52]  But it's kind of openness has a few issues. So here's a little visualization of something
+[202.52 - 207.02]  I've been working on lately in note deck. I've been playing with visualization of kind
+[207.02 - 210.02]  of my social graph and things that are in the local database.
+[210.00 - 214.18]  And it's truly mind-blowing how much data that's just in your phone.
+[214.18 - 218.52]  And you don't really think about it, because we don't have really good tools for visualizing
+[218.52 - 219.52]  it.
+[219.52 - 220.58]  But there is so much data.
+[220.58 - 226.80]  And all that data is, in some sense, is tracking the activity of the users.
+[226.80 - 231.30]  So all of these individuals who are all communicating with each other, with Nib04 specifically,
+[231.30 - 234.72]  you can log into their account and just start seeing all the people they've talked to.
+[234.72 - 238.46]  You can't see the contents of the message, but it's still very concerning.
+[238.46 - 240.00]  And this is actually a huge issue.
+[240.00 - 243.64]  When people first join Domus and they learn about this and they immediately leave because
+[243.64 - 246.68]  they're like, oh, this is really creepy.
+[246.68 - 247.68]  And it's because it's such a rare thing.
+[247.68 - 254.06]  It's not something that's people don't expect that on a modern social app these days.
+[254.06 - 255.06]  And yeah.
+[255.06 - 258.78]  So even when the content is scripted, it still exposes lots of metadata.
+[258.78 - 262.88]  So thank you, Vanessa, for like I was writing these slides and I'm like, I was like, oh,
+[262.88 - 263.88]  metadata, metadata.
+[263.88 - 264.88]  She's like, what are you talking about?
+[264.88 - 265.88]  Like, what is metadata?
+[265.88 - 266.88]  Like, what does that mean?
+[266.88 - 268.04]  I'm like, oh, right.
+[268.04 - 270.00]  So thank you for grounding me back in.
+[270.00 - 275.28]  land in reality. So I'm going to explain and quickly just define what metadata is. So metadata
+[275.28 - 280.36]  is the auxiliary information that kind of it's attached to the main content of the message.
+[280.36 - 283.44]  So in the case of a letter, it might be, yeah, the actual contents of this envelope, which
+[283.44 - 286.20]  is like the actual letter. You might not be able to read the letter, but you can still
+[286.20 - 294.04]  see some metadata about the letter, such as who it's from, who it's to. And the main thing
+[294.04 - 299.98]  it does is associate who is talking to who. So why, is that a bad thing? Like,
+[300.00 - 304.66]  Why should you be concerned about that?
+[304.66 - 307.34]  The dangers of metadata.
+[307.34 - 311.60]  Ex-NSA chief Michael Hayden famously said, we kill people based on metadata.
+[311.60 - 314.24]  So obviously if you're sending a DM, you don't want to get drone-striked.
+[314.24 - 319.64]  So we try to avoid that as much as possible.
+[319.64 - 323.88]  If you're an activist fighting corruption in some corrupt regime, the threat of detention
+[323.88 - 327.84]  for associating with certain groups is a real threat, and that's, like, a real concern.
+[327.84 - 330.00]  And I've, especially since I've been experiencing it.
+[330.00 - 334.04]  going to a lot more HRF events. I didn't realize how common this is still an issue across the
+[334.04 - 336.64]  world. Like, we're very fortunate that we don't have to deal with these issues, but
+[336.64 - 340.68]  a large majority of the world that we're building this technology for still has this issue,
+[340.68 - 343.54]  and we want to make sure that, you know, they're not going to be thrown in jail for just sending
+[343.54 - 348.14]  a shit post or something, you know? So that's really important.
+[348.14 - 353.86]  And maybe more day-to-day realistic thing, you could get caught by your partner chatting
+[353.86 - 360.00]  up your ex. Don't do that. But, you know, that's people like something you have to worry
+[360.00 - 366.80]  about it. This is something that real people have, these issues. So what's the current
+[366.80 - 372.60]  state of metadata on legacy social media today? So there's still metadata, but it's kind of
+[372.60 - 379.04]  hidden from you. So employees can see the metadata. They have access to the database.
+[379.04 - 381.34]  And a lot of the time, they can even see the contents of your messages. If you're sending
+[381.34 - 385.84]  a message on Instagram, someone within that company, they could go into your DMs and look
+[385.84 - 389.38]  at it, because they have no incentive to encrypt your information. We at least started with
+[389.38 - 390.00]  encrypted.
+[390.00 - 394.56]  DMs at the start, which is just insane, but surprisingly the majority of social media
+[394.56 - 399.18]  still doesn't have that property. And even if you trust them not to read your DMs, data
+[399.18 - 404.10]  leaks still happen all the time. Recently hackers leaked 1.1 terabytes of Disney's internal
+[404.10 - 407.30]  Slack chat. So if you're a company, you've got to worry about internal leaks and all
+[407.30 - 413.04]  these things. So the situation's not great, even on legacy social media. But, like, we
+[413.04 - 416.74]  should still be a lot better than that still, because we want to build the future of communication
+[416.74 - 420.00]  protocols that's decentralized.
+[420.00 - 422.76]  What can we do?
+[422.76 - 427.24]  So some initial ideas that were first thrown around on this idea was, you know, the first
+[427.24 - 430.28]  thing I thought of was, like, okay, well, you just have a private relay.
+[430.28 - 434.12]  You auth to that relay, which means that the relay is, like, okay, I know who you are.
+[434.12 - 436.84]  I'm going to serve you the notes and only you can read the notes or only the white listed
+[436.84 - 438.66]  people can read the notes.
+[438.66 - 439.66]  And this is actually pretty simple.
+[439.66 - 440.66]  I like it.
+[440.66 - 443.18]  You know, if you're running an internal, like, slack for your company, you can just keep
+[443.18 - 445.88]  your notes private and only allow people to read them.
+[445.88 - 449.98]  But it still has a huge issue in the sense of if someone's on that
+[450.00 - 455.04]  relay, they can still broadcast it to the public network. And that is a property that is not
+[455.04 - 458.84]  good. You don't want that, because if you have a disgruntled employee, they can just
+[458.84 - 463.78]  broadcast things to the network. So we're trying to avoid that situation as well.
+[463.78 - 468.84]  This little fancy thing is called a protected event. And this came out of the genius mind
+[468.84 - 473.26]  of Fiat Jeff, just adding a dash to the tag, and that's just going to solve all our issues.
+[473.26 - 478.88]  But it's simple. I added this to the Domus relay. So if you add that tag to your note,
+[478.88 - 480.00]  the Domus relay will reject it.
+[480.00 - 486.00]  And the main point of it is to give some agency back to the user how notes appear on certain relays.
+[486.08 - 487.92]  So we're trying to get all the relays to implement that.
+[489.06 - 493.66]  And if you build a custom relay, you can handle that specifically to allow it in certain situations.
+[494.24 - 497.10]  So, you know, it's simple, but you still have the issue where anyone can broadcast a note.
+[498.58 - 499.64]  So what do we really want?
+[501.94 - 505.20]  You know, Signal kind of took this problem very seriously.
+[505.20 - 510.18]  And there are certain properties of the Signal protocol and the Simplex protocol that are very important.
+[510.00 - 514.88]  important. The big one is post-compromise security, which is if you leak your key, which
+[514.88 - 519.18]  you probably do because you're an idiot and you store it in notes, then you don't want
+[519.18 - 523.66]  to have all your conversation history leaked. I say idiot because I'm an idiot and I've
+[523.66 - 528.76]  done this in the past. I've posted my private key on Noster because I thought it was a public
+[528.76 - 532.66]  key because back then we had hex keys and that's how NSEC and MPUB came to be because
+[532.66 - 536.60]  I was like, yeah, I don't want to do that again. So now when you paste your NSEC in
+[536.60 - 539.80]  Domus, it'll actually just paste your MPUB instead. So it will protect you.
+[540.00 - 546.50]  So, yeah, so the post-compromise security is important, but also forward secrecy so
+[546.50 - 550.00]  that, like, people can't just harvest your data and then decrypt it later.
+[550.00 - 556.42]  The big question is, can we do just as good on Noster?
+[556.42 - 559.00]  Is it possible?
+[559.00 - 564.98]  This is the question I asked myself, and I was really interested in exploring this idea.
+[564.98 - 568.32]  So a big part of this is the metadata security.
+[568.32 - 570.00]  The one thing that I think Veeder came up with it.
+[570.00 - 574.14]  Hottelbaud was contributing as well, but this idea of gif wraps, which is a very simple
+[574.14 - 578.34]  idea. And I think it's a very simple idea, but I don't think it's explained very well,
+[578.34 - 582.64]  so I think this slide should at least clear it up for everyone. So you can imagine you're
+[582.64 - 589.50]  sending a message to Veeder, and there's nothing else associated. You don't know who it's from.
+[589.50 - 594.52]  It's just a random key that generated the note. But inside the note is a seal. So it
+[594.52 - 599.22]  actually has my signature on it. Only Veeder could read that. But it's still another envelope
+[599.22 - 600.22]  you have to unwrap.
+[600.00 - 607.06]  Which is a note, it's a private note to Veeder.
+[607.06 - 610.84]  But the important thing about this internally, so, again, on the outside we have the gift
+[610.84 - 615.78]  wrap and we have the seal, which has my signature on it, and then the internal thing is called
+[615.78 - 616.78]  the rumor.
+[616.78 - 619.38]  So the important thing, the reason why we do this is because the rumor does not have
+[619.38 - 620.38]  a signature on it.
+[620.38 - 622.46]  So you can't broadcast it to the network.
+[622.46 - 626.40]  Which is actually really, really important, because I want to send him these messages,
+[626.40 - 628.80]  but I don't want him to just broadcast it to say that I actually did that.
+[628.80 - 630.02]  There's no way for him to do that on the podcast.
+[630.00 - 636.94]  protocol. So that's a really cool tool. The only downside is that gif wraps, they're really
+[636.94 - 640.70]  just one-to-one. You can only send, like, one to someone. And it has some, like, spam
+[640.70 - 644.90]  issues. And it's like a DOS vector in some situations if you're sending people lots of
+[644.90 - 648.84]  gif wraps and they've got to decrypt them. But I don't think it's that big of an issue.
+[648.84 - 656.22]  I think, you know, Domus will probably have NIP 17 DM gif wraps soon. So here's an example.
+[656.22 - 660.00]  So you have all these issues with metadata, but with gif wraps for DMs, NIP 17.
+[660.00 - 668.82]  this issue just goes away. We're already making progress. But we want more. We want everything
+[668.82 - 674.30]  to be private. Let's make all of Gnostic private if you choose to do so. So this is where Jeff
+[674.30 - 679.84]  G has been looking at, you know, making this more efficient, being able to encrypt notes
+[679.84 - 683.44]  to larger numbers of people all at once. You don't have to spam 100 notes every time you
+[683.44 - 689.10]  want to send a note to a group of 100 people. So he gave a talk about this, the MLS stuff.
+[689.10 - 690.00]  Basically, he just...
+[690.00 - 694.22]  creates this crazy tree thing with lots of keys that makes it efficient. I don't really
+[694.22 - 698.60]  understand it. It's very complicated. Moon math stuff. I try to not dive too deep unless
+[698.60 - 704.84]  I'm doing drugs or something. But, yeah, I'm sure I'll get into this soon.
+[704.84 - 712.12]  But to me, this is we're moving into a direction where if this actually works, where you can
+[712.12 - 715.88]  take a note and you can encrypt it to a group of your friends. So you just say, like, imagine
+[715.88 - 718.88]  you have a friend group. And actually, Rabble gave me this when he was on the harassment
+[718.88 - 719.98]  panel. He had this.
+[720.00 - 722.64]  thing that he wanted where he was like, I want to be able to send a private note to
+[722.64 - 727.20]  like a hundred of my followers. And Shor was actually, I was talking to him
+[727.20 - 730.68]  just like ten minutes ago or like an hour ago, and he was like, this is very similar
+[730.68 - 735.12]  to the protected accounts on Twitter in some sense, right? I mean, I've never used it,
+[735.12 - 738.94]  so I don't really know how they work, but you want to just share it to a group of your
+[738.94 - 743.58]  followers and only they can see it. So using this MLS technology in theory, we
+[743.58 - 749.98]  could start exploring some of these ideas. And so maybe we can leverage MLS to
+[750.00 - 755.32]  which is kind of just an improved signal protocol, and Nostra Notes, just encrypting Nostra Notes
+[755.32 - 760.50]  to, like, if you want to, use any of the apps you're currently using and just upgrade the
+[760.50 - 767.26]  notes to encrypted versions and have basically signal-like privacy properties on Nostra.
+[767.62 - 771.00]  And this could open up in a whole new way that people use Nostra.
+[771.92 - 775.58]  And so I think the MLS spec was just launched like a week or two ago or something.
+[775.70 - 776.74]  So this is still very, very new.
+[776.74 - 780.00]  I basically had to rewrite my slides, like, three times when I was...
+[780.00 - 783.36]  preparing for this. So this is cutting-edge stuff.
+[783.36 - 788.76]  And if you're a developer and you want to get involved, I think we should a lot of us
+[788.76 - 792.16]  should be putting more focus on this because it's really exciting and it's really promising.
+[792.16 - 798.24]  And I think it's the best chance that we have for saving private Nostrish.
+[798.24 - 804.74]  I just kept it short. I want to open it up to questions if anyone
+[804.74 - 808.24]  has any questions related to this. So feel free to shoot them to me.
+[808.24 - 810.00]  Show of hands.
+[810.00 - 816.56]  Put up your hand.
+[816.60 - 818.58]  We'll bring a mic over if you've got a question for Will.
+[819.34 - 820.30]  There's got to be a bunch.
+[820.36 - 821.82]  That was a pretty cool presentation.
+[822.68 - 823.84]  It's just sinking in.
+[824.74 - 825.32]  What are we thinking?
+[825.46 - 827.16]  You can always just come and talk to me afterwards, too.
+[827.20 - 827.48]  That's fine.
+[828.80 - 830.40]  Yeah, hunt him down afterwards.
+[831.26 - 831.76]  All right.
+[831.90 - 832.10]  Okay.
+[832.38 - 833.08]  Thank you, Will.
+[833.08 - 833.16]  Thank you, Will.
+[833.78 - 834.08]  Thank you.
+[840.00 - 840.62]  you

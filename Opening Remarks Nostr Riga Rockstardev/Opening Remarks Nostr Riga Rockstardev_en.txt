@@ -1,0 +1,70 @@
+[0.00 - 5.00]  Good morning. Good morning and uh welcome to the third edition of Noster on
+[8.38 - 13.38]  conference. How are we doing this morning? Are you good? Ready? Come on let's get going.
+[17.38 - 22.38]  Let's get going because the same way that we started going when only now like 17 months ago
+[22.38 - 29.38]  we had Jack uh
+[30.00 - 38.00]  this call to all of us and we embarked on this incredible journey together. Jack shared this post,
+[38.00 - 48.00]  invited us to really anyone and everyone to contribute to uh gathering of Nostor users and
+[48.00 - 56.00]  contribute we did. Just two months after that post, we found ourselves in the heart of Bitcoin
+[56.00 - 60.00]  jungle. For the first edition of
+[60.00 - 66.88]  Nostra World Unconference that we dubbed Nostrica and it was really more than
+[66.88 - 72.54]  just an unconference for me it was really a birth of us collaborating and
+[72.54 - 80.08]  building together and Nostrica really set the stage for what was to come a
+[80.08 - 85.88]  community that won't give up and it will continue to drive Nostra forward
+[85.88 - 88.88]  relentlessly
+[90.00 - 94.12]  Only six months later in November that same year
+[94.12 - 99.26]  We took the energy from the heart of Bitcoin jungle from Costa Rica
+[99.44 - 102.86]  We took that to Tokyo Japan for the second edition
+[103.80 - 106.10]  We were halfway across the world
+[106.86 - 108.86]  But the spirit was the same
+[109.56 - 111.98]  Developers thinkers and builders came together
+[113.22 - 117.68]  United by a protocol that was still evolving still growing and
+[117.68 - 119.68]  It knows
+[120.00 - 124.16]  we weren't just talking about what Nostra can do,
+[124.16 - 127.22]  we were experiencing it in real time.
+[127.22 - 130.08]  And whenever I look at this picture,
+[130.08 - 134.60]  I have this feeling of knowing that what we're doing
+[134.60 - 138.40]  with Nostra is not just technology,
+[138.40 - 141.64]  it's a movement that will forever shift
+[141.64 - 144.46]  how we communicate, transact, and interact.
+[144.46 - 150.00]  Of course, some of us had more fun
+[150.00 - 159.52]  than the others right with will this legendary moment and uh while we were having fun in japan
+[159.52 - 167.20]  and then after that uh people in community continue to push forward so fiat jeff gm fiat
+[167.20 - 174.96]  jeff he continues to refine and improve noster protocol will and vanessa they keep building
+[174.96 - 179.84]  damas giving a user-friendly gateway to world of noster as
+[180.00 - 186.88]  SirMillion with Primal, Kiran and Marty with Snort and Iris, Vitor with Amethyst and really
+[186.88 - 191.88]  kudos goes to all developers, client developers. Pablo, he will be on all the stages, you
+[195.62 - 200.62]  know, as it is tradition. He continues to build numerous tools and inspire other developers,
+[203.02 - 208.02]  developers to join and contribute. Terry, Terry keeps building CoMingle, Zach Floss,
+[210.00 - 215.00]  and you can actually use both of those apps to interact with the sessions here at Nostriga.
+[217.94 - 222.94]  Very importantly, OpenSats, uh, established a Nostr fund and, uh, funded and continues to
+[226.62 - 233.22]  fund, uh, all the developers, designers, and contributors to Nostr. In the audience, do we
+[233.22 - 238.22]  have anyone from OpenSats? Just to see. No? Well, we have them on stream, I'm sure.
+[240.00 - 243.66]  So can we please give a round of applause for them and their funding?
+[247.54 - 248.78]  Thank you
+[248.78 - 254.06]  And then we have rabble with his team at not social
+[254.06 - 258.90]  They're continuing to build a master and rabble will be helping us with
+[259.42 - 262.62]  Breakout sessions here at 11 and 45
+[262.96 - 264.96]  He will explain how those works
+[264.96 - 269.58]  But be here so that you you hear that and then join us for those
+[270.00 - 275.00]  break out sessions. Odell, he's not here, right? Odell? No, too early for him, you know. But,
+[280.04 - 285.72]  he, you, you can find him on Noster where he continues to, you know, spread hate about us
+[285.72 - 290.72]  blue check marks, right? And encourages everyone to do Noster 100%. Uh, we don't have Lynn
+[290.72 - 295.72]  Alden, we have Preston, which is better, right? But Lynn, Lynn has produced
+[300.00 - 307.00]  tons of great content for Nostr, I mean including her year, right? That was special. But, um,
+[308.86 - 315.10]  at the end of the day, remember just that it's not only about those I have just mentioned,
+[315.10 - 322.10]  it's about all of us. We are the architects of future of communication that Nostr is.
+[322.10 - 329.10]  Here at Nostriga, we will have more than 70 sessions, various workshops, panels, keynotes.
+[330.00 - 334.08]  And we have built this program together with you.
+[334.48 - 339.44]  For the first time, we used GitHub that you can see on all the screens.
+[339.62 - 343.98]  And anyone was able to submit items to the agenda.
+[344.80 - 350.28]  Big thanks goes to TabConf and Michael Tidwell for inspiring us to do it this way.
+[350.28 - 360.00]  And during the next two days, always remind yourself that you're here to help build a decentralized...
+[360.00 - 367.86]  future where communication is up to every individual and their private-public key pair,
+[368.38 - 376.62]  not trusted third parties. We are here because we know that privacy is not a privilege just for
+[376.62 - 384.74]  ultra-wealthy. It's a right for all of us. And most importantly, we are here because we understand
+[384.74 - 389.96]  that Noster and the freedom tech we are building has the potential to
+[390.00 - 393.34]  reshape internet as we know it.
+[393.34 - 395.26]  So thank you for being here,
+[395.26 - 396.94]  and let's make this third edition
+[396.94 - 400.46]  of Noster World Unconference the best one.
+[400.46 - 401.30]  Let's do it.

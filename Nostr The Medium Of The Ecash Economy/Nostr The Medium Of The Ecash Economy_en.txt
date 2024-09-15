@@ -1,0 +1,480 @@
+[0.00 - 8.40]  all right can you hear me yeah so hey everyone i'm going to give a talk about cashew and how it
+[8.40 - 13.76]  vibes together with noster and i'm just going to say up front like most of the work much of
+[13.76 - 18.32]  the work i'm going to present is not my own work it's it's a bunch of amazing people working on
+[18.32 - 25.68]  this project all of us together and i want to give you a broad overview of how cashew and nostri
+[25.68 - 30.00]  interact and why it feels so magical when you when you touch
+[30.00 - 37.28]  the two and so I'm gonna start off I'm aware that not everyone knows what
+[37.28 - 42.06]  eCache is and you hear eCache here there all the time around this conference maybe so
+[42.06 - 46.80]  I'm also trying to I'll try to give you a basic understanding of what it is for
+[46.80 - 50.76]  those who know already how it works sorry it's gonna be a repetition but I'm
+[50.76 - 55.24]  gonna speed run it so please bear with me it's gonna be an intense first couple
+[55.24 - 61.88]  minutes all right so why we're working on
+[60.00 - 68.08]  of this right so for centuries we've been using the most private form of money ever known to
+[68.08 - 75.04]  humankind and that is old physical cash paper money metal money that you hand out hand peer
+[75.04 - 80.16]  to peer from one person to another without anyone being able to stop you without anyone being to
+[80.16 - 88.64]  observe what's happening and we all agree and know and this is also the reason why bitcoin
+[88.64 - 89.92]  exists is that our digital
+[90.00 - 96.18]  lives deserve something similar to that physical thing that we have. So the story
+[96.18 - 100.34]  of eCash starts with this guy. This is David Chom and if you don't know David
+[100.34 - 106.86]  Chom, David Chom is essentially the Satoshi of cryptocurrency in general. So
+[106.86 - 112.74]  he's the first person who ever created a cryptocurrency in 1982. It's very very
+[112.74 - 118.98]  early and came way before Bitcoin and it had various different principles than
+[118.98 - 121.34]  Bitcoin.
+[120.00 - 129.00]  And since then he sparked this revolution that we've been riding on and that Bitcoin continued.
+[129.00 - 139.00]  And to give you a sense of the time scale here, 1982, David Chom comes up with this thing called e-cash.
+[139.00 - 147.00]  And, well, he's a genius cryptographer, as I said, and the idea is that the banks that existed back then
+[147.00 - 150.00]  were supposed to issue electronic cash to their customers.
+[150.00 - 153.92]  customers similar to how you go to an atm and take out paper money out of the bank
+[154.72 - 159.04]  they imagined that the bank would do the same but in an electronic form that's e-cash
+[163.20 - 168.40]  and then users could use that piece of digital data that they downloaded from the bank
+[168.40 - 174.80]  then to do commerce on the internet and mind you this is 82. this is way before the internet even
+[174.80 - 179.84]  got a thing in normal households but david chum was so forward thinking that
+[180.00 - 183.06]  He knew that we need something like physical cash
+[183.06 - 186.02]  in the online spaces that we're going to build
+[186.02 - 188.86]  that needs to be private and untraceable
+[188.86 - 190.76]  and instant and fast.
+[191.32 - 193.98]  And he's famous for saying that a society without privacy
+[193.98 - 197.06]  is not one that can live in democracy.
+[197.44 - 201.42]  So he's putting privacy as a fundamental basic human right
+[201.42 - 203.10]  right on center stage.
+[205.88 - 209.20]  So this is a short sketch of how it works.
+[209.20 - 210.00]  So...
+[210.00 - 214.26]  Imagine I'm Alice, the user, and this is the e-cash mint.
+[214.38 - 217.94]  That's my Chase US bank, let's say, right?
+[218.08 - 223.84]  So the bank issues electronic cash to the user by sending literal data.
+[225.06 - 228.56]  And then this user stores the e-cash in their device.
+[228.56 - 233.20]  So they didn't have pockets with computers in them back then, but it would be a computer.
+[234.30 - 238.18]  And then the user could take this money and then go to a shop run by Carol
+[238.18 - 240.00]  and now send this peer-to-peer.
+[240.00 - 246.44]  So send this data from you to Carol, and Carol would receive the money, send back the Apple
+[246.44 - 251.92]  that she sold online, and at the end of the day, Carol would go back to the Mint and hand
+[251.92 - 258.40]  in this piece of data, and then get the money in fiat back on her bank account.
+[258.40 - 266.12]  These are the early interfaces that were built back in the 90s in order to support eCash.
+[266.12 - 270.00]  So everyone loved this shit.
+[270.00 - 276.18]  Microsoft, Deutsche Bank, Credit Suisse, Citibank, there are many more big names that really
+[276.18 - 278.32]  wanted a piece of this cake.
+[278.32 - 279.32]  Everyone loved it.
+[279.32 - 283.82]  Mind you, this is again so early, this is before PayPal and all that other stuff existed.
+[283.82 - 288.12]  Everyone thought, this is the future, this is how we're going to do online payments,
+[288.12 - 293.44]  and it's going to be perfectly private and fast, and everyone's going to be happy.
+[293.44 - 298.32]  However, here is the Achilles heel of this whole idea.
+[298.32 - 300.00]  Banks relied on banks.
+[300.00 - 301.90]  And eCash relied on the cooperation of banks.
+[301.90 - 304.08]  It needed to be implemented by the banks.
+[304.08 - 309.38]  So it needed the devs of Deutsche Bank to sit down and write this thing for you so you
+[309.38 - 310.76]  can use it.
+[310.76 - 316.90]  And because it relied on corporate development, it also meant that all of the things that
+[316.90 - 320.84]  people came up with back then were not going to be cross compatible.
+[320.84 - 323.80]  At least that's to be assumed.
+[323.80 - 325.78]  Because it never came.
+[325.78 - 330.02]  This world never turned into reality.
+[330.00 - 338.52]  Historically speaking, you know, you can research into why, but all the deals that were on the table, there were huge deals back then, all failed.
+[339.22 - 348.80]  And to my, you know, my interpretation of the reason why this failed primarily is because it relied on these banks.
+[348.80 - 352.64]  So it wasn't, you know, how we see development happening today.
+[353.56 - 359.44]  And then a decade later, after all of these deals failed and it was clear that e-cash is going to die,
+[360.00 - 366.20]  Then we see PayPal and then we see credit cards picking up on the internet and now dominating the entire market, right?
+[366.44 - 374.40]  These multi-billion, probably trillion dollar markets of online payment industry that emerged afterwards.
+[374.82 - 378.20]  So, Kovadis eCash, where are you?
+[380.58 - 382.34]  All right, let's move on.
+[382.34 - 389.34]  Between 1982 and 2008, a couple of notable...
+[390.00 - 395.28]  events happened, but nothing really picked up and then came Bitcoin.
+[395.48 - 397.36]  Bitcoin is the first decentralized
+[397.56 - 402.16]  electronic cash system without a trusted third party.
+[402.36 - 403.68]  And Bitcoin is great.
+[403.88 - 406.60]  It's also the reason why most of us are here.
+[406.80 - 409.40]  However, although Bitcoin has ridden us
+[409.60 - 414.04]  from the necessity of a third party to run the monetary system,
+[414.24 - 419.32]  de facto, it has not helped everyone yet to get rid of third parties.
+[419.32 - 420.00]  So.
+[420.00 - 432.70]  Much of the use of Bitcoin, especially for small amounts, especially for daily activity that harm your privacy the most, by the way, most of that relies still on custodial systems.
+[434.56 - 439.42]  So this is the context and this is where Cashew comes into the game.
+[440.12 - 444.52]  What we do is basically we take the concepts from the 80s and put it on top of Bitcoin.
+[444.52 - 447.80]  So Cashew is a charming e-cash protocol for Bitcoin.
+[447.80 - 450.00]  It allows you to build private and...
+[450.00 - 453.64]  fast and cheap scalable payments for Bitcoin.
+[453.64 - 459.52]  It works offline, so you can hand data over your phone via NFC, Bluetooth, you can send
+[459.52 - 464.84]  money in per mail, or you can use Noster, which I'm going to talk about more today.
+[464.84 - 470.92]  So there's a lot of writing and digging you can do about eCash and Cashew.
+[470.92 - 476.40]  The way I see it, this is a new type of building custodial Bitcoin services.
+[476.40 - 478.80]  It allows real micropayments on the web.
+[478.80 - 480.00]  And it's it's it is.
+[480.00 - 487.36]  way the web was supposed to monetize early on and it allows you to create community e-cash
+[487.36 - 493.36]  banks that you can run and not the banks without having to ask for permission so
+[494.48 - 504.24]  this project is fairly new and it started right here like a week after riga two years ago and
+[504.24 - 509.92]  this is the current state of the ecosystem and i'm sure i forgot probably a large part of it
+[510.00 - 518.02]  I'm losing the overview myself slowly but we have a bunch of independent wallet implementations
+[518.02 - 524.98]  it's crazy how much you know effort has been put into building independent implementations of this
+[524.98 - 530.10]  with mint implementations that are all across different programming languages that are all
+[530.10 - 536.68]  interoperable that you can see here the integration in noser has been astonishing and I'm going to
+[536.68 - 540.00]  talk more about that in the course of this talk but it ranges
+[540.00 - 544.76]  is all from social clients that just show you that there has been an e-cash payment
+[544.76 - 555.12]  that you can redeem up to full hardcore integration into the app as a core piece of the application.
+[555.12 - 563.20]  So to understand how e-cash systems interoperate, I'm going to show this slide here that shows
+[563.20 - 567.72]  a little bit the architecture of the global e-cash system that we're building. So you
+[567.72 - 570.00]  have one mint and a couple of users.
+[570.00 - 579.54]  And these users within a mint can exchange e-cash, as I explained, handing over a piece of cash to another person, right?
+[579.62 - 582.48]  This is like, you can imagine this as your bank.
+[583.44 - 592.18]  If there is another mint somewhere else, the way you can interact now with these other users is not through e-cash directly,
+[592.18 - 599.98]  but you need to take a route along the Lightning network to bridge these two systems.
+[600.00 - 604.32]  together and it's seamless so another user presents you a lightning invoice
+[604.32 - 608.70]  for example and you don't even know that they're using a cashew mint and you take
+[608.70 - 612.18]  out your cashew wallet with your cashew mint they don't even know that you're a
+[612.18 - 615.30]  cash user you just scan it and what happens in the background is that your
+[615.30 - 618.90]  e-cash is destroyed goes into the lightning network travels to the other
+[618.90 - 623.12]  mint and is created and e-cash is created on the other side again and then
+[623.12 - 627.12]  you can just scale this as much as you want you can create as many minutes as
+[627.12 - 632.00]  you want and from a scaling perspective this is
+[630.00 - 634.68]  really really good because these mints they scale really well you can build
+[634.68 - 638.88]  like a with a you know really non performant implementation can support
+[638.88 - 644.50]  thousands of people already so each single mint can service thousands of
+[644.50 - 650.88]  people easily and on it really helps to scale Bitcoin payments itself because a
+[650.88 - 658.68]  single mint acts as a service provider for many people right so if you just
+[658.68 - 661.58]  think of it as
+[660.00 - 665.92]  mints being you know run for a community even if a mint just services like 20 people already
+[666.48 - 675.04]  which is a very small number this helps bitcoin payments really scale in a way in a custodially
+[675.04 - 683.44]  in a way that is not so centralized as we see with custodial systems together today and a thousand
+[683.44 - 690.00]  mints blossom so too long didn't read very fast i'm going to give you you know over
+[690.00 - 693.74]  load you with facts for those who can absorb them.
+[693.74 - 695.76]  Cashew, e-cash is a bearer asset.
+[695.76 - 697.92]  You hold the money as data in your wallet.
+[697.92 - 700.18]  Everyone can run a mint for your own use case.
+[700.18 - 703.86]  Simple website to a big custodian.
+[703.86 - 706.56]  It can be a shitcoin, or it can also represent real money,
+[706.56 - 707.70]  like Bitcoin.
+[707.70 - 709.32]  So there are e-cash implementations,
+[709.32 - 711.60]  just you get your head around this.
+[711.60 - 713.92]  E-cash could be its own denomination,
+[713.92 - 717.18]  but obviously we don't choose to do that.
+[717.18 - 719.14]  The state of ownership, and this is very interesting
+[719.14 - 720.30]  from a computer science perspective,
+[720.00 - 724.22]  perspective. This gate of ownership is not defined in a database. There is no database
+[724.22 - 728.06]  where you can look at and see this person has this much, this person has this much and
+[728.06 - 733.38]  so on, but it's defined on who has what in their pockets. This is literally what defines
+[733.38 - 739.40]  who has what, right? The transactions are peer-to-peer, so I send it directly to you
+[739.40 - 744.06]  and the mint prevents the double spending of this transaction. The transactions are
+[744.06 - 749.28]  irreversible. Although it's a custodial system, they are very, very irreversible because the
+[749.28 - 750.00]  mint cannot really
+[750.00 - 752.04]  cannot undo the transaction
+[752.04 - 754.10]  between us. It always happens when it
+[754.10 - 755.92]  happens. All it can do is
+[755.92 - 757.92]  delete the fact that they
+[757.92 - 760.02]  have prevented double spending, which is
+[760.02 - 762.12]  to rock themselves, basically. So there is no way
+[762.12 - 764.32]  for the mint to reverse an e-cash transaction.
+[765.84 - 768.10]  We can have spending conditions for user-defined
+[768.10 - 770.12]  scripting. I'll go into that a little bit deeper
+[770.12 - 772.14]  later. And there's insane
+[772.14 - 774.20]  privacy that prevents censorship.
+[774.60 - 775.52]  So you might say,
+[776.08 - 778.08]  wait, Kalle, what the fuck are you
+[778.08 - 779.92]  talking about? It's a custodial system. How
+[779.92 - 780.04]  could you do that?
+[780.00 - 785.76]  it be censorship resistant and this is a neat little point i want to just explain here briefly
+[785.76 - 791.12]  so bitcoin's censorship resistance comes from its permissionless nature that means bitcoin is
+[791.76 - 796.32]  sensitive resistance because you cannot turn it off you cannot stop it from running over for
+[796.32 - 801.20]  forever basically even if the miner doesn't accept my transaction there will be another miner and as
+[801.20 - 805.84]  the system just moves on and no one will be able to stop me from transacting with you
+[805.84 - 810.00]  e-cash on the other hand the trend
+[810.00 - 815.68]  the central resistance comes from its privacy properties the the mint can be turned off it's
+[815.68 - 820.72]  important to remember it's a custodial system the mint can just shut down but the mint cannot single
+[820.72 - 826.24]  you out as a user so it cannot say i don't like kali because he is print he's posted something
+[826.24 - 830.80]  i don't like yesterday i'm going to turn off his money that just doesn't work with e-cash
+[830.80 - 836.96]  all the mint can do is stop operating for everyone or let everyone still use the system
+[836.96 - 839.98]  all right
+[840.00 - 849.36]  So, Cashew and Noster. Let's see how they interoperate. So, we have eCache systems
+[849.36 - 855.30]  now and from the start it became really clear that we need a couple more things
+[855.30 - 858.78]  in order to make eCache really useful. And it's funny because when we started
+[858.78 - 863.04]  working on Cashew, it's around the same time when VHF started working on
+[863.04 - 868.98]  Noster. So, both of these protocols kind of matured side-by-side. Obviously very
+[868.98 - 871.34]  different
+[870.00 - 877.66]  directions and level of traction and so on but both of them were developed from you know around
+[877.66 - 884.32]  the same time so what ecash needs first of all it's needed it needs a peer-to-peer layer it
+[884.32 - 891.22]  needs a way to for me to actually reach you right currently what the most of the transactions that
+[891.22 - 897.40]  we're doing are qr codes so i'm i'm using the physical space as a peer-to-peer layer if you
+[897.40 - 899.74]  like it also
+[900.00 - 905.20]  can benefit really from an identity layer that means i want to have a system where i can find
+[905.20 - 910.64]  you and i know it's you right qr codes obviously don't have that i mean but that's okay because
+[910.64 - 914.64]  i can see you when i'm doing it but i'd like to have something also in the digital space
+[917.36 - 921.12]  ecash also benefits from a public square layer public square layer
+[921.76 - 928.24]  meaning i want to be able to know what everyone else says for example about this mint or how i
+[928.24 - 929.84]  can find mints by
+[930.00 - 937.52]  other people who recommend mints and it also needs resilient infrastructure and that means
+[937.52 - 945.36]  the infrastructure that we're using today is you know we could say if someone turns off your dns
+[945.36 - 949.52]  then you'll have problems i'll just say that and nosta can really help with that
+[949.52 - 955.28]  nosta is can become a layer for other applications to increase their resilience
+[955.28 - 959.98]  so what about nosta
+[960.00 - 966.64]  And in my mind, what Noster needs that is relevant to eCash is Noster needs a payment layer.
+[967.38 - 971.66]  We want strong signal for posts and we want the social interaction.
+[972.26 - 979.02]  Lightning already works great with many problems that we've been discussing with devs.
+[979.50 - 982.82]  But we need something that's faster and more lightweight.
+[984.70 - 988.68]  Noster can also benefit from a DOS protection.
+[988.68 - 990.04]  That means that we...
+[990.00 - 998.26]  a mechanism to slow down the use of NOSTA relays and relay monetization. I think this is a very
+[998.26 - 1002.38]  big one that hasn't been really approached yet in the space so much. There are a couple of paid
+[1002.38 - 1009.40]  relays, but in my mind, this is not ideal yet for a pay to, you know, pay as you go, pay to use
+[1009.40 - 1015.16]  relay experience. We still have some work to do, and I think eCash can really help with that.
+[1015.16 - 1019.42]  So there is this kind of mutual relationship between these two systems.
+[1020.00 - 1027.84]  that we're already seeing today so how can cashew reach resilience through noster i want to give a
+[1027.84 - 1032.48]  couple of examples of things that people are working on today so there's mint discoverability
+[1032.48 - 1038.48]  nip 80 that helps you to discover mints on noster this is super useful you can write a mint you can
+[1038.48 - 1044.56]  write a cashew wallet that doesn't come with a default mint in the wallet it just says click
+[1044.56 - 1049.92]  here to discover mints and i i you know it's it's beautiful because that's the beauty of noster
+[1050.00 - 1054.96]  right you don't log in nowhere nothing you just press a button then there's a spinner and says
+[1054.96 - 1061.52]  here are 15 minutes that you can choose from we want mint reputation so this is also very
+[1061.52 - 1067.52]  powerful hasn't been explored enough yet but it's also part of the same nip is i want to know what
+[1067.52 - 1072.72]  what means my friends are using so i can make a better choice in picking one of the minutes that
+[1072.72 - 1079.92]  i would like to trust noster also helps cashew to become independent from
+[1080.00 - 1081.98]  DNS, so we have a very exciting project in
+[1081.98 - 1084.00]  our developer space
+[1084.00 - 1085.96]  that's called Nostra Web Services
+[1085.96 - 1088.22]  that allows you to bypass
+[1088.22 - 1089.58]  DNS, basically, and
+[1089.58 - 1091.70]  reach a mint directly
+[1091.70 - 1093.66]  without having to go through
+[1093.66 - 1095.78]  systems that can be turned off, let's say.
+[1097.36 - 1098.02]  And we
+[1098.02 - 1099.78]  have distributed e-cash storage now
+[1099.78 - 1101.84]  popping up, so people putting the money into
+[1101.84 - 1103.48]  relays that makes
+[1103.48 - 1105.86]  wallets suddenly synchronize
+[1105.86 - 1107.74]  across space and time, which is
+[1107.74 - 1109.68]  magical, because you open
+[1109.68 - 1110.00]  your wallet.
+[1110.00 - 1114.16]  here and you open your wallet there and you have the same balance and you have the same transaction
+[1114.16 - 1120.72]  history and so on so this is really something that that where cashier really benefits from from
+[1120.72 - 1126.96]  building on top of nostre so as an example mint discovery by nostre what does it look like it's
+[1126.96 - 1133.92]  basically an unstoppable yelp with cashments so when you go to bitcoinmints.com there's a website
+[1134.48 - 1138.96]  that just you start the website then there's a spinner loading and suddenly you get a list of
+[1138.96 - 1139.76]  long list of
+[1140.00 - 1145.42]  and you also have reviews there and you can see who reviewed this mint and if you like the mint
+[1145.42 - 1149.76]  you can just add it with a click to a cashew wallet there's cashewmints.space another website
+[1149.76 - 1153.88]  that does something similar and as i also explained before you can also do everything
+[1153.88 - 1161.86]  inside your own wallet without even leaving the wallet what am i on time by the way how much will
+[1161.86 - 1169.98]  it be oh five minutes
+[1170.00 - 1177.60]  that's going to be bad i think we started 15 minutes late yeah i will speed run all right
+[1177.60 - 1185.38]  let's speed run this and skip all right zaps zaps are a very fun announcer we pay each other
+[1185.38 - 1191.40]  for for funny posts that we make so how does zaps work in in relation with cashew
+[1191.40 - 1197.28]  zaps level one that's the easy part at the beginning people were sending e-cash via dms
+[1197.28 - 1199.98]  right so before i i tell you about
+[1200.00 - 1202.14]  eCash via DMs. I want to give you some
+[1202.14 - 1204.02]  examples of how people have been sending
+[1204.02 - 1206.08]  around Cashew tokens already to make your
+[1206.08 - 1208.34]  head spin. So, Cashew tokens
+[1208.34 - 1210.16]  so far have been transmitted
+[1210.16 - 1212.08]  through. First example,
+[1212.46 - 1214.06]  through satellites. So someone sent
+[1214.06 - 1215.98]  a Cashew transaction via
+[1215.98 - 1218.14]  space to someone else. That's cool.
+[1218.90 - 1219.98]  There is another example
+[1219.98 - 1222.10]  of this guy here, over here, who has
+[1222.10 - 1223.92]  built a post-apocalyptic mesh
+[1223.92 - 1226.08]  network that also works if your internet
+[1226.08 - 1228.14]  is offline. So you can send
+[1228.14 - 1229.92]  tokens from
+[1229.92 - 1230.02]  me.
+[1230.00 - 1234.02]  to his 3D printer dealer or something like that
+[1234.02 - 1236.36]  while the internet is shut off.
+[1236.76 - 1239.24]  And my most favorite one here is from Yellow recently
+[1239.24 - 1243.00]  where he sent a Cashew token worth one Satoshi
+[1243.00 - 1245.84]  broken into three bank transactions.
+[1246.28 - 1247.92]  So he put the Cashew token
+[1247.92 - 1249.98]  into the subject field of bank transactions,
+[1250.30 - 1253.30]  which technically makes the bank money transmitter, I guess.
+[1256.84 - 1258.70]  So this is what it looks like
+[1258.70 - 1260.04]  when you send DMs.
+[1260.00 - 1263.42]  These are three different apps that achieve this.
+[1264.08 - 1265.58]  It's a very seamless experience.
+[1265.72 - 1267.20]  You say, hey, this is great.
+[1267.30 - 1268.56]  I like that.
+[1268.68 - 1273.56]  You enter the amount, press send, and then the money pops up in the chat between you two.
+[1273.92 - 1278.60]  And on the other side, if you have one of the Nostra clients that supports that,
+[1278.90 - 1279.94]  then you'll see something like this.
+[1279.98 - 1282.80]  So this is Nostrudel showing you the incoming payment.
+[1283.00 - 1284.74]  It's the same payment across different clients.
+[1284.74 - 1290.16]  So here's zero X chat showing, primal showing it, coracle showing it.
+[1290.00 - 1294.22]  showing it, Amethyst showing it, and SnortDOG showing it too.
+[1294.22 - 1297.06]  So it's fucking amazing.
+[1297.06 - 1298.06]  There's also npop.cache.
+[1298.06 - 1300.90]  This is a very cool project by Ege.
+[1300.90 - 1302.82]  This basically gives a Lightning address to everyone.
+[1302.82 - 1305.46]  So if you have a npop, then you have a Lightning address.
+[1305.46 - 1310.68]  And this is pretty magical, because if you integrate this into a wallet, so if you integrate
+[1310.68 - 1315.46]  npop.cache into a wallet, what this allows you to do is take your Lightning address with
+[1315.46 - 1320.00]  you, and really brings this Nostr experience that we all know from logging on.
+[1320.00 - 1325.74]  with your NSEC into a different client to the Bitcoin space, to your Lightning address.
+[1325.90 - 1329.94]  Essentially, you can switch the wallet, be a completely different vendor, and you enter
+[1329.94 - 1334.88]  your NSEC or your sign somehow with an extension, and suddenly you'll get your ZEPS into that
+[1334.88 - 1335.12]  wallet.
+[1335.64 - 1338.28]  So you can try this today on cashew.me.
+[1338.42 - 1341.14]  I just recently released this, but haven't announced it yet.
+[1341.14 - 1346.14]  Just for you, before everyone else knows it, you can go into the settings of cashew.me
+[1346.14 - 1350.00]  wallet and just flip a switch here, enable, and you get a Lightning address.
+[1350.00 - 1352.68]  that is powered by mpop.cash
+[1352.68 - 1354.62]  and receive your ZAPs into that e-cash wallet.
+[1355.08 - 1355.60]  So level two.
+[1356.80 - 1359.34]  Level two is we started playing around with our Bitcoins.
+[1361.34 - 1363.26]  So Nostra ZAPs level two is essentially
+[1363.26 - 1365.60]  a combination of NIP60.
+[1365.88 - 1368.60]  Pablo has been talking about that in the workshop before
+[1368.60 - 1370.20]  if you were there, and NIP61.
+[1370.66 - 1375.28]  So you see here, Highlighter is a Nostra long-form client
+[1375.28 - 1377.26]  that's amazing, and you have Nutsack,
+[1377.34 - 1379.46]  this is a proof-of-concept NIP60 wallet,
+[1379.46 - 1380.00]  and it's a proof-of-concept NIP60 wallet.
+[1380.00 - 1384.14]  both show me the same same balance here and that's what I wanted to show before
+[1384.14 - 1388.44]  when I said you can log in with your NSEC and see the same money appear in
+[1388.44 - 1393.62]  different clients so what are the requirements for for nip 61
+[1393.62 - 1397.70]  not zaps we want them to be public so everyone should be able to see that I
+[1397.70 - 1402.02]  zapped Pablo they should be verifiable so everyone should be able to see whether
+[1402.02 - 1406.84]  the e-cash is fake or not and the payment should commit to the event that
+[1406.84 - 1411.24]  I'm zapping so they cannot be replayed so it says really
+[1410.00 - 1412.94]  Kalle zapped Pablo for this specific post
+[1412.94 - 1414.50]  and the e-cash was valid.
+[1415.68 - 1417.24]  So this is what it would look like.
+[1417.32 - 1419.08]  This is not what it does look like yet,
+[1419.18 - 1422.08]  but this zap icon that you see in every NOSTA client,
+[1422.38 - 1423.86]  basically you would press that
+[1423.86 - 1425.62]  and this time it would be instant
+[1425.62 - 1427.10]  because it's almost instant.
+[1427.18 - 1428.90]  You press it and the payment is done.
+[1428.90 - 1430.88]  And in the background you have this JSON,
+[1431.74 - 1432.76]  this NOSTA event,
+[1433.22 - 1436.06]  where if you look at the proof field here,
+[1436.28 - 1438.74]  the money is in the event itself.
+[1438.74 - 1440.00]  And that's the...
+[1440.00 - 1449.44]  um the crucial part here the payment is the message all right so let's see i want to explain
+[1449.44 - 1455.04]  a little bit how this works and i hope we'll be fine with time but i'll just dive into it and
+[1455.04 - 1462.24]  they will stop me if i go over time too much so how's it work programmable e-cash we can attach
+[1462.24 - 1467.76]  spending conditions to e-cash so that's what we need to build zaps as i said and this is very
+[1467.76 - 1469.84]  similar to how it works with bitcoin when you
+[1470.00 - 1475.84]  have a bitcoin utxo you lock it to a public key essentially and then only the owner of the private
+[1475.84 - 1480.96]  key can actually spend that bitcoin and we can do the same thing with e-cash and the example is pay
+[1480.96 - 1486.24]  to public key so here's how it works and that's also the what's happening in the background for
+[1486.24 - 1492.72]  nip 61 not zaps so carol is the receiver here carol creates a public key this is this green
+[1492.72 - 1497.28]  lock that you see and carol can now share this public key with the world and say send me money
+[1497.28 - 1500.00]  to this public key this is like a bitcoin address
+[1500.00 - 1504.60]  And this green lock, she posts on Noster, it's a special event that she publishes and says,
+[1504.74 - 1508.10]  this is my green lock. If you want to zap me, send money to this lock.
+[1509.20 - 1515.72]  And then Alice wants to zap Carol and say, cool, I'll take my e-cash and I'll just attach this lock to it.
+[1515.72 - 1522.42]  So Alice takes her e-cash and puts the lock on there and sends it over Noster to Carol.
+[1523.10 - 1526.98]  And that's it. Zap is complete. Everyone can see that there is a lock.
+[1526.98 - 1530.02]  Everyone can see that only Carol can spend it.
+[1530.00 - 1532.84]  and that's actual e-cash that is not fake.
+[1533.30 - 1534.26]  So the transaction is complete
+[1534.26 - 1536.40]  and everyone can see that a zap happened.
+[1536.66 - 1537.58]  At the end of the day,
+[1537.88 - 1540.68]  when Carol wants to take out that locked e-cash,
+[1540.78 - 1541.42]  she goes to the Mint
+[1541.42 - 1544.30]  and needs to provide a signature to the Mint.
+[1544.42 - 1544.86]  The Mint says,
+[1544.98 - 1547.40]  hey, are you really the owner of this green lock?
+[1547.98 - 1548.58]  It says yes
+[1548.58 - 1552.28]  and gives back the money in an unlocked form back to Carol
+[1552.28 - 1553.98]  and Carol can do whatever she wants with it.
+[1555.02 - 1557.64]  So Pay2PubKey allows you to build
+[1557.64 - 1559.34]  receiver offline transactions.
+[1559.34 - 1560.00]  I haven't even.
+[1560.00 - 1562.08]  and dove into this topic.
+[1562.20 - 1563.48]  This is very exciting.
+[1563.66 - 1564.60]  You can make transactions
+[1564.60 - 1566.28]  where the receiver doesn't have internet.
+[1567.96 - 1569.50]  You can post eCash publicly.
+[1569.74 - 1570.90]  This is what we're seeing right now.
+[1571.00 - 1573.56]  I'm so happy that, Pablo, that you're doing this
+[1573.56 - 1576.68]  because this has been on my mind from day one, basically.
+[1576.92 - 1578.70]  And this slide is probably a year old.
+[1580.36 - 1582.80]  And it allows very high-frequency payments,
+[1582.94 - 1585.44]  also something that I haven't delved into here.
+[1585.82 - 1587.80]  But the fact that the receiver can be offline
+[1587.80 - 1589.34]  means that you can also make payments
+[1589.34 - 1590.00]  that I suppose, like,
+[1590.00 - 1592.06]  Like, I don't know, I don't want to say numbers,
+[1592.24 - 1593.98]  but more than thousands per second.
+[1595.78 - 1597.42]  All right, step back.
+[1598.78 - 1599.66]  What does it say?
+[1602.00 - 1606.32]  I'm sure everyone in this room has a way to interpret this sentence.
+[1606.54 - 1610.42]  Everyone has some kind of connotation or kind of agreement with the sentence.
+[1611.04 - 1614.64]  And that's very sad because I remember, I was young,
+[1614.64 - 1617.32]  but I remember what the Internet promised,
+[1618.14 - 1619.42]  what the world would look like.
+[1620.00 - 1627.52]  and it wasn't the one that we live in today so the way i see it our payments are really big part
+[1627.52 - 1633.52]  of why the internet is and it's basically the payment systems that we have built
+[1634.32 - 1641.28]  destroy anonymity as if by design it's not as if it is actually the design of these payment systems
+[1642.16 - 1647.84]  and here's one example this is what the internet looks like today i mean this is an old ios browser
+[1647.84 - 1650.00]  but it still looks the same thing
+[1650.00 - 1656.20]  And you want to read an article, and they ask you to put your birth certificate in there,
+[1656.90 - 1660.34]  your credit card number, to read the political article.
+[1661.42 - 1665.68]  You know, it just blows my mind that Bitcoiners are the only people thinking about this.
+[1666.42 - 1667.58]  And here's another problem.
+[1668.00 - 1668.86]  And Signal is amazing.
+[1669.18 - 1669.90]  This is not Signal FUD.
+[1670.02 - 1671.36]  Download Signal, use only Signal.
+[1671.94 - 1676.02]  But Signal has a similar problem that is related here,
+[1676.02 - 1679.94]  is that they require identities for limiting the use of their service.
+[1680.00 - 1685.52]  Signal requires you to put a phone number in there still in order to use a
+[1685.52 - 1691.52]  service because they don't want to open the platform to bots basically. So it
+[1691.52 - 1697.52]  feels like you have two choices on the internet. You either pay with something
+[1697.52 - 1702.20]  that doxes you and hurts your privacy or you create an account with
+[1702.20 - 1708.74]  something that doxes you or hurts your privacy. And eCash specifically fixes
+[1708.74 - 1711.92]  that and it's
+[1710.00 - 1715.84]  amazing at fixing that so how to do it better two quick examples here's one uh one project called
+[1715.84 - 1722.08]  chat nut this is a pay-per-use chatbot that you can use where you can use ai but what what makes
+[1722.08 - 1727.04]  it different from all the other projects out there is that there is no user account and you can pay
+[1727.04 - 1731.60]  once let's say a thousand satoshis and then you have in the front and in the browser you have
+[1731.60 - 1736.16]  e-cash like in your pocket and for every question that you ask you take some of that e-cash and
+[1736.16 - 1740.00]  throw it back to the server and make these payments and they're uncorrelated
+[1740.00 - 1747.66]  and they can't track you your use of that service and another one and i'm you know very excited
+[1747.66 - 1752.00]  about this project you should keep an eye on this this is called key chat and they've implemented
+[1752.00 - 1757.50]  the signal protocol on top of noster so they allow you to use double ratchet signal encryption
+[1757.50 - 1763.66]  protocol in noster and the way they use ecash is magical because first of all they allow you to
+[1763.66 - 1769.08]  make payments within the chat we've seen that before but it also they've also built in a built
+[1769.08 - 1769.98]  in relay
+[1770.00 - 1775.44]  monetization into their app which means they can run these relays for users who want to use keychat
+[1776.00 - 1781.12]  and because they don't ask you for a phone number obviously they can still limit the use by making
+[1781.12 - 1788.40]  you pay one satoshi per per message it's really a nice project so i'm coming to the end e-cash
+[1788.40 - 1795.36]  systems are private cypherpunk money systems what do i mean by that and you know this sentence is
+[1795.36 - 1799.84]  a bit related to this question i get all the time who's going to run the mints now this is the who's
+[1799.84 - 1802.08]  going
+[1800.00 - 1808.80]  to build the streets version of ecash my answer is i don't know you tell me and you know i've got
+[1808.80 - 1814.80]  the answer already and i i knew this would happen this is my wallet what it looks like i'm running
+[1814.80 - 1821.44]  one of these mints only as a development mint but you can see this is a wallet where i have probably
+[1821.44 - 1826.80]  20 minutes already and there are so many mints already i really don't think this is our problem
+[1826.80 - 1830.00]  there will be people who will run mints and even if it's only for
+[1830.00 - 1838.82]  their 2020 friends it will be good so a thousand minutes will blossom so I'm
+[1838.82 - 1845.44]  gonna end this with a last story here that really stuck in my mind I have
+[1845.44 - 1851.60]  paranoid friends and for good reasons but some of them don't use digital
+[1851.60 - 1857.42]  payments at all like they are like cavemen in this digital world because
+[1857.42 - 1861.76]  they cannot their OPSEC requires
+[1860.00 - 1864.92]  not to use any digital payments and it makes their life really hard and this is
+[1864.92 - 1869.78]  what one of those friends told me and I really didn't appreciate this before he
+[1869.78 - 1874.76]  did because now with e-cash he can go into the bar and he can pay for the beer
+[1874.76 - 1878.78]  without coming online he can take the cash out of his pocket hand it over to
+[1878.78 - 1883.04]  the bar person and the bar person needs to be online to receive the payment but
+[1883.04 - 1888.32]  the payer doesn't need to and this also means you can pay peer-to-peer with one
+[1888.32 - 1891.94]  person having internet this is me on a
+[1890.00 - 1894.96]  flight without internet i'm sending money to a friend who's then keeping it in his wallet we're
+[1894.96 - 1900.32]  both offline i could double spend him but he knows i won't just he's gonna receive it in his wallet
+[1900.32 - 1909.60]  and then later when he has internet it will be in his appear in his wallet so e-cash as i try to
+[1909.60 - 1916.08]  convince you from the 80s on it should have been everywhere this was the range that people thought
+[1916.08 - 1920.00]  e-cash would cover from this guy on a brazilian beach without internet
+[1920.00 - 1921.96]  to these guys over here
+[1921.96 - 1924.46]  making high-frequency transactions
+[1924.46 - 1927.38]  thousands of times per second, right?
+[1927.76 - 1929.60]  And it turns out all it really needed
+[1929.60 - 1930.72]  is a bit of Bitcoin.
+[1930.96 - 1933.60]  So Bitcoin fixes Zcash,
+[1933.68 - 1934.84]  and I'll leave you with this.
+[1935.00 - 1937.34]  If you want to become a Cashew contributor,
+[1937.66 - 1939.44]  please, we're looking for more developers.
+[1939.88 - 1941.14]  It's a really vibrant space.
+[1941.40 - 1942.22]  Come talk to me.
+[1942.34 - 1943.34]  We have the documentation.
+[1943.34 - 1944.38]  I'll hold your hands
+[1944.38 - 1946.90]  and show you all the different libraries that we have.
+[1947.16 - 1949.54]  There's also an amazing event happening in October.
+[1949.54 - 1979.52]  Be sure to check it out.
+[1950.00 - 1953.98]  ETC++ eCache, probably the first eCache conference that ever happened.
+[1954.16 - 1957.84]  And if you want to support Cashew and the development of eCache technologies,
+[1957.84 - 1961.94]  you can support us through the OpenCache Association.
+[1962.22 - 1964.26]  That is a non-profit to support our development.
+[1964.54 - 1965.64]  Thank you very much for your attention.

@@ -1,0 +1,585 @@
+[0.00 - 9.08]  All right, so, USB-C. Until we get this going, I'll just give a bit of an intro for this talk.
+[9.48 - 21.20]  So, the idea behind this talk came about as a result of some discussions we were having on Nostr regarding what Nostr's killer feature might be.
+[21.20 - 28.66]  So, we're talking about it, we're like saying, okay, is it censorship resistance? Is it zaps?
+[30.00 - 35.76]  Is it maybe something that we haven't discovered yet?
+[35.76 - 42.46]  Or is it something that we maybe have already, which is radical openness of the network?
+[42.46 - 47.46]  I kind of fall in the camp of thinking that guys who think that it's the openness itself
+[47.46 - 50.18]  that's the killer feature.
+[50.18 - 58.46]  It will make it possible for a whole ecosystem of applications, very powerful applications,
+[58.46 - 60.00]  to be built on top of it all.
+[60.00 - 66.76]  cluster. These applications will look and feel like a next generation of applications
+[66.76 - 73.52]  that people are typically used to in the kind of traditional legacy web that we have today.
+[73.52 - 83.76]  And if we can get our screen going, we'll show you some of that today. Anything else
+[83.76 - 84.76]  you want to add, Pablo?
+[84.76 - 90.00]  I think the point we're going to try to make is that
+[90.00 - 97.62]  that Nostr, like one of the things that is most remarkable about Nostr is how open it
+[97.62 - 104.46]  can be. And the point we're going to make is that we can choose to embrace and lean
+[104.46 - 111.70]  in very strongly towards that openness. And I think that's what sets us apart from the
+[111.70 - 116.92]  rest of the web, where they are forced to lean into the closeness, particularly with
+[116.92 - 120.00]  AI, particularly with what's happening on the web.
+[120.00 - 129.06]  On Twitter, with the KYC for Creators, I think those trends will continue and they will self-reinforce.
+[129.06 - 134.68]  So those systems, those legacy systems, will continue to become more and more and more
+[134.68 - 135.68]  closed.
+[135.68 - 138.76]  They will continue to silo more and more and more.
+[138.76 - 143.74]  And if we run in the opposite direction, if we lean more and more and more towards the
+[143.74 - 148.84]  business, we have a winning hand, basically.
+[150.00 - 152.82]  I'm kind of shitting my own bags here.
+[152.82 - 153.82]  Do it.
+[153.82 - 162.52]  Now, I'm super excited about the I wrote NIP 60 and NIP 61, which are wallets,
+[162.52 - 168.70]  like a cashew-based wallet, where the money is stored on the relay, which means that you
+[168.70 - 174.76]  can go to any client, obviously that implements this NIP 60, and your money is there.
+[174.76 - 178.64]  So in the same way that you log into Primal and the people that you follow are there,
+[178.64 - 180.00]  the profile is there.
+[180.00 - 184.98]  your notes are there you log into whatever other client to highlighter to
+[184.98 - 190.38]  Deimos to shop sir and your money's there and it's it's kind of weird it's
+[190.38 - 197.38]  it's but Bitcoin is it's data right and we are used to the idea of you open
+[197.38 - 202.02]  sparrow and your money's there you open blue wallet and your money's there why
+[202.02 - 207.42]  shouldn't Nestor have the same so I'm super super excited about about that
+[207.42 - 212.00]  idea the idea that someone can come
+[210.00 - 214.80]  to Nostr, they don't set up a lightning wallet. They don't download wallets of Satoshi. They
+[214.80 - 219.74]  don't have to go through all these steps. Their NSEC is the access to their money. They
+[219.74 - 226.22]  are immediately suppable. I am super excited about what that unlocks. Because when you
+[226.22 - 233.18]  onboard new people, even with Primal, which I think is at the top of the reduction of
+[233.18 - 240.02]  friction of onboarding someone, even activating the wallet is a bit of a step. But...
+[240.00 - 244.40]  Now, just the fact that you have your NSEC takes care of all of it.
+[244.56 - 249.44]  And I am super excited for what that unlocks in terms of frictionless onboarding.
+[250.10 - 250.38]  Emilio?
+[251.06 - 252.16]  Yeah, it's pretty crazy.
+[252.30 - 254.66]  So first of all, eCash itself is exciting.
+[255.42 - 257.18]  It's a really exciting technology.
+[258.02 - 262.26]  Both Fediment and Cashew implementations are very interesting.
+[262.96 - 267.02]  The fact that you can basically have these tokens that you can move around
+[267.02 - 269.14]  and that's actually the bare assets.
+[270.00 - 273.60]  and they represent bitcoin that you own at this particular custodian
+[275.04 - 279.92]  so the fact that you can now integrate that with noster and you can hold these tokens in
+[279.92 - 285.60]  an encrypted matter matter on public relays on the public relay infrastructure that we have on
+[285.60 - 292.56]  oscar is pretty wild and all that you need to unlock them is your noster key so your noster
+[292.56 - 299.44]  key unlocks um not just your roster identity and your the noster content and so forth but also
+[299.44 - 300.00]  this kind of
+[300.00 - 306.56]  spending money that you have on Oster that you can just store securely on the public relays.
+[306.56 - 312.64]  That's mind-blowing. How did you come up with that? I mean, in retrospect, it seems obvious,
+[312.64 - 316.16]  like a lot of things, but... In retrospect, it seems so obvious.
+[318.16 - 324.00]  I don't remember. I think I was just thinking about how I can make the onboarding experience
+[324.00 - 329.68]  for new writers that come to Highlighter. How can I make it better? And always the Lightning Wallet
+[329.68 - 331.68]  part...
+[330.00 - 331.80]  was like, man, what a pain.
+[331.80 - 336.76]  Like, how can I reliably do this in a way that
+[336.76 - 340.88]  is not asking people, OK, go and download this thing
+[340.88 - 344.74]  and copy the secret here and do the Nostradamus Connect dance
+[344.74 - 345.76]  and scan this QR code.
+[345.76 - 347.06]  It's so much.
+[347.06 - 349.66]  Like, for technical people, it seems like nothing.
+[349.66 - 352.68]  It takes us literally a minute to do it.
+[352.68 - 356.98]  But for a non-technical person or someone that just doesn't
+[356.98 - 360.04]  have, they don't see the .
+[360.00 - 369.08]  value yet. Experiencing receiving a sub without going through all these steps, it's too much.
+[369.08 - 374.96]  It's a big ask. So I want to reduce the ask, allow people to experience these things. Once
+[374.96 - 379.40]  they experience all this magic, they will invest the time, they will figure out the
+[379.40 - 382.20]  answer, they will figure out all the things that they need to figure out, but they need
+[382.20 - 384.44]  to be able to experience it first.
+[384.44 - 389.38]  And the friction is usually related to receiving on Bitcoin, right? Like, let's say if you
+[389.38 - 390.38]  have a lightning.
+[390.00 - 396.80]  self-custodial lightning wallet it's not so simple to set it up uh so that you can receive right out
+[396.80 - 403.44]  of the gate where with the solution that you came up with uh yours you can receive the moment you
+[403.44 - 408.72]  have an austere account you can receive money you can receive immediately which is which is kind of
+[408.72 - 413.76]  wild yeah all right yeah we already said the frame of what we're going to be talking about but yeah
+[413.76 - 419.36]  the basic the basic idea is we can lean in towards the openness where the rest of the world the rest
+[419.36 - 421.84]  of the legacy
+[420.00 - 427.32]  web must lean into the closeness yes so as I mentioned previously we were all
+[427.32 - 431.82]  discussing what's the killer feature of Noster and it occurred to me that it's
+[431.82 - 439.28]  probably something that we have already which is this radically open network so
+[439.28 - 444.76]  there are multiple categories of openness so there is the public relay
+[444.76 - 449.12]  infrastructure that we have that we kind of take for granted right now but it's
+[449.12 - 451.72]  probably good
+[450.00 - 472.44]  And to kind of stop for a moment and just acknowledge, hey, we have a couple of thousand relays that are publicly accessible to anyone to post messages, to post content, to communicate, and do a bunch of crazy stuff like what Pablo just came up with literally like weeks ago with eCache, storing eCache and so forth.
+[472.44 - 478.32]  So this is already available to us and it's open, publicly accessible to anyone.
+[478.32 - 480.00]  Then we have these things.
+[480.00 - 485.22]  Things like the identity layer, the social graph,
+[485.22 - 487.54]  and the associated web of trust.
+[487.54 - 489.36]  We talk about this a lot.
+[489.36 - 493.14]  It's a massive deal that the Noster social graph
+[493.14 - 496.94]  is open to anyone to participate, not only to users,
+[496.94 - 499.28]  but also to developers to build on top of.
+[499.28 - 502.24]  So these two top two items we have on this list
+[502.24 - 504.72]  are fairly obvious, so we're not going to spend
+[504.72 - 507.66]  much time talking about it.
+[507.66 - 510.00]  The following several items
+[510.00 - 512.54]  are more interesting to kind of dive into,
+[512.64 - 515.82]  and our presentation is going to focus on those.
+[516.48 - 518.58]  So content discovery,
+[519.28 - 525.18]  the ability to have a cross-section of open content types
+[525.18 - 527.30]  is also extremely interesting.
+[527.46 - 529.26]  Actually, that part blew my mind
+[529.26 - 532.12]  when I realized how this is going to unfold.
+[532.66 - 534.44]  Then we have things like page subscriptions
+[534.44 - 537.04]  and wallet infrastructure that we already touched on.
+[537.04 - 540.00]  So yeah, maybe let's dive right in.
+[540.00 - 549.12]  in. Next slide, please. No. Oh, here we go. Content discovery. All right.
+[549.12 - 553.62]  Okay. So, there are a few ways. So, content discovery is kind of the thing that
+[553.62 - 560.68]  has become kind of a cliché that in Nostor is kind of broken. It's just like Derek said
+[560.68 - 568.64]  before. It's just early. I am very hopeful because I see that discovery is getting to
+[568.64 - 570.00]  the point where
+[570.00 - 575.52]  it's going to become much more normal to have access to discovery tools one of
+[575.52 - 583.12]  the the options of doing discoveries are DVMs and we have a few clients that had
+[583.12 - 589.42]  implemented DVMs for like a year or so my the domain data vending machines I
+[589.42 - 594.42]  got the renewal notice like a few days ago so literally one year so we have
+[594.42 - 601.92]  new goal that allows you to see all the different DVMs and just high-level
+[600.00 - 607.70]  So, data vending machines, DBMs, are kind of like algorithms or computes that you can
+[607.70 - 609.68]  ask to do something.
+[609.68 - 612.56]  So you give it a bunch of inputs and it gives you one output.
+[612.56 - 618.94]  In this case, for the feed marketplace, we give it the input of give me stuff.
+[618.94 - 620.62]  And stuff can be just anything.
+[620.62 - 627.26]  So here we have Amethyst, which released DBM support probably like a month ago.
+[627.26 - 630.02]  And you can ask for all kinds of really weird stuff.
+[630.00 - 637.68]  very specific, very long-tail stuff, so one note per follow or stuff that is trending
+[637.68 - 644.72]  on Monster, notes about animals for some reason. And do we have, in the next slide, we have
+[644.72 - 652.32]  more screenshots? No, okay. So we have Nostrudel, for example. It's kind of funny. We were working
+[652.32 - 657.06]  on the slides, and we wanted to put a screenshot of Nostrudel. And in between taking the screenshot
+[657.06 - 660.00]  of Amethyst and the screenshot...
+[660.00 - 666.24]  of Nostrudel, which I didn't make it into the slide, but there was a new DBM. And the
+[666.24 - 672.38]  guy behind Nostrudel was having dinner with us last night. But his product got better
+[672.38 - 678.56]  without him doing anything. Something just appeared into the marketplace. Someone came
+[678.56 - 683.48]  in, brought a new algorithm. He didn't touch a single line of code. He was not even aware.
+[683.48 - 688.56]  It was completely permissionless. But his product got better. And, yeah. You want to
+[688.56 - 690.00]  talk about the next one? Sure.
+[690.00 - 693.40]  So I guess the big takeaway here is that we already
+[693.40 - 697.00]  have a feed marketplace on Oster.
+[697.00 - 700.64]  And it's exposed using the DVM technology
+[700.64 - 704.60]  that Pablo also came up with, so data vending machines.
+[704.60 - 707.96]  There's a way to publish these, let's say, feeds.
+[707.96 - 710.84]  And there's a way to consume the feeds within a few clients
+[710.84 - 712.16]  that already implemented it.
+[712.16 - 715.46]  We mentioned Amethyst and No Strudel kind of leading
+[715.46 - 716.54]  the charge here.
+[716.54 - 719.04]  So congrats, guys, on that.
+[719.04 - 721.14]  On Primal, I'll leave it at that.
+[720.00 - 721.62]  I'll give you a bit of a preview on what
+[721.62 - 723.50]  we're doing on Primal 2.0.
+[723.50 - 728.24]  So we'll have the feed picker, like we do now,
+[728.24 - 731.74]  a little bit more expanded with a bunch of built-in feeds.
+[731.74 - 733.34]  Then when you click the Edit button,
+[733.34 - 737.28]  you'll be able to, right there in the main UI,
+[737.28 - 741.00]  organize your set of feeds, toggle them on and off,
+[741.00 - 744.02]  and change order and things like that.
+[744.02 - 745.96]  But then there's the Add Feed button
+[745.96 - 750.00]  right there, which shows the feed marketplace.
+[750.00 - 754.72]  within the app itself, then when you select any of the custom
+[754.72 - 758.76]  feeds, you'll be able to get the preview for that feed
+[758.76 - 761.44]  and simply add it to your list of feeds.
+[761.44 - 764.86]  So what we're going to do at Primal
+[764.86 - 769.44]  is we're kind of a little bit unique at the moment
+[769.44 - 771.40]  within the Nostra space in the sense
+[771.40 - 775.56]  that we build services as well as clients for Nostra.
+[775.56 - 778.92]  So we have built a bunch of feeds
+[778.92 - 781.42]  that are currently only available.
+[780.00 - 785.46]  in Primal. So what we're going to do is we're going to build a bunch more feeds. We're going
+[785.46 - 791.54]  to publish all of those feeds. Every single Primal feed will be available in the feed
+[791.54 - 796.96]  marketplace. And of course, we're going to be able to, within all Primal clients, you'll
+[796.96 - 804.58]  be able to consume any third-party feed that anyone else has published. And I'm convinced
+[804.58 - 810.02]  that the craziest, the highest signal, the most interesting...
+[810.00 - 816.04]  interesting feeds are not going to be created by Primal or like a big vendor like that.
+[816.04 - 822.14]  Once you open things up like this, the marketplace is going to be, it's already vibrant to just
+[822.14 - 829.44]  like a few weeks in. I think this is going to really explode and offer a new way to discover
+[829.44 - 836.32]  content and kind of get into a lot of interesting things out there on Oster. So that's a major
+[836.32 - 839.72]  way in which openness.
+[840.00 - 845.52]  feature of Nostr is contributing to all clients. Pablo just mentioned with no
+[845.52 - 851.08]  strudel, you know, Hazard was having dinner with us last night and his
+[851.08 - 855.32]  product just got better without him doing anything. That's kind of massive.
+[855.32 - 861.38]  Imagine this happening at scale. We're gonna blow the legacy web out of the
+[861.38 - 865.66]  water, I'm convinced. And before we move on, and one of the cool things is that
+[865.66 - 871.56]  any of these DBMs can have like a subscription tier.
+[870.00 - 874.62]  So you could say, I'm going to pay 1,000 sats a month to this whoever developer it is.
+[874.64 - 875.72]  I have no idea who it is.
+[876.28 - 881.42]  And I'm going to have access to this fee, 1,000 sats or five bucks or whatever it might be.
+[882.14 - 886.62]  So this is a way where from Primal or from Nostrudel or from any client,
+[886.94 - 889.24]  someone can interact with someone's business.
+[889.62 - 890.60]  There is no KYC.
+[890.72 - 891.68]  There is no registration.
+[891.68 - 898.42]  The person didn't have to go through this process of submitting their fee or their algo to Twitter or whatever.
+[898.42 - 900.02]  It's completely open.
+[900.00 - 906.68]  open, completely permissionless, someone from whatever, North Korea, can create a small
+[906.68 - 908.44]  business of selling these feeds.
+[908.44 - 909.44]  It's kind of wild.
+[909.44 - 912.54]  Yeah, we're serious when we say marketplace.
+[912.54 - 917.36]  So they're going to be a bunch of free feeds and they're going to be a bunch of paid feeds.
+[917.36 - 925.24]  And the paid feeds can be the business model around paying for feeds could be implemented
+[925.24 - 930.00]  on a subscription basis or on a kind of pay per request.
+[930.00 - 934.08]  basis, the DVM model already supports all of this.
+[934.08 - 936.22]  So it's going to be wild to just open it up
+[936.22 - 938.76]  and see what happens in the free marketplace
+[938.76 - 941.52]  when this is unleashed.
+[941.52 - 944.52]  And this is kind of a theme on Nostr just in general.
+[944.52 - 948.18]  Nostr is a true protocol in the sense
+[948.18 - 950.92]  that there's this ecosystem that's
+[950.92 - 954.48]  unfolding and developing without any central coordination
+[954.48 - 957.32]  or planning.
+[957.32 - 961.00]  It's just a bunch of actors building stuff.
+[960.00 - 967.38]  Users using stuff that they feel is useful, paying for services that they feel are useful, etc., etc.
+[968.10 - 973.00]  And as a result, the protocol itself is getting stronger and more vibrant.
+[973.68 - 976.70]  It's thriving without anyone being in charge.
+[977.14 - 981.00]  This is kind of a big deal and doesn't happen too often.
+[981.12 - 987.86]  It's actually pretty rare to see something like this happen and makes me incredibly bullish and honest.
+[990.00 - 991.88]  All right, content types.
+[991.88 - 994.98]  This is my favorite part.
+[994.98 - 998.26]  This is the part that kind of blew my mind.
+[998.26 - 1002.44]  OK, so here's Medium.
+[1002.44 - 1005.44]  I just opened the Medium app to read an article,
+[1005.44 - 1009.24]  and I made a highlight here.
+[1009.24 - 1015.88]  Medium is a nice kind of system for reading long-form content.
+[1015.88 - 1019.52]  And the ability to highlight anything within Medium
+[1019.52 - 1020.02]  is...
+[1020.00 - 1024.24]  a great feature and then you can select the highlight and kind of collaborate around it
+[1024.24 - 1033.76]  you can make comments on a highlight and so forth cool but it's completely closed in
+[1034.64 - 1041.12]  so this highlight that i created here might carry quite a bit of signal but it's forever trapped
+[1042.08 - 1049.04]  in the medium silo and as a result even though medium has been around for quite a few years now
+[1049.04 - 1050.00]  we don't
+[1050.00 - 1052.44]  don't really see a lot of collaboration.
+[1052.44 - 1056.64]  We don't really see a vibrant community of people commenting
+[1056.64 - 1061.32]  and collaborating around these highlights.
+[1061.32 - 1064.36]  And this is Highlighter, a Noster application,
+[1064.36 - 1068.74]  showing a long-form note that Rabel recently published
+[1068.74 - 1071.12]  about Noster Delete.
+[1071.12 - 1073.90]  This is what it looks like in the mobile app.
+[1073.90 - 1079.00]  And I created a highlight here as well on Highlighter.
+[1079.00 - 1080.00]  But Highlighter is
+[1080.00 - 1087.32]  a Nostr app. It's a properly designed Nostr app, which means that it is using standard
+[1087.32 - 1094.50]  Nostr events for publishing long-form content, and it's also using standard Nostr events
+[1094.50 - 1104.32]  for things like highlights. So any Nostr client is able to leverage content that's being created
+[1104.32 - 1110.00]  on Highlighter, both in terms of articles that are being published, but also...
+[1110.00 - 1114.44]  also artifacts that are related to articles, like highlights.
+[1114.44 - 1121.16]  So a client like Primal is able to tap into this content that's
+[1121.16 - 1122.94]  widely available on Oster.
+[1122.94 - 1125.94]  And this is a preview of the next release of Primal.
+[1125.94 - 1129.40]  This is what the same article looks like on Primal.
+[1129.40 - 1131.66]  Highlighter and Primal are different types
+[1131.66 - 1134.06]  of clients in terms of our core competencies
+[1134.06 - 1137.22]  and the way we want to present and structure
+[1137.22 - 1138.52]  content to our users.
+[1138.52 - 1140.02]  So every client developer can make
+[1140.00 - 1145.36]  decisions on how to best present this type of content to their audience, but here's the same
+[1145.36 - 1154.32]  article and here's the same highlight that exists on Primal. And then we can select those highlights
+[1154.32 - 1158.96]  and show the highlight activity and there already is like probably more activity of these highlights
+[1158.96 - 1166.96]  than you get on Medium, which is wild. You can select this highlight, you can quote it or comment
+[1166.96 - 1170.00]  further and so forth. Here's what it looks like when you just
+[1170.00 - 1178.32]  select the quote command, it opens the dialogue, your note editor basically, allows you to
+[1178.32 - 1185.08]  add a note while referencing the highlight itself and the long form note, and you post
+[1185.08 - 1194.10]  this to your main feed. So in the Primal main feed, you see the comment, the highlight,
+[1194.10 - 1199.98]  and the link to the long form note. So right out of the gate, we already are going to
+[1200.00 - 1206.20]  have better UX than what Medium is ever able to offer.
+[1206.20 - 1209.00]  This completely blows my mind.
+[1209.00 - 1213.82]  So then apply the same concept to every content type
+[1213.82 - 1215.46]  that exists out there.
+[1215.46 - 1219.96]  Think about a podcasting app like Fountain, for example,
+[1219.96 - 1225.28]  allowing users to create highlights or clips
+[1225.28 - 1229.14]  within podcasts and so forth and publish those
+[1229.14 - 1231.20]  as an author event.
+[1230.00 - 1238.06]  events. Think about a travel app, like a Trip Advisor competitor that's built as a proper
+[1238.06 - 1245.92]  Nostr app, publishing information about locations, publishing reviews, et cetera, et cetera.
+[1245.92 - 1252.04]  If implemented properly, all of these things become Nostr events that make Nostr massively
+[1252.04 - 1259.04]  bigger and massively more powerful and create all of these artifacts that any Nostr developer
+[1259.04 - 1260.04]  can .
+[1260.00 - 1264.52]  step in and use in a way that makes sense for their app.
+[1264.52 - 1266.52]  This completely blows my mind, and I
+[1266.52 - 1268.06]  can't wait to see how all of this
+[1268.06 - 1270.24]  is going to unfold in the next few years.
+[1270.24 - 1272.24]  JOSE BATISTA- And one of the interesting things
+[1272.24 - 1275.36]  is that Medium has been around for however long,
+[1275.36 - 1276.92]  for a really long time.
+[1276.92 - 1280.50]  Still, the conversation that happens around the highlights
+[1280.50 - 1282.18]  and the comment section of articles
+[1282.18 - 1283.88]  usually is kind of a shit show.
+[1283.88 - 1287.58]  There's not a whole lot of signal there.
+[1287.58 - 1290.02]  And the main reason really is that your social
+[1290.00 - 1296.36]  graph is not there. So it's just a bunch of strangers with perhaps no shared values, no
+[1296.36 - 1302.96]  shared interest, having discussions that it's kind of like a random, like a cesspool. Whereas
+[1302.96 - 1309.00]  here I create a highlight. It will go to the people that follow me. And I will have interactions
+[1309.00 - 1313.14]  with the people that I'm already interacting and, like, expanding throughout, like, the
+[1313.14 - 1318.38]  social graph and the web of trust. But it's much more relevant. And it's much more vibrant.
+[1318.38 - 1320.00]  Because the highlights and the conversations
+[1320.00 - 1326.80]  itself can can happen on the same medium um so so i think this is is super powerful because
+[1328.32 - 1334.40]  you see content creators they they they push people to to share um their their content to
+[1334.40 - 1342.88]  to their networks um but this happens in a much more organic uh long tail way where i'm sharing
+[1342.88 - 1349.04]  the stuff that resonated with me i read an article that million wrote and i shared part of that
+[1349.04 - 1349.84]  article that
+[1350.00 - 1354.20]  resonated with me and we can have a conversation around that part of the
+[1354.20 - 1358.68]  article. I think that's super powerful and it's going to bring more high signal
+[1358.68 - 1362.30]  conversation which I think is kind of one of the ways where Nostor can grow
+[1362.30 - 1368.84]  where we can go and create highlights of stuff that is just broadly on the web.
+[1368.84 - 1372.82]  I know Will from from Deimos is working on an extension for Safari to
+[1372.82 - 1376.40]  create just highlights on the web on highlighter you can also just say oh
+[1376.40 - 1381.90]  okay on this medium article I want to create I want to be able to create
+[1380.00 - 1386.80]  highlights. And we can bring people that are writing on Medium or on Substack or whatever,
+[1386.80 - 1391.00]  we can bring them into Nostra because there is valuable conversation happening around
+[1391.00 - 1395.96]  their content. Exactly. And these artifacts get posted
+[1395.96 - 1404.02]  in these microblogging feeds which are typically kind of most popular, most frequently used
+[1404.02 - 1410.00]  by users. And they're a great discovery tool for long-form content, which brings us to
+[1410.00 - 1417.28]  pablo's little show here yeah so so i was listening to a podcast a while ago and i i heard this part
+[1417.28 - 1425.36]  that uh that i loved um and for the background julie greenwald is uh some executive president
+[1425.36 - 1431.84]  of uh record label that's been around the industry for like three decades or so um so she knows the
+[1431.84 - 1436.72]  stuff she's seen the transition of the music industry changing so we wanted to play this uh
+[1436.72 - 1439.84]  this part of the podcast because it's super valuable
+[1440.00 - 1446.96]  is doing once each song is doing a hundred thousand streams yes and it adds up to the
+[1446.96 - 1452.16]  million versus the one million it's just like you could see that the catalog is performing
+[1452.16 - 1457.06]  people are buying into the artist not just the song and that's the difference in how we're
+[1457.06 - 1462.90]  trying to assign talent how important is social media these days it's the most important thing
+[1462.90 - 1469.20]  is it the most important because that's where content is consumed the short form content more
+[1469.20 - 1469.64]  than
+[1470.00 - 1475.90]  streaming spotify so this is the interesting thing they're hearing the music their full song
+[1475.90 - 1483.08]  on the spotify on apple and amazon but the discovery of the artist is vis-a-vis all the
+[1483.08 - 1492.40]  short form that is on instagram reels on tiktok on youtube shorts on snapchat and so that's where
+[1492.40 - 1499.22]  kids are like finding about you you know what your sound is where you're from your clips and
+[1499.22 - 1500.06]  then they're coming in
+[1500.00 - 1502.72]  and to hear it on the streaming platforms,
+[1502.72 - 1506.40]  because that's where their library is.
+[1506.40 - 1511.30]  OK, the rest of the podcast is very worthwhile listening to.
+[1511.30 - 1516.94]  But the basic idea is that the short form is the discovery,
+[1516.94 - 1519.34]  is where people are.
+[1519.34 - 1522.46]  But what's interesting is that the strategy
+[1522.46 - 1525.46]  that musicians and artists in general have
+[1525.46 - 1529.54]  is they need to present the short form, present the clip,
+[1529.54 - 1530.04]  present the
+[1530.00 - 1536.00]  quote present whatever it is something that picks the interest of the of the of their audience and
+[1536.00 - 1542.40]  bring them off of that platform into this other platform so take them from twitter to soundcloud
+[1542.40 - 1551.28]  take them from uh tick tock to to whatever to patreon um so so there is a there is um there
+[1551.28 - 1557.84]  is a fight there is a tension there where you are publishing content on twitter and you're fighting
+[1557.84 - 1559.84]  twitter right like you are you
+[1560.00 - 1563.20]  Twitter doesn't want their traffic to leave.
+[1563.20 - 1567.18]  With Nostr, we are bringing all these content pieces together
+[1567.18 - 1569.90]  into the same feed because it's all the same data.
+[1569.90 - 1572.24]  The same data goes everywhere.
+[1572.24 - 1576.38]  And it's up to clients to decide how to render it.
+[1576.38 - 1577.24]  Incredible, yeah.
+[1577.24 - 1581.00]  Twitter famously, or X, I should say, under Elon Musk,
+[1581.00 - 1581.76]  famously stopped.
+[1581.76 - 1583.10]  I refuse to call it X.
+[1583.10 - 1589.06]  It's X. It's just X. It kind of nicely delineates old Twitter
+[1589.06 - 1591.16]  to whatever.
+[1590.00 - 1598.16]  this thing is now but yeah x famously stopped linking to uh substack which was a major problem
+[1598.16 - 1604.00]  to substack creators who were using uh twitter as the uh kind of top of the funnel to bring content
+[1604.00 - 1611.60]  over we're not going to have any of those problems on an auster in fact we're going to lean into this
+[1611.60 - 1617.60]  openness and just create experiences that are far better than any of these platforms individually
+[1617.60 - 1622.00]  can create
+[1620.00 - 1627.04]  All right, paid subscriptions. So Highlighter allows creators to create paid subscriptions
+[1627.04 - 1636.08]  for their content. And you can use the Highlighter application to create paid tiers and so forth.
+[1636.08 - 1643.96]  But you become kind of paid content creator. But since this is Nostr, you're not becoming
+[1643.96 - 1650.00]  a Highlighter content creator, you're becoming a Nostr content creator. And then your
+[1650.00 - 1653.12]  paid, the information about your paid tiers is published on
+[1653.12 - 1656.84]  Nostr is available to all the other Nostr apps to plug into
+[1657.08 - 1662.06]  and enable users to subscribe to your content. So you create your
+[1662.06 - 1665.72]  paid tiers on highlighter and then you can use primal in the
+[1665.72 - 1669.32]  upcoming release and just discover the content you're
+[1669.32 - 1674.42]  interested in and subscribe right there. Anything else to
+[1674.42 - 1676.68]  add here? Probably no, no, yeah, let's kind of running a little
+[1676.68 - 1679.98]  short on time. Wallet infrastructure,
+[1680.00 - 1688.44]  Yeah, so I can already briefly discuss this, but it's this idea where your wallet, like the whole thing, is based on your private key.
+[1689.02 - 1697.82]  And it's using cashew tokens to save your money on the relays, which means you go from client A to client B to client C.
+[1698.28 - 1700.28]  And your balance is the same everywhere.
+[1700.94 - 1702.82]  You can spend, you can receive.
+[1703.74 - 1708.72]  It's the same experience we currently have with our follow list.
+[1708.72 - 1710.00]  It's the same experience with.
+[1710.00 - 1714.50]  the money. You receive a thousand sats somewhere and you have a thousand sats on your wallet,
+[1714.50 - 1719.82]  you go to any other client and your thousand sats are there. It's just magically there.
+[1719.82 - 1729.68]  Yeah, this is a note from Kali where he captures the excitement of how crazy the experience
+[1729.68 - 1733.64]  is. All right. So a bit of a reality check for
+[1733.64 - 1740.00]  us. Noster versus the social media complex. In terms of users, this is
+[1740.00 - 1741.88]  is kind of roughly how we stack.
+[1741.88 - 1745.40]  We don't have that many users compared to Twitter,
+[1745.40 - 1746.20]  for example.
+[1746.20 - 1748.48]  And Twitter is not even the biggest social network
+[1748.48 - 1749.30]  out there.
+[1749.30 - 1752.68]  And then competitors like ActivityPub, Blue Sky,
+[1752.68 - 1756.92]  still have more users, probably, than Noster.
+[1756.92 - 1763.38]  However, when it comes to developer kind of mindshare
+[1763.38 - 1766.88]  adoption, I think things are leaning rapidly
+[1766.88 - 1769.50]  in the other direction.
+[1769.50 - 1770.00]  I mean,
+[1770.00 - 1773.28]  How many developers does Twitter have?
+[1773.28 - 1777.02]  All of these guys probably that we have on the diagram are just Twitter employees.
+[1777.02 - 1783.40]  If you make the graph of clients, it's just Twitter, and that's it, because they
+[1783.40 - 1789.10]  closed their API, or roughly they kind of closed their API, whereas Nostr, we thought
+[1789.10 - 1794.00]  about making the same chart with the clients, and then we figured that there were so many
+[1794.00 - 1798.68]  logos for Nostr that we didn't even try to capture that.
+[1798.68 - 1800.00]  And to
+[1800.00 - 1806.90]  but have this difference be so stark so early in the game is incredibly bullish
+[1806.90 - 1825.72]  so I think I think we're gonna make it fam okay you think you guys okay all
+[1825.72 - 1829.02]  right let's keep on riffing Preston you have questions anyone else
+[1830.00 - 1835.32]  You guys know the deal.
+[1835.48 - 1836.12]  More Q&A.
+[1837.22 - 1839.10]  Oh, we got lots of questions now.
+[1839.52 - 1840.72]  All right, let's go over here.
+[1840.84 - 1841.14]  Hold on.
+[1844.20 - 1845.58]  I saw a hand go up here.
+[1845.64 - 1846.16]  Where was it?
+[1849.50 - 1850.14]  Hey, guys.
+[1850.42 - 1853.38]  Why do we have so many more developers than the others, I think?
+[1854.92 - 1855.64]  How many what?
+[1856.30 - 1859.42]  Why is there so many developers coming here?
+[1859.42 - 1860.00]  And I.
+[1860.00 - 1861.38]  I had a question on that slide, too.
+[1861.38 - 1865.72]  Was that pre-Elon, those numbers, or?
+[1865.72 - 1868.22]  NOSTER KOLKHOVSKY- Those were directional numbers, no?
+[1871.34 - 1876.92]  So developers, I've been around developing stuff
+[1876.92 - 1878.76]  for a really long time.
+[1878.76 - 1881.54]  NOSTER by far has been what has captured
+[1881.54 - 1886.72]  my imagination the fastest and with the most gravity.
+[1886.72 - 1890.20]  I think the fact that it's so easy to build stuff,
+[1890.00 - 1902.14]  stuff, or it seems so easy to build stuff on Oster, and how broad the design space is.
+[1902.14 - 1911.42]  I think that's why, like, you can create all kinds of applications, and you get the most
+[1911.42 - 1920.00]  annoying problems of launching something new, soft for you, like users, database.
+[1920.00 - 1924.40]  running infra, like all, yeah, especially users.
+[1924.40 - 1929.48]  I would say users is like the hardest problem, right?
+[1929.48 - 1932.62]  So I think that's why.
+[1932.62 - 1935.10]  And it's just the product is so malleable, so composable,
+[1935.10 - 1937.96]  that it's very easy to come up with new ideas
+[1937.96 - 1941.68]  and put them together with all the LEGO pieces.
+[1941.68 - 1943.84]  First of all, thank you for a great question.
+[1943.84 - 1948.34]  Why are so many developers flocking over to Nostr?
+[1948.34 - 1951.10]  It's for all the reasons that Pablo said.
+[1950.00 - 1955.56]  And probably the main topic of our talk is openness.
+[1955.56 - 1958.94]  So as an Osterdev, on day one, you
+[1958.94 - 1961.28]  can plug into this existing social graph
+[1961.28 - 1964.28]  and the existing user base that's open to you.
+[1964.28 - 1967.84]  And you can also utilize all of these content types that
+[1967.84 - 1969.86]  are the artifacts that we talked about.
+[1969.86 - 1974.28]  You can put them together the way you think is interesting.
+[1974.28 - 1976.54]  The amount of innovation that we're going to see here,
+[1976.54 - 1978.18]  I'm sure, is mind blowing.
+[1978.18 - 1981.14]  You can plug it into the existing wallet.
+[1980.00 - 1982.58]  infrastructure, et cetera, et cetera, et cetera.
+[1982.58 - 1983.78]  Those are the reasons.
+[1983.78 - 1986.48]  Openness, I think, in one word, I
+[1986.48 - 1989.02]  think is the reason why developers
+[1989.02 - 1991.96]  are coming to Nostr.
+[1991.96 - 1994.54]  All right, Ben.
+[1994.54 - 1997.34]  Yeah, so I had a question in and around.
+[1997.34 - 2000.70]  Obviously, you've integrated so that you
+[2000.70 - 2007.44]  can have e-cache that is allocated to your NSEC.
+[2007.44 - 2009.64]  Is that also a two-part question?
+[2009.64 - 2011.20]  Is that?
+[2010.00 - 2035.82]  It's also possible with fedements. Okay, so yes. And given that you're going to see people that are using a private key for both now their social online presence and money, and people may be having decent amounts of money there at some point in the future, are there mitigations for the risks of dealing with that?
+[2035.82 - 2040.00]  And is there a way to, even though it's within.
+[2040.00 - 2047.68]  single NSEC, is there a way to kind of keep that secure but also keep it not incredibly
+[2047.68 - 2050.38]  difficult to easily post at the same time?
+[2050.38 - 2052.48]  Yeah, I love both questions.
+[2052.48 - 2057.46]  Yeah, I thought a lot about both aspects.
+[2057.46 - 2060.74]  So the Fedmin part.
+[2060.74 - 2067.52]  So I started with Casio because Casio is like super simple and it has a lot of traction
+[2067.52 - 2068.68]  already.
+[2068.68 - 2070.00]  The way I see it is
+[2070.00 - 2073.60]  is it would be really cool if you keep on your cashew,
+[2073.60 - 2075.28]  it's NIP 60 wallet.
+[2075.28 - 2079.64]  It's the NIP that I use.
+[2079.64 - 2083.56]  So you can keep your pocket money, your pocket change,
+[2083.56 - 2085.60]  on a cashew wallet.
+[2085.60 - 2088.66]  And maybe, and also this is across mints, right?
+[2088.66 - 2091.72]  So you could have whatever, 10,000 sats
+[2091.72 - 2093.82]  on 10 different mints.
+[2093.82 - 2098.98]  And say when you get to 20,000 sats in one of the mints,
+[2098.98 - 2101.22]  your wallet's out.
+[2100.00 - 2106.08]  Automatically or with a click of a button it moves part of the balance into a ferry mint
+[2106.84 - 2111.62]  Immediately like maybe you don't even know that it's happening. It's just you see a balance. Okay. I have
+[2112.60 - 2117.90]  120,000 sats some of that money is on this mean this mean this means and this ferry mint
+[2119.92 - 2123.38]  All these and I think that's where where moon
+[2125.00 - 2129.18]  Made a really good advance where with a unified balance
+[2130.00 - 2132.90]  So, we can do the same thing with this.
+[2132.90 - 2138.32]  With regards to the other question, yeah, I thought a lot about that, because, okay,
+[2138.32 - 2145.02]  most people, they log in into a client, and they say, oh, allow signing everything, give
+[2145.02 - 2149.92]  permission for everything, which, you know, okay, it happens.
+[2149.92 - 2153.30]  So we need to design around the fact that people do that.
+[2153.30 - 2160.00]  So in NIP 60, I added that you can have multiple wallets, right?
+[2160.00 - 2168.76]  So you could have a wallet that is literally the name is pocket change, and you can have another wallet that is called checking, whatever, checking account.
+[2170.12 - 2174.44]  One of those wallets can have asymmetric password.
+[2175.20 - 2182.36]  So to spend from that wallet, you need to provide the client with an explicit password that you need to type, right?
+[2182.36 - 2190.04]  So it adds a bit of friction, but in return, you can have a wallet that is just, okay, you don't have to.
+[2190.00 - 2194.80]  ask anything it's just you can spend you can receive whatever and then when that wallet gets
+[2194.80 - 2200.72]  to 50 000 sats or 20 000 sats it moves the remaining to the other wallet so if i want to
+[2200.72 - 2206.64]  spend from that wallet i need to provide the password um so in that in that way this is not
+[2206.64 - 2214.64]  to keep obviously your life safe like this is not called storage in any way um but uh but it's one
+[2214.64 - 2219.92]  more tool is one more lego piece that we can design with
+[2220.00 - 2224.86]  Sorry, we got one more question in the back after this.
+[2224.86 - 2226.62]  OK, yeah, I'll be quick here.
+[2226.62 - 2227.78]  What's the mechanism?
+[2227.78 - 2229.36]  So you're talking about subaccounts
+[2229.36 - 2232.12]  from the same NSEC, is that right?
+[2232.12 - 2235.02]  Is that like a BIP85 type thing, or is that?
+[2235.02 - 2236.22]  No, it's not BIP85.
+[2236.22 - 2238.86]  We do have derivation paths, and we could do stuff like that.
+[2238.86 - 2243.48]  But it is literally encrypted with your NSEC,
+[2243.48 - 2246.52]  but you must provide a passphrase to decrypt.
+[2246.52 - 2250.00]  So it's not doing it because derivation paths and BIP85
+[2250.00 - 2255.54]  If I like to compute a B85, I would need access to the private key.
+[2255.54 - 2259.60]  Many times if you're using a browser extension, you don't have access to the private key.
+[2259.60 - 2261.78]  So you can't go that route.
+[2261.78 - 2267.06]  So the simplest route is just, like, left side of the curve, just enter a passphrase.
+[2267.06 - 2269.50]  There is no fancy crypto or anything.
+[2269.50 - 2271.24]  All right.
+[2271.24 - 2272.24]  Over to Alex.
+[2272.24 - 2273.24]  This.
+[2273.24 - 2274.24]  Okay.
+[2274.24 - 2275.24]  Yeah.
+[2275.24 - 2279.84]  This is also a not SAC question.
+[2279.84 - 2280.84]  The.
+[2280.84 - 2281.84]  You have to run the code.
+[2281.84 - 2282.84]  The code here is not SAC.
+[2282.84 - 2283.84]  You have to run the code.
+[2283.84 - 2284.84]  You have to run the code like this.
+[2284.84 - 2285.84]  From these two more.
+[2285.84 - 2286.84]  Here?
+[2286.84 - 2287.84]  I think the code is SAC.
+[2287.84 - 2288.84]  I mean, maybe let me just go ahead and run it.
+[2288.84 - 2289.84]  It's almost like a set of two.
+[2289.84 - 2290.84]  Okay.
+[2290.84 - 2291.84]  So I'm going to run the code.
+[2291.84 - 2292.84]  You're using it, right?
+[2292.84 - 2293.84]  Right.
+[2293.84 - 2294.84]  Okay.
+[2294.84 - 2295.84]  And I'm going to run your code.
+[2295.84 - 2296.84]  So I'm going to run the code.
+[2296.84 - 2297.84]  That's fine.
+[2297.84 - 2298.84]  Let me just run it.
+[2298.84 - 2299.84]  Okay.
+[2299.84 - 2300.84]  All right.
+[2300.84 - 2301.84]  Okay.
+[2301.84 - 2302.84]  That is the code.
+[2302.84 - 2303.84]  So let me go ahead and run it.
+[2303.84 - 2304.84]  Let me tidy it up and see what happens.
+[2304.84 - 2305.84]  I will do it.
+[2305.84 - 2306.84]  Okay.
+[2306.84 - 2307.84]  All right.
+[2280.00 - 2287.28]  thought about can you attest to your balances like in a ZKP type of way because I'm like maybe
+[2287.28 - 2293.66]  this is a hollyhoop for like the next talk but like in a sort of like marketplace peer-to-peer
+[2293.66 - 2298.14]  thing where you want to kind of like you know they've been like thoughts about like proof of
+[2298.14 - 2303.34]  GTX shows for example where you can attest to ownership of like assets to establish some types
+[2303.34 - 2308.78]  of reputation people have been talking about that in the in in their context of lightning
+[2308.78 - 2309.92]  for example
+[2310.88 - 2313.26]  Do you think there's a way to do that with Nutsack?
+[2314.44 - 2317.18]  Yeah, I understood 80% of the question.
+[2317.34 - 2318.88]  I think I kind of got it.
+[2319.68 - 2320.40]  You could.
+[2321.16 - 2323.06]  In the way I implemented NIP60,
+[2323.64 - 2326.16]  in the way I wrote NIP60,
+[2326.38 - 2328.52]  it's not possible.
+[2328.82 - 2329.58]  It could be possible.
+[2329.82 - 2330.72]  So the tokens,
+[2330.88 - 2332.78]  I'm going to give a talk right after this one
+[2332.78 - 2335.18]  about all the technical aspects of this.
+[2336.36 - 2337.82]  This is a quite technical question,
+[2337.82 - 2339.82]  but the basic idea is...
+[2340.00 - 2343.76]  The tokens themselves, the money itself, is encrypted.
+[2343.76 - 2346.84]  So no one else can see it.
+[2346.84 - 2350.56]  You could keep it unencrypted with a P2P
+[2350.56 - 2353.12]  with locked to your pub key.
+[2353.12 - 2355.18]  So in that way, other people could see.
+[2355.18 - 2361.12]  It is not like there is still like it's not fully
+[2361.12 - 2363.40]  like you could fake it, basically.
+[2363.40 - 2366.76]  So yeah, ish.
+[2366.76 - 2367.80]  Yeah, true.
+[2367.80 - 2370.36]  You could put like proofs.
+[2370.00 - 2379.62]  Could you say, like, you own X amounts, like, say, I have more than 100,000 sats from this specific mint?
+[2381.06 - 2382.56]  Yeah, you could probably do something like that.
+[2382.80 - 2382.94]  Yeah.
+[2384.94 - 2385.38]  Hello.
+[2386.06 - 2388.38]  Pablo, I need you in the workshop stage.
+[2388.72 - 2389.58]  Thank you, Marce.
+[2390.64 - 2391.44]  Thank you, guys.
+[2391.70 - 2392.36]  I was like, hold on.

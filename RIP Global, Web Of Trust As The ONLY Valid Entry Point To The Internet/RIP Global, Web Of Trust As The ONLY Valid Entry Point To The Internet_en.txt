@@ -1,0 +1,671 @@
+[0.00 - 14.30]  Thanks. Preston. Yo, let's get this energy up in here. It's just me and Pablo. Hazard,
+[14.56 - 25.62]  Stuart, where are you? Oh, there you go. Who's joining us? Do we need another chair? Can
+[25.62 - 27.18]  someone get us another chair and a beer?
+[30.00 - 35.22]  So I've been told there's no beer in this venue right now, which was a miss.
+[40.54 - 41.06]  Awesome.
+[41.54 - 47.76]  So guys, we're going to be talking about Webs of Trust, something that I'm particularly
+[47.76 - 48.88]  pretty excited about.
+[48.96 - 53.34]  I think everyone on stage is pretty excited about this element of Nostra.
+[54.20 - 59.04]  Before we start, we've got a nice packed house here and a beer walking up to me.
+[59.04 - 59.98]  Can you open the door?
+[60.00 - 67.84]  open it for me? Does anyone have a bottle opener they can bring me? Thank you, guys.
+[67.84 - 74.16]  It's still very early days in this conference. We're working on the logistics here. Can I
+[74.16 - 81.94]  get a show of hands of anybody in this room that did not use Nostr before this week? Okay.
+[81.94 - 84.18]  So we got a couple new people here. I think we're going to...
+[84.18 - 86.94]  Miles just did that with his bare hands, by the way, over there.
+[86.94 - 90.00]  Thanks, Miles. I think we're going to keep this...
+[90.00 - 93.12]  It's going to be a more technical conversation, I think.
+[93.12 - 95.40]  I was trying to decide if we should go high level or not.
+[95.40 - 97.76]  So I mean, we can start with high level.
+[97.76 - 100.44]  Pablo, what is Webs of Trust?
+[100.44 - 102.72]  Why should people care?
+[102.72 - 104.70]  PABLO RODRIGUEZ- All right, so Webs of Trust
+[104.70 - 108.72]  is basically the concept of inferring
+[108.72 - 112.64]  who should you be listening to from activity
+[112.64 - 113.92]  from the network.
+[113.92 - 116.94]  So if you, like, I'm friends with Matt.
+[116.94 - 118.44]  So, huh?
+[118.44 - 119.64]  That's awesome.
+[119.64 - 121.20]  PABLO RODRIGUEZ- All right.
+[120.00 - 126.60]  So, I'm friends with Matt, and maybe Matt is having a conversation with someone that
+[126.60 - 130.96]  I don't know, but the fact that Matt follows them, the fact that Matt is having a conversation
+[130.96 - 136.10]  with them, then that means that maybe this person is definitely not spam.
+[136.10 - 140.72]  There would be probably no reason for Matt to follow a spam account.
+[140.72 - 146.54]  So I can infer, without knowing anything from this pub key, I can infer that it's not spam,
+[146.54 - 150.00]  but I should listen to what this pub key is saying, at least briefly.
+[150.00 - 152.76]  and maybe consider following them.
+[152.76 - 157.76]  So, traditionally, we've had a top-down approach
+[158.00 - 161.62]  to who should you listen to,
+[161.62 - 163.18]  what is spam and what is not,
+[163.18 - 166.68]  and Web of Trust particularly becomes very, very useful
+[166.68 - 169.92]  to discern what is not spam and what is spam,
+[169.92 - 171.70]  or what likely is spam.
+[172.96 - 177.34]  And typically, it's been Elon Musk just KYC-ing people
+[177.34 - 180.00]  and just letting you know,
+[180.00 - 185.92]  of bots anyway, but it's been very top down. You ask API.twitter.com what content should
+[185.92 - 193.36]  I get from searching for something, or if you go to global, what content should I receive?
+[193.36 - 199.94]  But it's a very top down approach. Web of Trust has a very interesting feature which
+[199.94 - 206.48]  is very similar to cryptography in which it's very easy to compute Web of Trust, but it's
+[206.48 - 210.02]  really expensive to cheat a Web of Trust.
+[210.00 - 213.80]  It was very hard for a spam account
+[213.80 - 217.96]  to get Matt and myself and Sue and a bunch of other people
+[217.96 - 220.56]  to follow that account.
+[220.56 - 224.22]  It's very, very hard to do that.
+[224.22 - 227.12]  But me seeing, OK, who does Matt follow?
+[227.12 - 229.26]  Who do the people that I follow?
+[229.26 - 230.52]  Who do they follow?
+[230.52 - 231.70]  It's super cheap.
+[231.70 - 234.18]  It's super easy to do that.
+[234.18 - 236.14]  Do we only have two mics up here?
+[236.14 - 236.64]  Really?
+[236.64 - 238.66]  Do you guys not have mics?
+[238.66 - 240.90]  Can we have some mics?
+[240.00 - 247.64]  Thanks, Preston. And I think there's one right behind you, Preston, yeah. Awesome.
+[247.64 - 254.36]  As far as an overview, I don't think I have anything to add what you could.
+[254.36 - 256.36]  Maybe you want to add something?
+[256.36 - 257.36]  Yeah, you got something?
+[257.36 - 263.10]  Yeah, just so everyone can follow along, I think it's good to give some initial
+[263.10 - 270.00]  definition. So I often talk about social graph instead of web of trust just because, well,
+[270.00 - 276.28]  When we talk about web of trust, it's obvious that you're talking about trusting some other people,
+[276.44 - 284.88]  but social graph is more general terms, which just use how people are connected on Noster,
+[285.34 - 287.80]  and then you can use that for many different things.
+[287.80 - 294.74]  One thing is what Pablo mentioned, which is anti-spam measures or anti-denial of service attacks measures, for example.
+[295.56 - 299.92]  Just to give a brief definition, what is a social graph?
+[300.00 - 306.08]  first the second part graph is a mathematical structure which is pretty simple it's just
+[306.96 - 313.28]  nodes and then how they are connected by edges so a social graph is a graph where
+[314.08 - 320.08]  nodes and edges represent social things so for example social entities like people and social
+[320.80 - 325.60]  relationship like who follows who and just by looking those simple things you can
+[325.60 - 330.08]  pretty easily discern what is not
+[330.00 - 335.44]  spam because it's very expensive as Pablo said it's very expensive or
+[335.44 - 341.14]  difficult to get follows from people from real people from people that have a
+[341.14 - 348.40]  reputation and yeah you can I prefer to talk about the social graph instead of
+[348.40 - 353.88]  web of trust because the context is do matter a lot so it's not necessary
+[353.88 - 358.14]  necessary that we talk about trust so for example when you can use social
+[358.14 - 362.00]  graph to do recommendation
+[360.00 - 362.48]  but that doesn't necessarily mean
+[362.48 - 363.88]  that there is trust involved
+[363.88 - 365.76]  other than you trust
+[365.76 - 368.66]  that the recommendations are not impersonating.
+[368.90 - 371.18]  So like I get Linolden as a recommendation.
+[372.14 - 377.04]  The only trust is that NPUB is not an impersonator,
+[377.18 - 378.56]  is the real Linolden.
+[379.16 - 381.56]  But other than that, there is not much to it.
+[383.08 - 385.16]  Yeah, that's a good...
+[385.16 - 387.24]  I like that name versus like web of trust
+[387.24 - 389.48]  because it's not really a trust relationship.
+[390.00 - 416.40]  Especially since like a lot of trust isn't like this thing you can easily measure and put into a graph, whereas the kind of social graph is a lot more because it's more open. Yeah. Yeah. Web of trust prescribes how you should use it, whether whereas social graph is is like a tool that you can use in multiple ways. And I would argue that it can it can be used for to improve or solve many different problems.
+[416.40 - 419.84]  One is anti-spam. Another is like recommendation and content.
+[420.00 - 427.80]  discovery. Another could be anti-impersonation. So how do you know that Matt Odell is the
+[427.80 - 433.36]  real Matt Odell or is that MPub not another MPub? How do you know from 50 different Jack
+[433.36 - 437.36]  MPubs which is the real one? Well, the impersonators haven't started using
+[437.36 - 440.46]  caps yet. I noticed that. Sorry.
+[440.46 - 445.92]  They're all still lowercase. Stuart, do you have anything to add?
+[445.92 - 450.00]  Yeah, I really like that distinction between the web of trust and social
+[450.00 - 456.34]  I think that's really important to keep in mind because, like, the web of trust is a web of trust.
+[456.56 - 462.98]  Okay, let's say the following list of Nostr, who you're paying attention to, it is a web of trust.
+[463.32 - 467.42]  But it's like a narrower web of trust that you're trusting them not to spam you.
+[467.74 - 469.04]  You're trusting them with your attention.
+[469.78 - 477.46]  And I think it gets down to a really practical question of, like, should we fragment the web of trust or not?
+[477.46 - 480.02]  Because there's a temptation to want to be, like, a web of trust.
+[480.00 - 485.00]  web of trust for following, web of trust for hosting your data, web of trust for couch
+[485.00 - 487.88]  surfing, web of trust for all these different use cases.
+[487.88 - 492.04]  But I feel like that leads ‑‑ it just makes things really complicated.
+[492.04 - 497.16]  And so I think it's important to realize that, like, the web of not spam is a foundational
+[497.16 - 503.84]  web of trust because it is the thing that collapses the infinite space of pub keys into
+[503.84 - 506.80]  a finite reality of pub keys that are real.
+[506.80 - 510.00]  And you're paying attention to them in some sense.
+[510.00 - 513.40]  so they're not bots, they're not real.
+[513.40 - 517.24]  So yeah, I think there's something very
+[518.24 - 520.66]  kind of poetic almost about the idea
+[520.66 - 524.72]  that asymmetric key crypto can be used
+[524.72 - 528.76]  to obfuscate and encrypt or sign and verify
+[528.76 - 530.96]  and that maps directly onto the concept
+[530.96 - 533.02]  of a private sphere and a public sphere.
+[533.02 - 534.88]  You can't have a private sphere without encryption,
+[534.88 - 536.92]  without privacy and you can't have a public sphere
+[536.92 - 540.02]  without some type of
+[540.00 - 546.44]  notion of authenticity, which is digital signatures. So the web of trust is like the web of not
+[546.44 - 555.50]  spam is sort of like the base asset. The foundational pool of social capital that is sort of like
+[555.50 - 561.10]  necessary to construct more, you know, like more niche, like ideas about who to trust
+[561.10 - 563.94]  for what thing. And that kind of gets into social graphic territory. But anyways, I just
+[563.94 - 567.78]  think that distinction is like super brilliant and good to keep in mind. So yeah.
+[567.78 - 569.68]  I like what you say there about, um,
+[570.00 - 576.44]  the like not fragmenting the social graph because there is a temptation
+[576.44 - 580.82]  they're like fragmenting let's lay like this is the social graph for stores that
+[580.82 - 585.04]  I trust for vendors that I trust for restaurants I trust and whatnot or even
+[585.04 - 590.86]  banks I trust and that would be useful in like many contexts but one thing that
+[590.86 - 597.20]  we can't forget is that that data never becomes stale it never gets constantly
+[597.20 - 601.78]  updated and one benefit we have
+[600.00 - 601.78]  with the kind of, you might say,
+[601.78 - 603.78]  like Noster social web of trust,
+[603.78 - 606.68]  or social graph, whatever it is we're calling it,
+[607.90 - 611.72]  is that at least has some kind of cadence
+[611.72 - 612.56]  to getting updated.
+[612.56 - 615.64]  Like if the user's browsing their social media app
+[615.64 - 617.06]  and they see something they don't like,
+[617.06 - 618.26]  they unfollow the person,
+[618.26 - 620.28]  or they remove them from that thing.
+[620.28 - 623.42]  And if the users, if we don't have a mechanism
+[623.42 - 625.18]  for the user to regularly, you might say,
+[625.18 - 627.68]  prune their social graph,
+[627.68 - 630.22]  then all we're doing is kind of building up bad.
+[630.00 - 636.06]  data and so yeah as far as like not fragmenting it like i think that's a commonly overlooked thing
+[636.06 - 639.66]  is like not only do you have to build the social graph but you also have to make sure the social
+[639.66 - 643.64]  graph is pruned yeah because there has to be like a common denominator between use cases
+[643.64 - 649.56]  and not spam is that common denominator right but don't you trust different people for different
+[649.56 - 654.68]  things like isn't it inherently fragmented though well i think the the not spam part
+[654.68 - 659.74]  is not necessarily fragmented it's that the social graph is a kind of that's where the
+[659.74 - 659.98]  like
+[660.00 - 661.84]  the annotation sort of should
+[661.84 - 662.80]  take place of
+[662.80 - 665.54]  I think there's
+[665.54 - 667.84]  there's a belief that
+[667.84 - 669.86]  you can have a very
+[669.86 - 671.72]  explicit fragmentation
+[671.72 - 674.16]  where you say I explicitly
+[674.16 - 676.10]  trust Matt with regards
+[676.10 - 678.12]  to the Bitcoin topic on a
+[678.12 - 680.42]  scale of 0.97
+[680.42 - 682.16]  and that's just not how people
+[682.16 - 683.86]  work like our brains
+[683.86 - 684.94]  don't work that way
+[684.94 - 687.48]  so you can
+[687.48 - 689.80]  infer kind of weights
+[689.80 - 690.02]  in
+[690.00 - 697.20]  this way uh on on certain topics by analyzing activity uh like i listen to rhr so like that
+[697.20 - 702.40]  that could be an activity that can go into okay how much do i trust maria and matt with regards
+[702.40 - 708.40]  to to the bitcoin topic um so i i think that's where the fragmentation idea comes from where
+[709.52 - 715.20]  people are not going to go out of their way to create all these attestations of and weights on
+[715.20 - 719.92]  on on topics because yeah they'll go sale uh like maybe i'll say yeah
+[720.00 - 725.56]  I try Stu on this topic, this amount, and that changes, but I never update my attestation.
+[726.12 - 728.26]  Yeah, I think that's exactly what to remember.
+[728.42 - 734.36]  The best example of this would be an attestation or a web of trust for something like journalism.
+[734.62 - 738.60]  Like, how much do I think this person is truthful, or do I think they're lying, or something like that.
+[738.60 - 746.30]  And it sounds really useful, but we just have to be careful of the fact that if we make that any explicit data,
+[746.30 - 749.98]  we can definitely, you know, you can create apps to generate that.
+[750.00 - 754.32]  those uh social graphs and generate those trust scores but we also have to be careful that we
+[754.32 - 758.24]  those things have to be updated or maintained otherwise we just generate everyone gets a
+[758.24 - 763.92]  five-star rating and it never you know the review never gets updated that's why those of the station
+[763.92 - 769.36]  must be the byproduct of actual interaction it it's gotta be inferred from something that i'm
+[769.36 - 775.44]  doing on my daily life not going out of my way to score my friends on how much i like them that day
+[775.44 - 779.76]  yeah exactly and it becomes extremely complex as if you
+[780.00 - 786.08]  where to do this trust as the station i think there is a nip like nip nip 87 89 don't remember
+[786.64 - 794.00]  and yeah if you do it once like okay trust pablo about incline being on a scale from one to 100 like
+[794.00 - 801.20]  89 or something but then once i do this for 100 people then it becomes difficult because
+[802.56 - 807.44]  i want those ratings to be like consistent with each other because i trust him more than
+[807.44 - 810.08]  other link libings and it becomes super complex
+[810.00 - 813.84]  So, yeah, I totally agree that it should be a byproduct of user actions,
+[814.20 - 817.20]  which one is, like, follow, another is mute, another is zap.
+[818.08 - 824.10]  Zap is a bit tricky because to say that it is a signal,
+[824.60 - 829.38]  you have to be sure that the sender and the recipient are not colluding, for example.
+[829.60 - 830.60]  They are not the same person.
+[830.86 - 833.56]  Otherwise, there is no economic value moving.
+[834.00 - 835.82]  Well, aren't zaps just not verifiable?
+[836.12 - 839.30]  So we shouldn't really put too much stock in them anyway.
+[839.30 - 839.94]  Not zaps are.
+[840.00 - 850.82]  though. I guess you could use a web of trust to decide if zaps are worth it or not to count
+[850.82 - 856.14]  just webs on top. There is no web of trust, right? It's webs. There's many different webs.
+[857.14 - 864.32]  There is just one mempool. It's Wiz's mempool. Okay. Where do you guys want to go with this
+[864.32 - 869.48]  conversation? You guys are prolific here. I'm just the entertainer.
+[869.48 - 870.00]  I feel like
+[870.00 - 877.96]  this graph whatever we're calling it is like maybe the most important um kind of thingy that's being
+[877.96 - 882.46]  sort of the art it's like an artifact that's being precipitated by all the activity on the
+[882.46 - 889.06]  noster network like um like which i think that's like that which you said a second ago about like
+[889.06 - 894.60]  demonstrating trust i think it's actually kind of like a pretty deep point because you actually
+[894.60 - 899.24]  have to like do stuff to demonstrate trust otherwise
+[900.00 - 902.52]  like, what does it mean to trust someone?
+[902.52 - 906.52]  Like, if we were not all, like, scrolling on our phones,
+[907.14 - 909.10]  experiencing the possibility of getting spam,
+[909.54 - 910.50]  why would we follow anyone?
+[910.60 - 911.86]  Or are we going to take a survey?
+[912.42 - 913.52]  But then, like you were saying,
+[913.64 - 915.30]  it just is static at that point.
+[915.66 - 917.94]  So, like, the trust is kind of like
+[917.94 - 919.66]  a reflection of some type of action.
+[920.02 - 921.40]  So all this action that's occurring,
+[921.78 - 926.86]  it is precipitating this type of web of trust in the world,
+[926.94 - 928.74]  which is, like...
+[928.74 - 929.46]  I think it's...
+[929.46 - 930.00]  Sometimes I...
+[930.00 - 934.64]  I think I don't know if this I think this makes sense to say that the web of trust is deflationary
+[935.28 - 940.96]  in a sense where like if you have an artifact like a perfect example of this is the og
+[940.96 - 945.76]  couchsurfing.org which is now being built on no stir fun fact which I'm like excited about but
+[945.76 - 950.16]  um that was a perfect example of a bunch of people who did a bunch of stuff that was risky
+[950.16 - 954.00]  which was stayed each other's houses and then they created like a digital representation of
+[954.00 - 958.80]  that and it was this big data set and it was economically deflationary because people could
+[958.80 - 960.80]  go to a city and stay
+[960.00 - 966.02]  for free. And, like, what's really optimistic about Nostr is that this web of trust that's
+[966.02 - 972.42]  being precipitated is similarly deflationary, but it is unkillable. It's like a ratchet.
+[972.42 - 977.56]  It just keeps growing. So, like, you know, you can probably apply that notion of deflation
+[977.56 - 981.78]  to, like, social stuff, too. Like, you don't have to be as worried that people are going
+[981.78 - 986.14]  to rip you off. So, you know, so I think that's, like, that's what Nostr is doing is, like,
+[986.14 - 989.90]  this web of trust is exportable from Nostr. It is not something that is only relevant
+[989.90 - 990.02]  to...
+[990.00 - 993.24]  It's relevant to the world, you know, it's quite quite interesting
+[993.24 - 997.40]  I mean, I feel like that's the key right is like webs of trust is not a new
+[998.12 - 999.62]  concept
+[999.62 - 1004.00]  Thousands years ago the biggest issue historically has been creating a robust
+[1005.44 - 1013.76]  Distributed censorship resistant one like all the successful ones have always been incredibly centralized things like eBay reviews or Airbnb reviews or
+[1014.20 - 1017.00]  Uber right but actually having it
+[1017.00 - 1020.02]  Distributed and not controlled by a single end
+[1020.00 - 1023.24]  entity is the key here, and Noster unlocks that.
+[1023.24 - 1031.22]  And I think what a lot of people fail to realize is there's a lot of it kind of feels like
+[1031.22 - 1033.40]  the whole blockchain thing all over again.
+[1033.40 - 1038.08]  I know a lot of us are Bitcoiners, so we look at things with a bias, but it's like I don't
+[1038.08 - 1041.12]  like Bitcoin, I like blockchain, right?
+[1041.12 - 1042.50]  And it's like you need the token.
+[1042.50 - 1045.64]  The token needs to exist for the Bitcoin system to work.
+[1045.64 - 1050.00]  And with Noster, everyone's like, not everyone, but there's a lot of people that fade the
+[1050.00 - 1056.46]  social media aspect um but say i will want the other stuff and the social media aspect is the
+[1056.46 - 1060.34]  bootstrapping mechanism that even makes this possible because it's incredibly boring to like
+[1060.34 - 1067.80]  build out a distributed web of trust or multiple webs of trust um just to do that but it's not
+[1067.80 - 1075.54]  boring to shit post or post memes or you know rage at someone online like that's the cool part
+[1075.54 - 1079.94]  um so in practice let's
+[1080.00 - 1083.78]  Let's try and take, like, pull back a little bit.
+[1083.78 - 1087.30]  Let's go to, like, how this would actually
+[1087.30 - 1089.76]  work practically speaking.
+[1089.76 - 1093.34]  And I mean, we've already kind of mentioned it with spam.
+[1093.34 - 1096.36]  We've already kind of mentioned it with impersonators.
+[1096.36 - 1098.88]  But like, if you were, we'll go to you, Pablo.
+[1098.88 - 1102.06]  Like, if you were going to build a client that
+[1102.06 - 1104.56]  tried to stop spam from happening,
+[1104.56 - 1106.90]  and you were going to use a web of trust,
+[1106.90 - 1109.14]  how does that look on the user side?
+[1109.14 - 1110.14]  Like, how does the user?
+[1110.00 - 1114.26]  interact with that and how do you remove yourself from the equation of being the
+[1114.26 - 1118.94]  developer choosing you know having too much control because one man spam could
+[1118.94 - 1124.68]  be another man censorship right I mean what I what I include in every single
+[1124.68 - 1130.46]  client that I build is when you log in it fetches the people that you follow it
+[1130.46 - 1135.14]  faces your the people that you mute and it fetches the follows of the people
+[1135.14 - 1138.44]  that you follow and the mute of the people that you mute and I didn't just
+[1138.44 - 1141.76]  compute a score
+[1140.00 - 1151.80]  For all the pubkeys that I know, typically a normal account ends up with between 20, 25, 30,000 pubkeys that I've scored in some way.
+[1153.04 - 1159.96]  And then I can just go to global and I can look at all the nodes, all the events that are coming in.
+[1160.08 - 1164.72]  I can just filter out the ones that fall off of this web of trust.
+[1164.72 - 1169.98]  So, for example, one of the clients that I wrote the word.
+[1170.00 - 1176.88]  this was super relevant, was Wikifridia, which is like a Wikipedia implementation of Noster,
+[1176.88 - 1182.96]  where for ideological reasons but also for technical reasons, there cannot be a canonical
+[1182.96 - 1190.68]  entry. You cannot go to what is the entry for Riga? Because who should I ask where is
+[1190.68 - 1199.30]  the entry for Riga? You have competing entries for Riga. So, there might be 20, 50 different
+[1199.30 - 1200.30]  entries.
+[1200.00 - 1210.72]  entries for Riga, and I sort them by the proximity of the people that have written the entry.
+[1210.72 - 1215.00]  And there can be explicit attestations because I have the concept of forks.
+[1215.00 - 1220.62]  So maybe I go and I see that Matt wrote something about Riga and I want to make a modification,
+[1220.62 - 1224.52]  I fork his entry and I can change it.
+[1224.52 - 1227.44]  So maybe he says, oh, Pablo's entry is better.
+[1227.44 - 1230.00]  So I'm going to point my entry to Pablo's.
+[1230.00 - 1235.04]  So, now my entry would have my score and Matt's score.
+[1235.46 - 1240.46]  So, if you follow both of us, it might rank higher because of that.
+[1241.08 - 1243.34]  But someone else might come in.
+[1243.46 - 1246.20]  They are whatever, into Cardano or whatever.
+[1246.64 - 1249.24]  And they will have a very different way of trust.
+[1249.60 - 1252.30]  And they might see a different view of Riga.
+[1252.44 - 1255.38]  And they might see a different view of all these different entries.
+[1255.38 - 1260.18]  So, as a developer, I don't have a say on what content you're going to use.
+[1260.00 - 1266.32]  to see um how things are going to to look what things are going to be spam it's it's all going
+[1266.32 - 1274.56]  to be from your point of view um yeah i don't like honestly that score uh is it correct me if
+[1274.56 - 1281.68]  i'm wrong but it is it is similar to the the coracle right it's kind of similar you mean the
+[1281.68 - 1289.28]  the display the the score behind uh left next to the entry in wikifredia yeah the the score
+[1289.28 - 1290.56]  is displayed
+[1290.00 - 1294.60]  it for the varying reasons, but I disagree, and I actually also told to Holden about that.
+[1294.60 - 1302.04]  I don't think scores... Because you see a number next to an entry, and that number means
+[1302.04 - 1303.04]  basically nothing.
+[1303.04 - 1307.38]  And how should you display it? What's a better way to display it?
+[1307.38 - 1314.98]  Yeah, because a number is summarizing that people to a number, and it's a bit prescriptive
+[1314.98 - 1320.00]  and not descriptive, so it is simpler to view my...
+[1320.00 - 1325.46]  mind in another example which is like anti-impersonation so i click on the profile
+[1325.46 - 1333.12]  it is uh linolden or that's a display name and then i would like to see the faces of the people
+[1333.12 - 1339.96]  i follow that also follow that mpub and not it's like a bunch of impersonators of the people you
+[1339.96 - 1344.88]  follow are all following the impersonator like it's just impersonators following impersonators
+[1344.88 - 1349.88]  no no because it's uh it's based on on me basically so i follow
+[1350.00 - 1352.12]  you and you follow that NPUB
+[1352.12 - 1353.84]  and so I see your profile there.
+[1353.94 - 1356.10]  Oh, okay. And this way
+[1356.10 - 1358.00]  so this is
+[1358.00 - 1359.76]  I think better because
+[1359.76 - 1362.08]  in some context, your opinion might
+[1362.08 - 1364.04]  be worth more or less than some other
+[1364.04 - 1366.02]  opinions. So like, for example, we
+[1366.02 - 1368.16]  might be talking instead of profiles, we might
+[1368.16 - 1370.02]  be talking about apps. For example,
+[1370.14 - 1371.82]  a great example is ZapStore
+[1371.82 - 1373.90]  and ZapStore shows faces
+[1373.90 - 1376.20]  of the people you follow that also follow
+[1376.20 - 1377.64]  the signer of the app.
+[1377.64 - 1379.98]  So, for example, if from those faces I
+[1380.00 - 1386.94]  see let's say mvk and we are talking about uh or craig raw and we are talking about a bitcoin
+[1386.94 - 1393.08]  wallet his opinion in my mind will wait more but there is no way to like quantify that with a
+[1393.08 - 1399.28]  number or at least the client that doesn't know which opinion i have of those people but there
+[1399.28 - 1404.72]  is no need to summarize that you can just show the faces and i intuitively would know who to look for
+[1404.72 - 1409.70]  without having to summarize that into a number you just have to see faces and
+[1410.00 - 1414.80]  I think it's more natural and also it ties more in what people are used to do like in
+[1414.80 - 1415.80]  mid space.
+[1415.80 - 1421.50]  So for example, when you don't know nothing about something, maybe about cars, you have
+[1421.50 - 1427.78]  no idea like, yeah, maybe it comes to your mind that you have three friends that know
+[1427.78 - 1432.50]  about cars more than you do, but you don't think in numbers, you're thinking what people
+[1432.50 - 1439.30]  should I ask for better advice or better information about the topic.
+[1439.30 - 1440.00]  And so
+[1440.00 - 1446.10]  Yeah, that makes sense to me. I mean, we see that in a lot of centralized apps. Like
+[1446.10 - 1450.72]  Twitter has that where you see the little pictures and it's very intuitive. What are
+[1450.72 - 1456.12]  your thoughts on ‑‑ it's kind of interesting, right? Because there's ‑‑ and maybe it's
+[1456.12 - 1463.66]  also a product of the fact that Nostr is so early and it's so young in its life, but there's
+[1463.66 - 1469.54]  a balance between how do you technically make something possible, how do you give a user
+[1469.54 - 1470.54]  sovereignty.
+[1470.00 - 1473.08]  and power over their own situation?
+[1473.28 - 1474.72]  And then how do you display it to them
+[1474.72 - 1477.76]  in a relatively little friction way?
+[1477.84 - 1479.26]  Because if you add any kind of friction,
+[1479.44 - 1481.32]  if you add power user things
+[1481.32 - 1483.34]  right in front of someone's face in the beginning,
+[1483.90 - 1486.14]  they probably just won't even use the tool
+[1486.14 - 1486.88]  in the first place.
+[1487.44 - 1489.78]  But I'm curious, so what's your opinion on,
+[1491.92 - 1493.16]  you know, in a perfect world
+[1493.16 - 1494.88]  and we're way down the line,
+[1495.02 - 1496.12]  it's like everyone already has
+[1496.12 - 1498.36]  like their social graph and stuff on Nostr
+[1498.36 - 1500.02]  and it's a different situation.
+[1500.00 - 1505.82]  But as new people are joining, how do you how do we attempt to mitigate the impersonator problem?
+[1506.94 - 1510.94]  For that new person who's joining like they they don't have a social graph yet
+[1512.46 - 1517.90]  Yeah, this is a good question like the bootstrapping problem if you're new and you come in and you don't know who to trust
+[1518.14 - 1520.14]  at the beginning first
+[1521.46 - 1523.52]  What you can use is
+[1523.52 - 1530.00]  Some obviously you're never going to use followers count because that can
+[1530.00 - 1536.94]  be faked so there can be for I like the idea for example of proof of work keys as a first
+[1536.94 - 1542.86]  introductory step but not necessarily in that in that in that way because proof of work keys are
+[1542.86 - 1550.14]  the UX around them is terrible because you have at identity creation you have to commit energy
+[1550.14 - 1556.90]  to create that key that starts with a certain number of zeros so that's UX is terrible but
+[1556.90 - 1559.98]  what it shows is that there are certain amp ups
+[1560.00 - 1561.94]  that have more skin in the game,
+[1562.14 - 1563.62]  that verifiable skin in the game,
+[1563.96 - 1567.48]  and that is a good place for initial bootstrapping.
+[1567.78 - 1569.76]  So if you know nothing about who to trust,
+[1570.58 - 1574.18]  you can start assigning some low level of trust
+[1574.18 - 1577.58]  of people that have verifiable skin in the game
+[1577.58 - 1580.96]  in terms of these proof-of-work keys, for example.
+[1581.68 - 1583.94]  I have a very pragmatic approach.
+[1584.22 - 1585.20]  I just use my pubkey.
+[1585.62 - 1586.58]  It's literally...
+[1587.42 - 1588.84]  You use someone else's pubkey.
+[1588.98 - 1589.84]  No, literally mine.
+[1590.94 - 1592.26]  But, I mean, obviously, you do.
+[1592.30 - 1594.84]  So, if someone creates a new pub key...
+[1594.84 - 1596.12]  They use your ad pub.
+[1596.20 - 1598.00]  It doesn't have any follows.
+[1598.24 - 1600.90]  So, it just fetches my wealth of trust
+[1600.90 - 1602.00]  and uses my wealth of trust.
+[1602.16 - 1603.86]  Because I know...
+[1603.86 - 1605.50]  Like, they're already using my software.
+[1605.90 - 1607.56]  I know that I'm not fake.
+[1608.28 - 1609.60]  Like, I'm not spamming.
+[1610.62 - 1611.66]  So, just that.
+[1611.86 - 1614.20]  It's, like, a very, very trivial approach.
+[1614.34 - 1615.00]  You know what would be cool?
+[1615.60 - 1617.88]  Is if you could create an invite link
+[1617.88 - 1619.66]  to Nostra.
+[1620.00 - 1622.36]  that was based on your social graph.
+[1622.36 - 1625.04]  So you could be like, hey, like, Noster,
+[1625.04 - 1627.06]  you should join Noster, and then you just send them a link
+[1627.06 - 1630.38]  and it's like, it imports your followers.
+[1630.38 - 1631.46]  That'd be cool.
+[1631.46 - 1634.36]  I think, isn't like Manny working on something like that?
+[1634.36 - 1636.04]  Meet me on Noster?
+[1636.04 - 1639.02]  Yeah, there are two projects that I know of
+[1639.02 - 1640.32]  that are working on that.
+[1640.32 - 1643.10]  That's one, Noster.me.
+[1643.10 - 1646.42]  It also has like the same idea where,
+[1646.42 - 1649.00]  like you set up the profile for the person.
+[1649.00 - 1650.66]  And then you clone like a link.
+[1650.00 - 1651.92]  You even pick their relays and everything.
+[1652.28 - 1653.00]  Everything, yeah.
+[1653.52 - 1659.08]  The cool part with the invite idea is that you only need one connection
+[1659.08 - 1661.16]  before you start building your own social graph.
+[1661.52 - 1664.50]  It is a little bit further removed, but if I only followed Pablo,
+[1665.32 - 1667.62]  then at least when I compute my social graph,
+[1667.74 - 1671.44]  it'll be one person, Pablo, plus all of his followers.
+[1671.90 - 1676.46]  So it scales really quickly, even with just one person.
+[1676.46 - 1679.94]  So maybe that one person is just a friend that introduces you.
+[1680.00 - 1685.32]  Gnoster and they have at least a few followers and at least you start you just have to go
+[1685.32 - 1689.94]  a few more layers out on the web of trust to get a decent number of reputable people
+[1689.94 - 1692.44]  you might say or not spammers.
+[1692.44 - 1695.96]  Yeah, that makes sense to me.
+[1695.96 - 1701.16]  So Stuart and Hazard, you guys have been working on Blossom, right?
+[1701.16 - 1709.90]  So Blossom is this idea of trying to tackle the media problem from different angles, whether
+[1709.90 - 1711.62]  right or left.
+[1711.62 - 1712.62]  Yeah.
+[1712.62 - 1713.62]  For sure.
+[1713.62 - 1714.62]  And I think that's kind of the way it is.
+[1714.62 - 1715.62]  Yeah.
+[1715.62 - 1716.62]  It's an amazing idea.
+[1716.62 - 1717.62]  It's an interesting idea.
+[1717.62 - 1718.62]  Yeah.
+[1718.62 - 1719.62]  Just kind of to let it happen, I think we have a couple of other options here.
+[1719.62 - 1720.62]  So, you know this, I'm going to just start sharing a couple of other examples.
+[1720.62 - 1721.62]  So for you guys, you're going to be talking about some people I think might be working
+[1721.62 - 1722.62]  on a small business.
+[1722.62 - 1723.62]  I am.
+[1723.62 - 1724.62]  Yeah.
+[1724.62 - 1725.62]  So you are going to be talking about some people, so let's start with the guys
+[1725.62 - 1726.62]  that are working on the business industry.
+[1726.62 - 1727.62]  Yeah.
+[1727.62 - 1728.62]  So you're not going to be talking about Daryl, right?
+[1728.62 - 1729.62]  Yeah.
+[1729.62 - 1730.62]  You're not going to be talking about Christos?
+[1730.62 - 1731.62]  No.
+[1731.62 - 1732.62]  No.
+[1710.00 - 1717.82]  that's it could be any file but like video photos um we we're entering this world where you're
+[1717.82 - 1723.24]  going to have more and more ai deep fakes where you have more and more situations where um you
+[1723.24 - 1727.22]  don't know what's real we're already kind of there and just like this post-truth environment
+[1727.22 - 1736.04]  um so i mean i guess we'll we'll throw it over to you stewart um the like how do you think about
+[1736.04 - 1739.64]  webs of trust mixed in with something like blossom
+[1740.00 - 1744.08]  in terms of people because i think that's something that people can actually tangibly
+[1744.08 - 1750.08]  realize as a benefit early on like in the next six months to 12 months like how is this is this
+[1750.08 - 1757.60]  video of donald trump real or not yeah so i think that like um nostra is a very weird special
+[1757.60 - 1766.56]  exceptional instance where we have the opportunity to build data infrastructure on top of a social
+[1766.56 - 1769.92]  graph and that's very backwards to normally how
+[1770.00 - 1774.80]  it goes. When you try to create some type of network, particularly a peer-to-peer network,
+[1774.80 - 1779.28]  you usually start with, like, you know, like, data infrastructure, like IPFS. But the problem
+[1779.28 - 1784.84]  with IPFS is that it's not a social network. There's no notion of identity, of, like, credibility.
+[1784.84 - 1789.52]  And so it doesn't work because everyone connects to everyone and it's just slow and it's unworkable.
+[1789.52 - 1794.72]  So Nostra is a weird thing where we've kind of, like, memed into existence a social graph
+[1794.72 - 1800.00]  sort of thing. So, like, it's enough now that we can build
+[1800.00 - 1807.58]  And we can leverage that to make possible certain things, such as if you want to host
+[1807.58 - 1809.30]  and pre-cache people's data.
+[1809.30 - 1815.04]  So the thing that me and Hazard have been working on is, I don't need to tell you guys.
+[1815.04 - 1820.10]  So we've been building this, like, satellite.earth has just been a web client for a long time,
+[1820.10 - 1822.88]  but we're doing a new thing that's like a desktop app.
+[1822.88 - 1830.00]  So the idea is, is a bunch of edge devices that act as kind of like a deep web of not
+[1830.00 - 1838.72]  moster. And each person's node, as it were, pulls in, scrapes, and caches the data that
+[1838.72 - 1844.04]  you care about, which is by default the data that's in your people you follow. So blobs
+[1844.04 - 1850.82]  and events. So the kind of the high-level view of this is you have clients. What I'm
+[1850.82 - 1854.20]  thinking about is you have, like, clients, like, you know, like mobile apps or whatever,
+[1854.20 - 1859.16]  like Coracle or Primal or something. They are clients of relays. And they're clients
+[1859.16 - 1860.02]  of Blossoms.
+[1860.00 - 1868.62]  servers for events and blobs, respectively. But the question is, I think, is worth asking,
+[1868.62 - 1874.46]  what are relays clients of? What are blossom servers clients of? Like, where do they get
+[1874.46 - 1879.72]  data from? It would be cool if they could be a client of a deeper layer because right
+[1879.72 - 1886.98]  now the only way CDN blossom servers or relays get events is the only way they get data is
+[1886.98 - 1889.98]  if people blast data at them.
+[1890.00 - 1895.74]  That kind of works, but it would be really nice if you could sort of, like, pull data
+[1895.74 - 1901.12]  up from a deeper layer and put it on a relay or a blossom server to blast it to clients.
+[1901.12 - 1903.52]  And that way clients don't have to deal with crazy peer-to-peer stuff.
+[1903.52 - 1908.02]  But that wouldn't have been possible to do that without this web of trust because if
+[1908.02 - 1913.06]  you didn't have a notion of people who weren't spam, you couldn't have this nice thing of
+[1913.06 - 1917.76]  edge nodes that automatically pulled stuff in because you'd be pulling in giga terabytes
+[1917.76 - 1919.50]  of garbage constantly.
+[1919.50 - 1920.50]  So
+[1920.00 - 1921.96]  That's a very concrete example, actually, I think.
+[1922.22 - 1925.00]  And, yeah, Blossom is, you talk about it, Hazard.
+[1925.14 - 1925.90]  You know more than me.
+[1926.14 - 1928.60]  I mean, there's, like, implementation side of it,
+[1928.66 - 1929.48]  which is more technical,
+[1929.86 - 1932.98]  but I'd say, like, the core of the Blossom idea
+[1932.98 - 1935.46]  or the idea of my goal with Blossom
+[1935.46 - 1939.56]  was just we need to start signing hashes of the files.
+[1940.22 - 1942.06]  Like, the file, no matter how the file gets to you,
+[1942.52 - 1945.24]  like, it can come over HTTP, it can come over torrents,
+[1945.24 - 1947.28]  it can come over IPFS, it can come over anything.
+[1947.74 - 1949.44]  But we need a unified hash,
+[1949.44 - 1950.06]  and we need to sign.
+[1950.00 - 1953.82]  sign the hash in the note because otherwise if you don't sign it, you don't know what
+[1953.82 - 1958.40]  you're getting. And that unifying hash is effectively an interface. It's an interface
+[1958.40 - 1964.50]  to blobs that encapsulates the insane complexity of peer-to-peer stuff. And that is why like
+[1964.50 - 1968.46]  it's like super smart not to start with the peer-to-peer stuff but like some notion of
+[1968.46 - 1972.62]  federation like Mastodon has is pretty cool as long as clients don't have to interact
+[1972.62 - 1978.30]  with it. You know? As long as it's like hidden under this little layer of the blossom spec
+[1978.30 - 1980.00]  and NIP01.
+[1980.00 - 2000.52]  And the cool part is like, depending back to like Web of Trusts is it's kind of the same thing with a Web of Trust and a social graph is because you can't connect to the entire internet, because you can't plug into the entire internet, you need a starting point to know like what do I actually, not what do I want to plug into because that's the user's decision, but what do I plug into for the user?
+[2000.52 - 2009.44]  Like what is the user's starting point for like what they find valuable? And that maps on to like a whole bunch of stuff, like you said, like event, event transmission, or like
+[2010.00 - 2015.04]  storage, file storage, or even just recommendations or anything else like that.
+[2015.04 - 2022.02]  If you can't plug into the entire Internet, where do you start?
+[2022.02 - 2029.54]  So you have with the hash, the hash is to be able to validate integrity of a file, basically.
+[2029.54 - 2033.48]  So you have this hash and you're able to see if it's changed over time.
+[2033.48 - 2039.84]  The signature is essentially an attestation by a specific NPUB or whatever saying this
+[2039.84 - 2040.00]  is.
+[2040.00 - 2042.12]  is the file.
+[2042.12 - 2046.22]  And then on top of that, there is presumably,
+[2046.22 - 2049.38]  there could be many people that are just changing that file
+[2049.38 - 2051.10]  and then re-signing it themselves
+[2051.10 - 2053.82]  with a different hash because they changed the file.
+[2053.82 - 2056.92]  So then you would need some kind of web of trust that's
+[2056.92 - 2062.08]  like, this one is the real one and this one's
+[2062.08 - 2063.62]  the modified one, right?
+[2063.62 - 2065.52]  Well, the cool part with the hashes
+[2065.52 - 2067.86]  is you can't, unless you find a hash collision,
+[2067.86 - 2068.96]  you can't fake the hash.
+[2068.96 - 2071.18]  So what you get.
+[2070.00 - 2072.56]  as long as you can get it, is what you're looking for.
+[2074.20 - 2078.94]  The way the Web of Trust maps onto this is how do you get it?
+[2079.56 - 2080.62]  That's the difficult part.
+[2080.68 - 2082.76]  Because again, if you have this file identifier,
+[2082.98 - 2085.70]  if you have this unknown file that you want,
+[2085.82 - 2088.86]  let's say it's like a 10 gigabyte movie or something,
+[2091.16 - 2092.16]  how do you find it?
+[2092.64 - 2093.22]  It's on the internet.
+[2093.28 - 2094.80]  You can't plug into the entire internet.
+[2095.62 - 2099.46]  So I found, it came from you, or it came from a podcast,
+[2099.46 - 2100.00]  or it came from...
+[2100.00 - 2103.56]  somebody I follow, as I mentioned before,
+[2103.72 - 2106.90]  the web of trust signaling where you start plugging in,
+[2107.00 - 2109.34]  it can do the same for fetching data,
+[2109.80 - 2110.90]  similar to how we fetch events,
+[2111.00 - 2113.08]  where you're like, I'm looking for this file.
+[2113.26 - 2114.38]  I have no idea where it is.
+[2114.88 - 2116.46]  So instead of searching the entire world,
+[2116.58 - 2118.48]  I can start with my web of trust,
+[2118.98 - 2121.06]  and even better if I knew who the file was from,
+[2121.24 - 2122.38]  but I can start with my web of trust,
+[2122.48 - 2125.14]  and that narrows down, you might say, the search space
+[2125.14 - 2127.96]  for trying to find that one hash or that one file.
+[2127.96 - 2129.32]  It narrows it down considerably.
+[2130.00 - 2133.00]  and trying to start pinging every single file
+[2133.00 - 2135.44]  server on the internet.
+[2135.44 - 2137.36]  FELIPE HOFFA- So just to give more perspective,
+[2137.36 - 2140.08]  this maps into the Outbox model, because it's
+[2140.08 - 2144.78]  the same idea of, I want to see Stu's notes.
+[2144.78 - 2148.56]  To which relay should I talk to to get his notes?
+[2148.56 - 2153.44]  For this, I know that Hazard published the file
+[2153.44 - 2155.18]  with this hash ID.
+[2155.18 - 2158.36]  From what Blossom server should I get it?
+[2158.36 - 2160.00]  So I will query for the
+[2160.00 - 2164.76]  list of Blossom servers that he uses, and now instead of having to just randomly query
+[2164.76 - 2171.00]  a bunch of different servers for this hash ID, I go to one of these three Blossom servers
+[2171.00 - 2181.36]  that he uses, and one cool thing is you uploaded a file to one of your Blossom servers, and
+[2181.36 - 2187.28]  he wrote a blog post linking to that file, explicitly linking HTTP, blah, blah, blah,
+[2187.28 - 2190.00]  linking to that file, and that Blossom server, he deleted the Blossom server.
+[2190.00 - 2198.54]  server. So now that blog post that he wrote now has a missing file. The link is broken.
+[2198.54 - 2206.08]  But now you can query for the blossom list that he uses. And you can fix the link. And
+[2206.08 - 2212.92]  when you do it for the first time, it's magical. Within a second, you get a 404 or whatever,
+[2212.92 - 2217.38]  like you cannot connect to the server. And you go to the next server, query for the same
+[2217.38 - 2220.00]  hash ID, and you get the file. And it's super magical.
+[2220.00 - 2226.80]  beautiful um guys we have uh a few minutes left let's uh just wrap it up with some final thoughts
+[2226.80 - 2232.00]  we'll start with you stewart and move down this way well to wrap it up i like to think of nostra
+[2232.00 - 2237.58]  as like the hydra like the mini headed snake you know what i mean like you chop off one head and
+[2237.58 - 2245.12]  like a thousand more just like pop up i think that's what is kind of you know the model that
+[2245.12 - 2249.96]  we should use to think about resilience is that there has to be
+[2250.00 - 2255.50]  some sort of base level from which all these snakes spring up.
+[2256.14 - 2256.76]  Like whack-a-mole.
+[2257.00 - 2258.74]  So like Pirate Bay in 2010,
+[2259.18 - 2262.08]  during the golden era of getting their domain name
+[2262.08 - 2264.88]  deleted by the government over and over and over again,
+[2265.14 - 2268.24]  was the fact that they just had a giant database of torrent files.
+[2268.74 - 2270.12]  And those torrent files were just metadata
+[2270.12 - 2271.34]  that referred to a bunch of stuff.
+[2271.82 - 2274.80]  So as long as it exists on one person's computer,
+[2275.24 - 2276.56]  it can always spring up,
+[2276.56 - 2279.74]  and you can upload it very quickly to as many Blossom servers
+[2279.74 - 2280.16]  as you want.
+[2280.00 - 2287.40]  many relays as you want. So, um, yeah, Noster is fundamentally an unkillable, undeletable
+[2287.40 - 2294.64]  medium. And the rest, the other problem is, um, just how to deliver that data. But fundamentally
+[2294.64 - 2299.66]  I, I'm extremely bullish on Noster because I sort of suspect that in like the kind of
+[2299.66 - 2306.44]  like, um, post-truth era of not really being sure what's real, the ability just simply
+[2306.44 - 2309.06]  being able to digitally sign something at all.
+[2310.00 - 2317.08]  refer to some type of source of signal about whether or not this is real is
+[2317.08 - 2320.92]  going to move probably move the needle more than anything else especially you
+[2320.92 - 2325.30]  know like when AI impersonation becomes like more widespread you know people are
+[2325.30 - 2330.22]  going to like can absolutely freak out when you see like a video of yourself or
+[2330.22 - 2334.10]  something on the internet and it's like how did you know so like the this
+[2334.10 - 2339.94]  digital signature thing is like a safe harbor in that storm and that's probably
+[2339.94 - 2342.04]  my
+[2340.00 - 2346.90]  going to drive a lot of people in austria i think personally um yeah yeah yeah that that part is
+[2346.90 - 2351.30]  super important like knowing not what's real because that's too much but knowing who said
+[2351.30 - 2357.84]  what that that's good enough for most things and i would say that the fact that we are moving
+[2357.84 - 2364.08]  towards i think we are moving towards a world in which as odell says often like the post-truth
+[2364.08 - 2369.96]  world where you don't you don't have to have consensus of what's real you kind of
+[2370.00 - 2375.04]  come to your understanding of what is real, what is truth,
+[2375.04 - 2377.44]  what is coherent with your vision
+[2377.44 - 2378.86]  and that of your community.
+[2378.86 - 2381.56]  And yeah, the social graph is a tool
+[2381.56 - 2384.04]  that we can use, very, very powerful.
+[2384.04 - 2388.10]  And no one was able to use such a tool before,
+[2388.10 - 2392.32]  because it was only developers of social companies that
+[2392.32 - 2394.22]  have the ability to use it.
+[2394.22 - 2397.70]  So obviously, with such power comes also the responsibility
+[2397.70 - 2401.30]  that we can do and should do.
+[2400.00 - 2401.80]  should build something which is
+[2401.80 - 2403.86]  better and more sane than the world
+[2403.86 - 2405.84]  we are living and this comes
+[2405.84 - 2407.98]  from establishing
+[2407.98 - 2410.00]  principles that make
+[2410.00 - 2411.90]  sense in the context of
+[2411.90 - 2414.08]  the post-truth world where you don't
+[2414.08 - 2415.86]  go out and tell others
+[2415.86 - 2417.86]  what they should believe but you give them tools
+[2417.86 - 2419.72]  so that they can decide for themselves
+[2419.72 - 2421.50]  what to believe, what to think
+[2421.50 - 2422.06]  what to
+[2422.06 - 2425.64]  yeah, what to think
+[2425.64 - 2427.96]  yeah
+[2427.96 - 2428.74]  like that's
+[2428.74 - 2429.98]  I don't
+[2430.00 - 2435.48]  think i can extend that like the only thing i gotta say is is that uh like we built there has
+[2435.48 - 2441.58]  been a lot of crazy experimentation done in no stir the past i mean i for me i've only been here
+[2441.58 - 2446.86]  like a year or two but supposedly there's a lot of crazy stuff being built before that i remember
+[2446.86 - 2450.06]  the early plants but there's a lot of crazy experimentation being done there's a lot of even
+[2450.06 - 2453.80]  the cryptographic stuff will work that's being used in the network it's crazy that users are
+[2453.80 - 2459.10]  actually using cryptographic keys on the internet now but i think the craziest part is like we
+[2459.10 - 2460.00]  you
+[2460.00 - 2463.32]  we finally have an open social graph on the internet.
+[2463.92 - 2467.16]  We finally have data that nobody owns
+[2467.16 - 2468.68]  that is extremely valuable,
+[2468.94 - 2471.36]  and that applies to so much more than social.
+[2471.52 - 2473.40]  Like, maybe it's not a trust, as you said.
+[2473.46 - 2475.38]  Maybe it's not strictly trust,
+[2475.96 - 2479.00]  but it's a starting point that can start,
+[2479.00 - 2480.56]  like I said, in the era of where, like,
+[2480.64 - 2483.10]  the AI is just going to start flooding the internet
+[2483.10 - 2486.34]  with so much either misinformation or just noise.
+[2486.34 - 2490.04]  It's a starting point to start browsing the internet again.
+[2490.00 - 2495.16]  again. Instead of trying to filter all the noise out. And that's going to be huge.
+[2495.16 - 2502.82]  Yeah. To that point, I think the navigating the internet via a way of trust will be kind
+[2502.82 - 2507.92]  of why it's titled like this, the talk. It will be the only way of making sense of things.
+[2507.92 - 2517.26]  Because as like AI is such a perfect forcing function to adopt these schemes, there will
+[2517.26 - 2520.00]  be no other way. It simply will not make sense.
+[2520.00 - 2522.68]  to consume data that is not signed?
+[2523.30 - 2525.42]  In 50 years, there would be, like,
+[2525.64 - 2527.58]  what do you mean the internet was not signed?
+[2527.66 - 2528.76]  Like, what the fuck are you talking about?
+[2530.86 - 2531.48]  Damn right.
+[2531.80 - 2532.50]  Thank you all.
+[2532.62 - 2534.42]  Can we get a huge round of applause for these gentlemen?
+[2534.42 - 2534.56]  Thank you.

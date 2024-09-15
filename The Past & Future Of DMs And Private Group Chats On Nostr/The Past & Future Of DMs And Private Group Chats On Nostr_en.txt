@@ -1,0 +1,377 @@
+[0.00 - 6.16]  So this is a little bit of an interesting one because it was supposed to be a fireside
+[6.16 - 9.84]  chat with Dread and Dread couldn't make it at the last minute.
+[9.84 - 17.06]  So I've turned it into a short talk with a kind of very quick overview of all of the,
+[17.06 - 23.94]  you know, past specs for both direct messages but also for different group type messages.
+[23.94 - 27.80]  This is not the talk where I'm going to go deep on the new proposal that I put out there
+[27.80 - 29.24]  last week.
+[29.24 - 30.00]  That's tomorrow.
+[30.00 - 34.22]  on the other stage. But I will talk about that a little bit at the end of this one.
+[34.22 - 41.14]  So I'm Geoff. You can find me there. I've been building on Nostris since the beginning
+[41.14 - 46.88]  of 2023. And thankfully doing so with the support of an OpenStats grant for the last
+[46.88 - 52.86]  little while, which has been fantastic. My illustrious Internet messaging career started
+[52.86 - 60.00]  in about 1993 or so on Windows 3.1 with AOL Instant Messenger. I think, you know, people
+[60.00 - 67.40]  People of my similar age will recognize things like ICQ or things like IRC.
+[67.40 - 71.52]  These are some of the original kind of chats, chat apps that were out there on the Internet.
+[71.52 - 76.32]  And honestly, like, chat was probably one of the things that got, you know, the biggest
+[76.32 - 81.28]  or fastest product market fit with normies on the Internet in the early days.
+[81.28 - 84.24]  It was kind of immediately obvious that this was an amazing use case.
+[84.24 - 89.00]  You could talk to people anywhere in the world in real time in a way that was, you know,
+[89.00 - 90.00]  easy.
+[90.00 - 94.34]  But it wasn't just kind of the fun stuff.
+[94.34 - 98.08]  And I guess, you know, we all know that there are like hundreds of messengers out there
+[98.08 - 99.08]  now.
+[99.08 - 102.30]  I know for a fact that I've used every single one of the ones on this list at least a little
+[102.30 - 103.48]  bit.
+[103.48 - 105.10]  Some of them are more focused on businesses.
+[105.10 - 106.98]  Some of them are more social focused.
+[106.98 - 112.78]  But they all have this concept of private messaging built into them.
+[112.78 - 115.72]  And these messengers are not just for, you know, fun and games, right?
+[115.72 - 120.00]  Like we've seen Arab Spring and then, you know, even just last month and this month
+[120.00 - 125.66]  month in Venezuela. These are tools that empower people to actually get stuff done in the real
+[125.66 - 131.12]  world in a way that they couldn't before. So messengers are important both from a social
+[131.12 - 136.04]  and fun aspect, but they're also very, very important just for the kind of fabric of society
+[136.04 - 144.80]  aspect as well. So what is it that makes a messenger secure? What are the things, what are
+[144.80 - 149.96]  the characteristics that you need in order to have good communications in a way that, you know,
+[150.00 - 156.98]  you can count on. There are kind of two aspects to security here. One is private and the other
+[156.98 - 161.36]  is confidential. You know, private means that an observer can't tell what's going on, right?
+[161.40 - 165.56]  They can't tell that Alice and Bob are having a conversation and they can't tell that either of
+[165.56 - 171.02]  them are in a group. And so this requires protecting metadata. The other aspect is the
+[171.02 - 176.82]  confidentiality aspect. And that means that the actual content of the messages is unreadable by
+[176.82 - 179.98]  anybody that's not supposed to be able to read them. And
+[180.00 - 183.62]  And really what you find when you start digging into all the different protocols and types
+[183.62 - 188.98]  of messengers and the nips on Noster is that everything is a tradeoff.
+[188.98 - 193.08]  And that's generally true in engineering, but extremely true in this regard.
+[193.08 - 195.50]  You're always giving something up.
+[195.50 - 199.90]  And it's best to just kind of be more aware of what it is that you're giving up in order
+[199.90 - 202.96]  to gain on another side.
+[202.96 - 208.06]  The other thing that you hear a lot when you start to look into messengers and you start
+[208.06 - 210.00]  to look kind of deeply at the
+[210.00 - 214.56]  different schemes of doing cryptography and the encryption aspect of it is something called
+[214.56 - 222.72]  forward secrecy and post-compromise security. And what this means is basically if a key is
+[222.72 - 227.94]  compromised in the chain of encrypted conversations, what happens to the messages that were in the
+[227.94 - 234.26]  past and what happens to the messages in the future? In a lot of cases, and this is the case
+[234.26 - 239.14]  for the kind of first, you know, direct message scheme that we used on Nostr.
+[240.00 - 245.14]  you lose everything if you lose your key, right? And there's no way to recover. Forward secrecy is
+[245.14 - 249.52]  basically if you lose a key, you know, does everything in the past become decryptable
+[249.52 - 254.36]  immediately? If that's the case, then it's not something, it's not a scheme that provides any
+[254.36 - 261.06]  forward secrecy. Post-compromise security, on the other hand, is if you lose your key, is there a
+[261.06 - 267.84]  way for you to recover from that breach and go forward with either a different key or with
+[267.84 - 270.00]  completely new encryption so that...
+[270.00 - 276.04]  using the same identity keys, you can keep that same conversation going, but continue to actually
+[276.04 - 281.76]  have encrypted comms. So those are the kind of major aspects, right? We've got privacy and
+[281.76 - 287.22]  confidentiality, and we've got this concept of sort of time, and how does that confidentiality
+[287.22 - 294.84]  change over time based on what might happen to a key? So I guess in an ideal world, if we didn't
+[294.84 - 298.12]  have to think about the trade-offs, what would we want? We would want something that was both
+[298.12 - 300.00]  private and confidential. We would want
+[300.00 - 304.50]  forward secrecy, we would want post-compromise security, we would want it to be usable for
+[304.50 - 309.78]  both direct one-to-one messages but also for arbitrarily large groups, and we would want
+[309.78 - 315.76]  the ability to actually repudiate messages or deny that we were ever actually in a conversation.
+[315.76 - 320.24]  And that last one is actually the trickiest, and there's some really interesting protocols
+[320.24 - 325.28]  that have sort of tackled that, but it's the one that I think a lot of protocols have to
+[325.28 - 330.00]  give up pretty quickly, because there's no really good way to have a
+[330.00 - 339.82]  conversation and also pretend that it never happened. Okay. So let's go over, you know,
+[339.82 - 345.18]  the direct aspects of Noster. What happens on the kind of one-to-one. And it was funny,
+[345.18 - 349.50]  I was actually talking to Ben Ark about this just a couple hours ago and he was like, oh,
+[349.50 - 353.12]  yeah, do you know what the back story is here? We were building a Twitter clone in the very
+[353.12 - 357.52]  beginning and I was saying to Fiat Jeff that I wanted DMs and I liked DMs and he hated
+[357.52 - 360.00]  it because Fiat Jeff hates everything.
+[360.00 - 365.76]  And so Ben built this, and they kind of built it in a way where they went, you know, it
+[365.76 - 368.94]  doesn't need to be super secure, there's like 20 of us.
+[368.94 - 373.22]  They weren't really thinking of this thing in terms of long-term adoption at that point.
+[373.22 - 379.74]  It was just, hey, how do we encrypt the content of the message and then send it across relays?
+[379.74 - 382.10]  So that's basically what we got, right?
+[382.10 - 386.90]  We have a very simple encryption decryption scheme.
+[386.90 - 390.00]  The content is encrypted using kind of a shared
+[390.00 - 395.30]  secret that's calculated between our two sets of keys. So it means that there's only the
+[395.30 - 401.30]  two of us, you know, that have our Nostra keys can actually decrypt and read these messages.
+[401.30 - 407.00]  And nicely, the conversations can be loaded up into any client at any point and you can
+[407.00 - 411.50]  reconstruct the entire conversation, you know, going back in time because you've still got
+[411.50 - 417.60]  the key and they're all using the same key. Now, as you can imagine, the tradeoff here
+[417.60 - 420.00]  is that all the metadata about these
+[420.00 - 424.58]  is public. And I'm sure everybody's seen this before. There's bots out there that actually
+[424.58 - 431.30]  go and just report on who's talking to who and when. And that's obviously not great.
+[431.30 - 436.64]  Metadata is a really important aspect of understanding, you know, like being able to triangulate and
+[436.64 - 443.54]  figure out who's talking to who. So not having that in an obscured way is bad.
+[443.54 - 447.60]  There's also absolutely no forward secrecy or post-compromise security. If either party
+[447.60 - 450.00]  in the group loses their private key.
+[450.00 - 455.94]  conversation is is basically nuked um because you never know if the attacker has your private
+[455.94 - 459.84]  key and is just watching all your comms um they don't have to actually do anything they can
+[459.84 - 463.58]  literally just have your private key and watch what you guys are saying and not make it obvious
+[463.58 - 469.48]  that they have that key. Um the encryption scheme is also a little naive uh it was done you
+[469.48 - 474.92]  know very simply um it missed out on a few uh of the kind of higher level attacks um that
+[474.92 - 479.92]  people could do and it also does nothing to support groups so.
+[480.00 - 486.10]  That was NIP-04. And a lot of people didn't like NIP-04. It was very quickly, you know,
+[486.10 - 490.08]  people started calling it harmful. They were saying, you know, it was just terrible. Everybody
+[490.08 - 495.06]  should stop using it. And I think, you know, probably some of this is a little overblown.
+[495.06 - 499.66]  Like it's actually it's a hammer. It does a blunt job of fixing the problem. But it
+[499.66 - 505.42]  did hide the content and it does an okay job of that. But that thread, which goes on for
+[505.42 - 510.00]  about 150 comments, led to directly to the creation of NIP-04.
+[510.00 - 516.74]  which was kind of spearheaded by a handful of other Nostra developers but mainly by Paul Miller
+[516.74 - 523.66]  who is the dev behind Noble Hashes, Noble Curves. You know, he's a very hardcore cryptographer.
+[523.80 - 528.38]  He knows his stuff. And he went to kind of extreme lengths to make sure that we could just upgrade
+[528.38 - 533.46]  the type of encryption. This has nothing to do with the metadata, but it upgrades the type of
+[533.46 - 539.60]  encryption to make it much more robust against a lot of attacks. So that's what NIP44 gave us.
+[540.00 - 543.08]  NIP-44 significantly improved the encryption properties.
+[544.10 - 548.74]  It's still very simple to calculate, you know, and encrypt and decrypt.
+[549.06 - 552.90]  You can always get that, you know, entire conversation history whenever you want.
+[553.22 - 555.70]  And it was formally cryptographically audited.
+[555.82 - 557.74]  So we know that it's pretty safe and pretty secure.
+[558.48 - 562.48]  Now, again, this does not set up a new scheme for doing DMs.
+[562.58 - 563.84]  It does not hide any metadata.
+[564.18 - 567.96]  And if either of the party's secret keys leak, you've still just lost everything forever.
+[567.96 - 570.06]  So it doesn't really fix the problem.
+[570.00 - 576.68]  problem at all. Gift wrapping is not really encryption. Gift
+[576.68 - 581.84]  wrapping is a way to obfuscate metadata. And it doesn't only apply to DMs and group chats,
+[581.84 - 587.44]  but that's one of its main use cases. So gift wrapping basically gave us good metadata
+[587.44 - 591.64]  protection by wrapping the event in another event and sort of hiding who is sending messages
+[591.64 - 597.56]  to who. And those wrapped events, the inside event isn't signed, and so it can't be leaked
+[597.56 - 600.00]  later on and published to relays because it's not
+[600.00 - 607.32]  actually a valid event. The problem with this is that it does sort of open up the risk of
+[607.32 - 611.68]  like a denial of service attack for clients. Because if a malicious client just started
+[611.68 - 616.54]  sending lots and lots of these wrapped events, the client doesn't know if it's a message
+[616.54 - 622.12]  that it cares about until it's unwrapped that first layer. And because that's a, you know,
+[622.12 - 627.36]  slightly more expensive operation, if you started to get a lot of these, clients could
+[627.36 - 630.36]  just kind of buckle onto that load.
+[630.00 - 633.68]  So, that's gift wrapping.
+[633.68 - 637.46]  And to give you a kind of quick sense of how that works, like I said, you've got this inner
+[637.46 - 641.96]  event which is the actual thing that you want to say, the thing you care about.
+[641.96 - 643.58]  That's unsigned.
+[643.58 - 647.76]  That gets wrapped in a first layer called a seal.
+[647.76 - 649.66]  That content is the rumor.
+[649.66 - 653.00]  So the rumor gets encrypted and put into the seal.
+[653.00 - 659.12]  And then that is further wrapped in one more layer and published with a totally ephemeral
+[659.12 - 660.00]  like separate key.
+[660.00 - 664.98]  pair. So once you've wrapped it in that outer layer, no one knows who's sending that message.
+[664.98 - 669.28]  It's like a one off, you know, a key that's generated and then thrown away immediately. Um,
+[669.28 - 673.38]  so because of this, you know, no one knows what's on the inside of this. No one even knows
+[673.38 - 678.66]  that it's, uh, to that user, uh, or who it's from until they get onto the inside as well. So
+[678.66 - 681.96]  that's actually, I mean it is very helpful and it's helpful for a variety of things across
+[681.96 - 688.96]  Nostr. It's not just DMs. Okay. Most recently, uh, and this is sort of state of the art with
+[688.96 - 689.96]  direct messages.
+[690.00 - 695.70]  in Noster is basically just a combination of NIP44 and NIP59. So they take the new encryption
+[695.70 - 702.78]  standard and use the gift wrapping and create these obfuscated metadata, highly encrypted
+[702.78 - 708.02]  events. Again, this is great. You can reconstruct your entire conversation history. No one can
+[708.02 - 713.22]  see if you're using this type of direct message. No one can tell that you and the other party are
+[713.22 - 718.32]  talking to each other. Again, though, you don't have any forward secrecy or post-compromise
+[718.32 - 719.98]  security. You know, one-
+[720.00 - 724.46]  key leaks and everything is gone. And, of course, because it's gift wrapped you get
+[724.46 - 730.80]  all the cons from gift wrapped events. I'm going to pause there. Does anybody have
+[730.80 - 739.32]  any questions about direct stuff specifically at that point? No? Okay. I'll keep going.
+[739.32 - 744.92]  Okay. So group messaging. This is where we diverge a little bit because the direct messaging
+[744.92 - 749.52]  stuff is all about private messaging, right? In group messaging there are several nips
+[749.52 - 750.52]  that are more .
+[750.00 - 753.04]  public groups. So I'm going to cover those really quickly just so you have an idea of
+[753.04 - 760.62]  what they are. This was the very first public channels idea. It's fairly naive. They're
+[760.62 - 768.12]  extremely simple client managed channels. All you're really doing is tagging an item, a note
+[768.12 - 772.42]  that you're sending out and saying this should be part of, this should be considered part of a
+[772.42 - 777.72]  channel. Most clients just also just publish that to your kind one, you know, social feed as
+[777.72 - 780.00]  well. So it can be quite confusing for.
+[780.00 - 784.64]  people seeing these things go by. Um but it does give you the idea of hey I'm interested in a
+[784.64 - 790.28]  topic and I want to look at stuff from that topic. Um this is how you can do that. Again
+[790.28 - 793.98]  obviously these are public channels they're not private at all they were never meant to be. Um
+[793.98 - 799.82]  there's also no real moderation. Um the kind of group content is based on what the what the
+[799.82 - 804.90]  user themselves wants to see. So you've got the ability to like hide a message or hide a user or
+[804.90 - 810.00]  mute a user in a in a channel but that's just for your individual feed. So the
+[810.00 - 813.76]  are almost rather than public channels the better way to almost think about these is they're
+[813.76 - 819.20]  basically just like uh the feed you know the the sets of feeds you have in primal or in amethyst
+[821.20 - 827.84]  nip 29 um takes kind of a relay based approach to doing groups so these were are pretty cool
+[827.84 - 834.08]  actually um they do have some pretty significant trade-offs um you have the ability to do closed
+[834.08 - 838.16]  membership groups so you can say who are the people who should be able to read or write
+[838.16 - 840.00]  into this group
+[840.00 - 845.24]  You have the ability to kind of stipulate who has permissions to change things about the group or change the group's membership.
+[846.24 - 854.72]  And again, the group conversations are kind of easily reconstructed on whichever client because the events are all there for anybody that has the ability to read into them.
+[855.80 - 860.22]  The con in my mind is that this totally depends on relays to do a lot of the management.
+[860.22 - 870.00]  And so it kind of takes away from the idea of relays being these dumb servers and the clients being a little bit smarter than we have in Nostr and sort of puts a bunch of honest.
+[870.00 - 874.44]  on the relay to do the right thing. And if a relay doesn't do the right thing, this group all
+[874.44 - 879.50]  of a sudden becomes not a closed group anymore, not a private group anymore. Um, and again,
+[879.50 - 884.32]  it's, it's really not private or confidential other than the relay not serving the events to
+[884.32 - 889.32]  people it shouldn't serve them to. Um, nothing is encrypted, you know, or confidential. NIP72
+[891.72 - 897.32]  is, uh, Reddit style moderated communities. Um, I don't know that there's many implementations
+[897.32 - 900.32]  of this. Somebody commit, like, correct me if I'm wrong there.
+[900.00 - 903.52]  But the idea here was basically to build something like Reddit.
+[904.34 - 910.26]  Have a set of moderators who have permission to actually moderate the content that everybody sees.
+[911.56 - 914.44]  And again, you know, those are mostly public.
+[915.02 - 918.86]  They really aren't trying to make anything private, secure, or closed.
+[920.48 - 924.46]  And the last thing I want to talk about is these private communities.
+[924.46 - 930.02]  And this is like an unmerged NIP, so there's not really much use of this yet or any use of this yet.
+[930.00 - 934.90]  yet. But I was talking to Huddlebot about this earlier. And I think it takes us, you
+[934.90 - 941.36]  know, an interesting approach. What this tries to do is take kind of the relay-based approach
+[941.36 - 946.24]  but actually give every member of the community the private key that you're going to encrypt
+[946.24 - 950.82]  everything with. So it's just a simple symmetric encryption where you pass around the private
+[950.82 - 954.68]  key to every member of the group and then you're sort of hoping that every member of
+[954.68 - 959.98]  the group treats that well and doesn't lose it. It does have
+[960.00 - 963.86]  in the spec, the ability to kind of rotate that key over time. So there are a little
+[963.86 - 967.88]  bit of, you know, there is some degree of post-compromise security here. You can kind
+[967.88 - 974.06]  of recover from a leaked key. But it does obviously have this con of, like, you know,
+[974.06 - 979.98]  the key has to be passed around to everybody in a way that is, I mean, naive is kind of
+[979.98 - 984.16]  the right way to put it. And the other thing about this is, because you are encrypting
+[984.16 - 989.76]  with this key, unless you store all the past keys, you can't rebuild the communities, like,
+[989.76 - 989.92]  you know.
+[990.00 - 995.30]  transcript or conversation into the past because you're rotating this key over time. And this is
+[995.30 - 999.64]  one of the major tradeoffs that you see. Having post-compromised security and forward
+[999.64 - 1004.04]  secrecy almost invariably means that you're not going to be able to rebuild a chat
+[1004.04 - 1009.18]  transcript from just events that are sitting on relays. So if you go from using, you know,
+[1009.18 - 1013.46]  Amethyst and then you go over to Primal, you can't just open up the same community and get all
+[1013.46 - 1017.36]  the past history without some sort of out of band syncing mechanism.
+[1020.00 - 1025.94]  Okay. This is where I hope the future goes. And then I've got the, like I said before,
+[1026.06 - 1032.68]  I've got the talk kind of going into the technical weeds on this spec tomorrow. I would love anybody
+[1032.68 - 1036.84]  that has any interest in this whatsoever to come and bother me about this. I'm very happy to walk
+[1036.84 - 1043.30]  people through, you know, the nitty gritty details. This obviously has some trade-offs too,
+[1043.30 - 1048.20]  but if it works out the way I think it's going to work out, it will give us the ability to
+[1048.20 - 1049.98]  basically replace telegram signal.
+[1050.00 - 1054.92]  you know, any of the major chat clients with something that runs on Nostra relays and has
+[1054.92 - 1062.36]  no centralized server or coordinator. So the benefit in what I'm proposing here is that it
+[1062.36 - 1068.28]  uses a new internet standard called messaging layer security under the hood. And that does a
+[1068.28 - 1075.92]  very efficient kind of binary tree structure of the group membership. And then, you know,
+[1075.92 - 1079.86]  sets up a key structure with that binary tree such that
+[1080.00 - 1084.64]  every member of the group has just enough cryptographic state to know how to encrypt
+[1084.64 - 1090.34]  everything for the rest of the group and to decrypt anything from anyone else in the group.
+[1090.34 - 1093.64]  Thankfully there's some very good libraries that mean that Nostra clients are not going
+[1093.64 - 1098.80]  to have to do the nitty gritty down in the weeds MLS stuff. We'll be able to use some
+[1098.80 - 1105.48]  higher level stuff. But the really big benefit of MLS is it makes groups, very large groups
+[1105.48 - 1109.98]  especially, much, much, much more efficient. So it's much easier.
+[1110.00 - 1116.20]  way to manage large groups and encrypt content for large groups. Um, it handles one to one
+[1116.20 - 1121.82]  and I mean up to, I mean theoretically there is no upper bound. Uh, I've seen in some of the
+[1121.82 - 1126.24]  docs that they've had groups of over 100,000 people and it just works fine. It's like not a
+[1126.24 - 1132.22]  burden whatsoever. Um, it has very strong forward secrecy and post compromise security. Um,
+[1132.22 - 1136.76]  every single message is getting uh, encrypted with a different key and it's a symmetric key
+[1136.76 - 1140.02]  that the whole group has. And every time there's a message, the
+[1140.00 - 1144.60]  ratchet gets turned. And a new key is spit out. And so everybody's kind of moving this
+[1144.60 - 1148.48]  cryptographic state forward themselves. They've all got the machines and they're all doing
+[1148.48 - 1154.52]  this ratchet motion every single time a message arrives. And it's completely confidential.
+[1154.52 - 1160.58]  So there is no metadata leakage whatsoever here. There's a single message, you know,
+[1160.58 - 1164.40]  when you send a message to a group that you're in, there's a single message or a single event
+[1164.40 - 1169.98]  that's published to relays that is done with an ephemeral key and just has a, um,
+[1170.00 - 1174.96]  a group id which is a big random number those group ids can be rotated over time as well so
+[1174.96 - 1180.64]  you can get a further degree of sort of obfuscation as to how how relatively busy a group is
+[1181.68 - 1185.60]  so you have a lot of different angles there where you can make groups and
+[1185.60 - 1188.24]  and dms pretty secure and very confidential
+[1190.40 - 1195.84]  the you know drawback of this is obviously mls is very complicated we need to have really good
+[1195.84 - 1200.00]  tooling to help clients implement this properly and that's what i've spent a bunch of the last
+[1200.00 - 1205.08]  couple of months working on is working on the um OpenMLS library with the maintainers of that
+[1205.08 - 1210.94]  library and a couple of the other dependencies um that it uses to try and update things for the
+[1210.94 - 1215.84]  Noster world. Um the other thing is like I was saying before this is the trade off with
+[1215.84 - 1220.42]  post compromised security you cannot just go back and rebuild uh a conversation with somebody
+[1220.42 - 1225.82]  from events that are on relays. You've got to have that that transcript, you've got to save it
+[1225.82 - 1229.60]  and you've got to somehow sync that with other clients that you want to connect in some sort of
+[1229.60 - 1230.00]  out-of-band
+[1230.00 - 1237.80]  way. So that is pretty much the run through of all the different parts of direct and group
+[1237.80 - 1243.30]  messages. So I'd love to just open it up to questions and like anything, general stuff,
+[1243.46 - 1253.02]  very specific stuff if you want to get into the technical stuff. Thank you.
+[1253.02 - 1260.00]  Now, just the last point. What happens when you switch a device? I didn't quite get.
+[1260.00 - 1262.62]  the very last point you made, that you can't reconstruct the previous...
+[1262.62 - 1264.20]  Sorry, can you say that a little louder? I can't hear you very well.
+[1264.26 - 1267.92]  Sorry, the very last point you made, I didn't quite understand.
+[1268.24 - 1271.42]  If you switch device, you can no longer read the messages?
+[1271.78 - 1273.16]  Yes, so think about it this way.
+[1273.98 - 1279.50]  And this also holds true for Signal and WhatsApp and things like that.
+[1279.84 - 1282.54]  They use a version of the Signal protocol.
+[1283.82 - 1285.92]  And I guess I'll do the quick history lesson.
+[1285.92 - 1289.76]  There's been hundreds of different protocols for messaging over the years.
+[1290.00 - 1294.70]  There was one that came out in sort of the late 2000s
+[1294.70 - 1296.10]  that was called Off the Record.
+[1296.62 - 1299.78]  And that was the first real double ratchet encryption system
+[1299.78 - 1302.84]  where they had these two independent ratchets
+[1302.84 - 1306.10]  that would change the keys as two parties were talking.
+[1307.38 - 1310.84]  The guys that created Signal took that
+[1310.84 - 1313.22]  and added a few other steps on top of it
+[1313.22 - 1315.56]  to do a bit more authentication.
+[1315.94 - 1318.04]  But they kept that double ratchet mechanism.
+[1318.04 - 1320.04]  And it did this.
+[1320.00 - 1325.28]  same thing, basically. It kind of keeps ratcheting the state forward. And MLS has sort of gone
+[1325.28 - 1328.40]  one step, taken the signal protocol and gone one step further than that. So it's got kind
+[1328.40 - 1334.08]  of that same system of double ratchets and under the hood. In all of those systems, when
+[1334.08 - 1338.50]  you are a member of the group, that's tied to a single device or client or client on
+[1338.50 - 1342.76]  a device, right? Your phone and signal is different than your laptop. And when you sync
+[1342.76 - 1346.16]  to your laptop, what you're actually doing is adding a third member to the group if it
+[1346.16 - 1350.00]  was, you know, you and one other person. Your other, you know, the signal app just as
+[1350.00 - 1355.74]  a good job of seeing that two of those are yours. And so it shows it as if it was one
+[1355.74 - 1360.72]  person talking, even if it's two different devices. So that's exactly the same thing
+[1360.72 - 1367.56]  MLS does. If you want to add your laptop to a conversation, you can invite your laptop.
+[1367.56 - 1373.42]  An application can decide if it wants to do some sort of encrypted transcript syncing
+[1373.42 - 1378.70]  to help make it look like you've got the whole history. But there's nothing in the, like,
+[1378.70 - 1380.00]  spec that makes that possible.
+[1380.00 - 1385.10]  And if you lose the state on both of those devices and have to get re-added to the group,
+[1385.10 - 1386.96]  your state's gone.
+[1386.96 - 1391.04]  It's only around if you've saved it in some way, shape, or form, because the protocol
+[1391.04 - 1395.08]  itself doesn't handle that.
+[1395.08 - 1399.66]  Any other questions?
+[1399.66 - 1402.30]  I've got one on the one that you just were bringing up.
+[1402.30 - 1410.00]  So this puts a higher onus on the client providers to basically manage that, all the plethora
+[1410.00 - 1413.28]  of keys that are being generated out of all this.
+[1413.28 - 1418.78]  So do you see that as a centralizing force for some of the client providers, that it
+[1418.78 - 1423.18]  becomes much more narrower because as people are using this, they're going to want a client
+[1423.18 - 1428.60]  that's managing all of those keys really well on their behalf, or is this something that
+[1428.60 - 1433.00]  you think is going to be pretty easy to do for the clients?
+[1433.00 - 1435.16]  Yeah, it's a good question.
+[1435.16 - 1440.00]  I think this is why having a really good open standard and open library
+[1440.00 - 1449.10]  for the actual deep MLS stuff is really important. You know, it, like, MLS, the spec, is a, you
+[1449.10 - 1455.18]  know, internet standard now as of earlier this year. And I guess as such, like, you
+[1455.18 - 1458.56]  know, it's internet standard the same way TLS is an internet standard. Like, it's something
+[1458.56 - 1462.38]  that's just buried deep in your browser code, but everybody had to implement it exactly
+[1462.38 - 1469.12]  the same way for it to work right. So at that level, if you've got a good library that
+[1469.12 - 1470.00]  handles all the...
+[1470.00 - 1475.60]  weedy stuff it won't actually be that bad for clients to do the higher level stuff you're right
+[1475.60 - 1482.08]  storing keys is always a question but um you know it's the same as how is your you know how is
+[1482.08 - 1488.08]  primal on the web storing your insect um how is uh you know domus on the phone storing your your
+[1488.08 - 1494.64]  insect on the phone so i think there are well-known ways to more securely store that sort of stuff
+[1494.64 - 1498.80]  and usually the mls library just has kind of a plug-in for a storage provider
+[1498.80 - 1510.80]  um
+[1500.00 - 1503.64]  storage providers are able to be, you know, hot swapped out in a sense. So there's a bunch
+[1503.64 - 1506.84]  of, like, like I said, there's a bunch of tools and, and like smaller libraries that
+[1506.84 - 1510.54]  need to be built up around this to make it really, really easy for all clients to do
+[1510.54 - 1514.94]  it. Um, and that's certainly part of the, I think, work in this is it, you know, we could
+[1514.94 - 1518.72]  just do it right now with one client and have it work really, really well, but I think it's
+[1518.72 - 1522.02]  really important that we build the tooling around it to make it really easy for all clients
+[1522.02 - 1527.02]  to do this, uh, and do it in a way that isn't super burdensome. Yes.
+[1527.02 - 1530.02]  Yes.
+[1530.00 - 1535.24]  wanted to ask about interoperability with apps that are outside of Nostr because if it's based
+[1535.24 - 1540.62]  on you know signal protocol ish thing is it possible and if it's internet standard you know
+[1540.62 - 1546.34]  could we potentially have like a Nostr DM client that can talk to apps that are totally outside
+[1546.34 - 1551.62]  of Nostr? Yes so that's actually one of the coolest things about MLS. Um MLS is literally
+[1551.62 - 1557.20]  just the spec around how to manage that key structure and how to ratchet it forward. It has
+[1557.20 - 1560.00]  no concept of what transport mechanism
+[1560.00 - 1563.50]  you're going to use to send the stuff around and it has no concept of what the actual content
+[1563.50 - 1567.28]  of the message inside that you're going to send is. So those are the two things that
+[1567.28 - 1573.04]  you would have to agree upon with some other system. In the case that I've, like the way
+[1573.04 - 1577.00]  I'm proposing here, we're going to take whole unsigned Nostra events and put them inside
+[1577.00 - 1581.08]  these MLS message objects and send those because that means that the clients can basically
+[1581.08 - 1585.94]  unpack it and then just put it into a private thread of Nostra events like it would any
+[1585.94 - 1589.98]  other feed. Although they're all unsigned, so if they ever leaked they couldn't be
+[1590.00 - 1596.70]  published properly to relays. So if you could get another provider to agree that like, hey,
+[1596.70 - 1601.50]  you can read Nostra events and you know how to construct a Nostra feed and we can agree
+[1601.50 - 1606.72]  on you're going to come to relays to get this information or Nostra is going to also publish
+[1606.72 - 1613.38]  to somewhere else, you know, these events, then, yeah, absolutely, it's totally interoperable.
+[1613.38 - 1617.30]  And the other thing is it's also upgradable over time. So you can take a group and create
+[1617.30 - 1620.00]  it now with a certain cypher suite and then
+[1620.00 - 1624.44]  you know, in a couple of years when we need post quantum, we will, you can just go through and
+[1624.44 - 1628.60]  update your client on the next message and it'll just, everybody will change over to the new cipher
+[1628.60 - 1632.78]  suite and it'll just keep going. Um, so there's a lot of really cool little features like that,
+[1632.86 - 1636.82]  that are built into MLS that'll make this hopefully really durable going forward and
+[1636.82 - 1643.54]  like upgradable over time. Preston, we got another one. Okay, here we go.
+[1643.54 - 1650.00]  Hi. Um,
+[1650.00 - 1679.98]  You know, one of the worst parts of Signal is that so often I lose my messages, and, like, so many people I work with, like, suffer from this problem, and they say that everyone else they work with uses Signal, so they have to keep using Signal, and, you know, it's one thing to, like, replace it with Nostr, but if you could create some type of layer two thing, because, you know, like you said, MLS doesn't handle that part, but if you could create some type of layer two thing that, like, captures the transcript of your old messages from your phone,
+[1680.00 - 1684.24]  own and manually imports it to your computer, maybe signs it with the same Noster key or
+[1684.24 - 1688.24]  something, authenticates it. If you could figure that out, I think that would really
+[1688.24 - 1692.38]  make it the signal killer. Because then it would provide something that signal can't
+[1692.38 - 1696.88]  or doesn't provide yet, which would be more than just, you know, plugging in Noster.
+[1696.88 - 1698.46]  Yeah. What you're doing is awesome, by the way.
+[1698.46 - 1702.12]  It's actually pretty trivial to do. Because if you think about it, like I just said, we
+[1702.12 - 1706.76]  were building a private transcript of Noster events, right? So you basically just have
+[1706.76 - 1710.00]  an array of like ordered Noster events. Yeah.
+[1710.00 - 1715.30]  you can take that and just encrypt that whole thing with a password and upload it to a relay if you wanted, right?
+[1715.30 - 1720.18]  Now there's a trade-off there, obviously, which is if your password or the way that that encryption was done
+[1720.60 - 1725.32]  was ever broken, then the whole conversation is then, you know, gone.
+[1725.32 - 1730.54]  And so it is this trade-off of, like, how secure do you want these groups? Like, you know, do you want,
+[1730.96 - 1737.06]  do you value that syncing much more than the kind of longer-term, you know, potential security?
+[1737.06 - 1739.98]  Well, like, instead of uploading to a relay, even if I could just
+[1740.00 - 1744.38]  messaged it between devices. Like if I have my phone and my computer next to each other and I
+[1744.38 - 1748.08]  can just locally, you know, cause that would, I think that would just put it over the top for
+[1748.08 - 1751.44]  signal so I just wanted to mention that and appreciate what you're doing. I totally agree. I
+[1751.44 - 1756.14]  mean I think it's definitely doable and I think it's just a question of um, what's the right way
+[1756.14 - 1760.26]  to do it and like what's the way that probably is like an interoperable way of doing it so that a
+[1760.26 - 1763.86]  different client on a different device could pick up that same file and, and know what to do
+[1763.86 - 1770.00]  with it. Anyone else?
+[1770.00 - 1772.24]  Huge hand for Jeff here.
+[1772.38 - 1772.98]  This is...
+[1772.98 - 1773.54]  Thanks, guys.
